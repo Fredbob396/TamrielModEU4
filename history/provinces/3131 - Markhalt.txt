@@ -1,0 +1,16 @@
+#Region - Jer Ahkrin, Nuhyas Point and Southeastern Former Morrowind
+
+culture = falyani
+religion = hist
+capital = "Markhalt"
+trade_goods = alchemical_goods
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XJA
+controller = XJA
+add_core = XJA
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

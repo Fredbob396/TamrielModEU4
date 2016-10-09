@@ -1,0 +1,16 @@
+#Region - Indaren, Eastern Valus Mountains, Armun Ashlands, Roth Roryn and Western Thirr
+
+culture = indar
+religion = new_temple
+capital = "Low Silgrad"
+trade_goods = potions
+citysize = 15650
+hre = no
+base_tax = 5
+base_production = 5
+manpower = 2
+owner = XSD
+controller = XSD
+add_core = XSD
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

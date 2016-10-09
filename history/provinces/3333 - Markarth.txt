@@ -1,0 +1,16 @@
+#Region - The Reach
+
+culture = forsworn
+religion = talos
+capital = "Markarth"
+trade_goods = gold
+citysize = 15650
+hre = no
+base_tax = 8
+base_production = 8
+manpower = 5
+owner = XRE
+controller = XRE
+add_core = XRE
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

@@ -1,0 +1,7 @@
+government = daimyo
+technology_group = tamrielic
+religion = hist
+mercantilism = 0.2
+primary_culture = agaceph
+capital = 3225	# Okeen-Re
+

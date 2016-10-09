@@ -1,0 +1,18 @@
+government = despotic_monarchy
+technology_group = tamrielic
+religion = talos
+mercantilism = 0.2
+primary_culture = south_nordic
+capital = 3262	# Forelhost
+
+
+1417.1.1 = {
+	monarch = {
+		name = "Agnar"
+		dynasty = "Fire-Shield"
+		birth_date = 1417.1.1
+		adm = 2
+		dip = 1
+		mil = 4
+	}
+}

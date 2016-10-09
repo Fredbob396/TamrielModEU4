@@ -1,0 +1,16 @@
+#Region - Kamanai, Shadowfen and Northwestern Argonia
+
+culture = kamanese
+religion = hist
+capital = "Tenmar"
+trade_goods = hunted_goods
+citysize = 15650
+hre = no
+base_tax = 4
+base_production = 4
+manpower = 2
+owner = XTN
+controller = XTN
+add_core = XTN
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

@@ -1,0 +1,16 @@
+#Region - Atronium, Hankaj Coast and Eastern Argonia
+
+culture = archein
+religion = hist
+capital = "Archon"
+trade_goods = potions
+citysize = 15650
+hre = no
+base_tax = 8
+base_production = 8
+manpower = 4
+owner = XAT
+controller = XAT
+add_core = XAT
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

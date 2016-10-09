@@ -1,0 +1,274 @@
+# Thormir Anxil Daimyo
+
+graphical_culture = southamericagfx
+
+color = { 0  171  219 }
+
+historical_idea_groups = {
+	quality_ideas
+	religious_ideas
+	influence_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	defensive_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+# This is an Inner Argonian province, so ESO and Lore names dominate.
+
+monarch_names = {	
+	"Azeel #0" = 20
+	"Azimar #0" = 20
+	"Banka #0" = 20
+	"Barnaxi #0" = 20
+	"Batuus #0" = 20
+	"Beshnus #0" = 20
+	"Bijot #0" = 20
+	"Bosekus #0" = 20
+	"Bunach #0" = 20
+	"Buujhan #0" = 20
+	"Chakuk #0" = 20
+	"Chalish #0" = 20
+	"Chilwir #0" = 20
+	"Chitakus #0" = 20
+	"Darasken #0" = 20
+	"Debameel #0" = 20
+	"Deegeeta #0" = 20
+	"Deekonus #0" = 20
+	"Deekum #0" = 20
+	"Demeepa #0" = 20
+	"Dezanu #0" = 20
+	"Drumarz #0" = 20
+	"Dunaxith #0" = 20
+	"Esqoo #0" = 20
+	"Hareeya #0" = 20
+	"Jaraleet #0" = 20
+	"Jeela #0" = 20
+	"Jeelus #0" = 20
+	"Jilux #0" = 20
+	"Kepanuu #0" = 20
+	"Kiameed #0" = 20
+	"Lotash #0" = 20
+	"Luteema #0" = 20
+	"Maahi #0" = 20
+	"Maheelius #0" = 20
+	"Mathei #0" = 20
+	"Meejapa #0" = 20
+	"Meensuda #0" = 20
+	"Miharil #0" = 20
+	"Mobareed #0" = 20
+	"Mohimeem #0" = 20
+	"Mopakuz #0" = 20
+	"Motuu #0" = 20
+	"Mujeen #0" = 20
+	"Muranatepa #0" = 20
+	"Napetui #0" = 20
+	"Nazuux #0" = 20
+	"Nebutil #0" = 20
+	"Neetzara #0" = 20
+	"Neposh #0" = 20
+	"Netapatuu #0" = 20
+	"Nexith #0" = 20
+	"Nodeeus #0" = 20
+	"Nosaleeth #0" = 20
+	"Nowajeem #0" = 20
+	"Obaxith #0" = 20
+	"Okeeh #0" = 20
+	"Onuja #0" = 20
+	"Opatieel #0" = 20
+	"Pacheeva #0" = 20
+	"Parash #0" = 20
+	"Paduxi #0" = 20
+	"Pejureel #0" = 20
+	"Petaxai #0" = 20
+	"Pideelus #0" = 20
+	"Pojeel #0" = 20
+	"Radithax #0" = 20
+	"Rareel #0" = 20
+	"Redieeus #0" = 20
+	"Resari #0" = 20
+	"Rupah #0" = 20
+	"Sakeeus #0" = 20
+	"Sejaijiilax #0" = 20
+	"Shakiis #0" = 20
+	"Sureeus #0" = 20
+	"Tanaka #0" = 20
+	"Teeka #0" = 20
+	"Teineeja #0" = 20
+	"Terezeeus #0" = 20
+	"Tikaasi #0" = 20
+	"Ukatsei #0" = 20
+	"Ulawa #0" = 20
+	"Utadeek #0" = 20
+	"Utamukeeus #0" = 20
+	"Utatul #0" = 20
+	"Veekas #0" = 20
+	"Veenaza #0" = 20
+	"Vudeelal #0" = 20
+	"Wayiteh #0" = 20
+	"Abijoo-Anoo #0" = 20
+	"Am-Sakka #0" = 20
+	"An-Jeen-Sakka #0" = 20
+	"An-Jeen-Seek #0" = 20
+	"Aojee-Da #0" = 20
+	"Az-Muz #0" = 20
+	"Azjai-Tee #0" = 20
+	"Baar-Taeed #0" = 20
+	"Bar-Neeus #0" = 20
+	"Batar-Meej #0" = 20
+	"Bimee-Kas #0" = 20
+	"Cheedal-Gah #0" = 20
+	"Chee-Sei #0" = 20
+	"Dakee-Goh #0" = 20
+	"Deed-Mema #0" = 20
+	"Depasa-Chath #0" = 20
+	"Deroh-Metaku #0" = 20
+	"Ei-Eiuus #0" = 20
+	"Ei-Etaku #0" = 20
+	"Er-Jaseen #0" = 20
+	"Gam-Kur #0" = 20
+	"Geeh-Liurz #0" = 20
+	"Heem-Jas #0" = 20
+	"Hizeeh-Raz #0" = 20
+	"Im-Kajin #0" = 20
+	"Im-Zish #0" = 20
+	"Ja-Reet #0" = 20
+	"Jeer-Tei #0" = 20
+	"Jin-Ei #0" = 20
+	"Kamax-Ei #0" = 20
+	"Keema-Ta #0" = 20
+	"Lara-Eix #0" = 20
+	"Loh-Jat #0" = 20
+	"Luh-Maxath #0" = 20
+	"Marz-Ja #0" = 20
+	"Neeti-Nur #0" = 20
+	"Nema-Pachat #0" = 20
+	"Noyei-Heem #0" = 20
+	"Nulaz-Eidu #0" = 20
+	"Olik-Jah #0" = 20
+	"Onurai-Betu #0" = 20
+	"Owai-Leem #0" = 20
+	"Pimaxi-Loh #0" = 20
+	"Ree-Kia #0" = 20
+	"Reezal-Jul #0" = 20
+	"Sar-Keer #0" = 20
+	"Tah-Tehat #0" = 20
+	"Tan-Skee #0" = 20
+	"Taleel-Bex #0" = 20
+	"Topeeth-Gin #0" = 20
+	"Topith-Kuz #0" = 20
+	"Uxith-Ei #0" = 20
+	"Vara-Zeen #0" = 20
+	"Wanum-Neeus #0" = 20
+	"Xal-Geh #0" = 20
+	"Yinz-Hei #0" = 20
+
+	"Binyaar #0" = 20
+	"Deerkaza #0" = 20
+	"Jaraleet #0" = 20
+	"Juunei #0" = 20
+	"Nomu #0" = 20
+	"Shehs #0" = 20
+	"Schiavas #0" = 20
+	"Tshleeixth #0" = 20
+	"Ullis #0" = 20	
+
+	"Awas #0" = -20
+	"Sanax #0" = -20
+	"Sigerthe #0" = -20
+	"Zollassa #0" = -20
+	"Xil-Go #0" = -20
+
+	"Akeenus #0" = -20
+	"Akishan #0" = -20
+	"Aleeto #0" = -20
+	"Amussa #0" = -20
+	"Asheemar #0" = -20
+	"Asska #0" = -20
+	"Awas #0" = -20
+	"Azum #0" = -20
+	"Baseenar #0" = -20
+	"Beela #0" = -20
+	"Betzi #0" = -20
+	"Bishalus #0" = -20
+	"Bokeeus #0" = -20
+	"Chalaree #0" = -20
+	"Chimatei #0" = -20
+	"Chirurgeon #0" = -20
+	"Cholasistu #0" = -20
+	"Churasu #0" = -20
+	"Deetwos #0" = -20
+	"Meerana #0" = -20
+	"Neetizei #0" = -20
+	"Niima #0" = -20
+	"Reesa #0" = -20
+	"Telixith #0" = -20
+	"Weewish #0" = -20
+	"Adzi-Mota #0" = -20
+	"Ah-Kajul #0" = -20
+	"Ah-Mudeska #0" = -20
+	"Ah-Seeba #0" = -20
+	"Ahmuna-La #0" = -20
+	"Ajim-Kiurz #0" = -20
+	"Am-Eepa #0" = -20
+	"Am-Jasuda #0" = -20
+	"An-Jeen #0" = -20
+	"Anozz-Crath #0" = -20
+	"Azbai-Meenus #0" = -20
+	"Azeez-Eix #0" = -20
+	"Bar-Beekus #0" = -20
+	"Beek-Ja #0" = -20
+	"Beek-Nassa #0" = -20
+	"Beem-Tei #0" = -20
+	"Ber-Jaseen #0" = -20
+	"Bura-Natoo #0" = -20
+	"Chana-La #0" = -20
+	"Chee-Dooka #0" = -20
+	"Chee-Osheeka #0" = -20
+	"Chee-Saak #0" = -20
+	"Cheesh-Mei #0" = -20
+	"Ree-Zish #0" = -20
+	"Shei-Chuna #0" = -20
+	"Tumma-Shah #0" = -20
+	"Veek-Gai #0" = -20
+	"Wuja-Ei #0" = -20
+}
+
+# structure: 1st row = Morrowind, 2nd row = Oblivion, 3rd row = Skyrim, 4th row = other lore, 5th row = Male ESO, 6th row = Female ESO
+	
+
+leader_names = {
+	Zaw Ru Tei Lei Julan Kur Lah Ei Tulm La Zish Kilaya Maht Tan Gei Mere Shei Nur Jah Dar Lan Jush Kai Dum Eius Neeus Meesei Ra Deesei Lee Meeus Lurasha Ja Ma Raniur Mei Sa Jeen La Wan Wazei Rei
+	Malz Kajin Kiurz Jee Lai Teeus Jasaiin Wulm Ze Zeeus Na Meema Liurz Meena
+	Jei
+	Go
+	Anoo Sakka Seek Da Muz Tee Taeed Meej Kas Gah Sei Goh Mema Chath Metaku Eiuus Etaku Jaseen Kur Lurz Jas Raj Zish Reet Ta Eix Jat Maxath Pachat Heem Eidu Betu Leem Loh Kia Jul Keer Tehat Skee Bex Gih Kuz Zeen Geh Hei 
+	Mota Kajul Mudeska Seeba Eepa Jasuda Crath Meenus Beekus Nassa Jaseen Natoo Dooka Osheeka Saak Mei Chuna Shah Gai
+
+}
+
+ship_names = {
+	"Argon" "Kamanai" "Arnesia" "Arkethnia" "Clawreach" "Atron" "Hjalokh" "Seydahnil" "Komatur" "Helstrom" "Archon" "Gideon" "Thorn" "Stormhold" "Blackrose" "Saxhavn" "Hixinoag"
+}
+
+army_names = {
+	"$PROVINCE$ Army" 
+}

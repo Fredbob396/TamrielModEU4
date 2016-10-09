@@ -1,0 +1,16 @@
+#Region - Winterhold
+
+culture = old_nordic
+religion = talos
+capital = "Anga"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 4
+base_production = 4
+manpower = 3
+owner = XAF
+controller = XAF
+add_core = XAF
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

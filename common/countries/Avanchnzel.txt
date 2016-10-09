@@ -1,0 +1,74 @@
+# Avanchnzel (Tinker State)
+
+graphical_culture = westerngfx
+
+color = { 10  183  91 }
+
+historical_idea_groups = {
+	quality_ideas
+	religious_ideas
+	influence_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	defensive_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Kagren #0 Kena" = 40
+	"Baladas #0 Kena" = 40
+	"Marobar #0 Kena" = 40
+	"Rolard #0" = 40
+	"Akan #0" = 40
+	"Thelwe #0" = -40
+	"Taron #0" = 40
+	"Vorith #0" = 20
+	"Alvu #0" = -20
+	"Folvys #0" = 20
+	"Veradul #0" = 20
+	"Nothasea #0" = -20
+	"Dram #0" = 20
+	"Novas #0" = 20
+	"Seras #0" = 10
+	"Drolam #0" = 10
+	"Simine #0" = -10
+	"Inaras #0" = -10
+	"Thonis #0" = 10
+	"Erendes #0" = 10
+	"Nethyn #0" = 10
+	"Andyn #0" = 10
+}
+
+leader_names = {
+	Hahnim Mansenat Niveru Narvud Silvin Midrem Minirath Dilthim
+	Delvas Rathryon Balvel Gimalvel Ondyn Rurvyn Milar Menas Maren
+	Sareleth Modras
+	Dreth Nordssen Antabolis Sul Mzahnch Forel Folgun Kemel Arkengh Irkon Mzarken
+	
+}
+
+ship_names = {
+	"Resdayn" "Dwemereth" "Arkngthand" "Kagrenac" "Nchunak" "Seventh House" "Mudan" "Alftand" "Mzinchaleft" "Raldbthar" "Blackreach"
+}
+
+army_names = {
+	"$PROVINCE$ Force" 
+}

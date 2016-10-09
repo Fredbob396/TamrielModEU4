@@ -1,0 +1,18 @@
+government = tribal_kingdom
+technology_group = tamrielic
+religion = talos
+mercantilism = 0.2
+primary_culture = forsworn
+capital = 3295	# Druadach
+
+
+1403.1.1 = {
+	monarch = {
+		name = "Cynric"
+		dynasty = "Moloch"
+		birth_date = 1403.1.1
+		adm = 1
+		dip = 4
+		mil = 4
+	}
+}

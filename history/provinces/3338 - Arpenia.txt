@@ -1,0 +1,13 @@
+culture = dagoni
+religion = nine_divines
+
+owner = T47
+controller = T47
+add_core = T47
+hre = no
+base_tax = 1
+base_production = 1
+manpower = 1
+is_city = yes
+trade_goods = grain
+discovered_by = tamrielic discovered_by = XTE

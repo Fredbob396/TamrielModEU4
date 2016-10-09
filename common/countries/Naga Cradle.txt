@@ -1,0 +1,163 @@
+# Naga Cradle Anxil Daimyo
+
+graphical_culture = southamericagfx
+
+color = { 111  34  150 }
+
+historical_idea_groups = {
+	quality_ideas
+	religious_ideas
+	influence_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	defensive_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+# This is a Northern Argonian province, so Morrowind names are favoured.
+
+monarch_names = {	
+	"Asum #0" = 20
+	"Bunish #0" = 20
+	"Busheeus #0" = 20
+	"Chalureel #0" = 20
+	"Chiwish #0" = 20
+	"Chulz #0" = 20
+	"Chuna #0" = 20
+	"Haran #0" = 20
+	"Hathei #0" = 20
+	"Heedul #0" = 20
+	"Huleeya #0" = 20
+	"Huzei #0" = 20
+	"Inee #0" = 20
+	"Itan #0" = 20
+	"Meer #0" = 20
+	"Milos #0" = 20
+	"Neetinei #0" = 20
+	"Okaw #0" = 20
+	"Peeradeeh #0" = 20
+	"Rasha #0" = 20
+	"Reemukeeus #0" = 20
+	"Reesa #0" = 20
+	"Seewul #0" = 20
+	"Skeetul #0" = 20
+	"Tanan #0" = 20
+	"Teegla #0" = 20
+	"Tul #0" = 20
+	"Ukawei #0" = 20
+	"Ula #0" = 20
+	"Utadeek #0" = 20
+	"Weeltul #0" = 20
+	"Weer #0" = 20
+	"An-Zaw #0" = 20
+	"Bun-Teemeeta #0" = 20
+	"Dan-Ru #0" = 20
+	"Effe-Tei #0" = 20
+	"Eleedal-Lei #0" = 20
+	"Gah Julan #0" = 20
+	"Gam-Kur #0" = 20
+	"Geel-Lah #0" = 20
+	"Haj-Ei #0" = 20
+	"Han-Tulm #0" = 20
+	"Heem-La #0" = 20
+	"Heir-Zish #0" = 20
+	"Im-Kilaya #0" = 20
+	"Jeelus-Tei #0" = 20
+	"Jeer-Maht #0" = 20
+	"Junal-Lei #0" = 20
+	"Keerasa-Tan #0" = 20
+	"Miun-Gei #0" = 20
+	"Mush-Mere #0" = 20
+	"Okan-Shei #0" = 20
+	"Oleen-Gei #0" = 20
+	"Olink-Nur #0" = 20
+	"Reeh-Jah #0" = 20
+	"Silm-Dar #0" = 20
+	"Tee-Lan #0" = 20
+	"Tim-Jush #0" = 20
+	"Vistha-Kai #0" = 20
+	"Wanan-Dum #0" = 20
+	"Wih-Eius #0" = 20
+	"Wud-Neeus #0" = 20
+	"Wuleen-Shei #0" = 20
+
+	"Ahaht #0" = -20
+	"Akish #0" = -20
+	"Banalz #0" = -20
+	"Beekatan #0" = -20
+	"Eutei #0" = -20
+	"Gilm #0" = -20
+	"Gish #0" = -20
+	"Hul #0" = -20
+	"Kasa #0" = -20
+	"Milah #0" = -20
+	"Nakuma #0" = -20
+	"Neesha #0" = -20
+	"Nuralg #0" = -20
+	"Nush #0" = -20
+	"Okur #0" = -20
+	"Onasha #0" = -20
+	"Shatalg #0" = -20
+	"Tasha #0" = -20
+	"Wusha #0" = -20
+	"Ah-Meesei #0" = -20
+	"Am-Ra #0" = -20
+	"An-Deesei #0" = -20
+	"Chanil-Lee #0" = -20
+	"Cheesh-Meeus #0" = -20
+	"Deesh-Meeus #0" = -20
+	"El-Lurasha #0" = -20
+	"Ereel-Lei #0" = -20
+	"Gih-Ja #0" = -20
+	"Jeed-Ei #0" = -20
+	"Kal-Ma #0" = -20
+	"Keel-Raniur #0" = -20
+	"Meeh-Mei #0" = -20
+	"Meen-Sa #0" = -20
+	"Mim-Jeen #0" = -20
+	"Muz-Ra #0" = -20
+	"Nam-La #0" = -20
+	"Olank-Neeus #0" = -20
+	"On-Wan #0" = -20
+	"On-Wazei #0" = -20
+	"Seen-Rei #0" = -20
+}
+
+# structure: 1st row = Morrowind, 2nd row = Oblivion, 3rd row = Skyrim, 4th row = other lore, 5th row = Male ESO, 6th row = Female ESO
+	
+
+leader_names = {
+	Zaw Ru Tei Lei Julan Kur Lah Ei Tulm La Zish Kilaya Maht Tan Gei Mere Shei Nur Jah Dar Lan Jush Kai Dum Eius Neeus Meesei Ra Deesei Lee Meeus Lurasha Ja Ma Raniur Mei Sa Jeen La Wan Wazei Rei
+	Malz Kajin Kiurz Jee Lai Teeus Jasaiin Wulm Ze Zeeus Na Meema Liurz Meena
+	Jei
+	Go
+	Anoo Sakka Seek Da Muz Tee Taeed Meej Kas Gah Sei Goh Mema Chath Metaku Eiuus Etaku Jaseen Kur Lurz Jas Raj Zish Reet Ta Eix Jat Maxath Pachat Heem Eidu Betu Leem Loh Kia Jul Keer Tehat Skee Bex Gih Kuz Zeen Geh Hei 
+	Mota Kajul Mudeska Seeba Eepa Jasuda Crath Meenus Beekus Nassa Jaseen Natoo Dooka Osheeka Saak Mei Chuna Shah Gai
+
+}
+
+ship_names = {
+	"Argon" "Kamanai" "Arnesia" "Arkethnia" "Clawreach" "Atron" "Hjalokh" "Seydahnil" "Komatur" "Helstrom" "Archon" "Gideon" "Thorn" "Stormhold" "Blackrose" "Saxhavn" "Hixinoag"
+}
+
+army_names = {
+	"$PROVINCE$ Army" 
+}

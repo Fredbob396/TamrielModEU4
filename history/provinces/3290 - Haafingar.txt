@@ -1,0 +1,16 @@
+#Region - Haafingar
+
+culture = haafingar
+religion = talos
+capital = "Solitude"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 7
+base_production = 7
+manpower = 5
+owner = XHF
+controller = XHF
+add_core = XHF
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

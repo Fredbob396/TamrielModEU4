@@ -1,0 +1,16 @@
+#Region - Haafingar
+
+culture = haafingar
+religion = daedra_worship
+capital = "Northwatch"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 2
+base_production = 2
+manpower = 2
+owner = XMK
+controller = XMK
+add_core = XMK
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

@@ -1,0 +1,45 @@
+religion_decisions = {
+	adopt_daedra_worship = {
+		potential = {
+			any_owned_province = {
+				religion = daedra_worship
+			}
+		}
+		allow = {
+			any_owned_province = {
+				religion = daedra_worship
+			}
+		}
+		effect = {
+			change_religion = daedra_worship
+			add_stability = -2
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.0
+				dominant_religion = new_temple
+			}
+			modifier = {
+				factor = 0.0
+				dominant_religion = nine_divines
+			}
+			modifier = {
+				factor = 0.0
+				dominant_religion = talos
+			}
+			modifier = {
+				factor = 0.0
+				dominant_religion = hist
+			}
+			modifier = {
+				factor = 0.0
+				dominant_religion = dwemer_reason
+			}
+			modifier = {
+				factor = 0.0
+				has_country_flag = cyrodilic_count
+			}
+		}
+	}
+}

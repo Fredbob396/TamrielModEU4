@@ -1,0 +1,16 @@
+#3068 - Port Telvannis
+
+culture = telvon
+religion = new_temple
+capital = "Bal Oyra"
+trade_goods = kwama
+citysize = 15650
+hre = no
+base_tax = 4
+base_production = 4
+manpower = 3
+owner = XTE
+controller = XTE
+add_core = XTE
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

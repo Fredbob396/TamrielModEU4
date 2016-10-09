@@ -1,0 +1,16 @@
+#Region - Kanadesit, Almalexia, Lan Orethan and East Thirr
+
+culture = indoril
+religion = new_temple
+capital = "Dondril"
+trade_goods = kwama
+citysize = 15650
+hre = no
+base_tax = 5
+base_production = 5
+manpower = 3
+owner = XDR
+controller = XDR
+add_core = XDR
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

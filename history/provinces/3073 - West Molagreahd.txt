@@ -1,0 +1,17 @@
+#3068 - Port Telvannis
+
+culture = telvon
+religion = nine_divines
+capital = "Nassudan"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 2
+base_production = 2
+manpower = 2
+owner = XFW
+controller = XFW
+add_core = XFW
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE
+discovered_by = XFW

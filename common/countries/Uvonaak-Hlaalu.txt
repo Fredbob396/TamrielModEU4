@@ -1,0 +1,71 @@
+# Uvonaak (House Hlaalu)
+
+graphical_culture = westerngfx
+
+color = { 75  154  42 }
+
+historical_idea_groups = {
+	quality_ideas
+	religious_ideas
+	influence_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	defensive_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Vedam #0" = 60
+	"Eno #0" = 60
+	"Nevena #0" = -60
+	"Orvas #0" = 60
+	"Dram #0" = 60
+	"Velanda #0" = -60
+	"Relen #0" = 50
+	"Gathal #0" = 40
+	"Llaro #0" = 40
+	"Odral #0" = 40
+	"Bolayn #0" = 40
+	"Ilmeni #0" = -40
+	"Falanu #0" = -40
+	"Vaval #0" = 40
+	"Belyn #0" = 40
+	"Crassius #0" = 30
+	"Yngling #0" = 30
+	"Forven #0" = 30
+	"Donus #0" = 20
+	"Direr #0" = 20
+	"Rovone #0" = 20
+}
+
+leader_names = {
+	Hlaalu Dren Ules Bero Omani Llethri Helvi Rethan Orethi Berano Serethi
+	Falas Hlarys Arethi Uvayn Savel Marvayn Dralas Sedrethi Nerethi Nedalor Neladren Farethi
+	
+}
+
+ship_names = {
+	"Fortune" "Suran" "Odai" "Balmora" "Hla Oad" "Gnaar Mok" "Kragenmoor" "Hemlyn"
+}
+
+army_names = {
+	"$PROVINCE$ Army" 
+}

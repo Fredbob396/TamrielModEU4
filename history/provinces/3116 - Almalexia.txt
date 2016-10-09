@@ -1,0 +1,21 @@
+#Region - Kanadesit, Almalexia, Lan Orethan and East Thirr
+
+culture = indoril
+religion = new_temple
+capital = "Mournhold"
+trade_goods = potions
+citysize = 15650
+hre = no
+base_tax = 7
+base_production = 8
+manpower = 5
+owner = XNT
+controller = XNT
+add_core = XDR
+add_core = XNT
+add_core = XKD
+add_core = XAK
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE
+
+1440.1.1 = { fort_15th = yes }

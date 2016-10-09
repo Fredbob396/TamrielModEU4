@@ -1,0 +1,16 @@
+#Region - The Rift
+
+culture = south_nordic
+religion = talos
+capital = "Ivarstead"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 4
+base_production = 3
+manpower = 3
+owner = XIV
+controller = XIV
+add_core = XIV
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

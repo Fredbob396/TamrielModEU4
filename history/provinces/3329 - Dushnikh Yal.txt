@@ -1,0 +1,16 @@
+#Region - The Reach
+
+culture = orcish
+religion = daedra_worship
+capital = "Dushnikh Yal"
+trade_goods = copper
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XDY
+controller = XDY
+add_core = XDY
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

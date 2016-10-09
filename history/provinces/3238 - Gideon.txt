@@ -1,0 +1,16 @@
+#Region - Seydahnil, Foxfyrn Coast, East Blackwood, and West Argonia
+
+culture = dagoni
+religion = hist
+capital = "Gideon"
+trade_goods = potions
+citysize = 15650
+hre = no
+base_tax = 6
+base_production = 6
+manpower = 4
+owner = XSE
+controller = XSE
+add_core = XSE
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

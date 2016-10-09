@@ -1,0 +1,13 @@
+name = "Warlord Conquest of the Imperial City"
+
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 3529
+}
+
+1444.11.11  = {
+	add_defender = T01
+	add_defender = T56
+	add_attacker = T40
+}

@@ -1,0 +1,68 @@
+# House Telvanni
+
+graphical_culture = westerngfx
+
+color = { 111  47  183 }
+
+historical_idea_groups = {
+	quality_ideas
+	religious_ideas
+	influence_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	defensive_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Neloth #0" = 60
+	"Rilvin #0" = 60
+	"Gothren #0" = 50
+	"Aryon #0" = 40
+	"Dratha #0" = -40
+	"Therana #0" = -40
+	"Galas #0" = -20
+	"Endase #0" = -20
+	"Reynel #0" = -20
+	"Llunela #0" = -20
+	"Mallam #0" = 20
+	"Baladas #0" = 30
+	"Mithras #0" = 40
+	"Vaerin #0" = 30
+	"Delvam #0" = 30
+	"Eldale #0" = -30
+	"Rathra #0" = -30
+	"Faruna #0" = -30
+}
+
+leader_names = {
+	Dral Drenim Hleran Avel Vedas Seleth Omavel Uvirith Telvanni Tenvanni Telvayn Demnevanni Dralas Maryon Odrethi
+	Irenam Omothran Enduren Gernak Ilneram Girvayn Darythi Endureth Telsaran Athyrion Urenim
+	Lleran Sarys Madalas Theman Ulessen Releth Omayn Uvulas Ryon Mathendis
+}
+
+ship_names = {
+	"Telvannis" "Sadrith Mora" "Aruhn" "Fyr" "Pride of Tel Vos" "Mothrivra" "Marog" "Narrusa" "Aranyon" "Molag" "Boethiah" "Muthada" "Oren" "Bosara"
+}
+
+army_names = {
+	"$PROVINCE$ Army" 
+}

@@ -1,0 +1,7 @@
+# country
+on_startup = {
+	events = {
+		cyrodiil_flag.13
+		cyrodiil_flag.1
+	}
+}

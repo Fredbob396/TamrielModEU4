@@ -1,0 +1,16 @@
+#Region - Eastmarch
+
+culture = old_nordic
+religion = talos
+capital = "Windhelm"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 7
+base_production = 7
+manpower = 5
+owner = XEM
+controller = XEM
+add_core = XEM
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

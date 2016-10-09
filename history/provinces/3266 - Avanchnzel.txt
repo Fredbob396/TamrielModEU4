@@ -1,0 +1,16 @@
+#Region - The Rift
+
+culture = south_nordic
+religion = dwemer_reason
+capital = "Avanchnzel"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XAV
+controller = XAV
+add_core = XAV
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

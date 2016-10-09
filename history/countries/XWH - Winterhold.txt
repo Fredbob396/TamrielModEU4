@@ -1,0 +1,18 @@
+government = despotic_monarchy
+technology_group = tamrielic
+religion = talos
+mercantilism = 0.2
+primary_culture = old_nordic
+capital = 3277	# Winterhold
+
+
+1414.1.1 = {
+	monarch = {
+		name = "Thorek"
+		dynasty = "Free-Winter"
+		birth_date = 1414.1.1
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}

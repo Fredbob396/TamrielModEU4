@@ -1,0 +1,13 @@
+culture = colovian
+religion = nine_divines
+
+owner = T30
+controller = T30
+add_core = T30
+hre = no
+base_tax = 3
+base_production = 2
+manpower = 3
+is_city = yes
+trade_goods = cloth
+discovered_by = tamrielic discovered_by = XTE

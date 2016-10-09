@@ -1,0 +1,16 @@
+#Region - Haafingar
+
+culture = haafingar
+religion = talos
+capital = "Dragon Bridge"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 5
+base_production = 4
+manpower = 3
+owner = XDB
+controller = XDB
+add_core = XDB
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

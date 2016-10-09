@@ -1,0 +1,7 @@
+government = daimyo
+technology_group = tamrielic
+religion = hist
+mercantilism = 0.2
+primary_culture = kamanese
+capital = 3174	# Branchmont
+

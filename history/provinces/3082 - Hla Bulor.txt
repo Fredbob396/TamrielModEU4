@@ -1,0 +1,17 @@
+#Region - Boethian Mountains / South Telvannis District, Morrowind
+
+culture = boethian
+religion = new_temple
+capital = "Hla Bulor"
+trade_goods = kwama
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XTE
+controller = XTE
+add_core = XBM add_core = XTE
+add_core = XTE
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

@@ -1,0 +1,131 @@
+# Province of Arkethnia
+
+graphical_culture = southamericagfx
+
+color = { 79  79  186 }
+
+historical_idea_groups = {
+	quality_ideas
+	religious_ideas
+	influence_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	defensive_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+# This is a Western Argonian province, so Oblivion and Skyrim names dominate.
+
+monarch_names = {	
+	"Amusei #0" = 20
+	"Deeh #0" = 20
+	"Geel #0" = 20
+	"Jeelius #0" = 20
+	"Mahei #0" = 20
+	"Otumeel #0" = 20
+	"Pajeen #0" = 20
+	"Reenum #0" = 20
+	"Sakeepa #0" = 20
+	"Saliith #0" = 20
+	"Teekeeus #0" = 20
+	"Teinaava #0" = 20
+	"Usheeja #0" = 20
+	"Wumeek #0" = 20
+	"Yinz'r #0" = 20
+	"Ah-Malz #0" = 20
+	"Ajum-Kajin #0" = 20
+	"Beem-Kiurz #0" = 20
+	"Dar-Jee #0" = 20
+	"Deetum-Ja #0" = 20
+	"Dreet-Lai #0" = 20
+	"Er-Teeus #0" = 20
+	"Geem-Jasaiin #0" = 20
+	"Gin-Wulm #0" = 20
+	"Jee-Tah #0" = 20
+	"Jeetum-Ze #0" = 20
+	"Oleed-Ei #0" = 20
+	"Pad-Ei #0" = 20
+	"Tun-Zeeus #0" = 20
+	"Weebam-Na #0" = 20
+
+	"Deekus #0" = 20
+	"Derkeethus #0" = 20
+	"Madesi #0" = 20
+	"Neetrenaza #0" = 20
+	"Usha #0" = 20
+	"Veezara #0" = 20
+	"Beem-Ja #0" = 20
+	"Gajul-Lei #0" = 20
+	"Gulum-Ei #0" = 20
+	"Ilas-Tei #0" = 20
+	"Jaree-Ra #0" = 20
+	"Talen-Jei #0" = 20
+	"Teeba-Ei #0" = 20
+
+	"Beelei #0" = -20
+	"Beewos #0" = -20
+	"Bejeen #0" = -20
+	"Deetsan #0" = -20
+	"Druja #0" = -20
+	"Marz #0" = -20
+	"Numeen #0" = -20
+	"Ocheeva #0" = -20
+	"Pasha #0" = -20
+	"Rana #0" = -20
+	"Shaleez #0" = -20
+	"Skaleel #0" = -20
+	"Witseidutsei #0" = -20
+	"Bur-Meema #0" = -20
+	"Dar-Ma #0" = -20
+	"Hal-Liurz #0" = -20
+	"Kud-Ei #0" = -20
+	"Mach-Na #0" = -20
+	"Seed-Neeus #0" = -20
+	"Sheer-Meedish #0" = -20
+	"Tar-Meena #0" = -20
+	"Weedum-Ja #0" = -20
+
+	"Deeja #0" = -20
+	"Keerava #0" = -20
+	"Shahvee #0" = -20
+	"Wujeeta #0" = -20
+}
+
+# structure: 1st row = Morrowind, 2nd row = Oblivion, 3rd row = Skyrim, 4th row = other lore, 5th row = Male ESO, 6th row = Female ESO
+	
+
+leader_names = {
+	Zaw Ru Tei Lei Julan Kur Lah Ei Tulm La Zish Kilaya Maht Tan Gei Mere Shei Nur Jah Dar Lan Jush Kai Dum Eius Neeus Meesei Ra Deesei Lee Meeus Lurasha Ja Ma Raniur Mei Sa Jeen La Wan Wazei Rei
+	Malz Kajin Kiurz Jee Lai Teeus Jasaiin Wulm Ze Zeeus Na Meema Liurz Meena
+	Jei
+	Go
+	Anoo Sakka Seek Da Muz Tee Taeed Meej Kas Gah Sei Goh Mema Chath Metaku Eiuus Etaku Jaseen Kur Lurz Jas Raj Zish Reet Ta Eix Jat Maxath Pachat Heem Eidu Betu Leem Loh Kia Jul Keer Tehat Skee Bex Gih Kuz Zeen Geh Hei 
+	Mota Kajul Mudeska Seeba Eepa Jasuda Crath Meenus Beekus Nassa Jaseen Natoo Dooka Osheeka Saak Mei Chuna Shah Gai
+
+}
+
+ship_names = {
+	"Argon" "Kamanai" "Arnesia" "Arkethnia" "Clawreach" "Atron" "Hjalokh" "Seydahnil" "Komatur" "Helstrom" "Archon" "Gideon" "Thorn" "Stormhold" "Blackrose" "Saxhavn" "Hixinoag"
+}
+
+army_names = {
+	"$PROVINCE$ Army" 
+}

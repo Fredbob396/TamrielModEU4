@@ -1,0 +1,73 @@
+# Boethian March
+
+graphical_culture = westerngfx
+
+color = { 111  183  111 }
+
+historical_idea_groups = {
+	quality_ideas
+	religious_ideas
+	influence_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	defensive_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Mithras #0" = 60
+	"Llevari #0" = -60
+	"Dralothas #0" = 60
+	"Vaerin #0" = 60
+	"Rilmas #0" = 60
+	"Dilavesa #0" = -40
+	"Solas #0" = -40
+	"Garnos #0" = 40
+	"Gidave #0" = 40
+	"Golyn #0" = 40
+	"Fedura #0" = -40
+	"Vinryon #0" = 40
+	"Farul #0" = 30
+	"Vaden #0" = 30
+	"Enarvyne #0" = 30
+	"Dalam #0" = 30
+	"Alasha #0" = -30
+	"Ratagos #0" = 30
+	"Telaras #0" = 20
+	"Simeth #0" = 20
+	"Sinsel #0" = 20
+	"Silniel #0" = -20
+	"Tilveran #0" = -20
+}
+
+leader_names = {
+	Vendal Omothran Sedrethi Othren Varis Hleray Indalen Othril Sendal Vaerin 
+	Telsaran Farethan Sinn Athyrion Athere Andilu Manel Tras Ulneth Andules
+	
+}
+
+ship_names = {
+	"Helnim" "Narrusa" "Marog" "Mothrivra" "Boethiah's Judgement" "Baldrahn" "Bosara" "Muthada" "Adurin"
+}
+
+army_names = {
+	"$PROVINCE$ Army" 
+}

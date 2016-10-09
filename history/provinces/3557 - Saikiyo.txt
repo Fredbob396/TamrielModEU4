@@ -1,0 +1,16 @@
+#Region - Topal Isle
+
+culture = dagoni
+religion = hist
+capital = "Saikiyo"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XTP
+controller = XTP
+add_core = XTP
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

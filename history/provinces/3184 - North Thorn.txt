@@ -1,0 +1,16 @@
+#Region - Arnesia and Northeastern Argonia
+
+culture = archein
+religion = hist
+capital = "Thorn"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 7
+base_production = 7
+manpower = 4
+owner = XAN
+controller = XAN
+add_core = XAN
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

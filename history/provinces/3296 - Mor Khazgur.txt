@@ -1,0 +1,16 @@
+#Region - Haafingar
+
+culture = orcish
+religion = daedra_worship
+capital = "Mor Khazgur"
+trade_goods = copper
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XMK
+controller = XMK
+add_core = XMK
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

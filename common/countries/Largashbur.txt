@@ -1,0 +1,74 @@
+# Largashbur
+
+graphical_culture = westerngfx
+
+color = { 181  31  14 }
+
+historical_idea_groups = {
+	quality_ideas
+	religious_ideas
+	influence_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	defensive_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Larak #0" = 60
+	"Mauhulakh #0" = 60
+	"Yamarz #0" = 60
+	"Burguk #0" = 60
+	"Gularzob #0" = 60
+	"Garakh #0" = 40
+	"Atub #0" = 40
+	"Bagrak #0" = 40
+	"Borgakh #0" = 40
+	"Dushnamub #0" = 40
+	"Gharol #0" = 40
+	"Ghorbash #0" = 40
+	"Nagrub #0" = 40
+	"Sharamph #0" = 40
+	"Shuftharz #0" = 20
+	"Ghamorz #0" = 20
+	"Otur #0" = 20
+	"Yatul #0" = 20
+	"Gadba #0" = 20
+	"Mul #0" = 20
+	"Lob #0" = 20
+	"Ogol #0" = 20
+	"Dulug #0" = 20
+	"Ghak #0" = 20
+	"Umurn #0" = 20
+}
+
+leader_names = {
+	gro-Shub gro-Shargakh gro-Bagol gro-Dushnikh gro-Burzag gro-Murbul gro-Largash gro-Khash gro-Rugdumph gro-Khazgur gro-Larakh gro-Mauhulakh gro-Yamarz gro-Narzul
+	
+}
+
+ship_names = {
+	"Blood-Kin" "Stronghold" "Forgemaster" "Forgewife" "Huntwife" "Khazgur" "Narzulbur" "Dushnikh Yal" "Largashbur"
+}
+
+army_names = {
+	"$PROVINCE$ Army" 
+}

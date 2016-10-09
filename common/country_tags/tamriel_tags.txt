@@ -1,0 +1,152 @@
+#Great Houses of Morrowind
+XDR = "countries/Dres.txt"
+XHL = "countries/Uvonaak-Hlaalu.txt"
+XRD = "countries/Redoran.txt"
+XSD = "countries/Sadras.txt"
+XTE = "countries/Telvanni.txt"
+
+#Dunmer Temple (Ex-Indoril)
+XNT = "countries/Dunmer Temple.txt"
+
+#Dunmeri Minors
+XFW = "countries/Firewatch.txt"
+XHE = "countries/Helnim.txt"
+XOE = "countries/Old Ebonheart.txt"
+
+#Argonian Empire - North (De Facto Autonomous)
+XAK = "countries/Akasunde.txt"
+XBM = "countries/Boethian March.txt"
+XKD = "countries/Kanadesit.txt"
+XNU = "countries/Nezuad.txt"
+
+#Argonia itself
+XAR = "countries/Argonia.txt"
+
+#Argonian Empire - South (Daimyo-Style Vassals of Argonia) (Original Provinces)
+XAN = "countries/Arnesia.txt"
+XAT = "countries/Atronium.txt"
+XHJ = "countries/Hjalokh.txt"
+XJA = "countries/Jer Ahkrin.txt"
+XKM = "countries/Kamanai.txt"
+XKR = "countries/Karanake.txt"
+XLI = "countries/Lilmoth.txt"
+XRK = "countries/Arkethnia.txt"
+XSE = "countries/Seydahnil.txt"
+
+#Argonian Empire - South (Daimyo-Style Vassals of Argonia) (New Warlord States)
+XAG = "countries/Agaceph.txt"
+XCR = "countries/Corimont.txt"
+XKL = "countries/Kulan.txt"
+XKT = "countries/Ku T'gasi.txt"
+XNG = "countries/Naga Cradle.txt"
+XNL = "countries/Nieleon.txt"
+XON = "countries/Onkobra.txt"
+XPA = "countries/Paatru.txt"
+XRV = "countries/Reaven.txt"
+XSR = "countries/Saranyth.txt"
+XSP = "countries/Sarpa.txt"
+XTH = "countries/Thormir.txt"
+XTN = "countries/Tenmar Wall.txt"
+XTP = "countries/Topal.txt"
+XUM = "countries/Umpholo.txt"
+
+#Skyrim Jarls
+XEM = "countries/Eastmarch.txt"
+XFK = "countries/Falkreath.txt"
+XHF = "countries/Haafingar.txt"
+XHM = "countries/Hjaalmarch.txt"
+XPL = "countries/The Pale.txt"
+XRE = "countries/Reach.txt"
+XRI = "countries/Rift.txt"
+XWH = "countries/Winterhold.txt"
+XWR = "countries/Whiterun.txt"
+
+#Skyrim Rebels
+XKG = "countries/Kagrenzel.txt"
+
+#Skyrim Orc Strongholds
+XDY = "countries/Dushnikh Yal.txt"
+XLG = "countries/Largashbur.txt"
+XNZ = "countries/Narzulbur.txt"
+XMK = "countries/Mor Khazgur.txt"
+
+#Skyrim Tinker States
+XAF = "countries/Alftand-Raldbthar.txt"
+XMZ = "countries/Mzark.txt"
+XAV = "countries/Avanchnzel.txt"
+
+#Skyrim Other
+XDB = "countries/Dragon Bridge.txt"
+XFD = "countries/Faldar.txt"
+XFH = "countries/Forelhost.txt"
+XFS = "countries/Forsworn.txt"
+XHG = "countries/Helgen.txt"
+XIV = "countries/Ivarstead.txt"
+XMO = "countries/Morokei.txt"
+XRR = "countries/Rorikstead.txt"
+XMW = "countries/Mistwatch.txt"
+XSS = "countries/Shor's Stone.txt"
+
+#Cyrodiil Counties
+T01 = "countries/Cityisle.txt"
+T02 = "countries/Anvil.txt"
+T03 = "countries/Skingrad.txt"
+T04 = "countries/Chorrol.txt"
+T05 = "countries/Bruma.txt"
+T06 = "countries/Cheydinhal.txt"
+T07 = "countries/Bravil.txt"
+T08 = "countries/Leyawiin.txt"
+T53 = "countries/Kvatch.txt"
+
+#Cyrodiil Towns
+T09 = "countries/Shardrock.txt"
+T10 = "countries/Drad.txt"
+T11 = "countries/Hackdirt.txt"
+T12 = "countries/Brindle.txt"
+T13 = "countries/Bleakersway.txt"
+T14 = "countries/Pellsgate.txt"
+T15 = "countries/Aleswell.txt"
+T16 = "countries/Cropsford.txt"
+T17 = "countries/Harlun.txt"
+T18 = "countries/Drakelowe.txt"
+T19 = "countries/Rugdumph.txt"
+T20 = "countries/Borderwatch.txt"
+T21 = "countries/Watersedge.txt"
+T22 = "countries/Sutch.txt"
+T23 = "countries/Weatherleah.txt"
+T56 = "countries/Weye.txt"
+
+#Cyrodiil Warlords
+T24 = "countries/Vlastarus.txt"
+T25 = "countries/Crowhaven.txt"
+T26 = "countries/Wariel.txt"
+T27 = "countries/Hastrel.txt"
+T28 = "countries/Varondo.txt"
+T29 = "countries/Talwinque.txt"
+T30 = "countries/Ontus.txt"
+T31 = "countries/Elenglynn.txt"
+T32 = "countries/Woodenhand.txt"
+T33 = "countries/Ceyatatar.txt"
+T34 = "countries/Homestead.txt"
+T35 = "countries/Alessia.txt"
+T36 = "countries/Nenyondtwyll.txt"
+T37 = "countries/Ash.txt"
+T38 = "countries/Hrotandavale.txt"
+T39 = "countries/Sercen.txt"
+T40 = "countries/Nikel.txt"
+T41 = "countries/Cedrian.txt"
+T42 = "countries/Mackamentian.txt"
+T43 = "countries/Naso.txt"
+T44 = "countries/Hame.txt"
+T45 = "countries/Entius.txt"
+T46 = "countries/Cuptor.txt"
+T47 = "countries/Atatar.txt"
+T48 = "countries/Wendelbek.txt"
+T49 = "countries/Fanacas.txt"
+T50 = "countries/Teleman.txt"
+T51 = "countries/Redman.txt"
+T52 = "countries/Blueblood.txt"
+T54 = "countries/Welke.txt"
+
+#Cyrodiil Unified
+T55 = "countries/Cyrodiil.txt"

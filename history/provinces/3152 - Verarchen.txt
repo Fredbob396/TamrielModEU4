@@ -1,0 +1,16 @@
+#Region - Veloth, Ash Swamp and Redoran Mountains
+
+culture = velothi
+religion = new_temple
+capital = "Verarchen"
+trade_goods = dwemer_parts
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XRD
+controller = XRD
+add_core = XRD
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

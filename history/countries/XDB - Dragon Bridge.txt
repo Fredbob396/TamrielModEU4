@@ -1,0 +1,18 @@
+government = despotic_monarchy
+technology_group = tamrielic
+religion = talos
+mercantilism = 0.2
+primary_culture = haafingar
+capital = 3293	# Dragon Bridge
+
+
+1419.1.1 = {
+	monarch = {
+		name = "Ymil"
+		dynasty = "Dragon-Scale"
+		birth_date = 1419.1.1
+		adm = 4
+		dip = 1
+		mil = 3
+	}
+}

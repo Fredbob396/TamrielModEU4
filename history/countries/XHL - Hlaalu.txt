@@ -1,0 +1,18 @@
+government = dunmer_great_house
+technology_group = tamrielic
+religion = new_temple
+mercantilism = 0.2
+primary_culture = hlaalu
+capital = 3163	# Uvonaak
+
+
+1407.1.1 = {
+	monarch = {
+		name = "Eno"
+		dynasty = "Hlaalu"
+		birth_date = 1407.1.1
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}

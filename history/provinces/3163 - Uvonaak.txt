@@ -1,0 +1,18 @@
+#Region - Uvonaak, Pryai River and Southwestern Morrowind
+
+culture = hlaalu
+religion = new_temple
+capital = "Narsis"
+trade_goods = grain
+citysize = 15650
+hre = no
+base_tax = 11
+base_production = 11
+manpower = 5
+owner = XHL
+controller = XHL
+add_core = XHL
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE
+
+1440.1.1 = { fort_15th = yes }

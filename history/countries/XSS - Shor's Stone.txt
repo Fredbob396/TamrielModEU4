@@ -1,0 +1,18 @@
+government = despotic_monarchy
+technology_group = tamrielic
+religion = talos
+mercantilism = 0.2
+primary_culture = south_nordic
+capital = 3260	# Shor's Stone
+
+
+1417.1.1 = {
+	monarch = {
+		name = "Ralof"
+		dynasty = "Fort-Stormer"
+		birth_date = 1417.1.1
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}

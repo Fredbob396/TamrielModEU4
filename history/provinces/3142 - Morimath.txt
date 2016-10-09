@@ -1,0 +1,16 @@
+#Region - Indaren, Eastern Valus Mountains, Armun Ashlands, Roth Roryn and Western Thirr
+
+culture = indar
+religion = new_temple
+capital = "Morimath"
+trade_goods = alchemical_goods
+citysize = 15650
+hre = no
+base_tax = 4
+base_production = 4
+manpower = 2
+owner = XRD
+controller = XRD
+add_core = XRD
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

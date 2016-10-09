@@ -1,0 +1,16 @@
+#Region - Whiterun Hold
+
+culture = middle_nordic
+religion = talos
+capital = "Riverwood"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 4
+base_production = 4
+manpower = 3
+owner = XWR
+controller = XWR
+add_core = XWR
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

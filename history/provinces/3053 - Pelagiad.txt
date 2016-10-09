@@ -1,0 +1,16 @@
+#Region - Vvardenfell
+
+culture = indoril
+religion = new_temple
+capital = "Pelagiad"
+trade_goods = grain
+citysize = 15650
+hre = no
+base_tax = 2
+base_production = 2
+manpower = 2
+owner = XDR
+controller = XDR
+add_core = XDR
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

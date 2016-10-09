@@ -1,0 +1,16 @@
+#Region - The Reach
+
+culture = haafingar
+religion = talos
+capital = "Karthwasten"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 4
+base_production = 3
+manpower = 3
+owner = XDB
+controller = XDB
+add_core = XDB
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

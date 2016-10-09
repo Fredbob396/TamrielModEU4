@@ -1,0 +1,72 @@
+cyrodilic_warlord = {
+
+	rank = {
+		1 = WARLORD_PETTY
+		2 = WARLORD_KINGDOM
+		3 = WARLORD_EMPIRE
+	}
+	ruler_male = {
+		1 = CHIEFTAIN_PETTY
+		2 = CHIEFTAIN_NORMAL
+		3= CHIEFTAIN_GRAND
+	}
+	ruler_female = {
+		1 = CHIEFTESS_PETTY
+		2 = CHIEFTESS_NORMAL
+		3= CHIEFTESS_GRAND
+	}
+	trigger = {
+		government = cyrodilic_warlord
+	}
+}
+
+cyrodilic_city = {
+
+	rank = {
+		1 = MAYORSHIP
+		2 = FREECITY
+		3 = METROPOLIS
+	}
+	ruler_male = {
+		1 = MAYOR
+		2 = GOVERNOR
+		3 = SYNDIC
+	}
+	ruler_female = {
+		1 = MAYOR
+		2 = GOVERNOR
+		3 = SYNDIC
+	}
+	trigger = {
+		government = cyrodilic_city
+	}
+}
+
+cyrodilic_count = {
+
+	rank = {
+		2 = COUNTY_KINGDOM
+		3 = COUNTY_EMPIRE
+	}
+	ruler_male = {
+		2 = COUNT_NORMAL
+		3= COUNT_GRAND
+	}
+	ruler_female = {
+		2 = COUNTESS_NORMAL
+		3= COUNTESS_GRAND
+	}
+	trigger = {
+		government = monarchy
+		OR = {
+			tag = T02
+			tag = T03
+			tag = T04
+			tag = T05
+			tag = T06
+			tag = T07
+			tag = T08
+			tag = T53
+		}
+	}
+}

@@ -1,0 +1,42 @@
+# People turn to Daedra Worship
+province_event = {
+	id = cyrodiil_religion_daedra_spread
+	title = "cyrodiil_religion.EVTNAME1"
+	desc = "cyrodiil_religion.EVTDESC1"
+	picture = REFORM_eventPicture
+
+	trigger = {
+		is_capital = no
+		OR = {
+			religion_group = aedric
+			religion_group = daedric
+			religion_group = hist_g
+			religion_group = dwemeri_rg
+		}
+		owner = {
+			OR = {
+				religion_group = aedric
+				religion_group = daedric
+				religion_group = hist_g
+				religion_group = dwemeri_rg
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1000
+		modifier = {
+			factor = 0.95
+			any_neighbor_province = {
+				religion = daedra_worship
+			}
+		}
+	}
+
+	is_mtth_scaled_to_size = 1
+
+	option = {
+		name = "cyrodiil_religion.EVTOPTA"
+		change_religion = daedra_worship
+	}
+}

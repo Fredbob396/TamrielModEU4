@@ -1,0 +1,18 @@
+government = tinker_state
+technology_group = tamrielic
+religion = dwemer_reason
+mercantilism = 0.2
+primary_culture = south_nordic
+capital = 3266	# Avanchnzel
+
+
+1408.1.1 = {
+	monarch = {
+		name = "Kagren"
+		dynasty = "Irkon"
+		birth_date = 1408.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}

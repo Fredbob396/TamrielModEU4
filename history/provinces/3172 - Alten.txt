@@ -1,0 +1,16 @@
+#Region - Arnesia and Northeastern Argonia
+
+culture = kamanese
+religion = hist
+capital = "Alten Corimont"
+trade_goods = hunted_goods
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XCR
+controller = XCR
+add_core = XCR
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

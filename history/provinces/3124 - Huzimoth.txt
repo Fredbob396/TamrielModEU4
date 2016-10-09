@@ -1,0 +1,16 @@
+#Region - Indaren, Eastern Valus Mountains, Armun Ashlands, Roth Roryn and Western Thirr
+
+culture = nakan
+religion = new_temple
+capital = "Huzimoth"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XRD
+controller = XRD
+add_core = XRD
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

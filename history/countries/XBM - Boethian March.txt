@@ -1,0 +1,18 @@
+government = tamrielic_elective_monarchy
+technology_group = tamrielic
+religion = new_temple
+mercantilism = 0.2
+primary_culture = boethian
+capital = 3090	# Mothrivra
+
+
+1392.1.1 = {
+	monarch = {
+		name = "Rilmas"
+		dynasty = "Athryon"
+		birth_date = 1413.1.1
+		adm = 4
+		dip = 2
+		mil = 1
+	}
+}

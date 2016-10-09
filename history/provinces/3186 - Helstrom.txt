@@ -1,0 +1,16 @@
+#Region - Clawreach, Inner Murkwood and Central Argonia
+
+culture = karanakh
+religion = hist
+capital = "Helstrom"
+trade_goods = alchemical_goods
+citysize = 15650
+hre = no
+base_tax = 10
+base_production = 10
+manpower = 6
+owner = XAR
+controller = XAR
+add_core = XAR
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

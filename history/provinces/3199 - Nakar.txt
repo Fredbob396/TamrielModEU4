@@ -1,0 +1,16 @@
+#Region - Arkethnia, Darkmoor, Sheoth Coast and Southwestern Argonia
+
+culture = karanakh
+religion = hist
+capital = "Ixtuthapan"
+trade_goods = hunted_goods
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XSR
+controller = XSR
+add_core = XSR
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

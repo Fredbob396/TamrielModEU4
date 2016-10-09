@@ -1,0 +1,256 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or cultures, make sure they are unique.
+
+# Union tags do not suffer from the 'same_culture_group' tax penalty.
+# Primary tags are the first choice for rebel factions seeking cultural independence.
+
+# graphical_culture = westerngfx
+# second_graphical_culture = muslimgfx (fallback if the first does not exist)
+
+
+dunmeri = {
+	graphical_culture = westerngfx
+
+	telvon = {
+		primary = XTE
+		dynasty_names = { 
+			Dral Drenim Hleran Avel Vedas Seleth Omavel Uvirith Telvanni Tenvanni Telvayn Demnevanni Dralas Maryon Odrethi
+		}
+	}
+
+	velothi = {
+		primary = XRD
+		dynasty_names = { 
+			Venim Ramoran Sarethi Llethri Arobar Morvayn Mano Mandas Indarys Dralor
+		}
+	}
+
+	indoril = {
+		primary = XNT
+		dynasty_names = { 
+			Delvas Rathryon Sareleth Hlervan Senim Veroth Indaren Minirath Maren Senim
+		}
+	}
+	boethian = {
+		primary = XBM
+		dynasty_names = { 
+			Dral Drenim Hleran Avel Vedas Seleth Omavel Uvirith Telvanni Tenvanni Telvayn Demnevanni Dralas Maryon Odrethi
+		}
+	}
+}
+
+mestizo_dunmeri = { 
+	graphical_culture = westerngfx
+	
+	solsthin = {
+		dynasty_names = { 
+			Morvayn Venim Dral
+		}
+	}
+	hlaalu = {
+		primary = XHL
+		dynasty_names = { 
+			Hlaalu Dren Bero Ules Arano Arvel Omani Helvi Llethri Rethan
+		}
+	}
+	indar = {
+		dynasty_names = { 
+			Venim Ramoran Sarethi Llethri Arobar Morvayn Mano Mandas Indarys Dralor
+		}
+	}
+}
+
+akaviri = { 
+	graphical_culture = westerngfx
+	
+	nakan = {
+		primary = XAK
+		dynasty_names = { 
+			Tsaeki Huzimotu Haiato Koga Hakure Shinji Hikansya
+		}
+	}
+}
+
+greater_argonian = {
+	graphical_culture = westerngfx
+
+	karanakh = {
+		dynasty_names = { 
+			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka
+		}
+	}
+
+	falyani = {
+		dynasty_names = { 
+			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka
+		}
+	}
+
+	archein = {
+		dynasty_names = { 
+			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka
+		}
+	}
+
+	kamanese = {
+		dynasty_names = { 
+			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka
+		}
+	}
+
+	agaceph = {
+		dynasty_names = { 
+			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka
+		}
+	}
+
+	arkethnian = {
+		dynasty_names = { 
+			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka
+		}
+	}
+
+	dagoni = {
+		dynasty_names = { 
+			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka
+		}
+	}
+
+	lilmothiit = {
+		dynasty_names = { 
+			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka
+		}
+	}
+}
+
+nordic_g = { 
+	graphical_culture = westerngfx
+
+	old_nordic = {
+		dynasty_names = { 
+			Lorem Ipsum
+		}
+	}
+
+	south_nordic = {
+		dynasty_names = { 
+			Lorem Ipsum
+		}
+	}
+
+	haafingar = {
+		dynasty_names = { 
+			Lorem Ipsum
+		}
+	}
+	middle_nordic = {
+		dynasty_names = { 
+			Lorem Ipsum
+		}
+	}
+}
+
+breton = { 
+	graphical_culture = westerngfx
+
+	forsworn = {
+		dynasty_names = { 
+			Lorem Ipsum
+		}
+	}
+}
+
+orcish_g = { 
+	graphical_culture = westerngfx
+
+	orcish = {
+		dynasty_names = { 
+			gro-Largash gro-Dushnik gro-Narzul gro-Borgakh gro-Khazgur gro-Khash gro-Rugdumph
+		}
+	}
+}
+
+cyrodillic = {
+	graphical_culture = westerngfx
+	nibenean = {
+			male_names = {
+				Adamus Adrian Alban Aloys Amantius Andreas Antus Arcturus Arentus Ashtus Audens Belisarius Bendu Berich Betto Bremman Brielus Brotch Bruccius
+				Carius Carmalo Carodus Cartrus Casta Cicero Claudius Collatinus Contumeliorus Corvus Cosmus Marius Regulus Cyronin Danus Decentius Denel
+				Denyiir Dion Eduard Uriel Titus Tiber Fadus Fortus Fagus Fralav Galtus Garrus Gelius Gemellus Gerich Rielus Civello Glenroy Helvius Helvo Hieronymus
+				Humilis Ilav Ilend Imus Iniel Inius Irlav Itius Jak Januarius Janus Jaras Jesan Jirolin Jiv Kantav Kastav Kurdan Langley Laythe Kaslowyn Lerexus Ley
+				Lovidicus Lucien Lurio Luther Malintius Marinus Maro Mattius Melus Menien Mercator Natch Nermus Nigidius Draninus Ontus Ormellius Otius Pelagius
+				Pelinal Olvus Pennus Pinarus Plautis Primo Ancus Rallus Raminus Reman Rimalus Ris Roliand Rufrius Savlian John Sergius Servatius Severius Amiel
+				Berich Caius Gregory Roderic Stantus Sulinus Surius Tahm Tertius Tertullian Toutius Trenus Tyrellius Valandrus Valus Vandorallen Vantus Velan Velus
+				Velwyn Viator Viranus Vlanarus Vlanhonder Vlarimil Vontan Vontus Zedrick Cassius Martin Piner Steffan
+			}
+			female_names = {
+				Alessia Ariela Arnora Astia Astinia Augusta Aviera Avita Britta Bronsila Caelia Camilla Cargas Carmana Casta Caula Arriana Millona Narina Dumania
+				Dynari erina Etira Faustina Gruiand Herminia Ida Isa Ita Janonia Jantus Jastia Javolia Jena Julitta Lenka Lucina Rosentia Marana Mariana Marlena
+				Martina Naspia Perennia Pista Praxedes Buntara Rena Renee Restita Romana Rona Rosentia Rusia Schlera Selena Selene Sibylla Silana Simplicia
+				Tertia Viera Vilena Vinicia Aia Ysabel
+			}
+			dynasty_names = { 
+				Phillida Decanius Corinis Bincal Allectus Gregori Draconis Flonius Odiil Falvius Chenius Avidius Arius Olo Inian Plotius Senyan Gawey Calus Longus
+				Patneim Runellius Truiand Oholin Gavinius Flavus Verus Arcadia Vedius Florius Umbranox Caro Terentius Sintav Artellian Opsius Mede Hodge Calidius
+				Previa Darelliun Terentius Axius Senarel Rielus Civello Cecia Atius Lex Nonius Dralgoner Vonius Sintav Colus Jarol Hayn Silver Aurunceia Hassildor
+				Invel Rilian Sextius Doran Hiriel Cheynoslin Kvinchal Wavrick Kaslowyn Callidus Marillin Lovidicus Lachance Maenius Broad Ancrus Catiotus Rufus
+				Motrus Retilius Goneld Hosidus Pinder Vanin Goldwine Loran Whitestrake Olvus Mallius Inventius Rusonius Antonius Ancus Polus Broder Bruiant
+				Fralmoton Manus Vinicius Matius Hoff Turrianus Quintilius Atius Varrid Vassinus Afranius Blackwell Favonius Duronius Logellus Abor Trebatius
+				Orelius Andus Mosidius Benirus Accius Donton Kvinchal Moslin Orius Sintav Idolus Green
+		}
+	}
+	colovian = {
+			male_names = {
+				Adamus Adrian Alban Aloys Amantius Andreas Antus Arcturus Arentus Ashtus Audens Belisarius Bendu Berich Betto Bremman Brielus Brotch Bruccius
+				Carius Carmalo Carodus Cartrus Casta Cicero Claudius Collatinus Contumeliorus Corvus Cosmus Marius Regulus Cyronin Danus Decentius Denel
+				Denyiir Dion Eduard Uriel Titus Tiber Fadus Fortus Fagus Fralav Galtus Garrus Gelius Gemellus Gerich Rielus Civello Glenroy Helvius Helvo Hieronymus
+				Humilis Ilav Ilend Imus Iniel Inius Irlav Itius Jak Januarius Janus Jaras Jesan Jirolin Jiv Kantav Kastav Kurdan Langley Laythe Kaslowyn Lerexus Ley
+				Lovidicus Lucien Lurio Luther Malintius Marinus Maro Mattius Melus Menien Mercator Natch Nermus Nigidius Draninus Ontus Ormellius Otius Pelagius
+				Pelinal Olvus Pennus Pinarus Plautis Primo Ancus Rallus Raminus Reman Rimalus Ris Roliand Rufrius Savlian John Sergius Servatius Severius Amiel
+				Berich Caius Gregory Roderic Stantus Sulinus Surius Tahm Tertius Tertullian Toutius Trenus Tyrellius Valandrus Valus Vandorallen Vantus Velan Velus
+				Velwyn Viator Viranus Vlanarus Vlanhonder Vlarimil Vontan Vontus Zedrick Cassius Martin Piner Steffan
+			}
+			female_names = {
+				Alessia Ariela Arnora Astia Astinia Augusta Aviera Avita Britta Bronsila Caelia Camilla Cargas Carmana Casta Caula Arriana Millona Narina Dumania
+				Dynari erina Etira Faustina Gruiand Herminia Ida Isa Ita Janonia Jantus Jastia Javolia Jena Julitta Lenka Lucina Rosentia Marana Mariana Marlena
+				Martina Naspia Perennia Pista Praxedes Buntara Rena Renee Restita Romana Rona Rosentia Rusia Schlera Selena Selene Sibylla Silana Simplicia
+				Tertia Viera Vilena Vinicia Aia Ysabel
+			}
+			dynasty_names = { 
+				Phillida Decanius Corinis Bincal Allectus Gregori Draconis Flonius Odiil Falvius Chenius Avidius Arius Olo Inian Plotius Senyan Gawey Calus Longus
+				Patneim Runellius Truiand Oholin Gavinius Flavus Verus Arcadia Vedius Florius Umbranox Caro Terentius Sintav Artellian Opsius Mede Hodge Calidius
+				Previa Darelliun Terentius Axius Senarel Rielus Civello Cecia Atius Lex Nonius Dralgoner Vonius Sintav Colus Jarol Hayn Silver Aurunceia Hassildor
+				Invel Rilian Sextius Doran Hiriel Cheynoslin Kvinchal Wavrick Kaslowyn Callidus Marillin Lovidicus Lachance Maenius Broad Ancrus Catiotus Rufus
+				Motrus Retilius Goneld Hosidus Pinder Vanin Goldwine Loran Whitestrake Olvus Mallius Inventius Rusonius Antonius Ancus Polus Broder Bruiant
+				Fralmoton Manus Vinicius Matius Hoff Turrianus Quintilius Atius Varrid Vassinus Afranius Blackwell Favonius Duronius Logellus Abor Trebatius
+				Orelius Andus Mosidius Benirus Accius Donton Kvinchal Moslin Orius Sintav Idolus Green
+		}
+	}
+		imperial = {
+			male_names = {
+				Adamus Adrian Alban Aloys Amantius Andreas Antus Arcturus Arentus Ashtus Audens Belisarius Bendu Berich Betto Bremman Brielus Brotch Bruccius
+				Carius Carmalo Carodus Cartrus Casta Cicero Claudius Collatinus Contumeliorus Corvus Cosmus Marius Regulus Cyronin Danus Decentius Denel
+				Denyiir Dion Eduard Uriel Titus Tiber Fadus Fortus Fagus Fralav Galtus Garrus Gelius Gemellus Gerich Rielus Civello Glenroy Helvius Helvo Hieronymus
+				Humilis Ilav Ilend Imus Iniel Inius Irlav Itius Jak Januarius Janus Jaras Jesan Jirolin Jiv Kantav Kastav Kurdan Langley Laythe Kaslowyn Lerexus Ley
+				Lovidicus Lucien Lurio Luther Malintius Marinus Maro Mattius Melus Menien Mercator Natch Nermus Nigidius Draninus Ontus Ormellius Otius Pelagius
+				Pelinal Olvus Pennus Pinarus Plautis Primo Ancus Rallus Raminus Reman Rimalus Ris Roliand Rufrius Savlian John Sergius Servatius Severius Amiel
+				Berich Caius Gregory Roderic Stantus Sulinus Surius Tahm Tertius Tertullian Toutius Trenus Tyrellius Valandrus Valus Vandorallen Vantus Velan Velus
+				Velwyn Viator Viranus Vlanarus Vlanhonder Vlarimil Vontan Vontus Zedrick Cassius Martin Piner Steffan
+			}
+			female_names = {
+				Alessia Ariela Arnora Astia Astinia Augusta Aviera Avita Britta Bronsila Caelia Camilla Cargas Carmana Casta Caula Arriana Millona Narina Dumania
+				Dynari erina Etira Faustina Gruiand Herminia Ida Isa Ita Janonia Jantus Jastia Javolia Jena Julitta Lenka Lucina Rosentia Marana Mariana Marlena
+				Martina Naspia Perennia Pista Praxedes Buntara Rena Renee Restita Romana Rona Rosentia Rusia Schlera Selena Selene Sibylla Silana Simplicia
+				Tertia Viera Vilena Vinicia Aia Ysabel
+			}
+			dynasty_names = { 
+				Phillida Decanius Corinis Bincal Allectus Gregori Draconis Flonius Odiil Falvius Chenius Avidius Arius Olo Inian Plotius Senyan Gawey Calus Longus
+				Patneim Runellius Truiand Oholin Gavinius Flavus Verus Arcadia Vedius Florius Umbranox Caro Terentius Sintav Artellian Opsius Mede Hodge Calidius
+				Previa Darelliun Terentius Axius Senarel Rielus Civello Cecia Atius Lex Nonius Dralgoner Vonius Sintav Colus Jarol Hayn Silver Aurunceia Hassildor
+				Invel Rilian Sextius Doran Hiriel Cheynoslin Kvinchal Wavrick Kaslowyn Callidus Marillin Lovidicus Lachance Maenius Broad Ancrus Catiotus Rufus
+				Motrus Retilius Goneld Hosidus Pinder Vanin Goldwine Loran Whitestrake Olvus Mallius Inventius Rusonius Antonius Ancus Polus Broder Bruiant
+				Fralmoton Manus Vinicius Matius Hoff Turrianus Quintilius Atius Varrid Vassinus Afranius Blackwell Favonius Duronius Logellus Abor Trebatius
+				Orelius Andus Mosidius Benirus Accius Donton Kvinchal Moslin Orius Sintav Idolus Green
+		}
+	}
+}

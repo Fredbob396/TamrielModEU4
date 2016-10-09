@@ -1,0 +1,16 @@
+#Region - Karanake, Outer Murkwood and South-Central Argonia
+
+culture = karanakh
+religion = hist
+capital = "Narima"
+trade_goods = hunted_goods
+citysize = 15650
+hre = no
+base_tax = 5
+base_production = 5
+manpower = 3
+owner = XKR
+controller = XKR
+add_core = XKR
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

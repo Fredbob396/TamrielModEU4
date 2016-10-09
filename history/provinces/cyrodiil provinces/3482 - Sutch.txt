@@ -1,0 +1,13 @@
+culture = colovian
+religion = nine_divines
+
+owner = T22
+controller = T22
+add_core = T22
+hre = no
+base_tax = 4
+base_production = 3
+manpower = 5
+is_city = yes
+trade_goods = wine
+discovered_by = tamrielic discovered_by = XTE

@@ -1,0 +1,74 @@
+# Mistwatch
+
+graphical_culture = westerngfx
+
+color = { 226  202  65 }
+
+historical_idea_groups = {
+	quality_ideas
+	religious_ideas
+	influence_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	defensive_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Skald #0" = 40
+	"Ulfric #0" = 40
+	"Vignar #0" = 40
+	"Laila #0" = -40
+	"Sorli #0" = -40
+	"Dengeir #0" = 40
+	"Thongvor #0" = 40
+	"Korir #0" = 40
+	"Elisif #0" = -40
+	"Siddgeir #0" = 30
+	"Igmund #0" = 30
+	"Brunwulf #0" = 30
+	"Brina #0" = -30
+	"Maven #0" = -30
+	"Idgrod #0" = -30
+	"Kraldar #0" = 30
+	"Balgruuf #0" = 30
+	"Erikur #0" = 20
+	"Hrongar #0" = 20
+	"Bryling #0" = 20
+	"Eorlund #0" = 20
+	"Vignar #0" = 20
+	"Olfrid #0" = 20
+	"Torbjorn #0" = 20
+	"Thongvor #0" = 20
+	"Oengul #0" = 20
+}
+
+leader_names = {
+	Shatter-Shield Cruel-Sea Free-Winter Black-Briar Battle-Born Grey-Mane Stormcloak Law-Giver Snow-Shod Stone-Fist Ice-Veins Snow-Hammer Stormblade
+}
+
+ship_names = {
+	"Dawnstar" "Winterhold" "Windhelm" "Whiterun" "Riften" "Solitude" "Markarth" "Falkreath" "Morthal"
+}
+
+army_names = {
+	"$PROVINCE$ Army" 
+}

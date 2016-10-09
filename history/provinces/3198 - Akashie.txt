@@ -1,0 +1,16 @@
+#Region - Karanake, Outer Murkwood and South-Central Argonia
+
+culture = karanakh
+religion = hist
+capital = "Akashie"
+trade_goods = hunted_goods
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XKR
+controller = XKR
+add_core = XKR
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

@@ -1,0 +1,6 @@
+government = argonian_shogunate
+technology_group = tamrielic
+religion = hist
+mercantilism = 0.2
+primary_culture = karanakh
+capital = 3176	# Helstrom

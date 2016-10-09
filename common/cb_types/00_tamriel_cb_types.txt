@@ -1,0 +1,10 @@
+#Cyrodilic Warlords Against Everyone
+cb_warlord_expansion = {
+	valid_for_subject = no
+
+	prerequisites = {
+		government = cyrodilic_warlord
+		is_neighbor_of = FROM
+	}
+	war_goal = annex_country
+}

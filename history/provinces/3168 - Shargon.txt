@@ -1,0 +1,16 @@
+#Region - Indaren, Eastern Valus Mountains, Armun Ashlands, Roth Roryn and Western Thirr
+
+culture = hlaalu
+religion = new_temple
+capital = "Shar Gon"
+trade_goods = kwama
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XSD
+controller = XSD
+add_core = XSD
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

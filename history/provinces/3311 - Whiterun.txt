@@ -1,0 +1,16 @@
+#Region - Whiterun Hold
+
+culture = middle_nordic
+religion = talos
+capital = "Whiterun"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 7
+base_production = 7
+manpower = 4
+owner = XWR
+controller = XWR
+add_core = XWR
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

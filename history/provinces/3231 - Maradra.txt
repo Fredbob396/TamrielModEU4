@@ -1,0 +1,16 @@
+#Region - Arkethnia, Darkmoor, Sheoth Coast and Southwestern Argonia
+
+culture = arkethnian
+religion = hist
+capital = "Maradra"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XRK
+controller = XRK
+add_core = XRK
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

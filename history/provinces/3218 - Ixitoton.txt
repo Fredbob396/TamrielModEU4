@@ -1,0 +1,16 @@
+#Region - Hjalokh, Talu Swamps, Sikiha Coast and Southern Argonia
+
+culture = agaceph
+religion = hist
+capital = "Ixitoton"
+trade_goods = potions
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XKL
+controller = XKL
+add_core = XKL
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

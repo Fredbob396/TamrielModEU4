@@ -1,0 +1,16 @@
+#Region - Nezuad, Alt Orethan and Sacred Lands
+
+culture = indoril
+religion = new_temple
+capital = "Sailen"
+trade_goods = kwama
+citysize = 15650
+hre = no
+base_tax = 5
+base_production = 5
+manpower = 3
+owner = XNT
+controller = XNT
+add_core = XNT
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

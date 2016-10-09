@@ -1,0 +1,13 @@
+culture = colovian
+religion = nine_divines
+
+owner = T11
+controller = T11
+add_core = T11
+hre = no
+base_tax = 4
+base_production = 4
+manpower = 3
+is_city = yes
+trade_goods = gold
+discovered_by = tamrielic discovered_by = XTE

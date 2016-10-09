@@ -1,0 +1,16 @@
+#Region - Kamanai, Shadowfen and Northwestern Argonia
+
+culture = kamanese
+religion = hist
+capital = "Hixinoag"
+trade_goods = hunted_goods
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XKM
+controller = XKM
+add_core = XKM
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

@@ -1,0 +1,16 @@
+#Region - Akasunde, Inlet Bog, Inlet Bog Coast, Dun Akafell
+
+culture = indoril
+religion = new_temple
+capital = "Otodho"
+trade_goods = dwemer_parts
+citysize = 15650
+hre = no
+base_tax = 4
+base_production = 4
+manpower = 2
+owner = XAK
+controller = XAK
+add_core = XAK
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

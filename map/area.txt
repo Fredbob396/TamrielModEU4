@@ -1,0 +1,392 @@
+﻿########################################
+# Tamriel    	                   #
+########################################
+
+near_molagreahd_area = {
+    3072 3075 3076 3081
+}
+
+far_molagreahd_area = {
+    3071 3073 3074
+}
+
+telvanni_isles_area = {
+    3068 3069 3070
+}
+
+helnim_area = {
+    3087 3092 3093 3094
+}
+
+aranyon_area = {
+    3077 3078 3079 3080 3082
+}
+
+lake_boethiah_area = {
+    3088 3089 3090 3091
+}
+
+west_boethiah_area = {
+    3083 3084 3085 3086
+}
+
+sacred_lands_area = {
+    3098 3099 3100 3101 3659 3660
+}
+
+spine_of_nezuad_area = {
+    3097 3102 3107 3658
+}
+
+akasunde_area = {
+    3095 3096 3106 3112 3656 3657 3658
+}
+
+orethan_area = {
+    3109 3110 3111 3115 3661
+}
+
+daimon_coast_area = {
+    3103 3104 3105
+}
+
+almalexia_area = {
+    3114 3116 3120
+}
+
+kanadesit_area = {
+    3108 3117 3118 3119 3655
+}
+
+east_thirr_area = {
+    3113 3121 3148 3654
+}
+
+jer_ahkrin_area = {
+    3128 3129 3130 3131 3132 3133
+}
+
+uvonaak_area = {
+    3160 3161 3162 3163 3164 3165
+}
+
+kragenmoor_area = {
+    3166 3167 3168 3169 3665
+}
+
+west_thirr_area = {
+    3122 3123 3127
+}
+
+roth_roryn_area = {
+    3124 3125 3159
+}
+
+armun_area = {
+    3135 3136 3137 3138 3139
+}
+
+morimath_area = {
+    3140 3141 3142
+}
+
+solstheim_area = {
+    3143 3144 3145 3146 3147
+}
+
+coastal_indar_area = {
+    3126 3149 3151 3154
+}
+
+mid_veloth_area = {
+    3150 3152 3153 3155 3664
+}
+
+redoran_area = {
+    3156 3157 3158 3245
+}
+
+kagrenzel_area = {
+    3244 3246 3248
+}
+
+bitter_coast_area = {
+    3057 3058 3060
+}
+
+odai_area = {
+    3049 3055 3056
+}
+
+ascadia_area = {
+    3050 3052 3053 3054
+}
+
+molag_amur_area = {
+    3045 3046 3047 3048
+}
+
+zafirbel_area = {
+    3038 3039 3040 3041 3042
+}
+
+grazelands_area = {
+    3034 3035 3036 3037
+}
+
+north_ashlands_area = {
+    3059 3064 3065 3066
+}
+
+west_gash_area = {
+    3061 3062 3063 3067
+}
+
+sheogorad_area = {
+    3027 3028 3029 3031
+}
+
+north_vvardenfell_area = {
+    3030 3032 3033
+}
+
+north_seydahnil_area = {
+    3236 3237 3238 3239
+}
+
+south_seydahnil_area = {
+    3227 3228 3229
+}
+
+darkmoor_area = {
+    3199 3220 3226 3230
+}
+
+axadnia_area = {
+    3231 3232 3233 3234 3235 3662
+}
+
+kulania_area = {
+    3219 3221 3222
+}
+
+kamanai_area = {
+    3177 3178 3179 3180
+}
+
+ok_nanha_area = {
+    3175 3176 3182
+}
+
+clawreach_area = {
+    3185 3186 3195
+}
+
+karanake_area = {
+    3194 3196 3197 3198
+}
+
+north_hjalokh_area = {
+    3201 3224 3225 3663
+}
+
+lake_hjalokh_area = {
+    3200 3202 3203 3204 3214 3215
+}
+
+sikiha_area = {
+    3205 3207 3217 3218
+}
+
+arnesia_area = {
+    3170 3171 3172 3173 3174 3184
+}
+
+north_atronium_area = {
+    3188 3189 3190
+}
+
+xi_helai_area = {
+    3191 3192 3193 3223
+}
+
+klamabe_area = {
+    3208 3209 3216
+}
+
+firewalk_area = {
+    3210 3211 3212 3213
+}
+
+argonian_wastelands_area = {
+    3183 3187 3206
+}
+
+north_rift_area = {
+    3259 3260 3261 3272 3273 3274
+}
+
+south_rift_area = {
+    3262 3263 3264 3265 3266
+}
+
+geirland_area = {
+    3254 3267 3270 3271
+}
+
+eastmarch_volcanic_area = {
+    3250 3251 3252 3253 3257 3258
+}
+
+eastmarch_river_area = {
+    3247 3249 3250 3255 3256
+}
+
+yorgrim_area = {
+    3282 3283 3284 3312
+}
+
+winterhold_area = {
+    3275 3276 3277 3278
+}
+
+north_pale_area = {
+    3279 3280 3281
+}
+
+whiterun_area = {
+    3308 3310 3311 3313 3314
+}
+
+skyrim_jeralls_area = {
+    3268 3269 3319 3323
+}
+
+north_falkreath_area = {
+    3316 3317 3318 3320 3321
+}
+
+south_falkreath_area = {
+    3322 3324 3325 3326 3327
+}
+
+rorikstead_area = {
+    3304 3305 3306 3307 3309
+}
+
+hjaalmarch_area = {
+    3287 3288 3289 3301 3302 3303
+}
+
+east_haafingar_area = {
+    3290 3292 3293 3299 3300
+}
+
+west_haafingar_area = {
+    3291 3295 3296 3297 3298
+}
+
+markarth_area = {
+    3329 3332 3333
+}
+
+karthwasten_area = {
+    3328 3294 3330 3331
+}
+
+anvil_area = {
+	3488 3489 3490 3491
+}
+n_goldcoast_area = {
+	3483 3484 3485 3486
+}
+w_colovian_highlands_area = {
+	3468 3478 3479 3480 3482
+}
+kvatch_area = {
+	3476 3477 3487 3475 3474 3472
+}
+shardrock_area = {
+	3469 3470 3471 3473
+}
+valen_border_area = {
+	3493 3494 3525
+}
+skingrad_area = {
+	3527 3528 3526 3509 3523 3504 3508 3507
+}
+nornalhorst_area = {
+	3524 3522 3521 3520 3519
+}
+hackdirt_area = {
+	3496 3506 3495
+}
+chorrol_area = {
+	3456 3498 3499 3497 3467
+}
+w_jeralls_area = {
+	3466 3455 3454 3453 3450 3449
+}
+glademist_area = {
+	3500 3505 3452 3451
+}
+e_jeralls_area = {
+	3436 3432 3433 3435 3434 3448
+}
+bleakers_way_area = {
+	3437 3438 3446 3447
+}
+city_isle_area = {
+	3529 3530 3461 3531
+}
+weye_area = {
+	3502 3501 3503 3510
+}
+n_heartlands_area = {
+	3443 3444 3442 3441 3445 
+}
+e_heartlands_area = {
+	3458 3459 3460
+}
+pells_gate_area = {
+	3513 3512 3511
+}
+alessia_area = {
+	3515 3514
+}
+cheydinhal_area = {
+	3429 3428 3430 3440 3457 3462
+}
+drakelowe_area = {
+	3417 3427 3426
+}
+n_valus_area = {
+	3439 3424 3423 3422 3421 3420 3419 3418
+}
+hame_area = {
+	3416 3415 3414
+}
+cropsford_area = {
+	3425 3463 3413 3412
+}
+s_valus_area = {
+	3181 3403 3404 3402
+}
+altar_valley_area = {
+	3406 3405 3409 3407 3401
+}
+blackwood_area = {
+	3339 3341 3340 3337 3338 3335 3336 3343 3400 3342
+}
+topal_bay_area = {
+	3345 3334 3242 3243 3344
+}
+borderwatch_area = {
+	3348 3346 3347 3349
+}
+w_niben_area = {
+	3350 3351 3518 3517 3516
+}
+e_niben_area = {
+	3408 3410 3565 3411 3464 3465
+}

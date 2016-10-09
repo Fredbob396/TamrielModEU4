@@ -1,0 +1,17 @@
+#3068 - Port Telvannis
+
+culture = telvon
+religion = nine_divines
+capital = "Firewatch"
+trade_goods = iron
+citysize = 15650
+hre = no
+base_tax = 4
+base_production = 4
+manpower = 3
+owner = XFW
+controller = XFW
+add_core = XFW
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE
+discovered_by = XFW

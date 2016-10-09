@@ -1,0 +1,16 @@
+#Region - Vvardenfell
+
+culture = telvon
+religion = new_temple
+capital = "Dagon Fel"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XTE
+controller = XTE
+add_core = XTE
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

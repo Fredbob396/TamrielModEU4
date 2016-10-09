@@ -1,0 +1,18 @@
+government = despotic_monarchy
+technology_group = tamrielic
+religion = daedra_worship
+mercantilism = 0.2
+primary_culture = orcish
+capital = 3251	# Narzulbur
+
+
+1420.1.1 = {
+	monarch = {
+		name = "Shalug"
+		dynasty = "gro-Narzul"
+		birth_date = 1415.1.1
+		adm = 2
+		dip = 1
+		mil = 4
+	}
+}

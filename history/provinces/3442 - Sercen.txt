@@ -1,0 +1,18 @@
+culture = imperial
+religion = daedra_worship
+
+owner = T39
+controller = T39
+add_core = T39
+hre = no
+base_tax = 2
+base_production = 1
+manpower = 3
+is_city = yes
+trade_goods = fish
+discovered_by = tamrielic discovered_by = XTE
+
+add_permanent_province_modifier = {
+	name = daedric_shrine
+	duration = -1
+}

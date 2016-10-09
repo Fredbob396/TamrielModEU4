@@ -1,0 +1,82 @@
+# Kagrenzel (Dunmer Refugee State)
+
+graphical_culture = westerngfx
+
+color = { 87  39  127 }
+
+historical_idea_groups = {
+	quality_ideas
+	religious_ideas
+	influence_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	defensive_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Vorith #0" = 60
+	"Alvu #0" = -60
+	"Folvys #0" = 50
+	"Veradul #0" = 50
+	"Nothasea #0" = -50
+	"Dram #0" = 50
+	"Novas #0" = 50
+	"Seras #0" = 40
+	"Drolam #0" = 40
+	"Simine #0" = -40
+	"Inaras #0" = -40
+	"Thonis #0" = 40
+	"Erendes #0" = 40
+	"Nethyn #0" = 40
+	"Andyn #0" = 30
+	"Hlura #0" = -30
+	"Flaalsa #0" = -30
+	"Veros #0" = 30
+	"Athryil #0" = 30
+	"Odrothi #0" = 30
+	"Terlesi #0" = -30
+	"Athelyn #0" = 30
+	"Faras #0" = 20
+	"Folvys #0" = 20
+	"Aras #0" = 20
+	"Mivas #0" = 20
+	"Dram #0" = 20
+	"Areni #0" = -20
+	"Tira #0" = -20
+	"Irea #0" = -20
+}
+
+leader_names = {
+	Hahnim Mansenat Niveru Narvud Silvin Midrem Minirath Dilthim
+	Delvas Rathryon Balvel Gimalvel Ondyn Rurvyn Milar Menas Maren
+	Sareleth Hlervan Turethi Othralas Savil Omayn Herothran Othran Gols Drinith
+	Senim Veroth Indaren Valden Irano Modras Dralethan
+	
+}
+
+ship_names = {
+	"Orethan" "Ancestor" "Necrom" "Almalexia's Grace" "Mournhold" "Vivec's Fury" "Daizan" "Sailen" "Dreynim" "Meralag"
+}
+
+army_names = {
+	"$PROVINCE$ Army" 
+}

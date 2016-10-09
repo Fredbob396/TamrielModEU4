@@ -1,0 +1,16 @@
+#Region - Whiterun Hold
+
+culture = middle_nordic
+religion = talos
+capital = "Gjukar"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 2
+manpower = 2
+owner = XRR
+controller = XRR
+add_core = XRR
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

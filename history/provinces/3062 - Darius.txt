@@ -1,0 +1,16 @@
+#Region - Vvardenfell
+
+culture = velothi
+religion = new_temple
+capital = "Gnisis"
+trade_goods = kwama
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 3
+owner = XRD
+controller = XRD
+add_core = XRD
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

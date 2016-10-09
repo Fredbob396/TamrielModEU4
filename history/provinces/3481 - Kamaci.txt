@@ -1,0 +1,8 @@
+culture = colovian
+religion = nine_divines
+
+hre = no
+base_tax = 1
+base_production = 1
+manpower = 2
+discovered_by = tamrielic discovered_by = XTE

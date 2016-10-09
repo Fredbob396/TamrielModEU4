@@ -1,0 +1,13 @@
+culture = nibenean
+religion = nine_divines
+
+owner = T54
+controller = T54
+add_core = T54
+hre = no
+base_tax = 1
+base_production = 2
+manpower = 2
+is_city = yes
+trade_goods = grain
+discovered_by = tamrielic discovered_by = XTE

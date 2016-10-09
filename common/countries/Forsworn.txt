@@ -1,0 +1,62 @@
+# Forsworn
+
+graphical_culture = westerngfx
+
+color = { 196  130  51 }
+
+historical_idea_groups = {
+	quality_ideas
+	religious_ideas
+	influence_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	defensive_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Madanach #0" = 60
+	"Duach #0" = 40
+	"Odvan #0" = 40
+	"Kaie #0" = -40
+	"Uaile #0" = -40
+	"Uraccen #0" = 40
+	"Braig #0" = 40
+	"Weylin #0" = 40
+	"Nana #0" = -40
+	"Donnel #0" = 40
+	"Dryston #0" = 40
+	"Morven #0" = 40
+	"Nepos #0" = 40
+	"Tynan #0" = 40
+}
+
+leader_names = {
+	Ildene Gestor Letrush Lothaire Merchad Morrard Nytte Rarnis San Stentor Frey Bincal Georick Herrick Brolus Merowald Rielle Stegine Wirich
+}
+
+ship_names = {
+	"Dawnstar" "Winterhold" "Windhelm" "Whiterun" "Riften" "Solitude" "Markarth" "Falkreath" "Morthal"
+}
+
+army_names = {
+	"$PROVINCE$ Army" 
+}

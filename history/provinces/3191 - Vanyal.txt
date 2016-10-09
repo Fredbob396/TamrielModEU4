@@ -1,0 +1,16 @@
+#Region - Atronium, Hankaj Coast and Eastern Argonia
+
+culture = archein
+religion = hist
+capital = "Jer Vanyal"
+trade_goods = potions
+citysize = 15650
+hre = no
+base_tax = 4
+base_production = 4
+manpower = 2
+owner = XAT
+controller = XAT
+add_core = XAT
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

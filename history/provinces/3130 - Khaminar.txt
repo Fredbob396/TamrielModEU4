@@ -1,0 +1,16 @@
+#Region - Jer Ahkrin, Nuhyas Point and Southeastern Former Morrowind
+
+culture = falyani
+religion = hist
+capital = "Khaminar"
+trade_goods = grain
+citysize = 15650
+hre = no
+base_tax = 4
+base_production = 4
+manpower = 2
+owner = XJA
+controller = XJA
+add_core = XJA
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

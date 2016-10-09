@@ -1,0 +1,16 @@
+#Region - Isle of Lilmothiit
+
+culture = lilmothiit
+religion = hist
+capital = "Lilmoth"
+trade_goods = gold
+citysize = 15650
+hre = no
+base_tax = 7
+base_production = 7
+manpower = 5
+owner = XLI
+controller = XLI
+add_core = XLI
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

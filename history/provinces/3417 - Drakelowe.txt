@@ -1,0 +1,13 @@
+culture = nibenean
+religion = nine_divines
+
+owner = T18
+controller = T18
+add_core = T18
+hre = no
+base_tax = 4
+base_production = 3
+manpower = 4
+is_city = yes
+trade_goods = tobacco
+discovered_by = tamrielic discovered_by = XTE

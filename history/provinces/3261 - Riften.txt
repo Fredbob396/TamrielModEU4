@@ -1,0 +1,16 @@
+#Region - The Rift
+
+culture = south_nordic
+religion = talos
+capital = "Riften"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 6
+base_production = 6
+manpower = 4
+owner = XRI
+controller = XRI
+add_core = XRI
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

@@ -1,0 +1,13 @@
+culture = dagoni
+religion = nine_divines
+
+owner = T52
+controller = T52
+add_core = T52
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 5
+is_city = yes
+trade_goods = potions
+discovered_by = tamrielic discovered_by = XTE

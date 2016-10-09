@@ -1,0 +1,19 @@
+government = feudal_monarchy
+technology_group = tamrielic
+religion = nine_divines
+mercantilism = 0.2
+primary_culture = telvon
+capital = 3074	# Firewatch
+
+
+1402.1.1 = {
+	monarch = {
+		name = "Perulia"
+		dynasty = "Jandacia"
+		birth_date = 1402.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+		female = yes
+	}
+}

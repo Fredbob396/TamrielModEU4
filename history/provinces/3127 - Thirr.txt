@@ -1,0 +1,18 @@
+#Region - Indaren, Eastern Valus Mountains, Armun Ashlands, Roth Roryn and Western Thirr
+
+culture = hlaalu
+religion = new_temple
+capital = "Almas Thirr"
+trade_goods = potions
+citysize = 15650
+hre = no
+base_tax = 4
+base_production = 4
+manpower = 3
+owner = XDR
+controller = XDR
+add_core = XDR
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE
+
+1440.1.1 = { fort_15th = yes }

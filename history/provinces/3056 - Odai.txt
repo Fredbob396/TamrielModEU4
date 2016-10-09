@@ -1,0 +1,16 @@
+#Region - Vvardenfell
+
+culture = velothi
+religion = new_temple
+capital = "Balmora"
+trade_goods = kwama
+citysize = 15650
+hre = no
+base_tax = 5
+base_production = 5
+manpower = 4
+owner = XRD
+controller = XRD
+add_core = XRD
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

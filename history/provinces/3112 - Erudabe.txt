@@ -1,0 +1,16 @@
+#Region - Akasunde, Inlet Bog, Inlet Bog Coast, Dun Akafell
+
+culture = nakan
+religion = new_temple
+capital = "Erudabe"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 5
+base_production = 5
+manpower = 3
+owner = XAK
+controller = XAK
+add_core = XAK
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

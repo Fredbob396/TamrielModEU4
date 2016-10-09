@@ -1,0 +1,16 @@
+#Region - Hjalokh, Talu Swamps, Sikiha Coast and Southern Argonia
+
+culture = agaceph
+religion = hist
+capital = "Mardurne"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 2
+base_production = 2
+manpower = 1
+owner = XHJ
+controller = XHJ
+add_core = XHJ
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

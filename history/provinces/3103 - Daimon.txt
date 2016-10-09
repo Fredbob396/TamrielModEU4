@@ -1,0 +1,16 @@
+#Region - Nezuad, Alt Orethan and Sacred Lands
+
+culture = indoril
+religion = new_temple
+capital = "Seitur"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XNT
+controller = XNT
+add_core = XNT
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

@@ -1,0 +1,16 @@
+#Region - Eastmarch
+
+culture = orcish
+religion = daedra_worship
+capital = "Narzulbur"
+trade_goods = copper
+citysize = 15650
+hre = no
+base_tax = 2
+base_production = 2
+manpower = 2
+owner = XNZ
+controller = XNZ
+add_core = XNZ
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

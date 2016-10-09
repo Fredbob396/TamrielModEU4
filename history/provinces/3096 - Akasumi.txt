@@ -1,0 +1,18 @@
+#Region - Akasunde, Inlet Bog, Inlet Bog Coast, Dun Akafell
+
+culture = nakan
+religion = new_temple
+capital = "Dun Akafell"
+trade_goods = alchemical_goods
+citysize = 15650
+hre = no
+base_tax = 8
+base_production = 8
+manpower = 5
+owner = XAK
+controller = XAK
+add_core = XAK
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE
+
+1440.1.1 = { fort_15th = yes }

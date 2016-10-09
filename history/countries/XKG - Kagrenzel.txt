@@ -1,0 +1,18 @@
+government = administrative_republic
+technology_group = tamrielic
+religion = new_temple
+mercantilism = 0.2
+primary_culture = velothi
+capital = 3244	# Kagrenzel
+
+
+1415.1.1 = {
+	monarch = {
+		name = "Akan"
+		dynasty = "Endalos"
+		birth_date = 1415.1.1
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}

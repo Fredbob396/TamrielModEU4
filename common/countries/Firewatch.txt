@@ -1,0 +1,59 @@
+# Imperial (?) Republic (?) of Firewatch
+
+graphical_culture = westerngfx
+
+color = { 183  111  47 }
+
+historical_idea_groups = {
+	quality_ideas
+	religious_ideas
+	influence_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	defensive_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Galan #0" = 60
+	"Perulia #0" = -60
+	"Verginius #0" = 40
+	"Darnell #0" = 40
+	"Herdonia #0" = -40
+	"Timeo #0" = 40
+	"Senillos #0" = 30
+	"Ladia #0" = -30
+	"Vaselius #0" = 20
+	"Gindaman #0" = 20
+	"Silniel #0" = -20
+}
+
+leader_names = {
+	Jandacia Varan Callonus Tulnus Darnell Brandt Tunifus Beluel Phiencel Macrin
+}
+
+ship_names = {
+	"Pride of Firewatch" "Nassudan" "Pahunsabi" "Odimasadra" "Sanammasour"
+}
+
+army_names = {
+	"$PROVINCE$ Army" 
+}

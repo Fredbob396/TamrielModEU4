@@ -1,0 +1,16 @@
+#Region - The Rift
+
+culture = old_nordic
+religion = new_temple
+capital = "Tolvald"
+trade_goods = alchemical_goods
+citysize = 15650
+hre = no
+base_tax = 4
+base_production = 4
+manpower = 2
+owner = XKG
+controller = XKG
+add_core = XKG
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

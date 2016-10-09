@@ -1,0 +1,16 @@
+#Region - Isle of Lilmothiit
+
+culture = lilmothiit
+religion = hist
+capital = "Xun'yotosi"
+trade_goods = alchemical_goods
+citysize = 15650
+hre = no
+base_tax = 4
+base_production = 4
+manpower = 2
+owner = XLI
+controller = XLI
+add_core = XLI
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

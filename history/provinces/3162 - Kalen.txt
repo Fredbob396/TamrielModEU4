@@ -1,0 +1,16 @@
+#Region - Uvonaak, Pryai River and Southwestern Morrowind
+
+culture = hlaalu
+religion = new_temple
+capital = "Andaram"
+trade_goods = dwemer_parts
+citysize = 15650
+hre = no
+base_tax = 4
+base_production = 4
+manpower = 2
+owner = XHL
+controller = XHL
+add_core = XHL
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

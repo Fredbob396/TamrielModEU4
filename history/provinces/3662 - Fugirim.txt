@@ -1,0 +1,16 @@
+#Region - Arkethnia, Darkmoor, Sheoth Coast and Southwestern Argonia
+
+culture = arkethnian
+religion = hist
+capital = "Fugirim"
+trade_goods = alchemical_goods
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 2
+manpower = 2
+owner = XRK
+controller = XRK
+add_core = XRK
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

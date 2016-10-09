@@ -1,0 +1,18 @@
+government = despotic_monarchy
+technology_group = tamrielic
+religion = talos
+mercantilism = 0.2
+primary_culture = haafingar
+capital = 3290	# Haafingar
+
+
+1417.1.1 = {
+	monarch = {
+		name = "Ankor"
+		dynasty = "Farseer"
+		birth_date = 1417.1.1
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+}

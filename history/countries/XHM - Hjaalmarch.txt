@@ -1,0 +1,18 @@
+government = despotic_monarchy
+technology_group = tamrielic
+religion = talos
+mercantilism = 0.2
+primary_culture = haafingar
+capital = 3288	# Morthal
+
+
+1406.1.1 = {
+	monarch = {
+		name = "Lars"
+		dynasty = "Ravenkin"
+		birth_date = 1406.1.1
+		adm = 4
+		dip = 1
+		mil = 4
+	}
+}

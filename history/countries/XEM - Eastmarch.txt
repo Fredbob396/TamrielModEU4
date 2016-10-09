@@ -1,0 +1,18 @@
+government = despotic_monarchy
+technology_group = tamrielic
+religion = talos
+mercantilism = 0.2
+primary_culture = old_nordic
+capital = 3249	# Windhelm
+
+
+1409.1.1 = {
+	monarch = {
+		name = "Henrik"
+		dynasty = "Stormcloak"
+		birth_date = 1409.1.1
+		adm = 1
+		dip = 2
+		mil = 4
+	}
+}

@@ -1,0 +1,13 @@
+culture = dagoni
+religion = nine_divines
+
+owner = T08
+controller = T08
+add_core = T08
+hre = no
+base_tax = 5
+base_production = 4
+manpower = 3
+is_city = yes
+trade_goods = alchemical_goods
+discovered_by = tamrielic discovered_by = XTE

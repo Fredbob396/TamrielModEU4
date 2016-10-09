@@ -1,0 +1,33 @@
+#Tamriel Superregions
+
+morrowind_superregion = {
+	telvannis_region
+	indoril_region
+	south_morrowind_region
+	veloth_region
+	vvardenfell_region
+}
+
+argonia_superregion = {
+	kynokhia_region
+	karanakh_region
+	atron_region
+}
+
+skyrim_superregion = {
+	old_skyrim_region
+	south_skyrim_region
+	haafinheim_region
+}
+
+cyrodiil_superregion = {
+	anvil_region
+	kvatch_region
+	chorrol_region
+	bruma_region
+	cheydinhal_region
+	leyawiin_region
+	skingrad_region
+	heartlands_region
+	bravil_region
+}

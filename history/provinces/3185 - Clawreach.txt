@@ -1,0 +1,16 @@
+#Region - Clawreach, Inner Murkwood and Central Argonia
+
+culture = karanakh
+religion = hist
+capital = "Onhixa"
+trade_goods = hunted_goods
+citysize = 15650
+hre = no
+base_tax = 4
+base_production = 4
+manpower = 3
+owner = XAR
+controller = XAR
+add_core = XAR
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

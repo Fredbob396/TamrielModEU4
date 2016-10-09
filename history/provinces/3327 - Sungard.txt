@@ -1,0 +1,16 @@
+#Region - Falkreath Hold
+
+culture = south_nordic
+religion = talos
+capital = "Sungard"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 3
+owner = XFK
+controller = XFK
+add_core = XFK
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

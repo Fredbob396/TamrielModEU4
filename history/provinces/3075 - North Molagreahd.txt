@@ -1,0 +1,16 @@
+#3068 - Port Telvannis
+
+culture = telvon
+religion = new_temple
+capital = "Baelkashpitu"
+trade_goods = kwama
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XTE
+controller = XTE
+add_core = XTE
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

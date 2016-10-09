@@ -1,0 +1,13 @@
+culture = imperial
+religion = nine_divines
+
+owner = T15
+controller = T15
+add_core = T15
+hre = no
+base_tax = 5
+base_production = 3
+manpower = 2
+is_city = yes
+trade_goods = cloth
+discovered_by = tamrielic discovered_by = XTE

@@ -1,0 +1,59 @@
+# Imperial (?) Republic (?) of Helnim
+
+graphical_culture = westerngfx
+
+color = { 47  111  183 }
+
+historical_idea_groups = {
+	quality_ideas
+	religious_ideas
+	influence_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	defensive_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Caedan #0" = 60
+	"Contumius #0" = -60
+	"Kerlag #0" = 40
+	"Brandirn #0" = 40
+	"Hartise #0" = -40
+	"Helrus #0" = 30
+	"Servas #0" = 30
+	"Lorus #0" = 30
+	"Neval #0" = 20
+	"Varil #0" = 20
+	"Cantorius #0" = 20
+}
+
+leader_names = {
+	Jorval Flavius Jeral Capris Avius Mernil Flavius Tramel Mercura Alerinus Goval Solius Melitorus Varousha Marthus
+}
+
+ship_names = {
+	"Pride of Helnim" "Narrusa's Envy" "Berantus" "Veralan" "Asnadan" "Yenidan"
+}
+
+army_names = {
+	"$PROVINCE$ Army" 
+}

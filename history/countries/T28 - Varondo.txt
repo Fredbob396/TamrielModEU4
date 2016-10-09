@@ -1,0 +1,7 @@
+government = cyrodilic_warlord
+government_rank = 1
+technology_group = tamrielic
+religion = daedra_worship
+mercantilism = 0.2
+primary_culture = colovian
+capital = 3468

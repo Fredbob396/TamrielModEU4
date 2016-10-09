@@ -1,0 +1,16 @@
+#Region - The Pale/Dawnstar Coast
+
+culture = old_nordic
+religion = talos
+capital = "Dawnstar"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 5
+base_production = 5
+manpower = 3
+owner = XPL
+controller = XPL
+add_core = XPL
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

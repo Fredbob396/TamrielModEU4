@@ -1,0 +1,463 @@
+# Argonia
+
+graphical_culture = southamericagfx
+
+color = { 62  130  8 }
+
+historical_idea_groups = {
+	quality_ideas
+	religious_ideas
+	influence_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	defensive_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+# Some clarification is needed here as Argonian names are still a mystery:
+	
+# Argonia itself has an even chance of ANY name coming up. Western Argonia favours Oblivion names, North favours Morrowind names, East and Central favour ESO and Lore names.
+
+# Surnames are the second part of double-barrelled normal Argonian names. This probably isn't what Argonians actually do but they're the closest to surnames they have.
+
+# I'm assuming Argonian society isn't gender-biased much, considering they might well be able to change gender. I tend to think of Argonians as being in "hunter phase" vs. "settler phase" rather than male and female.
+
+# Structure: first group = Male from Morrowind, second = Male from Oblivion, third = Male from Skyrim, fourth = Male from ESO, fifth = Male from other lore, sixth = Female from Morrowind, seventh = Female from Oblivion, eighth = Female from Skyrim, ninth = Female from Other Lore, tenth = Female from ESO
+
+monarch_names = {	
+	"Asum #0" = 20
+	"Bunish #0" = 20
+	"Busheeus #0" = 20
+	"Chalureel #0" = 20
+	"Chiwish #0" = 20
+	"Chulz #0" = 20
+	"Chuna #0" = 20
+	"Haran #0" = 20
+	"Hathei #0" = 20
+	"Heedul #0" = 20
+	"Huleeya #0" = 20
+	"Huzei #0" = 20
+	"Inee #0" = 20
+	"Itan #0" = 20
+	"Meer #0" = 20
+	"Milos #0" = 20
+	"Neetinei #0" = 20
+	"Okaw #0" = 20
+	"Peeradeeh #0" = 20
+	"Rasha #0" = 20
+	"Reemukeeus #0" = 20
+	"Reesa #0" = 20
+	"Seewul #0" = 20
+	"Skeetul #0" = 20
+	"Tanan #0" = 20
+	"Teegla #0" = 20
+	"Tul #0" = 20
+	"Ukawei #0" = 20
+	"Ula #0" = 20
+	"Utadeek #0" = 20
+	"Weeltul #0" = 20
+	"Weer #0" = 20
+	"An-Zaw #0" = 20
+	"Bun-Teemeeta #0" = 20
+	"Dan-Ru #0" = 20
+	"Effe-Tei #0" = 20
+	"Eleedal-Lei #0" = 20
+	"Gah Julan #0" = 20
+	"Gam-Kur #0" = 20
+	"Geel-Lah #0" = 20
+	"Haj-Ei #0" = 20
+	"Han-Tulm #0" = 20
+	"Heem-La #0" = 20
+	"Heir-Zish #0" = 20
+	"Im-Kilaya #0" = 20
+	"Jeelus-Tei #0" = 20
+	"Jeer-Maht #0" = 20
+	"Junal-Lei #0" = 20
+	"Keerasa-Tan #0" = 20
+	"Miun-Gei #0" = 20
+	"Mush-Mere #0" = 20
+	"Okan-Shei #0" = 20
+	"Oleen-Gei #0" = 20
+	"Olink-Nur #0" = 20
+	"Reeh-Jah #0" = 20
+	"Silm-Dar #0" = 20
+	"Tee-Lan #0" = 20
+	"Tim-Jush #0" = 20
+	"Vistha-Kai #0" = 20
+	"Wanan-Dum #0" = 20
+	"Wih-Eius #0" = 20
+	"Wud-Neeus #0" = 20
+	"Wuleen-Shei #0" = 20
+
+	"Amusei #0" = 20
+	"Deeh #0" = 20
+	"Geel #0" = 20
+	"Jeelius #0" = 20
+	"Mahei #0" = 20
+	"Otumeel #0" = 20
+	"Pajeen #0" = 20
+	"Reenum #0" = 20
+	"Sakeepa #0" = 20
+	"Saliith #0" = 20
+	"Teekeeus #0" = 20
+	"Teinaava #0" = 20
+	"Usheeja #0" = 20
+	"Wumeek #0" = 20
+	"Yinz'r #0" = 20
+	"Ah-Malz #0" = 20
+	"Ajum-Kajin #0" = 20
+	"Beem-Kiurz #0" = 20
+	"Dar-Jee #0" = 20
+	"Deetum-Ja #0" = 20
+	"Dreet-Lai #0" = 20
+	"Er-Teeus #0" = 20
+	"Geem-Jasaiin #0" = 20
+	"Gin-Wulm #0" = 20
+	"Jee-Tah #0" = 20
+	"Jeetum-Ze #0" = 20
+	"Oleed-Ei #0" = 20
+	"Pad-Ei #0" = 20
+	"Tun-Zeeus #0" = 20
+	"Weebam-Na #0" = 20
+
+	"Deekus #0" = 20
+	"Derkeethus #0" = 20
+	"Madesi #0" = 20
+	"Neetrenaza #0" = 20
+	"Usha #0" = 20
+	"Veezara #0" = 20
+	"Beem-Ja #0" = 20
+	"Gajul-Lei #0" = 20
+	"Gulum-Ei #0" = 20
+	"Ilas-Tei #0" = 20
+	"Jaree-Ra #0" = 20
+	"Talen-Jei #0" = 20
+	"Teeba-Ei #0" = 20
+
+	"Azeel #0" = 20
+	"Azimar #0" = 20
+	"Banka #0" = 20
+	"Barnaxi #0" = 20
+	"Batuus #0" = 20
+	"Beshnus #0" = 20
+	"Bijot #0" = 20
+	"Bosekus #0" = 20
+	"Bunach #0" = 20
+	"Buujhan #0" = 20
+	"Chakuk #0" = 20
+	"Chalish #0" = 20
+	"Chilwir #0" = 20
+	"Chitakus #0" = 20
+	"Darasken #0" = 20
+	"Debameel #0" = 20
+	"Deegeeta #0" = 20
+	"Deekonus #0" = 20
+	"Deekum #0" = 20
+	"Demeepa #0" = 20
+	"Dezanu #0" = 20
+	"Drumarz #0" = 20
+	"Dunaxith #0" = 20
+	"Esqoo #0" = 20
+	"Hareeya #0" = 20
+	"Jaraleet #0" = 20
+	"Jeela #0" = 20
+	"Jeelus #0" = 20
+	"Jilux #0" = 20
+	"Kepanuu #0" = 20
+	"Kiameed #0" = 20
+	"Lotash #0" = 20
+	"Luteema #0" = 20
+	"Maahi #0" = 20
+	"Maheelius #0" = 20
+	"Mathei #0" = 20
+	"Meejapa #0" = 20
+	"Meensuda #0" = 20
+	"Miharil #0" = 20
+	"Mobareed #0" = 20
+	"Mohimeem #0" = 20
+	"Mopakuz #0" = 20
+	"Motuu #0" = 20
+	"Mujeen #0" = 20
+	"Muranatepa #0" = 20
+	"Napetui #0" = 20
+	"Nazuux #0" = 20
+	"Nebutil #0" = 20
+	"Neetzara #0" = 20
+	"Neposh #0" = 20
+	"Netapatuu #0" = 20
+	"Nexith #0" = 20
+	"Nodeeus #0" = 20
+	"Nosaleeth #0" = 20
+	"Nowajeem #0" = 20
+	"Obaxith #0" = 20
+	"Okeeh #0" = 20
+	"Onuja #0" = 20
+	"Opatieel #0" = 20
+	"Pacheeva #0" = 20
+	"Parash #0" = 20
+	"Paduxi #0" = 20
+	"Pejureel #0" = 20
+	"Petaxai #0" = 20
+	"Pideelus #0" = 20
+	"Pojeel #0" = 20
+	"Radithax #0" = 20
+	"Rareel #0" = 20
+	"Redieeus #0" = 20
+	"Resari #0" = 20
+	"Rupah #0" = 20
+	"Sakeeus #0" = 20
+	"Sejaijiilax #0" = 20
+	"Shakiis #0" = 20
+	"Sureeus #0" = 20
+	"Tanaka #0" = 20
+	"Teeka #0" = 20
+	"Teineeja #0" = 20
+	"Terezeeus #0" = 20
+	"Tikaasi #0" = 20
+	"Ukatsei #0" = 20
+	"Ulawa #0" = 20
+	"Utadeek #0" = 20
+	"Utamukeeus #0" = 20
+	"Utatul #0" = 20
+	"Veekas #0" = 20
+	"Veenaza #0" = 20
+	"Vudeelal #0" = 20
+	"Wayiteh #0" = 20
+	"Abijoo-Anoo #0" = 20
+	"Am-Sakka #0" = 20
+	"An-Jeen-Sakka #0" = 20
+	"An-Jeen-Seek #0" = 20
+	"Aojee-Da #0" = 20
+	"Az-Muz #0" = 20
+	"Azjai-Tee #0" = 20
+	"Baar-Taeed #0" = 20
+	"Bar-Neeus #0" = 20
+	"Batar-Meej #0" = 20
+	"Bimee-Kas #0" = 20
+	"Cheedal-Gah #0" = 20
+	"Chee-Sei #0" = 20
+	"Dakee-Goh #0" = 20
+	"Deed-Mema #0" = 20
+	"Depasa-Chath #0" = 20
+	"Deroh-Metaku #0" = 20
+	"Ei-Eiuus #0" = 20
+	"Ei-Etaku #0" = 20
+	"Er-Jaseen #0" = 20
+	"Gam-Kur #0" = 20
+	"Geeh-Liurz #0" = 20
+	"Heem-Jas #0" = 20
+	"Hizeeh-Raz #0" = 20
+	"Im-Kajin #0" = 20
+	"Im-Zish #0" = 20
+	"Ja-Reet #0" = 20
+	"Jeer-Tei #0" = 20
+	"Jin-Ei #0" = 20
+	"Kamax-Ei #0" = 20
+	"Keema-Ta #0" = 20
+	"Lara-Eix #0" = 20
+	"Loh-Jat #0" = 20
+	"Luh-Maxath #0" = 20
+	"Marz-Ja #0" = 20
+	"Neeti-Nur #0" = 20
+	"Nema-Pachat #0" = 20
+	"Noyei-Heem #0" = 20
+	"Nulaz-Eidu #0" = 20
+	"Olik-Jah #0" = 20
+	"Onurai-Betu #0" = 20
+	"Owai-Leem #0" = 20
+	"Pimaxi-Loh #0" = 20
+	"Ree-Kia #0" = 20
+	"Reezal-Jul #0" = 20
+	"Sar-Keer #0" = 20
+	"Tah-Tehat #0" = 20
+	"Tan-Skee #0" = 20
+	"Taleel-Bex #0" = 20
+	"Topeeth-Gin #0" = 20
+	"Topith-Kuz #0" = 20
+	"Uxith-Ei #0" = 20
+	"Vara-Zeen #0" = 20
+	"Wanum-Neeus #0" = 20
+	"Xal-Geh #0" = 20
+	"Yinz-Hei #0" = 20
+
+	"Binyaar #0" = 20
+	"Deerkaza #0" = 20
+	"Jaraleet #0" = 20
+	"Juunei #0" = 20
+	"Nomu #0" = 20
+	"Shehs #0" = 20
+	"Schiavas #0" = 20
+	"Tshleeixth #0" = 20
+	"Ullis #0" = 20	
+
+	"Ahaht #0" = -20
+	"Akish #0" = -20
+	"Banalz #0" = -20
+	"Beekatan #0" = -20
+	"Eutei #0" = -20
+	"Gilm #0" = -20
+	"Gish #0" = -20
+	"Hul #0" = -20
+	"Kasa #0" = -20
+	"Milah #0" = -20
+	"Nakuma #0" = -20
+	"Neesha #0" = -20
+	"Nuralg #0" = -20
+	"Nush #0" = -20
+	"Okur #0" = -20
+	"Onasha #0" = -20
+	"Shatalg #0" = -20
+	"Tasha #0" = -20
+	"Wusha #0" = -20
+	"Ah-Meesei #0" = -20
+	"Am-Ra #0" = -20
+	"An-Deesei #0" = -20
+	"Chanil-Lee #0" = -20
+	"Cheesh-Meeus #0" = -20
+	"Deesh-Meeus #0" = -20
+	"El-Lurasha #0" = -20
+	"Ereel-Lei #0" = -20
+	"Gih-Ja #0" = -20
+	"Jeed-Ei #0" = -20
+	"Kal-Ma #0" = -20
+	"Keel-Raniur #0" = -20
+	"Meeh-Mei #0" = -20
+	"Meen-Sa #0" = -20
+	"Mim-Jeen #0" = -20
+	"Muz-Ra #0" = -20
+	"Nam-La #0" = -20
+	"Olank-Neeus #0" = -20
+	"On-Wan #0" = -20
+	"On-Wazei #0" = -20
+	"Seen-Rei #0" = -20
+
+	"Beelei #0" = -20
+	"Beewos #0" = -20
+	"Bejeen #0" = -20
+	"Deetsan #0" = -20
+	"Druja #0" = -20
+	"Marz #0" = -20
+	"Numeen #0" = -20
+	"Ocheeva #0" = -20
+	"Pasha #0" = -20
+	"Rana #0" = -20
+	"Shaleez #0" = -20
+	"Skaleel #0" = -20
+	"Witseidutsei #0" = -20
+	"Bur-Meema #0" = -20
+	"Dar-Ma #0" = -20
+	"Hal-Liurz #0" = -20
+	"Kud-Ei #0" = -20
+	"Mach-Na #0" = -20
+	"Seed-Neeus #0" = -20
+	"Sheer-Meedish #0" = -20
+	"Tar-Meena #0" = -20
+	"Weedum-Ja #0" = -20
+
+	"Deeja #0" = -20
+	"Keerava #0" = -20
+	"Shahvee #0" = -20
+	"Wujeeta #0" = -20
+
+	"Awas #0" = -20
+	"Sanax #0" = -20
+	"Sigerthe #0" = -20
+	"Zollassa #0" = -20
+	"Xil-Go #0" = -20
+
+	"Akeenus #0" = -20
+	"Akishan #0" = -20
+	"Aleeto #0" = -20
+	"Amussa #0" = -20
+	"Asheemar #0" = -20
+	"Asska #0" = -20
+	"Awas #0" = -20
+	"Azum #0" = -20
+	"Baseenar #0" = -20
+	"Beela #0" = -20
+	"Betzi #0" = -20
+	"Bishalus #0" = -20
+	"Bokeeus #0" = -20
+	"Chalaree #0" = -20
+	"Chimatei #0" = -20
+	"Chirurgeon #0" = -20
+	"Cholasistu #0" = -20
+	"Churasu #0" = -20
+	"Deetwos #0" = -20
+	"Meerana #0" = -20
+	"Neetizei #0" = -20
+	"Niima #0" = -20
+	"Reesa #0" = -20
+	"Telixith #0" = -20
+	"Weewish #0" = -20
+	"Adzi-Mota #0" = -20
+	"Ah-Kajul #0" = -20
+	"Ah-Mudeska #0" = -20
+	"Ah-Seeba #0" = -20
+	"Ahmuna-La #0" = -20
+	"Ajim-Kiurz #0" = -20
+	"Am-Eepa #0" = -20
+	"Am-Jasuda #0" = -20
+	"An-Jeen #0" = -20
+	"Anozz-Crath #0" = -20
+	"Azbai-Meenus #0" = -20
+	"Azeez-Eix #0" = -20
+	"Bar-Beekus #0" = -20
+	"Beek-Ja #0" = -20
+	"Beek-Nassa #0" = -20
+	"Beem-Tei #0" = -20
+	"Ber-Jaseen #0" = -20
+	"Bura-Natoo #0" = -20
+	"Chana-La #0" = -20
+	"Chee-Dooka #0" = -20
+	"Chee-Osheeka #0" = -20
+	"Chee-Saak #0" = -20
+	"Cheesh-Mei #0" = -20
+	"Ree-Zish #0" = -20
+	"Shei-Chuna #0" = -20
+	"Tumma-Shah #0" = -20
+	"Veek-Gai #0" = -20
+	"Wuja-Ei #0" = -20
+}
+# Thanks UESP, you saved my mod. Halfway there.
+
+# And there you have it.
+
+# structure: 1st row = Morrowind, 2nd row = Oblivion, 3rd row = Skyrim, 4th row = other lore, 5th row = Male ESO, 6th row = Female ESO
+	
+
+leader_names = {
+	Zaw Ru Tei Lei Julan Kur Lah Ei Tulm La Zish Kilaya Maht Tan Gei Mere Shei Nur Jah Dar Lan Jush Kai Dum Eius Neeus Meesei Ra Deesei Lee Meeus Lurasha Ja Ma Raniur Mei Sa Jeen La Wan Wazei Rei
+	Malz Kajin Kiurz Jee Lai Teeus Jasaiin Wulm Ze Zeeus Na Meema Liurz Meena
+	Jei
+	Go
+	Anoo Sakka Seek Da Muz Tee Taeed Meej Kas Gah Sei Goh Mema Chath Metaku Eiuus Etaku Jaseen Kur Lurz Jas Raj Zish Reet Ta Eix Jat Maxath Pachat Heem Eidu Betu Leem Loh Kia Jul Keer Tehat Skee Bex Gih Kuz Zeen Geh Hei 
+	Mota Kajul Mudeska Seeba Eepa Jasuda Crath Meenus Beekus Nassa Jaseen Natoo Dooka Osheeka Saak Mei Chuna Shah Gai
+
+}
+
+ship_names = {
+	"Argon" "Kamanai" "Arnesia" "Arkethnia" "Clawreach" "Atron" "Hjalokh" "Seydahnil" "Komatur" "Helstrom" "Archon" "Gideon" "Thorn" "Stormhold" "Blackrose" "Saxhavn" "Hixinoag"
+}
+
+army_names = {
+	"$PROVINCE$ Army" 
+}

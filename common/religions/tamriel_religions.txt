@@ -1,0 +1,103 @@
+daedric = {
+	new_temple = {
+		color = { 0.6 0 0.2 }
+		icon = 19
+		country = {
+			mil_tech_cost_modifier = -0.05
+			land_morale = 0.05
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+
+		heretic = { AZURAN }
+
+	}
+	daedra_worship = {
+		color = { 0 0.6 0.2 }
+		icon = 19
+		country = {
+			tolerance_heretic = 2
+			defensiveness = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		personal_deity = yes
+		heretic = { SITHIS }
+
+	}
+	malacath = {
+		color = { 0.2 0.6 0 }
+		icon = 13
+		country = {
+			mil_tech_cost_modifier = -0.05
+			land_morale = 0.10
+		}
+		province = {
+			local_missionary_strength = 0.01
+		}
+
+		heretic = { MOLAG }
+
+	}
+}
+
+aedric = {
+	nine_divines = {
+		color = { 0.5 0.4 0.4 }
+		icon = 14
+		country = {
+			tolerance_own = 1
+			dip_tech_cost_modifier = -0.05
+		}
+		
+		heretic = { KYNARIC }
+	}
+	talos = {
+		color = { 0.1 0.4 0.9 }
+		icon = 21
+		country = {
+			mil_tech_cost_modifier = -0.05
+			land_morale = 0.10
+			tolerance_heretic = -1
+		}
+
+		heretic = { SEPTIMIST }
+
+	}
+}
+
+hist_g = {
+	hist = {
+		color = { 0.3 0 0.8 }
+		icon = 17
+		country = {
+			mil_tech_cost_modifier = -0.05
+			land_morale = 0.05
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+
+		heretic = { SITHIS }
+
+	}
+}
+
+dwemeri_rg = {
+	dwemer_reason = {
+		color = { 0.8 0.4 0.1 }
+		icon = 7
+		country = {
+			global_missionary_strength = 0.01
+			tolerance_heathen = -3
+		}
+		province = {
+			local_missionary_strength = -0.03
+		}
+
+		heretic = { DAGOTH }
+
+	}
+}

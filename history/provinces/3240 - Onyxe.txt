@@ -1,0 +1,16 @@
+#Region - Seydahnil, Foxfyrn Coast, East Blackwood, and West Argonia
+
+culture = dagoni
+religion = hist
+capital = "Onyxe"
+trade_goods = alchemical_goods
+citysize = 15650
+hre = no
+base_tax = 2
+base_production = 2
+manpower = 1
+owner = XSE
+controller = XSE
+add_core = XSE
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

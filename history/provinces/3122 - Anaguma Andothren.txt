@@ -1,0 +1,16 @@
+#Region - Indaren, Eastern Valus Mountains, Armun Ashlands, Roth Roryn and Western Thirr
+
+culture = nakan
+religion = new_temple
+capital = "Andothren"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 6
+base_production = 6
+manpower = 4
+owner = XDR
+controller = XDR
+add_core = XDR
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

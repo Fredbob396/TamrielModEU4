@@ -1,0 +1,16 @@
+#Region - Boethian Mountains / South Telvannis District, Morrowind
+
+culture = boethian
+religion = new_temple
+capital = "Akamora"
+trade_goods = alchemical_goods
+citysize = 15650
+hre = no
+base_tax = 5
+base_production = 5
+manpower = 3
+owner = XNT
+controller = XNT
+add_core = XNT
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

@@ -1,0 +1,16 @@
+#Region - Vvardenfell
+
+culture = indoril
+religion = new_temple
+capital = "Seyda Neen"
+trade_goods = kwama
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XDR
+controller = XDR
+add_core = XDR
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

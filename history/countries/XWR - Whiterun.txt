@@ -1,0 +1,18 @@
+government = despotic_monarchy
+technology_group = tamrielic
+religion = talos
+mercantilism = 0.2
+primary_culture = middle_nordic
+capital = 3311	# Whiterun
+
+
+1402.1.1 = {
+	monarch = {
+		name = "Gjalund"
+		dynasty = "God-Tamer"
+		birth_date = 1402.1.1
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}

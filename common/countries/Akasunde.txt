@@ -1,0 +1,77 @@
+#Akasunde
+
+graphical_culture = westerngfx
+
+color = { 200  131  39 }
+
+historical_idea_groups = {
+	quality_ideas
+	religious_ideas
+	influence_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	defensive_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Mihashi #0" = 60
+	"Karihaka #0" = 50
+	"Hiroki #0" = -50
+	"Sabiren #0" = 50
+	"Miuko #0" = -40
+	"Tonaka #0" = 40
+	"Shinryu #0" = 40
+	"Gaiden #0" = 40
+	"Dokugan #0" = 40
+	"Tomoe #0" = -40
+	"Ukiya #0" = 40
+	"Chisato #0" = 40
+	"Inogara #0" = -40
+	"Shinage #0" = 40
+	"Ken Sin #0" = 30
+	"Masan #0" = 30
+	"Akiko #0" = -30
+	"Doraku'u #0" = 30
+	"Ratarosu #0" = 30
+	"Rachian #0" = -20
+	"Dosuyu #0" = 20
+	"Udoro #0" = 20
+	"Chanagabu #0" = 20
+	"Rioren #0" = 20
+	"Enten #0" = 20
+}
+
+leader_names = {
+	Tsaeki Huzimotu Haiato Uaragi Koga Shinhu Kaneda Hakure Tsuchigome
+	Otodo Ten'gata Oniaka Inabasi Hibati Shinji
+	Teruma Humihisyu Kanadzu Aoziki Torimi Furin Hatuba Sokonaku Sarechi Itatu
+	Kuzi'in Tsurumi Kuramo Narukane Hokusekiji Horiu Kadai Hikansya Hakasa
+	
+}
+
+ship_names = {
+	"Himinato" "Huzimotu" "Akasumi" "Darnim" "Erudabe" "Ikiru" "Daizan" "Akafell" "Choraku" "Tokonaka"
+}
+
+army_names = {
+	"$PROVINCE$ Army" 
+}
