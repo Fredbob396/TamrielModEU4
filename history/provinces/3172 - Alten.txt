@@ -1,6 +1,6 @@
 #Region - Arnesia and Northeastern Argonia
 
-culture = kamanese
+culture = arnesian
 religion = hist
 capital = "Alten Corimont"
 trade_goods = hunted_goods

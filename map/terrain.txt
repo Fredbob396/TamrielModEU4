@@ -579,7 +579,6 @@ categories =  {
 		
 		color = { 165 108 205 }
 		terrain_override = {
-			3169 # Test - Othreleth
 		}
 
 		combat_width = -0.20

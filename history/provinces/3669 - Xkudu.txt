@@ -1,0 +1,16 @@
+#Region - Atronium, Hankaj Coast and Eastern Argonia
+
+culture = archein
+religion = hist
+capital = "Xkudu"
+trade_goods = hunted_goods
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 2
+manpower = 3
+owner = XTH
+controller = XTH
+add_core = XTH
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

@@ -1,0 +1,13 @@
+#Region - Jer Ahkrin, Nuhyas Point and Southeastern Former Morrowind
+
+culture = falyani
+religion = hist
+capital = "Half a hut left standing in the ruins of Tear"
+trade_goods = unknown
+citysize = 15650
+hre = no
+base_tax = 0
+base_production = 0
+manpower = 0
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

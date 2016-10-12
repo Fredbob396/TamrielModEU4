@@ -150,3 +150,7 @@ T54 = "countries/Welke.txt"
 
 #Cyrodiil Unified
 T55 = "countries/Cyrodiil.txt"
+
+#Elsweyr
+XEL = "countries/Elsweyr.txt"
+XRM = "countries/Rimmen.txt"

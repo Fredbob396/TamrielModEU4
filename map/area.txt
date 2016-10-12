@@ -31,11 +31,11 @@ west_boethiah_area = {
 }
 
 sacred_lands_area = {
-    3098 3099 3100 3101 3659 3660
+    3098 3099 3100 3101 3660
 }
 
 spine_of_nezuad_area = {
-    3097 3102 3107 3658
+    3097 3102 3107 3658 3659
 }
 
 akasunde_area = {
@@ -67,7 +67,7 @@ jer_ahkrin_area = {
 }
 
 uvonaak_area = {
-    3160 3161 3162 3163 3164 3165
+    3160 3161 3162 3163 3164 3165 3675
 }
 
 kragenmoor_area = {
@@ -151,11 +151,11 @@ north_vvardenfell_area = {
 }
 
 north_seydahnil_area = {
-    3236 3237 3238 3239
+    3237 3238 3240 3241 3673
 }
 
 south_seydahnil_area = {
-    3227 3228 3229
+    3227 3228 3229 3236 3239
 }
 
 darkmoor_area = {
@@ -171,7 +171,7 @@ kulania_area = {
 }
 
 kamanai_area = {
-    3177 3178 3179 3180
+    3177 3178 3179 3180 3672
 }
 
 ok_nanha_area = {
@@ -179,7 +179,7 @@ ok_nanha_area = {
 }
 
 clawreach_area = {
-    3185 3186 3195
+    3185 3186 3195 3670 3671
 }
 
 karanake_area = {
@@ -191,7 +191,7 @@ north_hjalokh_area = {
 }
 
 lake_hjalokh_area = {
-    3200 3202 3203 3204 3214 3215
+    3200 3202 3203 3204 3214 3215 3674
 }
 
 sikiha_area = {
@@ -203,19 +203,19 @@ arnesia_area = {
 }
 
 north_atronium_area = {
-    3188 3189 3190
+    3188 3189 3190 3669
 }
 
 xi_helai_area = {
-    3191 3192 3193 3223
+    3191 3192 3193 3223 3668
 }
 
 klamabe_area = {
-    3208 3209 3216
+    3208 3209 3216 3667
 }
 
 firewalk_area = {
-    3210 3211 3212 3213
+    3210 3211 3212 3213 3666
 }
 
 argonian_wastelands_area = {
@@ -231,7 +231,7 @@ south_rift_area = {
 }
 
 geirland_area = {
-    3254 3267 3270 3271
+    3254 3267 3270 3271 3676
 }
 
 eastmarch_volcanic_area = {
@@ -255,7 +255,7 @@ north_pale_area = {
 }
 
 whiterun_area = {
-    3308 3310 3311 3313 3314
+    3308 3310 3311 3313 3314 3677 3678
 }
 
 skyrim_jeralls_area = {

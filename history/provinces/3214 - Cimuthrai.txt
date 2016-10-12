@@ -2,7 +2,7 @@
 
 culture = agaceph
 religion = hist
-capital = "Cimuthrai"
+capital = "Umpholo"
 trade_goods = hunted_goods
 citysize = 15650
 hre = no

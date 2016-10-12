@@ -1,0 +1,69 @@
+XAT_custom_ideas = {
+    start = {
+        tolerance_heathen = 2
+        tolerance_heretic = 2
+    }
+    bonus = {
+        infantry_power = 0.1
+    }
+    trigger = {
+        primary_culture = archein
+    }
+    free = yes
+    XAT_idea_1 = {
+        prestige = 1.0
+    }
+    XAT_idea_2 = {
+        inflation_action_cost = -0.33
+    }
+    XAT_idea_3 = {
+        technology_cost = -0.06
+    }
+    XAT_idea_4 = {
+        global_foreign_trade_power = 0.2
+    }
+    XAT_idea_5 = {
+        advisor_pool = 1
+    }
+    XAT_idea_6 = {
+        land_morale = 0.1
+    }
+    XAT_idea_7 = {
+        leader_land_shock = 1
+    }
+}
+
+XSE_custom_ideas = {
+    start = {
+        core_creation = -0.15
+        spy_offence = 0.2
+    }
+    bonus = {
+        trade_efficiency = 0.15
+    }
+    trigger = {
+        tag = XSE
+    }
+    free = yes
+    XSE_idea_1 = {
+        trade_steering = 0.25
+    }
+    XSE_idea_2 = {
+        relations_decay_of_me = 0.3
+    }
+    XSE_idea_3 = {
+        naval_attrition = -0.25
+    }
+    XSE_idea_4 = {
+        defensiveness = 0.2
+    }
+    XSE_idea_5 = {
+        idea_cost = -0.1
+    }
+    XSE_idea_6 = {
+        mercenary_cost = -0.25
+    }
+    XSE_idea_7 = {
+        ae_impact = -0.1
+    }
+}

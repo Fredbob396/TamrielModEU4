@@ -2,6 +2,6 @@ government = daimyo
 technology_group = tamrielic
 religion = hist
 mercantilism = 0.2
-primary_culture = kamanese
+primary_culture = arnesian
 capital = 3172	# Alten
 

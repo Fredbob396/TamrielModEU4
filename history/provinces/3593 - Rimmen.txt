@@ -1,0 +1,15 @@
+#Region - Anequina
+
+culture = rimmen_c
+religion = lunar_pantheon
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 6
+base_production = 5
+manpower = 4
+owner = XRM
+controller = XRM
+add_core = XRM
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE
