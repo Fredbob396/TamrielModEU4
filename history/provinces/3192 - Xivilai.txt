@@ -2,7 +2,7 @@
 
 culture = archein
 religion = hist
-capital = "Xi Helai"
+capital = "Martti"
 trade_goods = alchemical_goods
 citysize = 15650
 hre = no

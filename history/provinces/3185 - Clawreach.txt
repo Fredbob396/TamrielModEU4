@@ -2,7 +2,7 @@
 
 culture = karanakh
 religion = hist
-capital = "Onhixa"
+capital = "Bosojul"
 trade_goods = hunted_goods
 citysize = 15650
 hre = no

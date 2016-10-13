@@ -1,0 +1,35 @@
+argonian_ideas = {
+    start = {
+        land_attrition = -0.2
+        infantry_cost = -0.15
+    }
+    bonus = {
+        land_morale = 0.1
+    }
+    trigger = {
+        culture_group = greater_argonian
+    }
+    free = yes
+    argonian_idea_1 = {
+        supply_limit_modifier = 0.33
+    }
+    argonian_idea_2 = {
+        hostile_attrition = 1
+    }
+    argonian_idea_3 = {
+        republican_tradition = 0.005
+    }
+    argonian_idea_4 = {
+        leader_land_manuever = 1
+    }
+    argonian_idea_5 = {
+        cb_on_religious_enemies = yes
+    }
+    argonian_idea_6 = {
+        global_manpower_modifier = 0.2
+    }
+    argonian_idea_7 = {
+        global_spy_defence = 0.25
+    }
+}
+

@@ -1,0 +1,15 @@
+#Region - Pelletini
+
+culture = pelletini
+religion = lunar_pantheon
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 2
+owner = XEL
+controller = XEL
+add_core = XEL
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

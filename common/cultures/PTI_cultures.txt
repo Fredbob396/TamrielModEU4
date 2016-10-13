@@ -75,50 +75,65 @@ greater_argonian = {
 	graphical_culture = westerngfx
 
 	karanakh = {
+		primary = XKR
 		dynasty_names = { 
-			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka
+			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka Hei Betu Wazei Naat Xeede Goh Marza
 		}
 	}
 
 	falyani = {
+		primary = XJA
 		dynasty_names = { 
-			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka
+			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka Hei Betu Wazei Naat Xeede Goh Marza
 		}
 	}
 
 	archein = {
+		primary = XAT
 		dynasty_names = { 
-			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka
+			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka Hei Betu Wazei Naat Xeede Goh Marza
 		}
 	}
 
 	kamanese = {
+		primary = XKM
 		dynasty_names = { 
-			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka
+			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka Hei Betu Wazei Naat Xeede Goh Marza
 		}
 	}
 
 	agaceph = {
+		primary = XHJ
 		dynasty_names = { 
-			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka
+			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka Hei Betu Wazei Naat Xeede Goh Marza
 		}
 	}
 
 	arkethnian = {
+		primary = XRK
 		dynasty_names = { 
-			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka
+			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka Hei Betu Wazei Naat Xeede Goh Marza
+		}
+	}
+	
+	arnesian = {
+		primary = XAN
+		dynasty_names = { 
+			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka Hei Betu Wazei Naat Xeede Goh Marza
 		}
 	}
 
 	dagoni = {
+		primary = XSE
 		dynasty_names = { 
-			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka
+			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka Hei Betu Wazei Naat Xeede Goh Marza
 		}
 	}
 
 	lilmothiit = {
+		primary = XLI
 		dynasty_names = { 
-			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka
+			Julan Kilaya Lurasha Raniur Kiurz Kajin Jasaiin Taeed Chath Metaku Lurz Maxath Pachat Kajul Mudeska Osheeka Hei Betu Wazei Naat Xeede Goh Marza
 		}
 	}
 }
@@ -251,6 +266,22 @@ cyrodillic = {
 				Motrus Retilius Goneld Hosidus Pinder Vanin Goldwine Loran Whitestrake Olvus Mallius Inventius Rusonius Antonius Ancus Polus Broder Bruiant
 				Fralmoton Manus Vinicius Matius Hoff Turrianus Quintilius Atius Varrid Vassinus Afranius Blackwell Favonius Duronius Logellus Abor Trebatius
 				Orelius Andus Mosidius Benirus Accius Donton Kvinchal Moslin Orius Sintav Idolus Green
+		}
+	}
+}
+
+khajiti_g = { 
+	graphical_culture = westerngfx
+
+	anequinan = {
+		dynasty_names = { 
+			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
+		}
+	}
+
+	pelletini= {
+		dynasty_names = { 
+			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
 		}
 	}
 }

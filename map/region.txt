@@ -6879,53 +6879,6 @@ south_atlantic_region = {
 ########################################
 
 telvannis_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = telvannis_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = telvannis_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = telvannis_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = telvannis_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		near_molagreahd_area
 		far_molagreahd_area
@@ -6938,53 +6891,6 @@ telvannis_region = {
 }
 
 indoril_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = indoril_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = indoril_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = indoril_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = indoril_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		sacred_lands_area
 		spine_of_nezuad_area
@@ -6998,53 +6904,6 @@ indoril_region = {
 }
 
 south_morrowind_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = south_morrowind_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = south_morrowind_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = south_morrowind_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = south_morrowind_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		jer_ahkrin_area
 		uvonaak_area
@@ -7053,53 +6912,6 @@ south_morrowind_region = {
 }
 
 veloth_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = veloth_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = veloth_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = veloth_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = veloth_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		west_thirr_area
 		roth_roryn_area
@@ -7114,53 +6926,6 @@ veloth_region = {
 }
 
 vvardenfell_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = vvardenfell_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = vvardenfell_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = vvardenfell_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = vvardenfell_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		bitter_coast_area
 		odai_area
@@ -7176,53 +6941,6 @@ vvardenfell_region = {
 }
 
 kynokhia_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = kynokhia_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = kynokhia_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = kynokhia_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = kynokhia_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		north_seydahnil_area
 		south_seydahnil_area
@@ -7233,53 +6951,6 @@ kynokhia_region = {
 }
 
 karanakh_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = karanakh_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = karanakh_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = karanakh_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = karanakh_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		kamanai_area
 		ok_nanha_area
@@ -7293,53 +6964,6 @@ karanakh_region = {
 }
 
 atron_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = atron_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = atron_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = atron_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = atron_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		arnesia_area
 		north_atronium_area
@@ -7350,53 +6974,6 @@ atron_region = {
 }
 
 old_skyrim_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = old_skyrim_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = old_skyrim_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = old_skyrim_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = old_skyrim_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		eastmarch_volcanic_area
 		eastmarch_river_area
@@ -7408,53 +6985,6 @@ old_skyrim_region = {
 }
 
 south_skyrim_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = south_skyrim_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = south_skyrim_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = south_skyrim_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = south_skyrim_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		north_falkreath_area
 		south_falkreath_area
@@ -7466,53 +6996,6 @@ south_skyrim_region = {
 }
 
 haafinheim_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = haafinheim_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = haafinheim_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = haafinheim_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = haafinheim_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		rorikstead_area
 		hjaalmarch_area
@@ -7524,53 +7007,6 @@ haafinheim_region = {
 }
 
 anvil_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = anvil_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = anvil_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = anvil_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = anvil_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		anvil_area
 		n_goldcoast_area
@@ -7578,53 +7014,6 @@ anvil_region = {
 }
 
 kvatch_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = kvatch_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = kvatch_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = kvatch_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = kvatch_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		w_colovian_highlands_area
 		kvatch_area
@@ -7633,53 +7022,6 @@ kvatch_region = {
 }
 
 chorrol_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = chorrol_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = chorrol_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = chorrol_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = chorrol_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		chorrol_area
 		w_jeralls_area
@@ -7689,53 +7031,6 @@ chorrol_region = {
 }
 
 bruma_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = bruma_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = bruma_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = bruma_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = bruma_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		e_jeralls_area
 		bleakers_way_area
@@ -7743,53 +7038,6 @@ bruma_region = {
 }
 
 cheydinhal_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = cheydinhal_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = cheydinhal_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = cheydinhal_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = cheydinhal_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		cheydinhal_area
 		n_valus_area
@@ -7800,53 +7048,6 @@ cheydinhal_region = {
 }
 
 leyawiin_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = leyawiin_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = leyawiin_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = leyawiin_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = leyawiin_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		borderwatch_area
 		topal_bay_area
@@ -7857,53 +7058,6 @@ leyawiin_region = {
 }
 
 skingrad_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = skingrad_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = skingrad_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = skingrad_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = skingrad_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
-	discover_if = {
-		started_in = 1750.1.1 #Everyone in the entire world.
-	}
 	areas = {
 		skingrad_area
 		valen_border_area
@@ -7912,50 +7066,6 @@ skingrad_region = {
 }
 
 heartlands_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = heartlands_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = heartlands_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = heartlands_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = heartlands_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
 	areas = {
 		city_isle_area
 		weye_area
@@ -7967,50 +7077,6 @@ heartlands_region = {
 }
 
 bravil_region = {
-	discover_if = {
-		capital_scope = {
-				continent = tamriel
-		}
-	}
-	discover_if = {
-		overlord = {
-			has_discovered_region = {
-				years = 20
-				region = bravil_region
-			}
-		}
-	}
-	discover_if = {
-		any_neighbor_country = {
-			OR = {
-				culture_group = ROOT
-				religion_group = ROOT
-			}
-			has_discovered_region = {
-				years = 75
-				region = bravil_region
-			}
-		}
-	}
-	discover_if = {
-		has_discovered_region = {
-			region = bravil_region
-			years = 20 #Num of years
-		}
-	}
-	discover_if = {
-		has_any_country_in_region_discovered_capital_region_of = {
-			region = bravil_region
-			who = ROOT
-			years = 30 # num of years
-		}
-	}
-	discover_if = {
-		started_in = 1700.1.1
-		capital_scope = {
-			NOT = { continent = africa }
-		}
-	}
 	areas = {
 		w_niben_area
 		e_niben_area

@@ -1,6 +1,6 @@
 #Region - Arnesia and Northeastern Argonia
 
-culture = archein
+culture = arnesian
 religion = hist
 capital = "Thorn"
 trade_goods = fish
