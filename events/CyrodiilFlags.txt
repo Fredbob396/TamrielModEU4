@@ -8,14 +8,14 @@ country_event = {
 
 	trigger = {
 		OR = {
-		tag = T02
-		tag = T03
-		tag = T04
-		tag = T05
-		tag = T06
-		tag = T07
-		tag = T08
-		tag = T53
+		tag = Y02
+		tag = Y03
+		tag = Y04
+		tag = Y05
+		tag = Y06
+		tag = Y07
+		tag = Y08
+		tag = Y53
 		}
 		NOT = { has_country_flag = cyrodilic_count }
 	}

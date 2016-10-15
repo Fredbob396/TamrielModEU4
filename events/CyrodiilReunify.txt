@@ -496,14 +496,14 @@ country_event = {
 			}
 			country_event = { id = cyrodiil_reunify.24 }
 		}
-		T02 = { country_event = { id = cyrodiil_reunify.24 } }
-		T03 = { country_event = { id = cyrodiil_reunify.24 } }
-		T04 = { country_event = { id = cyrodiil_reunify.24 } }
-		T05 = { country_event = { id = cyrodiil_reunify.24 } }
-		T06 = { country_event = { id = cyrodiil_reunify.24 } }
-		T07 = { country_event = { id = cyrodiil_reunify.24 } }
-		T08 = { country_event = { id = cyrodiil_reunify.24 } }
-		T53 = { country_event = { id = cyrodiil_reunify.24 } }
+		Y02 = { country_event = { id = cyrodiil_reunify.24 } }
+		Y03 = { country_event = { id = cyrodiil_reunify.24 } }
+		Y04 = { country_event = { id = cyrodiil_reunify.24 } }
+		Y05 = { country_event = { id = cyrodiil_reunify.24 } }
+		Y06 = { country_event = { id = cyrodiil_reunify.24 } }
+		Y07 = { country_event = { id = cyrodiil_reunify.24 } }
+		Y08 = { country_event = { id = cyrodiil_reunify.24 } }
+		Y53 = { country_event = { id = cyrodiil_reunify.24 } }
 		set_country_flag = unified_empire
 	}
 }
