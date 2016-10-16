@@ -25,6 +25,7 @@ XAR = "countries/Argonia.txt"
 #Argonian Empire - South (Daimyo-Style Vassals of Argonia) (Original Provinces)
 XAN = "countries/Arnesia.txt"
 XAT = "countries/Atronium.txt"
+XCW = "countries/Clawreach.txt"
 XHJ = "countries/Hjalokh.txt"
 XJA = "countries/Jer Ahkrin.txt"
 XKM = "countries/Kamanai.txt"

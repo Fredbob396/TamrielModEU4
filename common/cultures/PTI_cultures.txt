@@ -69,6 +69,12 @@ akaviri = {
 			Tsaeki Huzimotu Haiato Koga Hakure Shinji Hikansya
 		}
 	}
+	rimmen_c = {
+		primary = XRM
+		dynasty_names = { 
+			Tsaeki Huzimotu Haiato Koga Hakure Shinji Hikansya
+		}
+	}
 }
 
 greater_argonian = {

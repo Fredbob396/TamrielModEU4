@@ -63,7 +63,7 @@ east_thirr_area = {
 }
 
 jer_ahkrin_area = {
-    3128 3129 3130 3131 3132 3133
+    3128 3129 3130 3131 3132 3133 3134
 }
 
 uvonaak_area = {
