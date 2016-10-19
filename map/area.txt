@@ -2,6 +2,10 @@
 # Tamriel    	                   #
 ########################################
 
+bugfix_area = {
+	3026
+}
+
 near_molagreahd_area = {
     3072 3075 3076 3081
 }
@@ -151,7 +155,7 @@ north_vvardenfell_area = {
 }
 
 north_seydahnil_area = {
-    3237 3238 3240 3241 3673
+    3237 3238 3240 3241 3556 3557 3673
 }
 
 south_seydahnil_area = {
