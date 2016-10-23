@@ -1,9 +1,9 @@
 culture = colovian
 religion = daedra_worship
 
-owner = T31
-controller = T31
-add_core = T31
+owner = Y31
+controller = Y31
+add_core = Y31
 hre = no
 base_tax = 1
 base_production = 1

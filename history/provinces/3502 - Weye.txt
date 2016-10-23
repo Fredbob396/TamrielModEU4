@@ -1,9 +1,9 @@
 culture = imperial
 religion = nine_divines
 
-owner = T56
-controller = T56
-add_core = T56
+owner = Y56
+controller = Y56
+add_core = Y56
 hre = no
 base_tax = 4
 base_production = 4

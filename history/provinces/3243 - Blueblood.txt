@@ -1,9 +1,9 @@
 culture = dagoni
 religion = nine_divines
 
-owner = T52
-controller = T52
-add_core = T52
+owner = Y52
+controller = Y52
+add_core = Y52
 hre = no
 base_tax = 3
 base_production = 3

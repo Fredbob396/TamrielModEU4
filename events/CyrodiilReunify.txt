@@ -487,7 +487,7 @@ country_event = {
 
 	option = {
 		name = "cyrodiil_reunify.EVTOPTA23" 
-		change_tag = T55
+		change_tag = Y55
 		change_government = cyrodilic_empire
 		set_government_rank = 3
 		every_country = {
