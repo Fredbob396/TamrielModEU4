@@ -7,7 +7,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		has_country_flag = ruby_throne 
+		has_country_flag = ruby_throne
 	}
 	option = {
 		name = "cyrodiil_flag.EVTOPTA5"
@@ -25,11 +25,13 @@ country_event = {
 	option = {
 		name = "cyrodiil_flag.EVTOPTA6"
 		every_country = {
-			limit { has_country_flag = cyrodilic_count }
-			NOT = {
-				has_opinion_modifier = {
-					who = ROOT
-					modifier = modifier = cyrodiil_count_emperor
+			limit = {
+				has_country_flag = cyrodilic_count
+				NOT = {
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = cyrodiil_count_emperor
+					}
 				}
 			}
 			add_opinion = {

@@ -434,7 +434,7 @@ province_event = {
 
 	trigger = {
 		province_id = 3529
-		owned_by = T01
+		owned_by = Y01
 		NOT = { controlled_by = owner }
 		NOT = { controlled_by = REB }
 		has_siege = no
@@ -460,7 +460,7 @@ country_event = {
 		limit = { area = city_isle_area }
 		cede_province = ROOT 
 		add_core = ROOT
-		remove_core = T01
+		remove_core = Y01
 		}
 	}
 }
