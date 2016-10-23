@@ -1,0 +1,163 @@
+#Makes every County like the owner of the Ruby Throne
+country_event = {
+	id = cyrodiil_flag.5
+	title = "cyrodiil_flag.EVTNAME5"
+	desc = "cyrodiil_flag.EVTDESC5"
+	picture = COURT_eventPicture
+	hidden = yes
+
+	trigger = {
+		has_country_flag = ruby_throne 
+		NOT = { has_country_flag = cyrodiil_count_opinion }
+	}
+	option = {
+		name = "cyrodiil_flag.EVTOPTA5"
+		FROM = { country_event = { id = cyrodiil_flag.6 } }
+	}
+}
+country_event = {
+	id = cyrodiil_flag.6
+	title = "cyrodiil_flag.EVTNAME6"
+	desc = "cyrodiil_flag.EVTDESC6"
+	picture = COURT_eventPicture
+	hidden = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = "cyrodiil_flag.EVTOPTA6"
+		every_country = {
+			limit { has_country_flag = cyrodilic_count }
+			add_opinion = {
+				who = ROOT
+				modifier = cyrodiil_count_emperor
+				}
+		}
+		set_country_flag = cyrodiil_count_opinion
+	}
+}
+
+#Makes the Counties like each other a bit more
+country_event = {
+	id = cyrodiil_flag.7
+	title = "cyrodiil_flag.EVTNAME7"
+	desc = "cyrodiil_flag.EVTDESC7"
+	picture = COURT_eventPicture
+	hidden = yes
+
+	trigger = {
+		has_country_flag = cyrodilic_count
+		NOT = { has_country_flag = cyrodiil_count2count_opinion }
+	}
+	option = {
+		name = "cyrodiil_flag.EVTOPTA7"
+		FROM = { country_event = { id = cyrodiil_flag.8 } }
+	}
+}
+country_event = {
+	id = cyrodiil_flag.8
+	title = "cyrodiil_flag.EVTNAME8"
+	desc = "cyrodiil_flag.EVTDESC8"
+	picture = COURT_eventPicture
+	hidden = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = "cyrodiil_flag.EVTOPTA8"
+		every_country = {
+			limit { has_country_flag = cyrodilic_count }
+			add_opinion = {
+				who = ROOT
+				modifier = cyrodiil_count_count
+				}
+		}
+		set_country_flag = cyrodiil_count2count_opinion
+	}
+}
+
+#Makes every non-warlord in Cyrodiil hate the warlords
+country_event = {
+	id = cyrodiil_flag.9
+	title = "cyrodiil_flag.EVTNAME9"
+	desc = "cyrodiil_flag.EVTDESC9"
+	picture = COURT_eventPicture
+	hidden = yes
+
+	trigger = {
+		government = cyrodilic_warlord
+		NOT = { has_country_flag = cyrodiil_warlord_opinion }
+		NOT = { has_country_flag = ruby_throne }
+	}
+	option = {
+		name = "cyrodiil_flag.EVTOPTA9"
+		FROM = { country_event = { id = cyrodiil_flag.10 } }
+	}
+}
+country_event = {
+	id = cyrodiil_flag.10
+	title = "cyrodiil_flag.EVTNAME10"
+	desc = "cyrodiil_flag.EVTDESC10"
+	picture = COURT_eventPicture
+	hidden = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = "cyrodiil_flag.EVTOPTA10"
+		every_country = {
+			limit = {
+				culture_group = cyrodillic
+				NOT { government = cyrodilic_warlord }
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = cyrodiil_warlord_other_opinion
+			}
+		}
+		set_country_flag = cyrodiil_warlord_opinion
+	}
+}
+
+#Makes the new owner of the Ruby Throne hate the other warlords
+country_event = {
+	id = cyrodiil_flag.11
+	title = "cyrodiil_flag.EVTNAME11"
+	desc = "cyrodiil_flag.EVTDESC11"
+	picture = COURT_eventPicture
+	hidden = yes
+
+	trigger = {
+		government = cyrodilic_warlord
+		NOT = { has_country_flag = cyrodiil_warlord_emperor_opinion }
+		NOT = { has_country_flag = ruby_throne }
+		any_country = {
+			has_country_flag = ruby_throne
+		}
+	}
+	
+	option = {
+		name = "cyrodiil_flag.EVTOPTA9"
+		FROM = { country_event = { id = cyrodiil_flag.12 } }
+	}
+}
+
+country_event = {
+	id = cyrodiil_flag.12
+	title = "cyrodiil_flag.EVTNAME12"
+	desc = "cyrodiil_flag.EVTDESC12"
+	picture = COURT_eventPicture
+	hidden = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = "cyrodiil_flag.EVTOPTA12"
+		every_country = {
+			limit = {
+				has_country_flag = ruby_throne
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = cyrodiil_warlord_other_opinion
+			}
+		}
+		set_country_flag = cyrodiil_warlord_emperor_opinion
+	}
+}

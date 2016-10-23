@@ -148,8 +148,10 @@ T51 = "countries/Redman.txt"
 T52 = "countries/Blueblood.txt"
 T54 = "countries/Welke.txt"
 
-#Cyrodiil Unified
+#Cyrodiil Unions
 T55 = "countries/Cyrodiil.txt"
+Y57 = "countries/Colovia.txt"
+Y58 = "countries/Nibenay.txt"
 
 #Elsweyr
 XEL = "countries/Elsweyr.txt"
