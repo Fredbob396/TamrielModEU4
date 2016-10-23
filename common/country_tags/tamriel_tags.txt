@@ -88,6 +88,10 @@ XRR = "countries/Rorikstead.txt"
 XMW = "countries/Mistwatch.txt"
 XSS = "countries/Shor's Stone.txt"
 
+#Elsweyr
+XEL = "countries/Elsweyr.txt"
+XRM = "countries/Rimmen.txt"
+
 #Cyrodiil Counties
 Y01 = "countries/Cityisle.txt"
 Y02 = "countries/Anvil.txt"
@@ -153,7 +157,3 @@ Y54 = "countries/Welke.txt"
 T55 = "countries/Cyrodiil.txt"
 Y57 = "countries/Colovia.txt"
 Y58 = "countries/Nibenay.txt"
-
-#Elsweyr
-XEL = "countries/Elsweyr.txt"
-XRM = "countries/Rimmen.txt"
