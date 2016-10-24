@@ -69,13 +69,12 @@ country_event = {
 		name = "cyrodiil_flag.EVTOPTA4"
 		set_capital = 3529
 		set_country_flag = ruby_throne
-		clr_country_flag = cyrodiil_warlord_opinion
 		every_country = {
 			limit { culture_group = cyrodillic }
 			remove_opinion = {
 				who = ROOT
 				modifier = cyrodiil_warlord_other_opinion
-				}
+			}
 		}
 	}
 }

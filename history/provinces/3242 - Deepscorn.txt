@@ -1,4 +1,4 @@
-culture = dagoni
+culture = nibenean
 religion = nine_divines
 owner = Y08
 controller = Y08

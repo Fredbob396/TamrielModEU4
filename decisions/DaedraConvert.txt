@@ -1,14 +1,16 @@
 religion_decisions = {
 	adopt_daedra_worship = {
 		potential = {
+			NOT = { religion = daedra_worship }
 			any_owned_province = {
 				religion = daedra_worship
 			}
 		}
 		allow = {
-			any_owned_province = {
+			capital_scope = {
 				religion = daedra_worship
 			}
+			dominant_religion = daedra_worship
 		}
 		effect = {
 			change_religion = daedra_worship
@@ -18,23 +20,9 @@ religion_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0.0
-				dominant_religion = new_temple
-			}
-			modifier = {
-				factor = 0.0
-				dominant_religion = nine_divines
-			}
-			modifier = {
-				factor = 0.0
-				dominant_religion = talos
-			}
-			modifier = {
-				factor = 0.0
-				dominant_religion = hist
-			}
-			modifier = {
-				factor = 0.0
-				dominant_religion = dwemer_reason
+				NOT = {
+					dominant_religion = daedra_worship
+				}
 			}
 			modifier = {
 				factor = 0.0

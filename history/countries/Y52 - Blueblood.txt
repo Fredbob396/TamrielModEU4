@@ -1,7 +1,7 @@
-government = cyrodilic_warlord
+government = republican_dictatorship
 government_rank = 1
 technology_group = tamrielic
-religion = nine_divines
+religion = hist
 mercantilism = 0.2
 primary_culture = dagoni
 capital = 3243

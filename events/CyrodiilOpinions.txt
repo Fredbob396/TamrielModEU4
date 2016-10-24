@@ -96,7 +96,7 @@ country_event = {
 
 	trigger = {
 		government = cyrodilic_warlord
-		NOT = { has_country_flag = ruby_throne }
+		NOT = { owns_core_province = 3529 }
 	}
 	option = {
 		name = "cyrodiil_flag.EVTOPTA9"

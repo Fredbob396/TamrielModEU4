@@ -1,4 +1,4 @@
-government = cyrodilic_warlord
+government = republican_dictatorship
 government_rank = 1
 technology_group = tamrielic
 religion = daedra_worship
