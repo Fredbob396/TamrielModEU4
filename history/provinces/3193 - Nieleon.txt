@@ -12,5 +12,5 @@ manpower = 2
 owner = XNL
 controller = XNL
 add_core = XNL
-fort1 = yes
+fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

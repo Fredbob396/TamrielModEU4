@@ -42,7 +42,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1000
+		months = 1250
 		modifier = {
 			factor = 0.6
 			any_neighbor_province = {

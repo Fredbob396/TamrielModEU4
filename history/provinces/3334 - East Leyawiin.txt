@@ -8,5 +8,6 @@ base_tax = 5
 base_production = 4
 manpower = 3
 is_city = yes
+fort_15th = yes
 trade_goods = alchemical_goods
 discovered_by = tamrielic discovered_by = XTE

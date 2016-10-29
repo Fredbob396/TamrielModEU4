@@ -517,7 +517,7 @@ country_event = {
 	option = {
 		name = "cyrodiil_reunify.EVTOPTA24"
 		ai_chance = {
-			factor = 50
+			factor = 0
 			modifier = {
 				factor = 100
 				has_opinion = { who = FROM value = 100 }
@@ -536,11 +536,7 @@ country_event = {
 	option = {
 		name = "cyrodiil_reunify.EVTOPTB24"
 		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				has_opinion = { who = FROM value = 100 }
-			}
+			factor = 0
 			
 			modifier = {
 				factor = 100

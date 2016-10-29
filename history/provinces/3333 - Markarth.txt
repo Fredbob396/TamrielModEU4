@@ -12,5 +12,5 @@ manpower = 5
 owner = XRE
 controller = XRE
 add_core = XRE
-fort1 = yes
+fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

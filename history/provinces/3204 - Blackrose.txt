@@ -12,5 +12,5 @@ manpower = 3
 owner = XHJ
 controller = XHJ
 add_core = XHJ
-fort1 = yes
+fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

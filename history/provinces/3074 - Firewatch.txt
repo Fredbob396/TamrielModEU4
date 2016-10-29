@@ -12,6 +12,6 @@ manpower = 3
 owner = XFW
 controller = XFW
 add_core = XFW
-fort1 = yes
+fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE
 discovered_by = XFW

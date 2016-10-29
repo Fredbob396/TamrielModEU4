@@ -12,5 +12,5 @@ manpower = 5
 owner = XHF
 controller = XHF
 add_core = XHF
-fort1 = yes
+fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

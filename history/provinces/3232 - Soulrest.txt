@@ -12,5 +12,5 @@ manpower = 4
 owner = XRK
 controller = XRK
 add_core = XRK
-fort1 = yes
+fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

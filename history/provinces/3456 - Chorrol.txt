@@ -9,5 +9,6 @@ base_tax = 10
 base_production = 6
 manpower = 6
 is_city = yes
+fort_15th = yes
 trade_goods = wine
 discovered_by = tamrielic discovered_by = XTE
