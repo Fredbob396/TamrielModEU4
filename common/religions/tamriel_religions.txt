@@ -55,7 +55,7 @@ daedric = {
 
 aedric = {
 	nine_divines = {
-		color = { 0.5 0.4 0.4 }
+		color = { 0.8 0.8 0 }
 		icon = 14
 		country = {
 			tolerance_own = 1

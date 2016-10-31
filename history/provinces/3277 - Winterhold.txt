@@ -12,5 +12,5 @@ manpower = 4
 owner = XWH
 controller = XWH
 add_core = XWH
-fort1 = yes
+fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

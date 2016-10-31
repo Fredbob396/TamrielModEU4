@@ -1,9 +1,9 @@
 culture = colovian
 religion = nine_divines
 
-owner = T26
-controller = T26
-add_core = T26
+owner = Y26
+controller = Y26
+add_core = Y26
 hre = no
 base_tax = 2
 base_production = 2

@@ -14,3 +14,11 @@ vassal = {
 	end_date = 1821.1.1
 }
 
+#Weye as a vassal of City Isle
+vassal = {
+	first = Y01
+	second = Y56
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+

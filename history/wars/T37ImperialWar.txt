@@ -7,7 +7,6 @@ war_goal = {
 }
 
 1444.11.11  = {
-	add_defender = T01
-	add_defender = T56
-	add_attacker = T37
+	add_defender = Y01
+	add_attacker = Y37
 }

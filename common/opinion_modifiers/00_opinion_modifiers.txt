@@ -3214,10 +3214,10 @@ share_advanced_neighbor = {
 ##################################################
 
 cyrodiil_count_emperor = {
-	opinion = 100
+	opinion = 75
 }
 cyrodiil_count_count = {
-	opinion = 75
+	opinion = 50
 }
 cyrodiil_warlord_other_opinion = {
 	opinion = -200

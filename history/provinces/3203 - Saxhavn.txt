@@ -12,5 +12,5 @@ manpower = 2
 owner = XAG
 controller = XAG
 add_core = XAG
-fort1 = yes
+fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

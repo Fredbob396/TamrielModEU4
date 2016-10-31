@@ -1,0 +1,614 @@
+country_decisions = {
+	form_anvil = {
+		major = yes	
+		potential = {
+			NOT = { has_country_flag = cyrodilic_count }
+			NOT = {
+				OR = {
+					tag = Y57
+					tag = Y58
+					tag = Y55
+				}
+			}
+			culture_group = cyrodillic
+			anvil_region = {
+				owned_by = ROOT
+			}
+		}		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3491
+			NOT = { exists = Y02 }
+		}		
+		effect = {
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}			
+			if = {
+				limit = {
+					government = cyrodilic_warlord
+				}
+				every_country = {
+					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				change_government = despotic_monarchy
+			}			
+			anvil_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Y02
+			}			
+			add_prestige = 25
+			add_legitimacy = 50
+			change_tag = Y02 
+			set_country_flag = cyrodilic_count
+			set_capital = 3491
+		}
+	}
+	
+	form_skingrad = {
+		major = yes	
+		potential = {
+			NOT = { has_country_flag = cyrodilic_count }
+			NOT = {
+				OR = {
+					tag = Y57
+					tag = Y58
+					tag = Y55
+				}
+			}
+			culture_group = cyrodillic
+			skingrad_region = {
+				owned_by = ROOT
+			}
+		}		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3527
+			NOT = { exists = Y03 }
+		}		
+		effect = {
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}			
+			if = {
+				limit = {
+					government = cyrodilic_warlord
+				}
+				every_country = {
+					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				change_government = despotic_monarchy
+			}			
+			skingrad_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Y03
+			}			
+			add_prestige = 25
+			add_legitimacy = 50
+			change_tag = Y03 
+			set_country_flag = cyrodilic_count
+			set_capital = 3527
+		}
+	}
+	
+	form_chorrol = {
+		major = yes	
+		potential = {
+			NOT = { has_country_flag = cyrodilic_count }
+			NOT = {
+				OR = {
+					tag = Y57
+					tag = Y58
+					tag = Y55
+				}
+			}
+			culture_group = cyrodillic
+			chorrol_region = {
+				owned_by = ROOT
+			}
+		}		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3456
+			NOT = { exists = Y04 }
+		}		
+		effect = {
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}			
+			if = {
+				limit = {
+					government = cyrodilic_warlord
+				}
+				every_country = {
+					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				change_government = despotic_monarchy
+			}			
+			chorrol_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Y04
+			}			
+			add_prestige = 25
+			add_legitimacy = 50
+			change_tag = Y04
+			set_country_flag = cyrodilic_count
+			set_capital = 3456
+		}
+	}
+	
+	form_bruma = {
+		major = yes	
+		potential = {
+			NOT = { has_country_flag = cyrodilic_count }
+			NOT = {
+				OR = {
+					tag = Y57
+					tag = Y58
+					tag = Y55
+				}
+			}
+			culture_group = cyrodillic
+			bruma_region = {
+				owned_by = ROOT
+			}
+		}		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3436
+			NOT = { exists = Y05 }
+		}		
+		effect = {
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}			
+			if = {
+				limit = {
+					government = cyrodilic_warlord
+				}
+				every_country = {
+					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				change_government = despotic_monarchy
+			}			
+			bruma_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Y05
+			}			
+			add_prestige = 25
+			add_legitimacy = 50
+			change_tag = Y05
+			set_country_flag = cyrodilic_count
+			set_capital = 3436
+		}
+	}
+	
+	form_cheydinhal = {
+		major = yes	
+		potential = {
+			NOT = { has_country_flag = cyrodilic_count }
+			NOT = {
+				OR = {
+					tag = Y57
+					tag = Y58
+					tag = Y55
+				}
+			}
+			culture_group = cyrodillic
+			cheydinhal_region = {
+				owned_by = ROOT
+			}
+		}		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3429
+			NOT = { exists = Y06 }
+		}		
+		effect = {
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}			
+			if = {
+				limit = {
+					government = cyrodilic_warlord
+				}
+				every_country = {
+					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				change_government = despotic_monarchy
+			}			
+			cheydinhal_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Y06
+			}			
+			add_prestige = 25
+			add_legitimacy = 50
+			change_tag = Y06
+			set_country_flag = cyrodilic_count
+			set_capital = 3429
+		}
+	}
+	
+	form_bravil = {
+		major = yes	
+		potential = {
+			NOT = { has_country_flag = cyrodilic_count }
+			NOT = {
+				OR = {
+					tag = Y57
+					tag = Y58
+					tag = Y55
+				}
+			}
+			culture_group = cyrodillic
+			bravil_region = {
+				owned_by = ROOT
+			}
+		}		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3518
+			NOT = { exists = Y07 }
+		}		
+		effect = {
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}			
+			if = {
+				limit = {
+					government = cyrodilic_warlord
+				}
+				every_country = {
+					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				change_government = despotic_monarchy
+			}			
+			bravil_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Y07
+			}			
+			add_prestige = 25
+			add_legitimacy = 50
+			change_tag = Y07
+			set_country_flag = cyrodilic_count
+			set_capital = 3518
+		}
+	}
+	
+	form_leyawiin = {
+		major = yes	
+		potential = {
+			NOT = { has_country_flag = cyrodilic_count }
+			NOT = {
+				OR = {
+					tag = Y57
+					tag = Y58
+					tag = Y55
+				}
+			}
+			culture_group = cyrodillic
+			leyawiin_region = {
+				owned_by = ROOT
+			}
+		}		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3345
+			NOT = { exists = Y08 }
+		}		
+		effect = {
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}			
+			if = {
+				limit = {
+					government = cyrodilic_warlord
+				}
+				every_country = {
+					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				change_government = despotic_monarchy
+			}			
+			leyawiin_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Y08
+			}			
+			add_prestige = 25
+			add_legitimacy = 50
+			change_tag = Y08
+			set_country_flag = cyrodilic_count
+			set_capital = 3345
+		}
+	}
+	
+	form_kvatch = {
+		major = yes	
+		potential = {
+			NOT = { has_country_flag = cyrodilic_count }
+			NOT = {
+				OR = {
+					tag = Y57
+					tag = Y58
+					tag = Y55
+				}
+			}
+			culture_group = cyrodillic
+			kvatch_region = {
+				owned_by = ROOT
+			}
+		}		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3476
+			NOT = { exists = Y53 }
+		}		
+		effect = {
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}			
+			if = {
+				limit = {
+					government = cyrodilic_warlord
+				}
+				every_country = {
+					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				change_government = despotic_monarchy
+			}			
+			kvatch_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Y53
+			}			
+			add_prestige = 25
+			add_legitimacy = 50
+			change_tag = Y53
+			set_country_flag = cyrodilic_count
+			set_capital = 3476
+		}
+	}
+
+	form_colovia = {
+		major = yes
+		potential = {
+			OR = {
+				primary_culture = imperial
+				primary_culture = colovian
+			}
+			NOT = {
+				OR = {
+					tag = Y57
+					tag = Y55
+				}
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			AND = {
+				owns_core_province = 3491
+				owns_core_province = 3527
+				owns_core_province = 3456
+				owns_core_province = 3476
+			}
+			NOT = { exists = Y57 }
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			if = {
+				limit = {
+					government = cyrodilic_warlord
+				}
+				every_country = {
+					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				change_government = despotic_monarchy
+			}
+			if = {
+				limit = { has_country_flag = cyrodilic_count }
+				clr_country_flag = cyrodilic_count
+				every_country = {
+					limit { has_country_flag = cyrodilic_count }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_count_count
+					}
+				}
+			}
+			anvil_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Y57
+			}
+			skingrad_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Y57
+			}
+			chorrol_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Y57
+			}
+			kvatch_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Y57
+			}
+			add_prestige = 50
+			add_legitimacy = 75
+			change_tag = Y57
+		}
+	}
+	
+	form_nibenay = {
+		major = yes
+		potential = {
+			OR = {
+				primary_culture = imperial
+				primary_culture = nibenean
+			}
+			NOT = {
+				OR = {
+					tag = Y58
+					tag = Y55
+				}
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			AND = {
+				owns_core_province = 3436
+				owns_core_province = 3429
+				owns_core_province = 3518
+				owns_core_province = 3345
+			}
+			NOT = { exists = Y58 }
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			if = {
+				limit = {
+					government = cyrodilic_warlord
+				}
+				every_country = {
+					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				change_government = despotic_monarchy
+			}
+			if = {
+				limit = { has_country_flag = cyrodilic_count }
+				clr_country_flag = cyrodilic_count
+			}
+			bruma_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Y58
+			}
+			cheydinhal_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Y58
+			}
+			bravil_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Y58
+			}
+			leyawiin_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Y58
+			}
+			add_prestige = 50
+			add_legitimacy = 75
+			change_tag = Y58
+		}
+	}
+}

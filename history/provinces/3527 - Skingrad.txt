@@ -1,13 +1,14 @@
 culture = colovian
 religion = nine_divines
 
-owner = T03
-controller = T03
-add_core = T03
+owner = Y03
+controller = Y03
+add_core = Y03
 hre = no
 base_tax = 8
 base_production = 8
 manpower = 8
 is_city = yes
+fort_15th = yes
 trade_goods = cloth
 discovered_by = tamrielic discovered_by = XTE

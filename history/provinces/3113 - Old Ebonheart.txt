@@ -12,5 +12,5 @@ manpower = 6
 owner = XDR
 controller = XDR
 add_core = XDR
-fort1 = yes
+fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

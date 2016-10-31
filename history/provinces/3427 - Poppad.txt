@@ -1,9 +1,9 @@
 culture = nibenean
 religion = daedra_worship
 
-owner = T17
-controller = T17
-add_core = T17
+owner = Y17
+controller = Y17
+add_core = Y17
 hre = no
 base_tax = 1
 base_production = 1

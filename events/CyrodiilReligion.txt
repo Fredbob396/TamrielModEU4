@@ -6,27 +6,45 @@ province_event = {
 	picture = REFORM_eventPicture
 
 	trigger = {
-		is_capital = no
-		OR = {
-			religion_group = aedric
-			religion_group = daedric
-			religion_group = hist_g
-			religion_group = dwemeri_rg
-		}
-		owner = {
+		NOT = {
 			OR = {
-				religion_group = aedric
-				religion_group = daedric
-				religion_group = hist_g
-				religion_group = dwemeri_rg
+			
+				#Already Daedra Worshiping
+				religion = new_temple
+				religion = lunar_pantheon
+				
+				#The City Isle and Argonia
+				area = city_isle_area
+				superregion = argonia_superregion
+				
+				#Cyrodiil County Capitals
+				province_id = 3491
+				province_id = 3527
+				province_id = 3456
+				province_id = 3436
+				province_id = 3429
+				province_id = 3518
+				province_id = 3345
+				province_id = 3476
+				
+				#Skyrim Hold Capitals
+				province_id = 3249
+				province_id = 3324
+				province_id = 3290
+				province_id = 3288
+				province_id = 3280
+				province_id = 3333
+				province_id = 3261
+				province_id = 3277
+				province_id = 3311
 			}
 		}
 	}
-
+	
 	mean_time_to_happen = {
-		months = 1000
+		months = 1250
 		modifier = {
-			factor = 0.95
+			factor = 0.6
 			any_neighbor_province = {
 				religion = daedra_worship
 			}

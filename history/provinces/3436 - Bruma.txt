@@ -1,13 +1,14 @@
 culture = nibenean
 religion = nine_divines
 
-owner = T05
-controller = T05
-add_core = T05
+owner = Y05
+controller = Y05
+add_core = Y05
 hre = no
 base_tax = 8
 base_production = 8
 manpower = 5
 is_city = yes
+fort_15th = yes
 trade_goods = wool
 discovered_by = tamrielic discovered_by = XTE

@@ -1,0 +1,7 @@
+government = cyrodilic_empire
+government_rank = 3
+technology_group = tamrielic
+religion = nine_divines
+mercantilism = 0.2
+primary_culture = imperial
+capital = 3529

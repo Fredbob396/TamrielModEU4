@@ -434,7 +434,7 @@ province_event = {
 
 	trigger = {
 		province_id = 3529
-		owned_by = T01
+		owned_by = Y01
 		NOT = { controlled_by = owner }
 		NOT = { controlled_by = REB }
 		has_siege = no
@@ -460,7 +460,7 @@ country_event = {
 		limit = { area = city_isle_area }
 		cede_province = ROOT 
 		add_core = ROOT
-		remove_core = T01
+		remove_core = Y01
 		}
 	}
 }
@@ -478,32 +478,29 @@ country_event = {
 		num_of_cities = 20
 		NOT = { has_country_flag = unified_empire }
 		NOT = { is_at_war = yes }
-		NOT = { is_subjectt = yes }
+		NOT = { is_subject = yes }
 	}
 	
 	mean_time_to_happen = {
-		months = 180
+		months = 120
 	}
 
 	option = {
 		name = "cyrodiil_reunify.EVTOPTA23" 
-		change_tag = T55
+		change_tag = Y55
 		change_government = cyrodilic_empire
 		set_government_rank = 3
 		every_country = {
 			limit = {
-				government = cyrodilic_city
+				OR = {
+					primary_culture = colovian
+					primary_culture = nibenean
+					primary_culture = heartlander
+				}
+				NOT = { government = cyrodilic_warlord }
 			}
 			country_event = { id = cyrodiil_reunify.24 }
 		}
-		T02 = { country_event = { id = cyrodiil_reunify.24 } }
-		T03 = { country_event = { id = cyrodiil_reunify.24 } }
-		T04 = { country_event = { id = cyrodiil_reunify.24 } }
-		T05 = { country_event = { id = cyrodiil_reunify.24 } }
-		T06 = { country_event = { id = cyrodiil_reunify.24 } }
-		T07 = { country_event = { id = cyrodiil_reunify.24 } }
-		T08 = { country_event = { id = cyrodiil_reunify.24 } }
-		T53 = { country_event = { id = cyrodiil_reunify.24 } }
 		set_country_flag = unified_empire
 	}
 }
@@ -520,10 +517,10 @@ country_event = {
 	option = {
 		name = "cyrodiil_reunify.EVTOPTA24"
 		ai_chance = {
-		factor = 50 
+			factor = 0
 			modifier = {
-			factor = 100
-			has_opinion = { who = FROM value = 100 }
+				factor = 100
+				has_opinion = { who = FROM value = 100 }
 			}
 		}
 	every_province = {
@@ -539,10 +536,23 @@ country_event = {
 	option = {
 		name = "cyrodiil_reunify.EVTOPTB24"
 		ai_chance = {
-		factor = 50
+			factor = 0
+			
 			modifier = {
-			factor = 100
-			NOT = { has_opinion = { who = FROM value = 100 } }
+				factor = 100
+				government_rank = 3
+			}
+			
+			modifier = {
+				factor = 100
+				religion = nine_divines
+				FROM = { religion = daedra_worship }
+			}
+			
+			modifier = {
+				factor = 100
+				religion = daedra_worship
+				FROM = { religion = nine_divines }
 			}
 		}
 		FROM = { country_event = { id = cyrodiil_reunify.26 } }

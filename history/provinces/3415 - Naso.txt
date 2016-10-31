@@ -1,14 +1,15 @@
 culture = nibenean
 religion = daedra_worship
 
-owner = T43
-controller = T43
-add_core = T43
+owner = Y43
+controller = Y43
+add_core = Y43
 hre = no
 base_tax = 2
 base_production = 2
 manpower = 2
 is_city = yes
+fort_15th = yes
 trade_goods = iron
 discovered_by = tamrielic discovered_by = XTE
 

@@ -1,9 +1,9 @@
 culture = nibenean
 religion = nine_divines
 
-owner = T48
-controller = T48
-add_core = T48
+owner = Y48
+controller = Y48
+add_core = Y48
 hre = no
 base_tax = 1
 base_production = 1
