@@ -13,9 +13,12 @@ province_event = {
 				religion = new_temple
 				religion = lunar_pantheon
 				
-				#The City Isle and Argonia
+				#The City Isle / Argonia / Solstheim / Firewatch / Helnim
 				area = city_isle_area
+				area = solstheim_area
 				superregion = argonia_superregion
+				province_id = 3074
+				province_id = 3087
 				
 				#Cyrodiil County Capitals
 				province_id = 3491

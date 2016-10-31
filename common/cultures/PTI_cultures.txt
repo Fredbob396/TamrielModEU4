@@ -164,8 +164,16 @@ nordic_g = {
 			Lorem Ipsum
 		}
 	}
+	
 	middle_nordic = {
 		dynasty_names = { 
+			Lorem Ipsum
+		}
+	}
+	
+	skaal = {
+		primary = XSK
+		dynasty_names = {
 			Lorem Ipsum
 		}
 	}

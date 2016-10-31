@@ -88,6 +88,9 @@ XRR = "countries/Rorikstead.txt"
 XMW = "countries/Mistwatch.txt"
 XSS = "countries/Shor's Stone.txt"
 
+#Solstheim
+XSK = "countries/Skaal.txt"
+
 #Elsweyr
 XEL = "countries/Elsweyr.txt"
 XRM = "countries/Rimmen.txt"

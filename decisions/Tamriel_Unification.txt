@@ -1,0 +1,59 @@
+country_decisions = {
+	unify_cyrodiil = {
+		major = yes
+		potential = {
+			has_country_flag = cyrodiil_legitimacy_established
+			NOT = { tag = Y55 }
+		}
+		allow = {
+			has_country_flag = cyrodiil_legitimacy_established
+			NOT = { tag = Y55 }
+		}
+		effect = {
+			change_tag = Y55
+			change_government = cyrodilic_empire
+			set_government_rank = 3
+		}
+	}
+	
+	unify_cyrodiil_invitation = {
+		major = yes
+		potential = {
+			tag = Y55
+			NOT = { has_country_flag = unified_empire }
+		}
+		allow = {
+			tag = Y55
+			NOT = { has_country_flag = unified_empire }
+		}
+		effect = {
+			custom_tooltip = "acceptance_conditions_unification"
+			every_country = {
+				limit = {
+					OR = {
+						primary_culture = colovian
+						primary_culture = nibenean
+						primary_culture = heartlander
+					}
+					NOT = { government = cyrodilic_warlord }
+					NOT = {
+						OR = {
+							tag = Y55
+							tag = REB
+							tag = PIR
+						}
+					}
+				}
+				country_event = { id = cyrodiil_reunify.24 }
+			}
+			every_province = {
+				limit = {
+					superregion = cyrodiil_superregion
+					NOT = { owned_by = ROOT }
+				}
+			add_permanent_claim = ROOT
+			}
+			set_country_flag = unified_empire
+		}
+	}
+}

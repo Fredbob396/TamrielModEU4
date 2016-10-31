@@ -111,3 +111,16 @@ dwemeri_rg = {
 
 	}
 }
+
+skaal = {
+	allmaker = {
+		color = { 0 0 0.5 }
+		icon = 21
+	}
+	province = {
+		local_missionary_strength = -0.03
+	}
+	country = {
+		land_morale = 0.05
+	}
+}

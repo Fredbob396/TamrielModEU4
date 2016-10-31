@@ -10,5 +10,5 @@ base_production = 6
 manpower = 6
 is_city = yes
 fort_15th = yes
-trade_goods = wine
+trade_goods = cloth
 discovered_by = tamrielic discovered_by = XTE

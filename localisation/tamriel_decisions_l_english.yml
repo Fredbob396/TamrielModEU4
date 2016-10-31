@@ -21,3 +21,8 @@
  form_colovia_desc: "Unify the Colovian people of Cyrodiil into one empire!"
  form_nibenay_title: "Form Nibenay"
  form_nibenay_desc: "Unify the Nibenese people of Cyrodiil into one empire!"
+ unify_cyrodiil_title: "Form Cyrodiil"
+ unify_cyrodiil_desc: "Form the Cyrodilic Empire!"
+ unify_cyrodiil_invitation_title: "Unify Cyrodiil"
+ unify_cyrodiil_invitation_desc: "Invite the independent counties and republics of Cyrodiil to join our legions!"
+ acceptance_conditions_unification: "Countries with relations of +100 or more will join! Empire ranked countries will NOT join! Daedra Worshiping countries will NOT join if we are Nine Divines worshiping and vice versa!"

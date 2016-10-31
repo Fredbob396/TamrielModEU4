@@ -1,0 +1,15 @@
+#Region - Solstheim
+
+culture = skaal
+religion = allmaker
+capital = "Skaal Village"
+trade_goods = fur
+hre = no
+base_tax = 3
+base_production = 3
+manpower = 3
+owner = XSK
+controller = XSK
+add_core = XSK
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE
