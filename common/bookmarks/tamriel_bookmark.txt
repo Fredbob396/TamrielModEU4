@@ -1,0 +1,19 @@
+bookmark =
+{
+	name = "TAMRIEL_BOOKMARK"
+	desc = "TAMRIEL_BOOKMARK_DESC"
+	date = 1444.11.11
+	
+	center = 3529
+	
+	country = Y01
+	country = Y02
+	country = Y06
+	country = Y08
+	country = XRD
+	country = XTE
+	country = XNT	
+	country = XCW
+	country = XAT
+	country = XSE
+}
