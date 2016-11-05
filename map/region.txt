@@ -249,3 +249,34 @@ bravil_region = {
 		e_niben_area
 	}
 }
+
+anequina_region = {
+	areas = {
+		north_xylo_area
+		west_desert_fringe_area
+		dune_area
+		redwall_area
+		orcrest_area
+		riverreach_area
+		rimmen_area
+		helkarn_area
+		ashokhe_area
+		alabaster_area
+		corinthe_area
+	}
+}
+
+pelletine_region = {
+	areas = {
+		ahjdawi_area
+		quinrawl_area
+		inner_pelletine_area
+		colossus_halls_area
+		redbridge_area
+		torval_area
+		hasanir_area
+		rivermouth_area
+		ahkhai_area
+		low_xylo_area
+	}
+}

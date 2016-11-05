@@ -31,3 +31,8 @@ cyrodiil_superregion = {
 	heartlands_region
 	bravil_region
 }
+
+elsweyr_superregion = {
+	anequina_region
+	pelletine_region
+}
