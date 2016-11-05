@@ -8,6 +8,9 @@ XTE = "countries/Telvanni.txt"
 #Dunmer Temple (Ex-Indoril)
 XNT = "countries/Dunmer Temple.txt"
 
+#Unified Morrowind
+XMD = "countries/Morrowind.txt"
+
 #Dunmeri Minors
 XFW = "countries/Firewatch.txt"
 XHE = "countries/Helnim.txt"
@@ -61,6 +64,9 @@ XRE = "countries/Reach.txt"
 XRI = "countries/Rift.txt"
 XWH = "countries/Winterhold.txt"
 XWR = "countries/Whiterun.txt"
+
+#Skyrim Union
+XSM = "countries/Skyrim.txt"
 
 #Skyrim Rebels
 XKG = "countries/Kagrenzel.txt"
