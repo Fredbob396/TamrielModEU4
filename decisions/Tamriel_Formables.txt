@@ -611,4 +611,178 @@ country_decisions = {
 			change_tag = Y58
 		}
 	}
+	
+	form_argonia = {
+		major = yes
+		potential = {
+			culture_group = greater_argonian
+			NOT = { tag = XAR }
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			NOT = { tag = XAR }
+			AND = {
+				owns_core_province = 3184
+				owns_core_province = 3179
+				owns_core_province = 3186
+				owns_core_province = 3238
+				owns_core_province = 3211
+				owns_core_province = 3213
+				owns_core_province = 3204
+				owns_core_province = 3232
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			argonia_superregion = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XAR
+			}
+			add_prestige = 50
+			add_legitimacy = 75
+			change_tag = XAR
+			set_capital = 3186
+		}
+	}
+	
+	form_morrowind = {
+	major = yes
+		potential = {
+			OR = {
+				culture_group = dunmeri
+				culture_group = mestizo_dunmeri
+			}
+			NOT = { tag = XMD }
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			NOT = { tag = XMD }
+			AND = {
+				owns_core_province = 3066
+				owns_core_province = 3056
+				owns_core_province = 3039
+				owns_core_province = 3099
+				owns_core_province = 3116
+				owns_core_province = 3163
+				owns_core_province = 3068
+				owns_core_province = 3157
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			morrowind_superregion = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XMD
+			}
+			add_prestige = 50
+			add_legitimacy = 75
+			change_tag = XMD
+		}
+	}
+	
+	form_skyrim = {
+	major = yes
+		potential = {
+			culture_group = nordic_g
+			NOT = { tag = XSM }
+			NOT = { tag = XRS }
+			NOT = { culture = skaal }
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			NOT = { tag = XSM }
+			NOT = { tag = XRS }
+			AND = {
+				owns_core_province = 3249
+				owns_core_province = 3324
+				owns_core_province = 3290
+				owns_core_province = 3288
+				owns_core_province = 3280
+				owns_core_province = 3333
+				owns_core_province = 3261
+				owns_core_province = 3277
+				owns_core_province = 3311
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			skyrim_superregion = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XSM
+			}
+			add_prestige = 50
+			add_legitimacy = 75
+			change_tag = XSM
+		}
+	}
+	
+	form_resdayn = {
+	major = yes
+		potential = {
+			OR = {
+				religion = dwemer_reason
+				government = tinker_state
+			}
+			NOT = { tag = XRS }
+			NOT = { tag = XSM }
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			NOT = { tag = XRS }
+			NOT = { tag = XSM }
+			AND = {
+				owns_core_province = 3066
+				owns_core_province = 3056
+				owns_core_province = 3039
+				owns_core_province = 3099
+				owns_core_province = 3116
+				owns_core_province = 3163
+				owns_core_province = 3068
+				owns_core_province = 3157
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			morrowind_superregion = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XRS
+			}
+			add_prestige = 50
+			add_legitimacy = 75
+			change_tag = XRS
+			change_primary_culture = velothi
+		}
+	}
 }

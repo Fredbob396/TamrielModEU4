@@ -1,0 +1,29 @@
+the_mandate_of_the_moons = {
+	potential = {
+		government = elsweyr_theocracy
+	}
+	
+	trigger = {	
+		stability = 0
+		devotion = 60
+	}
+
+	stability_cost_modifier = -0.10
+}
+
+the_mandate_of_the_moons_lost = {
+	potential = {
+		government = elsweyr_theocracy
+	}
+
+	trigger = {
+		OR = {
+			NOT = { stability = 0 }
+			NOT = { devotion = 60 }
+		}
+	}
+	
+	discipline = -0.1
+	stability_cost_modifier = 0.5
+	global_unrest = 10
+}

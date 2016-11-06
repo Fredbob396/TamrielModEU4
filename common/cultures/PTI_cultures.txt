@@ -284,7 +284,7 @@ cyrodillic = {
 	}
 }
 
-khajiti_g = { 
+khajiti_g = {
 	graphical_culture = westerngfx
 
 	anequinan = {
@@ -294,6 +294,85 @@ khajiti_g = {
 	}
 
 	pelletini= {
+		dynasty_names = { 
+			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
+		}
+	}
+}
+
+nequinali = {
+	graphical_culture = muslimgfx
+	
+	
+	riverholder = {
+		primary = YRH
+		dynasty_names = { 
+			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
+		}
+	}	
+	
+	dunian = {
+		primary = YDN
+		dynasty_names = { 
+			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
+		}
+	}
+	
+	orcresti = {
+		primary = YOC
+		dynasty_names = { 
+			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
+		}
+	}
+	
+	n_xylosian = {
+		primary = YHR
+		dynasty_names = { 
+			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
+		}
+	}	
+	
+	rimmeni = {
+		primary = XRM
+		dynasty_names = { 
+			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
+		}
+	}
+	
+	corinthian = {
+		primary = YCO
+		dynasty_names = { 
+			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
+		}
+	}
+	
+	alabasterian = {
+		primary = YAL
+		dynasty_names = { 
+			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
+		}
+	}
+}
+
+paalatiini = {
+	graphical_culture = muslimgfx
+		
+	xylosian = {
+		primary = YTO
+		dynasty_names = { 
+			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
+		}
+	}
+	
+	tenmari = {
+		primary = YTE
+		dynasty_names = { 
+			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
+		}
+	}
+	
+	quinrawli = {
+		primary = YSE
 		dynasty_names = { 
 			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
 		}

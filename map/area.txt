@@ -392,5 +392,75 @@ w_niben_area = {
 	3350 3351 3518 3517 3516
 }
 e_niben_area = {
-	3408 3410 3565 3411 3464 3465
+	3408 3410 3411 3464 3465
+}
+#Quin'Rawl
+quinrawl_area = {
+	3616 3617 3618 3619 3620
+}
+ahjdawi_area = {
+	3612 3614 3615
+}
+inner_pelletine_area = {
+	3621 3622 3629 3623 3628
+}
+southsea_area = {
+	3630 3627 3631 3632 3633 3648
+}
+#Tenmar
+duncori_area = {
+	3606 3605 3613
+}
+tenmar_area = {
+	3625 3647 3624 3626 3634 3635
+}
+ahkhai_area = {
+	3646 3607 3610 3637 3636
+}
+#Torval
+torval_area = {
+	3641 3640 3639 3638 3643 3642 3644
+}
+upper_xylo_area = {
+	3651 3649 3650 3645 3652 3653
+}
+#Alabaster
+alabaster_area = {
+	3602 3601 3603 3600 3599 3604
+}
+#Corinth
+corinthe_area = {
+	3608 3609 3598 3597 3596
+}
+#Rimmen
+rimmen_area = {
+	3593 3592 3586 3591 3587 3590
+}
+valley_guard_area = {
+	3594 3595 3611
+}
+#Orcrest
+orcrest_area = {
+	3581 3580 3583 3582 3588 3589
+}
+redwall_area = {
+	3571 3570 3572
+}
+#Dune
+dune_area = {
+	3568 3574 3573 3569 
+}
+meirvale_area = {
+	3566 3567 3565 3564
+}
+#Riverhold
+riverhold_area = {
+	3577 3579 3584 3585
+}
+seaplace_area = {
+	3575 3576 3578
+}
+#Hemthor
+lower_xylo_area = {
+	3559 3560 3561 3562 3563
 }

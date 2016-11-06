@@ -2,6 +2,6 @@ government = republican_dictatorship
 technology_group = tamrielic
 religion = lunar_pantheon
 mercantilism = 0.2
-primary_culture = rimmen_c
+primary_culture = rimmeni
 capital = 3593	# Rimmen
 

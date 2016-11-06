@@ -7,6 +7,10 @@ XTE = "countries/Telvanni.txt"
 
 #Dunmer Temple (Ex-Indoril)
 XNT = "countries/Dunmer Temple.txt"
+XRS = "countries/Resdayn.txt"
+
+#Unified Morrowind
+XMD = "countries/Morrowind.txt"
 
 #Dunmeri Minors
 XFW = "countries/Firewatch.txt"
@@ -62,6 +66,9 @@ XRI = "countries/Rift.txt"
 XWH = "countries/Winterhold.txt"
 XWR = "countries/Whiterun.txt"
 
+#Skyrim Union
+XSM = "countries/Skyrim.txt"
+
 #Skyrim Rebels
 XKG = "countries/Kagrenzel.txt"
 
@@ -94,6 +101,24 @@ XSK = "countries/Skaal.txt"
 #Elsweyr
 XEL = "countries/Elsweyr.txt"
 XRM = "countries/Rimmen.txt"
+
+#Elsweyr Revolters
+YAL = "countries/Alabaster.txt"
+YAK = "countries/Ahkhai.txt"
+YCO = "countries/Corinth.txt"
+YDC = "countries/Duncori.txt"
+YDN = "countries/Dune.txt"
+YME = "countries/Meirvale.txt"
+YHR = "countries/Hemthor.txt"
+YOC = "countries/Orcrest.txt"
+YRW = "countries/Redwall.txt"
+YRH = "countries/Riverhold.txt"
+YSP = "countries/Seaplace.txt"
+YSE = "countries/Senchal.txt"
+YTE = "countries/Tenmar.txt"
+YTO = "countries/Torval.txt"
+YVG = "countries/ValleyGuard.txt"
+YXS = "countries/Xaspor.txt"
 
 #Cyrodiil Counties
 Y01 = "countries/Cityisle.txt"

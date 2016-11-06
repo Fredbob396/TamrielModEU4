@@ -1,6 +1,6 @@
 #Region - Anequina
 
-culture = anequinan
+culture = alabasterian
 religion = lunar_pantheon
 trade_goods = fish
 citysize = 15650
@@ -11,5 +11,6 @@ manpower = 3
 owner = XEL
 controller = XEL
 add_core = XEL
+add_core = YAL
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE

@@ -1,0 +1,168 @@
+graphical_culture = muslimgfx
+
+color = { 123  158  200 }
+
+historical_idea_groups = {
+	quality_ideas
+	religious_ideas
+	influence_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	defensive_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+monarch_names = {	
+	"Baadargo #0" = 20
+	"Barri #0" = 20
+	"Farahn #0" = 20
+	"Qanar #0" = 20
+	"Sakhar #0" = 20
+	"Shavir #0" = 20
+	"Tasarr #0" = 20
+	"Zah #0" = 20
+	"Zaymar #0" = 20
+	"Zharim #0" = 20
+	"Zhirr #0" = 20
+	"Dato #0" = 20
+	"Dhannar #0" = 20
+	"Hanir #0" = 20
+	"Jarsha #0" = 20
+	"Jazha #0" = 20
+	"Kara #0" = 20
+	"Basha #0" = 20
+	"Jodhur #0" = 20
+	"Ren #0" = 20
+	"Joshur #0" = 20
+	"Thri #0" = 20
+	"Raksa #0" = 20
+	"Rasha #0" = 20
+	"Saddha #0" = 20
+	"Zamha #0" = 20
+	"Dara #0" = 20
+	"Aiq #0" = 20
+	"Jidarr #0" = 20
+	"Khar #0" = 20
+	"Zahn #0" = 20
+	"Nashi #0" = 20
+	"Shan #0" = 20
+	"Dar #0" = 20
+	"Karim #0" = 20
+	"Kothre #0" = 20
+	"Mhirr #0" = 20
+	"Sava #0" = 20
+	"Tesh #0" = 20
+	"Virr #0" = 20
+	"Zahr #0" = 20
+	"Zhid #0" = 20
+	"Darsha #0" = 20
+	"Dumiwa #0" = 20
+	"Shajirr #0" = 20
+	"Vassa #0" = 20
+	"Zaadha #0" = 20
+	"Bakha #0" = 20
+	"Sholani #0" = 20
+	"Radirr #0" = 20
+	"Rava #0" = 20
+	"Raverr #0" = 20
+	"Renji #0" = 20
+	"Vandra #0" = 20
+	"Virr #0" = 20
+	"Thengil #0" = 20
+	"Urjorad #0" = 20
+	"Wadarkhu #0" = 20
+	"Zargo #0" = 20
+
+	"Abanji #0" = -20
+	"Adanja #0" = -20
+	"Addhiranirr #0" = -20
+	"Adharanji #0" = -20
+	"Affri #0" = -20
+	"Ahdahni #0" = -20
+	"Ahdni #0" = -20
+	"Ahdri #0" = -20
+	"Ahjara #0" = -20
+	"Ahnarra #0" = -20
+	"Ahnassi #0" = -20
+	"Ahndahra #0" = -20
+	"Ahnia #0" = -20
+	"Ahnisa #0" = -20
+	"Ahzini #0" = -20
+	"Aina #0" = -20
+	"Ajira #0" = -20
+	"Anjari #0" = -20
+	"Arabhi #0" = -20
+	"Aravi #0" = -20
+	"Ashidasha #0" = -20
+	"Bahdahna #0" = -20
+	"Bahdrashi #0" = -20
+	"Baissa #0" = -20
+	"Bhusari #0" = -20
+	"Chirranirr #0" = -20
+	"Dahleena #0" = -20
+	"Dahnara #0" = -20
+	"Ekapi #0" = -20
+	"Harassa #0" = -20
+	"Habasi #0" = -20
+	"Idhassi #0" = -20
+	"Inerri #0" = -20
+	"Inorra #0" = -20
+	"Kaasha #0" = -20
+	"Khamuzi #0" = -20
+	"Khazura #0" = -20
+	"Khinjarsi #0" = -20
+	"Kiseena #0" = -20
+	"Kisimba #0" = -20
+	"Kisisa #0" = -20
+	"Nisaba #0" = -20
+	"Rabinna #0" = -20
+	"Shaba #0" = -20
+	"Shivani #0" = -20
+	"Shotherra #0" = -20
+	"Shunari #0" = -20
+	"Tsabhi #0" = -20
+	"Tsajadhi #0" = -20
+	"Tsalani #0" = -20
+	"Tsani #0" = -20
+	"Tsiya #0" = -20
+	"Tsrazami #0" = -20
+	"Ubaasi #0" = -20
+	"Udarra #0" = -20
+	"Unjara #0" = -20
+	"Vanjirra #0" = -20
+	"Zahraji #0" = -20
+	"Kishra #0" = -20
+	"Ahnissi #0" = -20
+	"Anurassa #0" = -20
+	"Bhisha #0" = -20
+	"Mizaba #0" = -20
+	"Rathumi #0" = -20
+}	
+
+leader_names = {
+	Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
+
+}
+
+army_names = {
+	"$PROVINCE$ Army" 
+}

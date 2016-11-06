@@ -1,6 +1,6 @@
 # Elsweyr
 
-graphical_culture = southamericagfx
+graphical_culture = muslimgfx
 
 color = { 234  195  145 }
 

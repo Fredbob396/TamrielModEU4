@@ -69,6 +69,12 @@ country_event = {
 		name = "cyrodiil_flag.EVTOPTA4"
 		set_capital = 3529
 		set_country_flag = ruby_throne
+		if = {
+			limit = {
+				government_rank = 1
+			}
+			set_government_rank = 2
+		}
 		every_country = {
 			limit { culture_group = cyrodillic }
 			remove_opinion = {

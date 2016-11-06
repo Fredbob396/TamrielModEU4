@@ -249,3 +249,33 @@ bravil_region = {
 		e_niben_area
 	}
 }
+
+anequina_region = {
+	areas = {
+		alabaster_area
+		corinthe_area
+		rimmen_area
+		valley_guard_area
+		orcrest_area
+		redwall_area
+		dune_area
+		meirvale_area
+		riverhold_area
+		seaplace_area
+		lower_xylo_area
+	}
+}
+
+pelletine_region = {
+	areas = {
+		quinrawl_area
+		ahjdawi_area
+		inner_pelletine_area
+		southsea_area
+		duncori_area
+		tenmar_area
+		ahkhai_area
+		torval_area
+		upper_xylo_area
+	}
+}

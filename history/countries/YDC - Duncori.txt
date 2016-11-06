@@ -1,0 +1,7 @@
+government = despotic_monarchy
+technology_group = tamrielic
+religion = lunar_pantheon
+mercantilism = 0.2
+primary_culture = tenmari
+capital = 3606 #Duncori
+

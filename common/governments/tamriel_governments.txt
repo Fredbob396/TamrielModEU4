@@ -136,3 +136,32 @@ cyrodilic_city = {
 		}
 	}
 }
+
+elsweyr_theocracy = {
+	religion = yes	
+	
+	unique_government = yes
+	
+	valid_for_new_country = no
+	royal_marriage = no
+	allow_convert = no
+	
+	different_religion_acceptance = -20
+	different_religion_group_acceptance = -50
+	
+	has_devotion = yes
+	rulers_can_be_generals = no
+	
+	min_autonomy = 50
+	max_states = 8
+	land_forcelimit_modifier = -0.25
+	
+	rank = {
+		3 = {
+			num_accepted_cultures = 5
+			prestige = 0.5
+			tolerance_heretic = -2
+		}
+	}
+	fixed_rank = 3
+}
