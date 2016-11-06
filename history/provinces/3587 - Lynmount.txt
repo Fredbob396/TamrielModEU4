@@ -1,6 +1,6 @@
 #Region - Anequina
 
-culture = rimmen_c
+culture = rimmeni
 religion = lunar_pantheon
 trade_goods = fish
 citysize = 15650

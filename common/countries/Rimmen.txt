@@ -1,6 +1,6 @@
 #Rimmen
 
-graphical_culture = westerngfx
+graphical_culture = muslimgfx
 
 color = { 200  200  200 }
 

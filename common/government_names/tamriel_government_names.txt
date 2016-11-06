@@ -70,3 +70,15 @@ cyrodilic_count = {
 		}
 	}
 }
+
+elsweyr_theocracy = {
+	rank = {
+		3 = ELSWEYR_CONFEDERACY
+	}
+	ruler_male = {
+		3 = MANE
+	}
+	trigger = {
+		government = elsweyr_theocracy
+	}
+}

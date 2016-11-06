@@ -701,12 +701,14 @@ country_decisions = {
 		potential = {
 			culture_group = nordic_g
 			NOT = { tag = XSM }
+			NOT = { tag = XRS }
 			NOT = { culture = skaal }
 		}
 		allow = {
 			is_subject = no
 			is_at_war = no
 			NOT = { tag = XSM }
+			NOT = { tag = XRS }
 			AND = {
 				owns_core_province = 3249
 				owns_core_province = 3324
@@ -735,6 +737,52 @@ country_decisions = {
 			add_prestige = 50
 			add_legitimacy = 75
 			change_tag = XSM
+		}
+	}
+	
+	form_resdayn = {
+	major = yes
+		potential = {
+			OR = {
+				religion = dwemer_reason
+				government = tinker_state
+			}
+			NOT = { tag = XRS }
+			NOT = { tag = XSM }
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			NOT = { tag = XRS }
+			NOT = { tag = XSM }
+			AND = {
+				owns_core_province = 3066
+				owns_core_province = 3056
+				owns_core_province = 3039
+				owns_core_province = 3099
+				owns_core_province = 3116
+				owns_core_province = 3163
+				owns_core_province = 3068
+				owns_core_province = 3157
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			morrowind_superregion = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XRS
+			}
+			add_prestige = 50
+			add_legitimacy = 75
+			change_tag = XRS
+			change_primary_culture = velothi
 		}
 	}
 }

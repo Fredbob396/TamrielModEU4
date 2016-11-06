@@ -1,7 +1,15 @@
-government = republican_dictatorship
+government = elsweyr_theocracy
+government_rank = 3
 technology_group = tamrielic
 religion = lunar_pantheon
 mercantilism = 0.2
-primary_culture = pelletini
-capital = 3641	# Torval
+primary_culture = xylosian
+add_accepted_culture = riverholder
+add_accepted_culture = dunian
+add_accepted_culture = orcresti
+add_accepted_culture = n_xylosian
+add_accepted_culture = rimmeni
+add_accepted_culture = corinthian
+add_accepted_culture = alabasterian
 
+capital = 3641	# Torval

@@ -483,8 +483,8 @@ country_event = {
 	
 	trigger = {
 		has_country_flag = ruby_throne
-		legitimacy = 90
-		num_of_cities = 30
+		legitimacy = 70
+		num_of_cities = 25
 		NOT = { has_country_flag = unified_empire }
 		NOT = { has_country_flag = cyrodiil_legitimacy_established }
 		NOT = { is_at_war = yes }
