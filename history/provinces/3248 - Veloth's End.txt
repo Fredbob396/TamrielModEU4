@@ -2,7 +2,7 @@
 
 culture = velothi
 religion = new_temple
-capital = "Dunmeth"
+capital = "Hjolfrstad"
 trade_goods = fish
 citysize = 15650
 hre = no

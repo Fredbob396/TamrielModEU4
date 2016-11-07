@@ -2,7 +2,7 @@
 
 culture = boethian
 religion = new_temple
-capital = "Akamora"
+capital = "Shambalu"
 trade_goods = alchemical_goods
 citysize = 15650
 hre = no

@@ -7,7 +7,7 @@ bugfix_area = {
 }
 
 near_molagreahd_area = {
-    3072 3075 3076 3081
+    3072 3075 3076 3081 3681
 }
 
 far_molagreahd_area = {
@@ -15,7 +15,7 @@ far_molagreahd_area = {
 }
 
 telvanni_isles_area = {
-    3068 3069 3070
+    3068 3069 3070 3679 3680
 }
 
 helnim_area = {
@@ -27,11 +27,11 @@ aranyon_area = {
 }
 
 lake_boethiah_area = {
-    3088 3089 3090 3091
+    3088 3089 3090 3091 3682
 }
 
 west_boethiah_area = {
-    3083 3084 3085 3086
+    3083 3084 3085 3086 3683
 }
 
 sacred_lands_area = {
@@ -67,19 +67,19 @@ east_thirr_area = {
 }
 
 jer_ahkrin_area = {
-    3128 3129 3130 3131 3132 3133 3134
+    3128 3129 3130 3131 3132 3133 3134 3701
 }
 
 uvonaak_area = {
-    3160 3161 3162 3163 3164 3165 3675
+    3160 3161 3162 3163 3164 3165 3675 3685
 }
 
 kragenmoor_area = {
-    3166 3167 3168 3169 3665
+    3166 3167 3168 3169 3665 3686 3687
 }
 
 west_thirr_area = {
-    3122 3123 3127
+    3122 3123 3127 3684
 }
 
 roth_roryn_area = {
@@ -91,7 +91,7 @@ armun_area = {
 }
 
 morimath_area = {
-    3140 3141 3142
+    3140 3141 3142 3689
 }
 
 solstheim_area = {
@@ -107,11 +107,11 @@ mid_veloth_area = {
 }
 
 redoran_area = {
-    3156 3157 3158 3245
+    3156 3157 3158 3245 3690
 }
 
 kagrenzel_area = {
-    3244 3246 3248
+    3244 3246 3248 3691 3692 3693
 }
 
 bitter_coast_area = {

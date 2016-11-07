@@ -3,7 +3,7 @@
 culture = indar
 religion = new_temple
 capital = "Scinia's End"
-trade_goods = hunted_goods
+trade_goods = dwemer_parts
 citysize = 15650
 hre = no
 base_tax = 3

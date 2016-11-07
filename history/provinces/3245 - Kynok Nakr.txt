@@ -2,7 +2,7 @@
 
 culture = velothi
 religion = new_temple
-capital = "Gargon"
+capital = "Kushimmu"
 trade_goods = iron
 citysize = 15650
 hre = no

@@ -2,7 +2,7 @@
 
 culture = velothi
 religion = new_temple
-capital = "Tayn"
+capital = "Zaelbalmiran"
 trade_goods = grain
 citysize = 15650
 hre = no
