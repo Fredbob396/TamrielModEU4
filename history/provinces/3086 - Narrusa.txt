@@ -2,7 +2,7 @@
 
 culture = boethian
 religion = new_temple
-capital = "Tel Narrusa"
+capital = "Mzankh"
 trade_goods = potions
 citysize = 15650
 hre = no

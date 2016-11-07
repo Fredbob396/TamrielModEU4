@@ -2,7 +2,7 @@
 
 culture = velothi
 religion = new_temple
-capital = "Uthor"
+capital = "Kuhn Mar"
 trade_goods = hunted_goods
 citysize = 15650
 hre = no

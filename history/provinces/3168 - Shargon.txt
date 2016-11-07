@@ -2,7 +2,7 @@
 
 culture = hlaalu
 religion = new_temple
-capital = "Shar Gon"
+capital = "Hlan Oek"
 trade_goods = kwama
 citysize = 15650
 hre = no

@@ -2,7 +2,7 @@
 
 culture = telvon
 religion = new_temple
-capital = "Baelkashpitu"
+capital = "Drenka"
 trade_goods = kwama
 citysize = 15650
 hre = no

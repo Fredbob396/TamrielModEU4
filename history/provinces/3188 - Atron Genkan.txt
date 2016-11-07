@@ -2,7 +2,7 @@
 
 culture = archein
 religion = hist
-capital = "Hajnoag"
+capital = "Ebernaxal"
 trade_goods = hunted_goods
 citysize = 15650
 hre = no
