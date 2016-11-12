@@ -11,6 +11,6 @@ manpower = 2
 owner = XEL
 controller = XEL
 add_core = XEL
-add_core = YTE
+add_core = YDC
 fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

@@ -338,20 +338,6 @@ nequinali = {
 			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
 		}
 	}
-	
-	corinthian = {
-		primary = YCO
-		dynasty_names = { 
-			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
-		}
-	}
-	
-	alabasterian = {
-		primary = YAL
-		dynasty_names = { 
-			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
-		}
-	}
 }
 
 paalatiini = {
@@ -359,6 +345,13 @@ paalatiini = {
 		
 	xylosian = {
 		primary = YTO
+		dynasty_names = { 
+			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
+		}
+	}
+	
+	corinthian = {
+		primary = YCO
 		dynasty_names = { 
 			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
 		}
@@ -373,6 +366,13 @@ paalatiini = {
 	
 	quinrawli = {
 		primary = YSE
+		dynasty_names = { 
+			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
+		}
+	}
+	
+	alabasterian = {
+		primary = YAL
 		dynasty_names = { 
 			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
 		}

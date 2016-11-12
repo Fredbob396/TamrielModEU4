@@ -1,6 +1,8 @@
+# Pellitine
+
 graphical_culture = muslimgfx
 
-color = { 135  155  175 }
+color = { 78  128  31 }
 
 historical_idea_groups = {
 	quality_ideas
@@ -156,11 +158,17 @@ monarch_names = {
 	"Bhisha #0" = -20
 	"Mizaba #0" = -20
 	"Rathumi #0" = -20
-}	
+}
+
+	
 
 leader_names = {
 	Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
 
+}
+
+ship_names = {
+	"Argon" "Kamanai" "Arnesia" "Arkethnia" "Clawreach" "Atron" "Hjalokh" "Seydahnil" "Komatur" "Helstrom" "Archon" "Gideon" "Thorn" "Stormhold" "Blackrose" "Saxhavn" "Hixinoag"
 }
 
 army_names = {

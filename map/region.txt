@@ -173,62 +173,26 @@ haafinheim_region = {
 	}
 }
 
-anvil_region = {
-	areas = {
-		anvil_area
-		n_goldcoast_area
-	}
-}
-
-kvatch_region = {
+colovian_highlands_region = {
 	areas = {
 		w_colovian_highlands_area
-		kvatch_area
-		shardrock_area
-	}
-}
-
-chorrol_region = {
-	areas = {
 		chorrol_area
-		w_jeralls_area
-		glademist_area
 		hackdirt_area
-	}
-}
-
-bruma_region = {
-	areas = {
-		e_jeralls_area
+		odiil_area
+		w_jeralls_area
 		bleakers_way_area
 	}
 }
 
-cheydinhal_region = {
+colovian_heartlands_region = {
 	areas = {
-		cheydinhal_area
-		n_valus_area
-		hame_area
-		cropsford_area
-		drakelowe_area
-	}
-}
-
-leyawiin_region = {
-	areas = {
-		borderwatch_area
-		topal_bay_area
-		blackwood_area
-		s_valus_area
-		altar_valley_area
-	}
-}
-
-skingrad_region = {
-	areas = {
+		n_goldcoast_area
+		anvil_area
+		kvatch_area
 		skingrad_area
 		valen_border_area
 		nornalhorst_area
+		brindle_area
 	}
 }
 
@@ -243,17 +207,33 @@ heartlands_region = {
 	}
 }
 
-bravil_region = {
+n_nibenay_region = {
 	areas = {
+		e_jeralls_area
+		sedor_area
+		cheydinhal_area
+		n_valus_area
+		drakelowe_area
+		cropsford_area
+		hame_area
+	}
+}
+
+s_nibenay_region = {
+	areas = {
+		borderwatch_area
+		topal_bay_area
+		blackwood_area
+		altar_valley_area
 		w_niben_area
 		e_niben_area
+		wendelbek_area
+		s_valus_area
 	}
 }
 
 anequina_region = {
 	areas = {
-		alabaster_area
-		corinthe_area
 		rimmen_area
 		valley_guard_area
 		orcrest_area
@@ -266,8 +246,9 @@ anequina_region = {
 	}
 }
 
-pelletine_region = {
+pellitine_region = {
 	areas = {
+		corinthe_area
 		quinrawl_area
 		ahjdawi_area
 		inner_pelletine_area
@@ -277,5 +258,6 @@ pelletine_region = {
 		ahkhai_area
 		torval_area
 		upper_xylo_area
+		alabaster_area
 	}
 }

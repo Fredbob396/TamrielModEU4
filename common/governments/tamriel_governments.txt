@@ -154,7 +154,7 @@ elsweyr_theocracy = {
 	
 	min_autonomy = 50
 	max_states = 8
-	land_forcelimit_modifier = -0.25
+	land_forcelimit_modifier = -0.33
 	
 	rank = {
 		3 = {

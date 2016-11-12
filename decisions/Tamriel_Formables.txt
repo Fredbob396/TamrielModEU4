@@ -11,7 +11,7 @@ country_decisions = {
 				}
 			}
 			culture_group = cyrodillic
-			anvil_region = {
+			anvil_area = {
 				owned_by = ROOT
 			}
 		}		
@@ -41,7 +41,7 @@ country_decisions = {
 				}
 				change_government = despotic_monarchy
 			}			
-			anvil_region = {
+			anvil_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
@@ -67,7 +67,7 @@ country_decisions = {
 				}
 			}
 			culture_group = cyrodillic
-			skingrad_region = {
+			skingrad_area = {
 				owned_by = ROOT
 			}
 		}		
@@ -97,7 +97,7 @@ country_decisions = {
 				}
 				change_government = despotic_monarchy
 			}			
-			skingrad_region = {
+			skingrad_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
@@ -123,7 +123,7 @@ country_decisions = {
 				}
 			}
 			culture_group = cyrodillic
-			chorrol_region = {
+			chorrol_area = {
 				owned_by = ROOT
 			}
 		}		
@@ -153,7 +153,7 @@ country_decisions = {
 				}
 				change_government = despotic_monarchy
 			}			
-			chorrol_region = {
+			chorrol_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
@@ -179,7 +179,7 @@ country_decisions = {
 				}
 			}
 			culture_group = cyrodillic
-			bruma_region = {
+			e_jeralls_area = {
 				owned_by = ROOT
 			}
 		}		
@@ -209,7 +209,7 @@ country_decisions = {
 				}
 				change_government = despotic_monarchy
 			}			
-			bruma_region = {
+			e_jeralls_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
@@ -235,7 +235,7 @@ country_decisions = {
 				}
 			}
 			culture_group = cyrodillic
-			cheydinhal_region = {
+			cheydinhal_area = {
 				owned_by = ROOT
 			}
 		}		
@@ -265,7 +265,7 @@ country_decisions = {
 				}
 				change_government = despotic_monarchy
 			}			
-			cheydinhal_region = {
+			cheydinhal_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
@@ -291,7 +291,7 @@ country_decisions = {
 				}
 			}
 			culture_group = cyrodillic
-			bravil_region = {
+			w_niben_area = {
 				owned_by = ROOT
 			}
 		}		
@@ -321,7 +321,7 @@ country_decisions = {
 				}
 				change_government = despotic_monarchy
 			}			
-			bravil_region = {
+			w_niben_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
@@ -347,7 +347,7 @@ country_decisions = {
 				}
 			}
 			culture_group = cyrodillic
-			leyawiin_region = {
+			topal_bay_area = {
 				owned_by = ROOT
 			}
 		}		
@@ -377,7 +377,7 @@ country_decisions = {
 				}
 				change_government = despotic_monarchy
 			}			
-			leyawiin_region = {
+			topal_bay_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
@@ -403,7 +403,7 @@ country_decisions = {
 				}
 			}
 			culture_group = cyrodillic
-			kvatch_region = {
+			kvatch_area = {
 				owned_by = ROOT
 			}
 		}		
@@ -433,7 +433,7 @@ country_decisions = {
 				}
 				change_government = despotic_monarchy
 			}			
-			kvatch_region = {
+			kvatch_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
@@ -503,25 +503,13 @@ country_decisions = {
 					}
 				}
 			}
-			anvil_region = {
+			colovian_highlands_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_permanent_claim = Y57
 			}
-			skingrad_region = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = Y57
-			}
-			chorrol_region = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = Y57
-			}
-			kvatch_region = {
+			colovian_heartlands_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
@@ -582,25 +570,13 @@ country_decisions = {
 				limit = { has_country_flag = cyrodilic_count }
 				clr_country_flag = cyrodilic_count
 			}
-			bruma_region = {
+			n_nibenay_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_permanent_claim = Y58
 			}
-			cheydinhal_region = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = Y58
-			}
-			bravil_region = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = Y58
-			}
-			leyawiin_region = {
+			s_nibenay_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
@@ -632,6 +608,7 @@ country_decisions = {
 				owns_core_province = 3204
 				owns_core_province = 3232
 			}
+			NOT = { exists = XAR }
 		}
 		effect = {
 			if = {
@@ -676,6 +653,7 @@ country_decisions = {
 				owns_core_province = 3068
 				owns_core_province = 3157
 			}
+			NOT = { exists = XMD }
 		}
 		effect = {
 			if = {
@@ -720,6 +698,7 @@ country_decisions = {
 				owns_core_province = 3277
 				owns_core_province = 3311
 			}
+			NOT = { exists = YSR }
 		}
 		effect = {
 			if = {
@@ -765,6 +744,7 @@ country_decisions = {
 				owns_core_province = 3068
 				owns_core_province = 3157
 			}
+			NOT = { exists = XRS }
 		}
 		effect = {
 			if = {
@@ -783,6 +763,176 @@ country_decisions = {
 			add_legitimacy = 75
 			change_tag = XRS
 			change_primary_culture = velothi
+		}
+	}
+	
+	form_anequina = {
+	major = yes
+		potential = {
+			culture_group = nequinali
+			NOT = { tag = YAQ } #Anequina
+			NOT = { tag = YPT } #Pellitine
+			NOT = { tag = XEL } #Elsweyr
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			NOT = { tag = YAQ } #Anequina
+			NOT = { tag = YPT } #Pellitine
+			NOT = { tag = XEL } #Elsweyr
+			AND = {
+				owns_core_province = 3568 #Dune
+				owns_core_province = 3577 #Riverhold
+				owns_core_province = 3581 #Orcrest
+				owns_core_province = 3593 #Rimmen
+			}
+			NOT = { exists = YAQ } #Anequina
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			anequina_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = YAQ
+			}
+			add_prestige = 50
+			add_legitimacy = 75
+			change_tag = YAQ
+		}
+	}
+	
+	form_pellitine = {
+	major = yes
+		potential = {
+			culture_group = paalatiini
+			NOT = { tag = YAQ } #Anequina
+			NOT = { tag = YPT } #Pellitine
+			NOT = { tag = XEL } #Elsweyr
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			NOT = { tag = YAQ } #Anequina
+			NOT = { tag = YPT } #Pellitine
+			NOT = { tag = XEL } #Elsweyr
+			AND = {
+				owns_core_province = 3616 #Senchal
+				owns_core_province = 3641 #Torval
+				owns_core_province = 3602 #Alabaster
+				owns_core_province = 3608 #Corinthe
+			}
+			NOT = { exists = YPT } #Pellitine
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			pellitine_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = YPT
+			}
+			add_prestige = 50
+			add_legitimacy = 75
+			change_tag = YPT
+		}
+	}
+	
+	form_elsweyr = {
+	major = yes
+		potential = {
+			OR = {
+				culture_group = paalatiini
+				culture_group = nequinali
+			}		
+			NOT = { tag = XEL } #Elsweyr
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			NOT = { tag = XEL } #Elsweyr
+			AND = {
+				owns_core_province = 3616 #Senchal
+				owns_core_province = 3641 #Torval
+				owns_core_province = 3602 #Alabaster
+				owns_core_province = 3608 #Corinthe
+				owns_core_province = 3568 #Dune
+				owns_core_province = 3577 #Riverhold
+				owns_core_province = 3581 #Orcrest
+				owns_core_province = 3593 #Rimmen
+			}
+			NOT = { exists = XEL } #Elsweyr
+		}
+		effect = {
+			change_government = elsweyr_theocracy
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			pellitine_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XEL
+			}
+			anequina_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XEL
+			}
+			
+			#If Pa'alatiini, accept Ne'quinali
+			if = {
+				limit = {
+					OR = {
+						primary_culture = xylosian
+						primary_culture = corinthian
+						primary_culture = alabasterian
+						primary_culture = tenmari
+						primary_culture = quinrawli
+					}
+				}
+				add_accepted_culture = riverholder
+				add_accepted_culture = dunian
+				add_accepted_culture = orcresti
+				add_accepted_culture = n_xylosian
+				add_accepted_culture = rimmeni
+			}
+			
+			#If Ne'quinali, accept Pa'alatiini
+			if = {
+				limit = {
+					OR = {
+						primary_culture = riverholder
+						primary_culture = dunian
+						primary_culture = orcresti
+						primary_culture = n_xylosian
+						primary_culture = rimmeni
+					}
+				}
+				add_accepted_culture = xylosian
+				add_accepted_culture = corinthian
+				add_accepted_culture = alabasterian
+				add_accepted_culture = tenmari
+				add_accepted_culture = quinrawli
+			}
+			
+			add_prestige = 50
+			add_legitimacy = 75
+			change_tag = XEL
 		}
 	}
 }
