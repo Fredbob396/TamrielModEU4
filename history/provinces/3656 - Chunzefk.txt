@@ -1,7 +1,7 @@
 #Region - Akasunde, Inlet Bog, Inlet Bog Coast, Dun Akafell
 
 culture = nakan
-religion = new_temple
+religion = akaviri
 capital = "Chunzefk"
 trade_goods = dwemer_parts
 citysize = 15650

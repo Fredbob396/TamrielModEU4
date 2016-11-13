@@ -1,6 +1,6 @@
 #Region - Akasunde, Inlet Bog, Inlet Bog Coast, Dun Akafell
 
-culture = nakan
+culture = indoril
 religion = new_temple
 capital = "Darnim"
 trade_goods = fish

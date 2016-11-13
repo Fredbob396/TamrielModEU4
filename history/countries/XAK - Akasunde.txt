@@ -1,6 +1,6 @@
 government = feudal_monarchy
 technology_group = tamrielic
-religion = new_temple
+religion = akaviri
 mercantilism = 0.2
 primary_culture = nakan
 capital = 3096	# Akasumi

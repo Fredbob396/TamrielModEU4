@@ -1,13 +1,13 @@
 #Region - Akasunde, Inlet Bog, Inlet Bog Coast, Dun Akafell
 
 culture = nakan
-religion = new_temple
+religion = akaviri
 capital = "Dun Akafell"
 trade_goods = alchemical_goods
 citysize = 15650
 hre = no
 base_tax = 3
-base_production = 4
+base_production = 3
 manpower = 3
 owner = XAK
 controller = XAK

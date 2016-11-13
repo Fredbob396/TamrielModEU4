@@ -14,7 +14,6 @@ controller = XNT
 add_core = XDR
 add_core = XNT
 add_core = XKD
-add_core = XAK
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE
 
