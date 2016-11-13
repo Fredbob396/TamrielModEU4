@@ -7,7 +7,7 @@ daedric = {
 			land_morale = 0.05
 		}
 		province = {
-			local_missionary_strength = -0.01
+			local_missionary_strength = -0.02
 		}
 
 		heretic = { AZURAN }
@@ -35,7 +35,7 @@ daedric = {
 			land_morale = 0.10
 		}
 		province = {
-			local_missionary_strength = 0.01
+			local_missionary_strength = -0.01
 		}
 
 		heretic = { MOLAG }
@@ -61,6 +61,9 @@ aedric = {
 			tolerance_own = 1
 			dip_tech_cost_modifier = -0.05
 		}
+		province = {
+			local_missionary_strength = -0.02
+		}
 		
 		heretic = { KYNARIC }
 	}
@@ -71,6 +74,9 @@ aedric = {
 			mil_tech_cost_modifier = -0.05
 			land_morale = 0.10
 			tolerance_heretic = -1
+		}
+		province = {
+			local_missionary_strength = -0.02
 		}
 
 		heretic = { SEPTIMIST }
@@ -87,7 +93,7 @@ hist_g = {
 			land_morale = 0.05
 		}
 		province = {
-			local_missionary_strength = -0.01
+			local_missionary_strength = -0.03
 		}
 
 		heretic = { SITHIS }
@@ -104,7 +110,7 @@ dwemeri_rg = {
 			tolerance_heathen = -3
 		}
 		province = {
-			local_missionary_strength = -0.03
+			local_missionary_strength = -0.01
 		}
 
 		heretic = { DAGOTH }
@@ -117,7 +123,7 @@ skaal = {
 		color = { 0 0 0.5 }
 		icon = 21
 		province = {
-			local_missionary_strength = -0.03
+			local_missionary_strength = -0.02
 		}
 		country = {
 			land_morale = 0.05

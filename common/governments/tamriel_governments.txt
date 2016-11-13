@@ -154,13 +154,14 @@ elsweyr_theocracy = {
 	
 	min_autonomy = 50
 	max_states = 8
-	land_forcelimit_modifier = -0.33
+	land_forcelimit_modifier = -0.35
 	
 	rank = {
 		3 = {
 			num_accepted_cultures = 5
 			prestige = 0.5
-			tolerance_heretic = -2
+			tolerance_heathen = -2
+			tolarance_heretic = -1
 		}
 	}
 	fixed_rank = 3
