@@ -54,6 +54,7 @@ telvannis_region = {
 		aranyon_area
 		lake_boethiah_area
 		west_boethiah_area
+		oren_boethiah_area
 	}
 }
 
@@ -62,19 +63,22 @@ indoril_region = {
 		sacred_lands_area
 		spine_of_nezuad_area
 		akasunde_area
+		inlet_bog_area
 		orethan_area
 		daimon_coast_area
 		almalexia_area
-		kanadesit_area
 		east_thirr_area
 	}
 }
 
 south_morrowind_region = {
 	areas = {
+		kanadesit_area
 		jer_ahkrin_area
+		kalen_area
 		uvonaak_area
 		kragenmoor_area
+		shargon_othreleth_area
 	}
 }
 
@@ -111,6 +115,8 @@ kynokhia_region = {
 	areas = {
 		north_seydahnil_area
 		south_seydahnil_area
+		foxfire_area
+		dacyn_road_area
 		darkmoor_area
 		axadnia_area
 		kulania_area
@@ -121,6 +127,7 @@ karanakh_region = {
 	areas = {
 		kamanai_area
 		ok_nanha_area
+		argon_border_area
 		clawreach_area
 		karanake_area
 		north_hjalokh_area
@@ -134,14 +141,17 @@ atron_region = {
 	areas = {
 		arnesia_area
 		north_atronium_area
+		north_cimuthrai_area
 		xi_helai_area
 		klamabe_area
+		engan_area
 		firewalk_area
 	}
 }
 
 old_skyrim_region = {
 	areas = {
+		tolvald_area
 		eastmarch_volcanic_area
 		eastmarch_river_area
 		whiterun_area
@@ -155,6 +165,7 @@ south_skyrim_region = {
 	areas = {
 		north_falkreath_area
 		south_falkreath_area
+		sungard_area
 		skyrim_jeralls_area
 		north_rift_area
 		south_rift_area
@@ -166,7 +177,9 @@ haafinheim_region = {
 	areas = {
 		rorikstead_area
 		hjaalmarch_area
+		skyborn_area
 		east_haafingar_area
+		mid_haafingar_area
 		west_haafingar_area
 		markarth_area
 		karthwasten_area
