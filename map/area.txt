@@ -7,11 +7,11 @@ bugfix_area = {
 }
 
 near_molagreahd_area = {
-    3072 3075 3076 3081 3681
+    3073 3074 3075 3081
 }
 
 far_molagreahd_area = {
-    3071 3073 3074
+    3071 3072 3076 3681
 }
 
 telvanni_isles_area = {
@@ -23,15 +23,19 @@ helnim_area = {
 }
 
 aranyon_area = {
-    3077 3078 3079 3080 3082
+    3077 3078 3080 3682
 }
 
 lake_boethiah_area = {
-    3088 3089 3090 3091 3682
+    3079 3089 3090 3091
 }
 
 west_boethiah_area = {
-    3083 3084 3085 3086 3683
+    3082 3088 3683
+}
+
+oren_boethiah_area = {
+    3083 3084 3085 3086
 }
 
 sacred_lands_area = {
@@ -43,7 +47,11 @@ spine_of_nezuad_area = {
 }
 
 akasunde_area = {
-    3095 3096 3106 3112 3656 3657 3658
+    3095 3096 3657
+}
+
+inlet_bog_area = {
+    3106 3112 3114 3656
 }
 
 orethan_area = {
@@ -55,11 +63,11 @@ daimon_coast_area = {
 }
 
 almalexia_area = {
-    3114 3116 3120
+    3116 3117 3120 3655
 }
 
 kanadesit_area = {
-    3108 3117 3118 3119 3655
+    3108 3118 3128 3132
 }
 
 east_thirr_area = {
@@ -67,15 +75,23 @@ east_thirr_area = {
 }
 
 jer_ahkrin_area = {
-    3128 3129 3130 3131 3132 3133 3134 3701
+    3129 3130 3133 3134 3701
 }
 
 uvonaak_area = {
-    3160 3161 3162 3163 3164 3165 3675 3685
+    3163 3164 3165 3675
+}
+
+kalen_area = {
+    3119 3161 3162
 }
 
 kragenmoor_area = {
-    3166 3167 3168 3169 3665 3686 3687
+    3166 3167 3665 3687
+}
+
+shargon_othreleth_area = {
+    3168 3169 3685 3686
 }
 
 west_thirr_area = {
@@ -107,11 +123,15 @@ mid_veloth_area = {
 }
 
 redoran_area = {
-    3156 3157 3158 3245 3690
+    3156 3157 3245 3690 3246
 }
 
 kagrenzel_area = {
-    3244 3246 3248 3691 3692 3693
+    3158 3248 3691 3692 3693
+}
+
+tolvald_area = { 
+    3244 3252 3259
 }
 
 bitter_coast_area = {
@@ -155,11 +175,19 @@ north_vvardenfell_area = {
 }
 
 north_seydahnil_area = {
-    3237 3238 3240 3241 3556 3557 3673
+    3238 3239 3240 3241
 }
 
 south_seydahnil_area = {
-    3227 3228 3229 3236 3239
+    3236 3237 3673
+}
+
+foxfire_area = {
+    3228 3229 3556 3557
+}
+
+dacyn_road_area = {
+    3227 3231 3234 3235
 }
 
 darkmoor_area = {
@@ -167,7 +195,7 @@ darkmoor_area = {
 }
 
 axadnia_area = {
-    3231 3232 3233 3234 3235 3662
+    3232 3233 3662
 }
 
 kulania_area = {
@@ -182,12 +210,16 @@ ok_nanha_area = {
     3175 3176 3182
 }
 
+argon_border_area = { 
+    3131 3160 3170
+}
+
 clawreach_area = {
-    3185 3186 3195 3670 3671
+    3185 3186 3670 3671
 }
 
 karanake_area = {
-    3194 3196 3197 3198
+    3194 3195 3196 3197 3198
 }
 
 north_hjalokh_area = {
@@ -195,7 +227,7 @@ north_hjalokh_area = {
 }
 
 lake_hjalokh_area = {
-    3200 3202 3203 3204 3214 3215 3674
+    3203 3204 3214 3215 3674
 }
 
 sikiha_area = {
@@ -203,23 +235,31 @@ sikiha_area = {
 }
 
 arnesia_area = {
-    3170 3171 3172 3173 3174 3184
+    3171 3172 3173 3174 3184
 }
 
 north_atronium_area = {
     3188 3189 3190 3669
 }
 
+north_cimuthrai_area = {
+    3200 3202 3193
+}
+
 xi_helai_area = {
-    3191 3192 3193 3223 3668
+    3191 3192 3223 3668
 }
 
 klamabe_area = {
-    3208 3209 3216 3667
+    3208 3209 3667
+}
+
+engan_area = {
+    3216 3210 3666
 }
 
 firewalk_area = {
-    3210 3211 3212 3213 3666
+    3211 3212 3213
 }
 
 argonian_wastelands_area = {
@@ -227,7 +267,7 @@ argonian_wastelands_area = {
 }
 
 north_rift_area = {
-    3259 3260 3261 3272 3273 3274
+    3260 3261 3272 3273 3274
 }
 
 south_rift_area = {
@@ -239,7 +279,7 @@ geirland_area = {
 }
 
 eastmarch_volcanic_area = {
-    3250 3251 3252 3253 3257 3258
+    3250 3251 3253 3257 3258
 }
 
 eastmarch_river_area = {
@@ -258,24 +298,32 @@ north_pale_area = {
     3279 3280 3281
 }
 
+skyborn_area = {
+    3304 3307 3308 3310
+}
+
 whiterun_area = {
-    3308 3310 3311 3313 3314 3677 3678
+    3311 3313 3314 3677 3678
 }
 
 skyrim_jeralls_area = {
-    3268 3269 3319 3323
+    3268 3269 3319 3320
 }
 
 north_falkreath_area = {
-    3316 3317 3318 3320 3321
+    3316 3317 3321
 }
 
 south_falkreath_area = {
-    3322 3324 3325 3326 3327
+    3322 3323 3324 3325
+}
+
+sungard_area = { 
+    3318 3326 3327
 }
 
 rorikstead_area = {
-    3304 3305 3306 3307 3309
+    3305 3306 3309
 }
 
 hjaalmarch_area = {
@@ -283,11 +331,15 @@ hjaalmarch_area = {
 }
 
 east_haafingar_area = {
-    3290 3292 3293 3299 3300
+    3290 3292 3300
+}
+
+mid_haafingar_area = {
+    3291 3293 3298 3299
 }
 
 west_haafingar_area = {
-    3291 3295 3296 3297 3298
+    3295 3296 3297
 }
 
 markarth_area = {
