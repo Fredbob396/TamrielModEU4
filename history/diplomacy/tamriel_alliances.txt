@@ -23,7 +23,6 @@ vassal = {
 }
 
 #Borderwatch and Water's Edge as vassals of Leyawiin
-
 vassal = {
 	first = Y08
 	second = Y20
@@ -34,6 +33,20 @@ vassal = {
 vassal = {
 	first = Y08
 	second = Y21
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+#Akasud-Jer Ahkrin Alliance / Akasund-Kanadesit Alliance
+alliance = {
+	first = XAK
+	second = XJA
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+alliance = {
+	first = XAK
+	second = XKD
 	start_date = 1444.11.11
 	end_date = 1821.1.1
 }
