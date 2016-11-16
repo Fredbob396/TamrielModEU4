@@ -1,0 +1,130 @@
+# Urshilaku Ashlanders
+
+graphical_culture = westerngfx
+
+color = { 52  54  55 }
+
+historical_idea_groups = {
+	quality_ideas
+	religious_ideas
+	influence_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas
+	defensive_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+#Urshilaku
+	"Shabinbael #0" = 50
+	"Tussurradad #0" = 50
+	"Ahasour #0" = 50
+	"Sul-Matuul #0" = 50
+	"Yen #0" = 50
+	"Ninirrasour #0" = 50
+	"Shimsun #0" = 50
+	"Zabamund #0" = 50
+	"Hainab #0" = -50
+	"Shallath-Piremus #0" = -50
+	"Senipu #0" = -50
+	"Kurapli #0" = -50
+	"Maeli #0" = -50
+	"Sakiran #0" = -50
+	"Shara #0" = -50
+	"Nibani #0" = -50
+	"Zanummu #0" = -50
+#Ahemmusa
+	"Zallit #0" = 40
+	"Addammus #0" = 40
+	"Ulabael #0" = 40
+	"Assamma-Idan #0" = 40
+	"Dutadalk #0" = 40
+	"Yenammu #0" = 40
+	"Kausi #0" = 40
+	"Mabarrabael #0" = 40 
+	"Mausur #0" = 40
+	"Kammu #0" = -40
+	"Sen #0" = -40
+	"Urshamusa #0" = -40
+	"Lanabi #0" = -40
+	"Mamaea #0" = -40
+	"Nummu #0" = -40
+	"Sinnammu #0" = -40
+#Zainab
+	"Sakulerib #0" = 30
+	"Ababael #0" = 30
+	"Ashibaal #0" = 30
+	"Kaushad #0" = 30
+	"Ashur-Dan #0" = 30
+	"Minassour #0" = 30
+	"Patababi #0" = 30
+	"Zaba #0" = -30
+	"Tussi #0" = -30
+	"Sonummu #0" = -30
+#Erabenimsun
+	"Assaba-Bentus #0" = 20
+	"Hairan #0" = 20
+	"Hirarend #0" = 20
+	"Tinti #0" = 20
+	"Ainab #0" = 20
+	"Ahaz #0" = 20
+	"Ulath-Pal #0" = 20
+	"Ashu-Ahhe #0" = 20
+	"Assemmus #0" = 20
+	"Han-Ammu #0" = 20
+	"Yantus #0" = 20
+	"Massarapal #0" = 20
+	"Ranabi #0" = 20
+	"Salattanat #0" = 20
+	"Kummu #0" = -20
+	"Kushishi #0" = -20
+	"Addut-Lamanu #0" = -20
+	"Zebba #0" = -20
+	"Ulibabi #0" = -20
+	"Manirai #0" = -20
+#Other
+	"Zallay #0" = 10
+	"Assantus #0" = 10
+	"Emul-Ran #0" = 10
+	"Kashtes #0" = 10
+	"Sakin #0" = 10
+	"Esar-Don #0" = 10
+	"Assallit #0" = 10
+	"Tubilalk #0" = 10
+	"Tunipy #0" = -10
+	"Borwen #0" = -10
+	"Hairan #0" = -10
+	"Yan-Ahhe #0" = -10
+}
+
+leader_names = {
+	Dral Drenim Hleran Avel Vedas Seleth Omavel Uvirith Telvanni Tenvanni Telvayn Demnevanni Dralas Maryon Odrethi
+	Irenam Omothran Enduren Gernak Ilneram Girvayn Darythi Endureth Telsaran Athyrion Urenim
+	Lleran Sarys Madalas Theman Ulessen Releth Omayn Uvulas Ryon Mathendis
+}
+
+ship_names = {
+	"Telvannis" "Sadrith Mora" "Aruhn" "Fyr" "Pride of Tel Vos" "Mothrivra" "Marog" "Narrusa" "Aranyon" "Molag" "Boethiah" "Muthada" "Oren" "Bosara"
+}
+
+army_names = {
+	"$PROVINCE$ Army" 
+}

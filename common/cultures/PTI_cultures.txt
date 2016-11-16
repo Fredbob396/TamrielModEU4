@@ -60,6 +60,54 @@ mestizo_dunmeri = {
 	}
 }
 
+ashlander_dunmeri = {
+	graphical_culture = westerngfx
+	
+	urshilaku = {
+		primary = YUR
+	}
+	ahemmusa = {
+		primary = YAE
+	}
+	zainab = {
+		primary = YZN
+	}
+	erabenimsun = {
+		primary = YER
+	}
+	
+	dynasty_names = {
+	Vabdas Almu Man-llu Mantiti Yahaz Ababael Zainsubani Zama-Rasour, Abalkala Abelmawia Addarari Addaribantes Addinibi Addunipu Adidshina Adur-Dan Ahalkalun Ahanidiran Akin
+	 Anurnudai Ashalkimallit Ashananapal Ashapaladdon Asharapli Ashar-Dad Ashar-Don Asharnalit Ashibael Ashi-Iddan Ashirbibi Ashishpalirdan Ashumallit Ashummi-Ammus Ashunbabi
+	 Ashun-Idantus Ashurnasaddas Ashushshirari Assalatammis Assannabalit Assantinalit Assaplit Assarbeberib Assardarainat Assardidairan Assarnibani Assarnuridan Assarrapanat Assarrimisun
+	 Assattadaishah Assebiriddan Assemmus Asserbassalit Asserrumusa Assillariran Assinabi Assintashiran Assirnarari Assonirishpal Assudiraplit Assudnilamat Assullinbanud Assumanallit
+	 Assunbahanammu Assunudadnud Assurnarairan Assurnipilu Assurnumanit Assurnumausur Assutladainab Assutlanipal Atinsabia Bael Benamamat Chodala Darirnaddunumm Dinadad
+	 Dudnebisun Dun-Ahhe Dunsamsi Elarrapal Enturnabaelul Eraishah Eramarellaku Erarbadon Erushara Esatliballit Esurarnat Esurnadarpal Giladren Gilu Hainnabibi Hainterari Hairshashishi
+	 Hairshumusa Hansar Ilabael Ilath-Pal Ilurnubishpal Kaushad Kaushmamanu Kaushminipu Kil Kummimmidan Kuntarnammu Kutebani Lalansour Lasamsi Laserbillahemmi Maesa Maessabibi
+	 Maliiran Malman-Ammu Mannanalit Mantashpi Massitisun Matluberib Mibishanit Mirathrernenum Mirpal Mirshamammu Muddumummu Nerendus Niladon Odimabesser Odin-Ahhe Odirnapal
+	 Pansamsi Pudashara Puntumisun Radansour Ranarbatus Rapli Saddarnuran Saharnatturapli Saladnius Salkatanat Salvu Samma Sammalamus Samsi Sanammasour Santumatus Sehabani
+	 Selitbael Selkin-Adda Senatbael Serdimapal Serimilk Sershurrapal Shalarnetus Shamirbasour Shand Shashipal Shashmassamsi Shilansour Shimmabadas Shin-Ilu Shinirbael Shishara
+	 Siddurnanit Sobbinisun Sobdishapal Sonnerralit Subaddamael Tansumiran Tibashipal Timmiriran Timsar-Dadisun Ududnabia Ulannanit Ularshanentus Ulirbabi Urshan-Adairan Urshummarnamus
+	 Urshumusa Varnan-Adda Yansurnummu Yanumibaal Yasalmibaal Yassabisun Yentimilal Yessur-Disadon Zabamat Zabynatus Zainab Zaintashara Zansatanit Zeba-Adad Zelma-Alit Zenammu
+	}
+	male_names = {
+	Mausur Ainab Ababael Maeonius Manat Missun Mubdan Odairan Zallit Abassel Abibaal Abishpulu Adairan Adaishah Addammus Addarnat Adibael Ahasour Ahaz Ainab
+	 Ainat Anasour Anit Asha-Ammu Ashibaal Ashu-Ahhe Ashuma-Nud Ashur-Dan Assaba-Bentus Assallit Assamanut Assamma-Idan Assantus Assatlit Assemmus Assurdan
+	 Balur Beden Conoon Dakin Dralas Dun-Ilu Dunsalipal Dutadalk Elibael Emul-Ran Erur-Dan Esar-Don Esib-Nummu Hainab Hairan Han-Ammu Hannat Hassour Hemus Hentus
+	 Hibaddar Hinammu Hirarend Ibarnadad Ibasour Ilasour Kanat Kanit Kanud Kashtes Kaushad Kausi Kind Kitbael Kummi-Namus Kund Lassour Mabarrabael Maesat Mal
+	 Malay Mansilamat Massarapal Massour Mibdinahaz Minassour Minisun Minnibi Musan Mut Nind Ninimilk Ninirrasour Nirait Nund Odaishah Ohibaal Patababi Patus Pilun
+	 Punibi Ranabi Sakin Sakulerib Sal Salattanat Salay Salmat Salmus Sannit Sargon Seldus Selk Selkirnemus Shabinbael Shanat Shanit Shannat Shanud Shargon Shilipuran
+	 Shimsun Shin Shipal Shirerib Shullay Subenend Sul-Matuul Talkin Teshmus Tibdan Tinti Tis Truan Tubilalk Tussurradad Ulabael Ulath-Pal Yahaz Yakin Yakum Yan Yanit
+	 Yantus Yapal Yassour Yeherradad Yen Yenammu Zabamund Zabarbael Zainat Zairan Zalabelk Zalit Zallay Zanat Zanmulk Zebba Zebdusipal Zelaku Zelay Zenabi Zennammu
+	}
+	female_names = {
+	Mamaea Manirai Manu Nummu Zebba Shara Addut-Lamanu Adusamsi Ahanabi Ansu Antu Ashamanu Asharapli Ashumanu Assamanu Assi Assimusa Assirari Assumanu Benudni Berapli Dissu
+	 Elitlaya Elumabi Hainab Hairan Hanarai Hannabi Hansi Hinummu Ibanammu Kammu Kausha Kummu Kurapli Kushishi Lanabi Maela Maeli Mamusa Manabi Man-Ilu Mi-Ilu Midnabi Milynea Mimanu
+	 Minabibi Missamsi Munbebi Musa Nammu Nibani Nirai Peakstar Pilu Raishi Rasamsi Rawia Sakiran Samsi Santinti Seba Sen Senipu Shali Shallath-Piremus Shinammu Shishi Shulki Shullay
+	 Sinnammu Sonummu Tashpi Tissamsi Tunipy Tussi Ulibabi Ulisamsi Urshamusa Vabbar Yan-Ahhe Yanabani Yanibi Yenabi Zaba Zabi Zanummu Zennammu Zula
+	}
+}
+
 akaviri = { 
 	graphical_culture = westerngfx
 	
