@@ -2,13 +2,13 @@
 
 culture = indoril
 religion = new_temple
-capital = "Bosmora"
+capital = "Enamor Dayn"
 trade_goods = fish
 citysize = 15650
 hre = no
-base_tax = 3
+base_tax = 4
 base_production = 3
-manpower = 2
+manpower = 3
 owner = XNT
 controller = XNT
 add_core = XNT

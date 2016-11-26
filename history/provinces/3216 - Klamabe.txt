@@ -2,13 +2,13 @@
 
 culture = archein
 religion = hist
-capital = "Klamabe"
+capital = "Nansyokka"
 trade_goods = fish
 citysize = 15650
 hre = no
-base_tax = 2
-base_production = 2
-manpower = 1
+base_tax = 4
+base_production = 4
+manpower = 4
 owner = XAT
 controller = XAT
 add_core = XAT
