@@ -11,5 +11,5 @@ manpower = 3
 owner = XEL
 controller = XEL
 add_core = XEL
-add_core = YTE
+add_core = YDC
 discovered_by = tamrielic discovered_by = XTE

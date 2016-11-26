@@ -21,15 +21,11 @@ skyrim_superregion = {
 }
 
 cyrodiil_superregion = {
-	anvil_region
-	kvatch_region
-	chorrol_region
-	bruma_region
-	cheydinhal_region
-	leyawiin_region
-	skingrad_region
+	colovian_highlands_region
+	colovian_heartlands_region
 	heartlands_region
-	bravil_region
+	n_nibenay_region
+	s_nibenay_region 
 }
 
 elsweyr_superregion = {

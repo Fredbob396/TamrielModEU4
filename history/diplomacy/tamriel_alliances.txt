@@ -22,3 +22,18 @@ vassal = {
 	end_date = 1821.1.1
 }
 
+#Borderwatch and Water's Edge as vassals of Leyawiin
+
+vassal = {
+	first = Y08
+	second = Y20
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = Y08
+	second = Y21
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}

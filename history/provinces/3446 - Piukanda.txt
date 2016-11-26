@@ -1,4 +1,4 @@
-culture = nibenean
+culture = colovian
 religion = nine_divines
 
 owner = Y05

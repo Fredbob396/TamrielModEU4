@@ -17,6 +17,12 @@ XFW = "countries/Firewatch.txt"
 XHE = "countries/Helnim.txt"
 XOE = "countries/Old Ebonheart.txt"
 
+#Dunmeri Ashlanders
+YUR = "countries/Urshilaku.txt"
+YAE = "countries/Ahemmusa.txt"
+YZN = "countries/Zainab.txt"
+YER = "countries/Erabenimsun.txt"
+
 #Argonian Empire - North (De Facto Autonomous)
 XAK = "countries/Akasunde.txt"
 XBM = "countries/Boethian March.txt"
@@ -100,25 +106,31 @@ XSK = "countries/Skaal.txt"
 
 #Elsweyr
 XEL = "countries/Elsweyr.txt"
-XRM = "countries/Rimmen.txt"
+YAQ = "countries/Anequina.txt"
+YPT = "countries/Pellitine.txt"
 
-#Elsweyr Revolters
-YAL = "countries/Alabaster.txt"
-YAK = "countries/Ahkhai.txt"
-YCO = "countries/Corinth.txt"
-YDC = "countries/Duncori.txt"
+#Elsweyr Revolters - Primary
+XRM = "countries/Rimmen.txt"
 YDN = "countries/Dune.txt"
-YME = "countries/Meirvale.txt"
-YHR = "countries/Hemthor.txt"
-YOC = "countries/Orcrest.txt"
-YRW = "countries/Redwall.txt"
 YRH = "countries/Riverhold.txt"
-YSP = "countries/Seaplace.txt"
+YOC = "countries/Orcrest.txt"
+YHR = "countries/Hemthor.txt"
+YAL = "countries/Alabaster.txt"
+YCO = "countries/Corinth.txt"
 YSE = "countries/Senchal.txt"
 YTE = "countries/Tenmar.txt"
 YTO = "countries/Torval.txt"
+
+#Elsweyr Revolters - Secondary
+YAH = "countries/Ahkhai.txt"
+YDC = "countries/Duncori.txt"
+YME = "countries/Meirvale.txt"
+YRW = "countries/Redwall.txt"
+YSP = "countries/Seaplace.txt"
 YVG = "countries/ValleyGuard.txt"
 YXS = "countries/Xaspor.txt"
+YDV = "countries/Darvulk.txt"
+YMK = "countries/Markgran.txt"
 
 #Cyrodiil Counties
 Y01 = "countries/Cityisle.txt"

@@ -1,0 +1,8 @@
+government = despotic_monarchy
+government_rank = 3
+technology_group = tamrielic
+religion = lunar_pantheon
+mercantilism = 0.2
+primary_culture = quinrawli
+
+capital = 3616	#Senchal

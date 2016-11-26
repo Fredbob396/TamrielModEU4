@@ -1,6 +1,6 @@
 #Region - Vvardenfell
 
-culture = telvon
+culture = ahemmusa
 religion = new_temple
 capital = "Ahemmusa"
 trade_goods = kwama
@@ -12,5 +12,6 @@ manpower = 2
 owner = XTE
 controller = XTE
 add_core = XTE
+add_core = YAE
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE
