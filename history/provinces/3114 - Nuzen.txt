@@ -2,7 +2,7 @@
 
 culture = nakan
 religion = new_temple
-capital = "Nuzen"
+capital = "Ald Verya"
 trade_goods = alchemical_goods
 citysize = 15650
 hre = no

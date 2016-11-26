@@ -2,13 +2,13 @@
 
 culture = indoril
 religion = new_temple
-capital = "Lan Orethan"
+capital = "Bosmora"
 trade_goods = dwemer_parts
 citysize = 15650
 hre = no
-base_tax = 2
-base_production = 2
-manpower = 1
+base_tax = 5
+base_production = 4
+manpower = 3
 owner = XKD
 controller = XKD
 add_core = XKD

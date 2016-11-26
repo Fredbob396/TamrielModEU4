@@ -2,13 +2,13 @@
 
 culture = indoril
 religion = new_temple
-capital = "Alt Orethan"
+capital = "Meralag"
 trade_goods = kwama
 citysize = 15650
 hre = no
-base_tax = 2
-base_production = 2
-manpower = 1
+base_tax = 3
+base_production = 3
+manpower = 2
 owner = XNT
 controller = XNT
 add_core = XNT

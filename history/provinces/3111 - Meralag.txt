@@ -2,13 +2,13 @@
 
 culture = indoril
 religion = new_temple
-capital = "Meralag"
+capital = "Sadavel"
 trade_goods = grain
 citysize = 15650
 hre = no
 base_tax = 4
 base_production = 4
-manpower = 2
+manpower = 3
 owner = XNT
 controller = XNT
 add_core = XNT
