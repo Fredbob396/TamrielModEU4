@@ -17,6 +17,12 @@ XFW = "countries/Firewatch.txt"
 XHE = "countries/Helnim.txt"
 XOE = "countries/Old Ebonheart.txt"
 
+#Dunmeri Ashlanders
+YUR = "countries/Urshilaku.txt"
+YAE = "countries/Ahemmusa.txt"
+YZN = "countries/Zainab.txt"
+YER = "countries/Erabenimsun.txt"
+
 #Argonian Empire - North (De Facto Autonomous)
 XAK = "countries/Akasunde.txt"
 XBM = "countries/Boethian March.txt"

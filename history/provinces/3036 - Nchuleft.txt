@@ -1,8 +1,8 @@
 #Region - Vvardenfell
 
-culture = telvon
+culture = zainab
 religion = new_temple
-capital = "Nchuleft"
+capital = "Zainab"
 trade_goods = dwemer_parts
 citysize = 15650
 hre = no
@@ -12,5 +12,6 @@ manpower = 2
 owner = XTE
 controller = XTE
 add_core = XTE
+add_core = YZN
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE
