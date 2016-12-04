@@ -3,7 +3,7 @@
 culture = forsworn
 religion = talos
 capital = "Karthspire"
-trade_goods = fish
+trade_goods = hunted_goods
 citysize = 15650
 hre = no
 base_tax = 3

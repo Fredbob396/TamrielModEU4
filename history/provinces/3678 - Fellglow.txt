@@ -3,7 +3,7 @@
 culture = middle_nordic
 religion = talos
 capital = "Fellglow"
-trade_goods = fish
+trade_goods = alchemical_goods
 citysize = 15650
 hre = no
 base_tax = 2

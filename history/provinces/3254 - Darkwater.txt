@@ -3,7 +3,7 @@
 culture = south_nordic
 religion = talos
 capital = "Darkwater Crossing"
-trade_goods = fish
+trade_goods = copper
 citysize = 15650
 hre = no
 base_tax = 4

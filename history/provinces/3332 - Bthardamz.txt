@@ -3,7 +3,7 @@
 culture = forsworn
 religion = talos
 capital = "Harmugstahl"
-trade_goods = fish
+trade_goods = dwemer_parts
 citysize = 15650
 hre = no
 base_tax = 3

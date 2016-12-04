@@ -3,7 +3,7 @@
 culture = south_nordic
 religion = dwemer_reason
 capital = "Ansilvund"
-trade_goods = alchemical_goods
+trade_goods = iron
 citysize = 15650
 hre = no
 base_tax = 3
