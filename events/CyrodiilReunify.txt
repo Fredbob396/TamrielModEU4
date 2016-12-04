@@ -141,7 +141,7 @@ country_event = {
 	}
 }
 
-#Counties and Towns choose whether to join the Empire or not based on relations
+#Counties and Towns choose whether to join the Empire
 country_event = {
 	id = cyrodiil_reunify.24
 	title = "cyrodiil_reunify.EVTNAME24"
@@ -153,11 +153,14 @@ country_event = {
 	option = {
 		name = "cyrodiil_reunify.EVTOPTA24"
 		ai_chance = {
-			factor = 0
+			factor = 50
 			
 			modifier = {
-				factor = 100
-				has_opinion = { who = FROM value = 100 }
+				factor = 2
+				has_opinion = {
+					who = FROM
+					value = 100
+				}		
 			}
 		}
 	every_province = {
@@ -173,26 +176,31 @@ country_event = {
 	option = {
 		name = "cyrodiil_reunify.EVTOPTB24"
 		ai_chance = {
-			factor = 0
+			factor = 50
 			
 			modifier = {
-				factor = 100
-				NOT = { has_opinion = { who = FROM value = 100 } }
+				factor = 2
+				NOT = {
+					has_opinion = {
+						who = FROM
+						value = 100
+					}		
+				}
 			}
 			
 			modifier = {
-				factor = 100
+				factor = 2
 				government_rank = 3
 			}
 			
 			modifier = {
-				factor = 100
+				factor = 2
 				religion = nine_divines
 				FROM = { religion = daedra_worship }
 			}
 			
 			modifier = {
-				factor = 100
+				factor = 2
 				religion = daedra_worship
 				FROM = { religion = nine_divines }
 			}
