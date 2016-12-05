@@ -54,7 +54,7 @@
  cyrodiil_reunify.EVTOPTA24: "We accept!"
  cyrodiil_reunify.EVTOPTB24: "Absolutely not!"
  cyrodiil_reunify.EVTNAME25: "$FROMCOUNTRY$ joins the Empire!"
- cyrodiil_reunify.EVTDESC25: "$FROMCOUNTRY$ has agreed to join the empire!"
+ cyrodiil_reunify.EVTDESC25: "$FROMCOUNTRY$ has decided to join the empire!"
  cyrodiil_reunify.EVTOPTA25: "Excellent!"
  cyrodiil_reunify.EVTNAME26: "$FROMCOUNTRY$ refuses to join the Empire!"
  cyrodiil_reunify.EVTDESC26: "$FROMCOUNTRY$ has refused to join the empire!"

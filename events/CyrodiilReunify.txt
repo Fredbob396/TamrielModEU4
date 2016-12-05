@@ -31,15 +31,6 @@ country_event = {
 	option = {
 		name = "cyrodiil_reunify.EVTOPTA20"
 		clr_country_flag = ruby_throne
-		clr_country_flag = took_heartlands
-		clr_country_flag = took_anvil
-		clr_country_flag = took_kvatch
-		clr_country_flag = took_leyawiin
-		clr_country_flag = took_bruma
-		clr_country_flag = took_bravil
-		clr_country_flag = took_cheydinhal
-		clr_country_flag = took_chorrol
-		clr_country_flag = took_skingrad
 		clr_country_flag = cyrodiil_count_opinion
 		clr_country_flag = cyrodiil_warlord_emperor_opinion
 		
@@ -105,10 +96,8 @@ country_event = {
 		
 	option = {
 		name = "cyrodiil_reunify.EVTOPTA22"
+		inherit = Y01
 		every_province = {
-		limit = { area = city_isle_area }
-		cede_province = ROOT 
-		add_core = ROOT
 		remove_core = Y01
 		}
 	}
@@ -141,75 +130,8 @@ country_event = {
 	}
 }
 
-#Counties and Towns choose whether to join the Empire
-country_event = {
-	id = cyrodiil_reunify.24
-	title = "cyrodiil_reunify.EVTNAME24"
-	desc = "cyrodiil_reunify.EVTDESC24"
-	picture = COURT_eventPicture
-	
-	is_triggered_only = yes
-		
-	option = {
-		name = "cyrodiil_reunify.EVTOPTA24"
-		ai_chance = {
-			factor = 50
-			
-			modifier = {
-				factor = 2
-				has_opinion = {
-					who = FROM
-					value = 100
-				}		
-			}
-		}
-	every_province = {
-		limit = {
-			owned_by = ROOT
-	}
-	cede_province = FROM
-	add_core = FROM
-	FROM = { country_event = { id = cyrodiil_reunify.25 } }
-	}
-}
-	
-	option = {
-		name = "cyrodiil_reunify.EVTOPTB24"
-		ai_chance = {
-			factor = 50
-			
-			modifier = {
-				factor = 2
-				NOT = {
-					has_opinion = {
-						who = FROM
-						value = 100
-					}		
-				}
-			}
-			
-			modifier = {
-				factor = 2
-				government_rank = 3
-			}
-			
-			modifier = {
-				factor = 2
-				religion = nine_divines
-				FROM = { religion = daedra_worship }
-			}
-			
-			modifier = {
-				factor = 2
-				religion = daedra_worship
-				FROM = { religion = nine_divines }
-			}
-		}
-		FROM = { country_event = { id = cyrodiil_reunify.26 } }
-	}
-}
 
-#Event notifying the Empire that the country chose to join the Empire
+#Event notifying the Empire that a country chose to join the Empire
 country_event = {
 	id = cyrodiil_reunify.25
 	title = "cyrodiil_reunify.EVTNAME25"
@@ -220,19 +142,5 @@ country_event = {
 		
 	option = {
 		name = "cyrodiil_reunify.EVTOPTA25"
-	}
-}
-
-#Event notifying the Empire that the country declined to join the Empire
-country_event = {
-	id = cyrodiil_reunify.26
-	title = "cyrodiil_reunify.EVTNAME26"
-	desc = "cyrodiil_reunify.EVTDESC26"
-	picture = COURT_eventPicture
-	
-	is_triggered_only = yes
-		
-	option = {
-		name = "cyrodiil_reunify.EVTOPTA26"
 	}
 }
