@@ -17,7 +17,7 @@ argonian_ideas = {
         hostile_attrition = 1
     }
     argonian_idea_3 = {
-        republican_tradition = 0.005
+        republican_tradition = 0.5
     }
     argonian_idea_4 = {
         leader_land_manuever = 1
@@ -33,3 +33,37 @@ argonian_ideas = {
     }
 }
 
+nordic_ideas = {
+    start = {
+        land_attrition = -0.1
+        naval_attrition = -0.1
+    }
+    bonus = {
+        free_leader_pool = 1
+    }
+    trigger = {
+        culture_group = nordic_g
+    }
+    free = yes
+    nordic_idea_1 = {
+        prestige = 1
+    }
+    nordic_idea_2 = {
+        hostile_attrition = 1
+    }
+    nordic_idea_3 = {
+        army_tradition = 0.5
+    }
+    nordic_idea_4 = {
+        global_trade_goods_size_modifier = 0.1
+    }
+    nordic_idea_5 = {
+        religious_unity = 0.15
+    }
+    nordic_idea_6 = {
+        defensiveness = 0.25
+    }
+    nordic_idea_7 = {
+        land_morale = 0.15
+    }
+}
