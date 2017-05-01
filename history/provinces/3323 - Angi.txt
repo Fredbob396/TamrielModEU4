@@ -3,7 +3,7 @@
 culture = south_nordic
 religion = talos
 capital = "Bloodlet Throne"
-trade_goods = fish
+trade_goods = hunted_goods
 citysize = 15650
 hre = no
 base_tax = 2

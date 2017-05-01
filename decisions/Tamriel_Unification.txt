@@ -9,51 +9,94 @@ country_decisions = {
 			has_country_flag = cyrodiil_legitimacy_established
 			NOT = { tag = Y55 }
 		}
-		effect = {
+		effect = {			
 			change_tag = Y55
 			change_government = cyrodilic_empire
 			set_government_rank = 3
-		}
-	}
-	
-	unify_cyrodiil_invitation = {
-		major = yes
-		potential = {
-			tag = Y55
-			NOT = { has_country_flag = unified_empire }
-		}
-		allow = {
-			tag = Y55
-			NOT = { has_country_flag = unified_empire }
-		}
-		effect = {
-			custom_tooltip = "acceptance_conditions_unification"
-			every_country = {
-				limit = {
-					OR = {
-						primary_culture = colovian
-						primary_culture = nibenean
-						primary_culture = heartlander
-					}
-					NOT = { government = cyrodilic_warlord }
-					NOT = {
-						OR = {
-							tag = Y55
-							tag = REB
-							tag = PIR
-						}
-					}
-				}
-				country_event = { id = cyrodiil_reunify.24 }
-			}
+			
 			every_province = {
 				limit = {
 					superregion = cyrodiil_superregion
 					NOT = { owned_by = ROOT }
 				}
-			add_permanent_claim = ROOT
+				add_permanent_claim = Y55
 			}
-			set_country_flag = unified_empire
+		}
+	}
+	
+	join_the_empire = {
+		major = yes
+		potential = {
+			exists = Y55
+			OR = {
+				primary_culture = colovian
+				primary_culture = nibenean
+				primary_culture = heartlander
+			}
+			NOT = { government = cyrodilic_warlord }
+			NOT = {
+				OR = {
+					tag = Y55
+					tag = REB
+					tag = PIR
+				}
+			}
+		}
+		
+		allow = {
+		NOT = { is_at_war = yes }
+		NOT = { is_subject = yes }
+			OR = {
+				primary_culture = colovian
+				primary_culture = nibenean
+				primary_culture = heartlander
+			}
+			NOT = { government = cyrodilic_warlord }
+			NOT = {
+				OR = {
+					tag = Y55
+					tag = REB
+					tag = PIR
+				}
+			}
+		}
+		
+		effect = {
+			Y55 = {
+				inherit = ROOT
+			}
+			Y55 = { country_event = { id = cyrodiil_reunify.25 } }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0				
+				NOT = { has_opinion = { who = Y55 value = 100 } }
+			}
+			
+			modifier = {
+				factor = 0
+				NOT = { religion = nine_divines }
+				Y55 = { religion = nine_divines }
+			}
+			
+			modifier = {
+				factor = 0
+				religion = nine_divines
+				Y55 = { NOT = { religion = nine_divines } }
+			}
+			
+			modifier = {
+				factor = 0
+				government_rank = 3
+			}
+			
+			modifier = {
+				factor = 0
+				is_rival = Y55
+			}
 		}
 	}
 }

@@ -81,7 +81,6 @@ cyrodilic_empire = {
 	rank = {
 		3 = {
 			diplomatic_upkeep = 3
-			land_forcelimit_modifier = -0.33
 		}
 	}
 	fixed_rank = 3

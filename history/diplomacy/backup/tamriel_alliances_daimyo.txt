@@ -1,0 +1,236 @@
+# Argonia-Hlaalu alliance
+#alliance = {
+#	first = XAR
+#	second = XHL
+#	start_date = 1444.11.10
+#	end_date = 1821.1.1
+#}
+
+# Sadras as Redoran vassal
+vassal = {
+	first = XRD
+	second = XSD
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+
+# Argonian Provinces
+vassal = {
+	first = XAR
+	second = XAN
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XAT
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XHJ
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XJA
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XKM
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XKR
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XLI
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XRK
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XSE
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XAG
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XCR
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XKL
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XKT
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XNG
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XON
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XPA
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XRV
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XSR
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XSP
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XTN
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XTH
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XUM
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XHL
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
+	second = XKD
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+#Cyrodilic Empire Remenants
+
+vassal = {
+	first = T01
+	second = T02
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+vassal = {
+	first = T01
+	second = T03
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+vassal = {
+	first = T01
+	second = T04
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+vassal = {
+	first = T01
+	second = T05
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+vassal = {
+	first = T01
+	second = T06
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+vassal = {
+	first = T01
+	second = T07
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+vassal = {
+	first = T01
+	second = T08
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+vassal = {
+	first = T01
+	second = T53
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}

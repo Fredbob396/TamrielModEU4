@@ -3,7 +3,7 @@
 culture = forsworn
 religion = talos
 capital = "Druadach"
-trade_goods = fish
+trade_goods = fur
 citysize = 15650
 hre = no
 base_tax = 4

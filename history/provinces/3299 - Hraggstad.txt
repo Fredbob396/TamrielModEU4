@@ -3,7 +3,7 @@
 culture = haafingar
 religion = talos
 capital = "Hraggstad"
-trade_goods = fish
+trade_goods = iron
 citysize = 15650
 hre = no
 base_tax = 3

@@ -3,7 +3,7 @@
 culture = south_nordic
 religion = talos
 capital = "Fort Dawnguard"
-trade_goods = fish
+trade_goods = fur
 citysize = 15650
 hre = no
 base_tax = 2
@@ -12,5 +12,5 @@ manpower = 2
 owner = XRI
 controller = XRI
 add_core = XRI
-fort1 = yes
+fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

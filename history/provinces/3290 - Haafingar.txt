@@ -3,7 +3,7 @@
 culture = haafingar
 religion = talos
 capital = "Solitude"
-trade_goods = fish
+trade_goods = cloth
 citysize = 15650
 hre = no
 base_tax = 9

@@ -2,7 +2,7 @@
 
 culture = alabasterian
 religion = lunar_pantheon
-trade_goods = fish
+trade_goods = wool
 citysize = 15650
 hre = no
 base_tax = 2

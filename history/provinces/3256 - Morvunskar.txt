@@ -3,7 +3,7 @@
 culture = old_nordic
 religion = talos
 capital = "Morvunskar"
-trade_goods = fish
+trade_goods = gold
 citysize = 15650
 hre = no
 base_tax = 3

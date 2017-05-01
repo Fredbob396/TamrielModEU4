@@ -1,0 +1,23 @@
+nordic_warlord = {
+
+	rank = {
+		1 = WARLORD_PETTY
+		2 = WARLORD_KINGDOM
+		3 = WARLORD_EMPIRE
+	}
+	ruler_male = {
+		1 = CHIEFTAIN_PETTY
+		2 = CHIEFTAIN_NORMAL
+		3= CHIEFTAIN_GRAND
+	}
+	ruler_female = {
+		1 = CHIEFTESS_PETTY
+		2 = CHIEFTESS_NORMAL
+		3= CHIEFTESS_GRAND
+	}
+	trigger = {
+		culture_group = nordic_g
+		government = monarchy
+		NOT = { government = tinker_state }
+	}
+}

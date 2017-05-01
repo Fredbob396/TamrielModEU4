@@ -2,7 +2,7 @@
 
 culture = indoril
 religion = new_temple
-capital = "Nezvath"
+capital = "Durthungz"
 trade_goods = fish
 citysize = 15650
 hre = no

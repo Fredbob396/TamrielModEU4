@@ -3,7 +3,7 @@
 culture = south_nordic
 religion = talos
 capital = "Faldar's Tooth"
-trade_goods = fish
+trade_goods = fur
 citysize = 15650
 hre = no
 base_tax = 2

@@ -2,7 +2,7 @@
 
 culture = tenmari
 religion = lunar_pantheon
-trade_goods = fish
+trade_goods = copper
 citysize = 15650
 hre = no
 base_tax = 3

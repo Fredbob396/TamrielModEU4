@@ -1,0 +1,39 @@
+# Argonia-Hlaalu alliance
+#alliance = {
+#	first = XAR
+#	second = XHL
+#	start_date = 1444.11.10
+#	end_date = 1821.1.1
+#}
+
+# Sadras as Redoran vassal
+vassal = {
+	first = XRD
+	second = XSD
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+#Weye as a vassal of City Isle
+vassal = {
+	first = Y01
+	second = Y56
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+#Borderwatch and Water's Edge as vassals of Leyawiin
+
+vassal = {
+	first = Y08
+	second = Y20
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = Y08
+	second = Y21
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
