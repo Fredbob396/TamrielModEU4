@@ -45,7 +45,7 @@ country_decisions = {
 		
 		allow = {
 		NOT = { is_at_war = yes }
-		NOT = { is_subject = yes }
+		is_free_or_tributary_trigger = yes
 			OR = {
 				primary_culture = colovian
 				primary_culture = nibenean

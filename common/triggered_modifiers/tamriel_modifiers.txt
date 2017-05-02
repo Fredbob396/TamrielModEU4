@@ -2,28 +2,31 @@ the_mandate_of_the_moons = {
 	potential = {
 		government = elsweyr_theocracy
 	}
-	
-	trigger = {	
+	trigger = {
 		stability = 0
 		devotion = 60
+		NOT = { war_exhaustion = 8 }
 	}
-
-	stability_cost_modifier = -0.10
+	stability_cost_modifier = 1.0
 }
 
 the_mandate_of_the_moons_lost = {
 	potential = {
 		government = elsweyr_theocracy
 	}
-
 	trigger = {
 		OR = {
 			NOT = { stability = 0 }
 			NOT = { devotion = 60 }
+			war_exhaustion = 8
 		}
 	}
-	
+	infantry_power = -0.15
+	cavalry_power = -0.15
+	land_morale = -0.25
 	discipline = -0.1
 	stability_cost_modifier = 0.5
 	global_unrest = 10
+	prestige = -1
+	legitimacy = -1
 }
