@@ -182,3 +182,51 @@ country_event = {
 		}
 	}
 }
+
+#Mutual Friendliness Between Elsweyr and the people of Cyrodiil
+country_event = {
+	id = cyrodiil_flag.17
+	title = "cyrodiil_flag.EVTNAME17"
+	desc = "cyrodiil_flag.EVTDESC17"
+	picture = COURT_eventPicture
+	hidden = yes
+
+	trigger = {
+		tag = XEL
+		NOT = { tag = Y01 }
+		NOT = { has_country_flag = elsweyr_opinion_set }
+	}
+	option = {
+		name = "cyrodiil_flag.EVTOPTA17"
+		FROM = { country_event = { id = cyrodiil_flag.18 } }
+	}
+}
+
+country_event = {
+	id = cyrodiil_flag.18
+	title = "cyrodiil_flag.EVTNAME18"
+	desc = "cyrodiil_flag.EVTDESC18"
+	picture = COURT_eventPicture
+	hidden = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = "cyrodiil_flag.EVTOPTA18"
+		every_country = {
+			limit = {
+				culture_group = cyrodillic
+				NOT = {
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = elsweyr_cyrodiil_friendship
+					}
+				}
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = elsweyr_cyrodiil_friendship
+			}
+		}
+		set_country_flag = elsweyr_opinion_set
+	}
+}

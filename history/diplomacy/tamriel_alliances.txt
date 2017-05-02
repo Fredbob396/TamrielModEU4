@@ -50,3 +50,41 @@ alliance = {
 	start_date = 1444.11.11
 	end_date = 1821.1.1
 }
+
+#Ashlanders as Tributaries to the Great Houses
+
+#Telvanni-Ahemmusa
+dependency = {
+	subject_type = "tributary_state"
+	first = XTE
+	second = YAE
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+#Telvanni-Zainab
+dependency = {
+	subject_type = "tributary_state"
+	first = XTE
+	second = YZN
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+#Telvanni-Erabenimsun
+dependency = {
+	subject_type = "tributary_state"
+	first = XTE
+	second = YER
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+#Redoran-Urshilaku
+dependency = {
+	subject_type = "tributary_state"
+	first = XRD
+	second = YUR
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
