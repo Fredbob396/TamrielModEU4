@@ -49,6 +49,7 @@ country_event = {
 
 	trigger = {
 		owns_core_province = 3529
+		culture_group = cyrodillic
 		NOT = { has_country_flag = ruby_throne }
 		NOT = { has_country_flag = cityisle_prewar }
 		is_at_war = no

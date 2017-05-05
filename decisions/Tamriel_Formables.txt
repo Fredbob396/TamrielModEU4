@@ -447,6 +447,7 @@ country_decisions = {
 		}
 	}
 
+	#300 Development
 	form_colovia = {
 		major = yes
 		potential = {
@@ -464,11 +465,22 @@ country_decisions = {
 		allow = {
 			is_subject = no
 			is_at_war = no
-			AND = {
-				owns_core_province = 3491
-				owns_core_province = 3527
-				owns_core_province = 3456
-				owns_core_province = 3476
+			OR = {
+				AND = {
+					total_development = 300
+					OR = {
+						owns_core_province = 3491
+						owns_core_province = 3527
+						owns_core_province = 3456
+						owns_core_province = 3476
+					}
+				}
+				AND = {
+					owns_core_province = 3491
+					owns_core_province = 3527
+					owns_core_province = 3456
+					owns_core_province = 3476
+				}
 			}
 			NOT = { exists = Y57 }
 		}
@@ -521,6 +533,7 @@ country_decisions = {
 		}
 	}
 	
+	#300 Development
 	form_nibenay = {
 		major = yes
 		potential = {
@@ -538,11 +551,22 @@ country_decisions = {
 		allow = {
 			is_subject = no
 			is_at_war = no
-			AND = {
-				owns_core_province = 3436
-				owns_core_province = 3429
-				owns_core_province = 3518
-				owns_core_province = 3345
+			OR = {
+				AND = {
+					total_development = 300
+					OR = {
+						owns_core_province = 3436
+						owns_core_province = 3429
+						owns_core_province = 3518
+						owns_core_province = 3345
+					}
+				}
+				AND = {
+					owns_core_province = 3436
+					owns_core_province = 3429
+					owns_core_province = 3518
+					owns_core_province = 3345
+				}
 			}
 			NOT = { exists = Y58 }
 		}
@@ -588,6 +612,7 @@ country_decisions = {
 		}
 	}
 	
+	#400 Development
 	form_argonia = {
 		major = yes
 		potential = {
@@ -598,15 +623,30 @@ country_decisions = {
 			is_subject = no
 			is_at_war = no
 			NOT = { tag = XAR }
-			AND = {
-				owns_core_province = 3184
-				owns_core_province = 3179
-				owns_core_province = 3186
-				owns_core_province = 3238
-				owns_core_province = 3211
-				owns_core_province = 3213
-				owns_core_province = 3204
-				owns_core_province = 3232
+			OR = {
+				AND = {
+					total_development = 400
+					OR = {
+						owns_core_province = 3184
+						owns_core_province = 3179
+						owns_core_province = 3186
+						owns_core_province = 3238
+						owns_core_province = 3211
+						owns_core_province = 3213
+						owns_core_province = 3204
+						owns_core_province = 3232
+					}
+				}
+				AND = {
+					owns_core_province = 3184
+					owns_core_province = 3179
+					owns_core_province = 3186
+					owns_core_province = 3238
+					owns_core_province = 3211
+					owns_core_province = 3213
+					owns_core_province = 3204
+					owns_core_province = 3232
+				}
 			}
 			NOT = { exists = XAR }
 		}
@@ -630,6 +670,7 @@ country_decisions = {
 		}
 	}
 	
+	#Cannot be formed through high development
 	form_morrowind = {
 	major = yes
 		potential = {
@@ -674,6 +715,7 @@ country_decisions = {
 		}
 	}
 	
+	#450 Development
 	form_skyrim = {
 	major = yes
 		potential = {
@@ -687,16 +729,32 @@ country_decisions = {
 			is_at_war = no
 			NOT = { tag = XSM }
 			NOT = { tag = XRS }
-			AND = {
-				owns_core_province = 3249
-				owns_core_province = 3324
-				owns_core_province = 3290
-				owns_core_province = 3288
-				owns_core_province = 3280
-				owns_core_province = 3333
-				owns_core_province = 3261
-				owns_core_province = 3277
-				owns_core_province = 3311
+			OR = {
+				AND = {
+					total_development = 450
+					OR = {
+						owns_core_province = 3249
+						owns_core_province = 3324
+						owns_core_province = 3290
+						owns_core_province = 3288
+						owns_core_province = 3280
+						owns_core_province = 3333
+						owns_core_province = 3261
+						owns_core_province = 3277
+						owns_core_province = 3311
+					}
+				}
+				AND = {
+					owns_core_province = 3249
+					owns_core_province = 3324
+					owns_core_province = 3290
+					owns_core_province = 3288
+					owns_core_province = 3280
+					owns_core_province = 3333
+					owns_core_province = 3261
+					owns_core_province = 3277
+					owns_core_province = 3311
+				}
 			}
 			NOT = { exists = YSR }
 		}
@@ -719,6 +777,7 @@ country_decisions = {
 		}
 	}
 	
+	#Cannot be formed through high development
 	form_resdayn = {
 	major = yes
 		potential = {
@@ -766,6 +825,7 @@ country_decisions = {
 		}
 	}
 	
+	#300 Development?
 	form_anequina = {
 	major = yes
 		potential = {
@@ -780,11 +840,24 @@ country_decisions = {
 			NOT = { tag = YAQ } #Anequina
 			NOT = { tag = YPT } #Pellitine
 			NOT = { tag = XEL } #Elsweyr
-			AND = {
-				owns_core_province = 3568 #Dune
-				owns_core_province = 3577 #Riverhold
-				owns_core_province = 3581 #Orcrest
-				owns_core_province = 3593 #Rimmen
+			OR = {
+				AND = {
+					total_development = 300
+					OR = {
+						owns_core_province = 3568 #Dune
+						owns_core_province = 3577 #Riverhold
+						owns_core_province = 3581 #Orcrest
+						owns_core_province = 3593 #Rimmen
+						owns_core_province = 3608 #Corinthe
+					}
+				}
+				AND = {
+					owns_core_province = 3568 #Dune
+					owns_core_province = 3577 #Riverhold
+					owns_core_province = 3581 #Orcrest
+					owns_core_province = 3593 #Rimmen
+					owns_core_province = 3608 #Corinthe
+				}
 			}
 			NOT = { exists = YAQ } #Anequina
 		}
@@ -807,6 +880,7 @@ country_decisions = {
 		}
 	}
 	
+	#300 Development?
 	form_pellitine = {
 	major = yes
 		potential = {
@@ -821,12 +895,22 @@ country_decisions = {
 			NOT = { tag = YAQ } #Anequina
 			NOT = { tag = YPT } #Pellitine
 			NOT = { tag = XEL } #Elsweyr
-			AND = {
-				owns_core_province = 3616 #Senchal
-				owns_core_province = 3641 #Torval
-				owns_core_province = 3602 #Alabaster
-				owns_core_province = 3608 #Corinthe
+			OR = {
+				AND = {
+					total_development = 300
+					OR = {
+						owns_core_province = 3616 #Senchal
+						owns_core_province = 3641 #Torval
+						owns_core_province = 3602 #Alabaster
+					}
+				}
+				AND = {
+					owns_core_province = 3616 #Senchal
+					owns_core_province = 3641 #Torval
+					owns_core_province = 3602 #Alabaster
+				}
 			}
+			
 			NOT = { exists = YPT } #Pellitine
 		}
 		effect = {
@@ -848,6 +932,7 @@ country_decisions = {
 		}
 	}
 	
+	#600 Development?
 	form_elsweyr = {
 	major = yes
 		potential = {
@@ -861,15 +946,30 @@ country_decisions = {
 			is_subject = no
 			is_at_war = no
 			NOT = { tag = XEL } #Elsweyr
-			AND = {
-				owns_core_province = 3616 #Senchal
-				owns_core_province = 3641 #Torval
-				owns_core_province = 3602 #Alabaster
-				owns_core_province = 3608 #Corinthe
-				owns_core_province = 3568 #Dune
-				owns_core_province = 3577 #Riverhold
-				owns_core_province = 3581 #Orcrest
-				owns_core_province = 3593 #Rimmen
+			OR = {
+				AND = {
+					total_development = 600
+					OR = {
+						owns_core_province = 3616 #Senchal
+						owns_core_province = 3641 #Torval
+						owns_core_province = 3602 #Alabaster
+						owns_core_province = 3608 #Corinthe
+						owns_core_province = 3568 #Dune
+						owns_core_province = 3577 #Riverhold
+						owns_core_province = 3581 #Orcrest
+						owns_core_province = 3593 #Rimmen
+					}
+				}
+				AND = {
+					owns_core_province = 3616 #Senchal
+					owns_core_province = 3641 #Torval
+					owns_core_province = 3602 #Alabaster
+					owns_core_province = 3608 #Corinthe
+					owns_core_province = 3568 #Dune
+					owns_core_province = 3577 #Riverhold
+					owns_core_province = 3581 #Orcrest
+					owns_core_province = 3593 #Rimmen
+				}
 			}
 			NOT = { exists = XEL } #Elsweyr
 		}

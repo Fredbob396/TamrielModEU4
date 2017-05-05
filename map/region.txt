@@ -256,12 +256,12 @@ anequina_region = {
 		riverhold_area
 		seaplace_area
 		lower_xylo_area
+		corinthe_area
 	}
 }
 
 pellitine_region = {
 	areas = {
-		corinthe_area
 		quinrawl_area
 		ahjdawi_area
 		inner_pelletine_area

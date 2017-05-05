@@ -1,0 +1,74 @@
+# Order here is the priority for taking them, if trigger is true.
+
+#Redoran
+XRD = {
+	always = yes
+}
+
+#Dres
+XDR = {
+	always = yes
+}
+
+#Atronium
+XAT = {
+	NOT = { 
+		exists = XAR
+	}
+}
+
+#Clawreach
+XCW = {
+	NOT = { 
+		exists = XAR
+	}
+}
+
+#Argonia
+XAR = {
+	exists = yes
+}
+
+#Whiterun
+XWR = {
+	NOT = {
+		exists = XSM
+	}
+}
+
+#Eastmarch
+XEM = {
+	NOT = {
+		exists = XSM
+	}
+}
+
+XSM = {
+	always = yes
+}
+
+#Leyawiin
+Y08 = {
+	NOT = {
+		exists = Y55
+	}
+}
+
+#Bravil
+Y07 = {
+	NOT = {
+		exists = Y55
+	}
+}
+
+#Skingrad
+Y03 = {
+	NOT = {
+		exists = Y55
+	}
+}
+
+#Cyrodiil
+Y55 = {
+	always = yes
+}

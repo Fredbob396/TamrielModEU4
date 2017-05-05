@@ -5,7 +5,9 @@ the_mandate_of_the_moons = {
 	trigger = {
 		stability = 0
 		devotion = 60
-		NOT = { war_exhaustion = 8 }
+		religious_unity = 0.80
+		NOT = { war_exhaustion = 10 }
+		NOT = { overextension_percentage = 0.50 }
 	}
 	stability_cost_modifier = 1.0
 }
@@ -18,12 +20,14 @@ the_mandate_of_the_moons_lost = {
 		OR = {
 			NOT = { stability = 0 }
 			NOT = { devotion = 60 }
-			war_exhaustion = 8
+			NOT = { religious_unity = 0.80 }
+			war_exhaustion = 10
+			overextension_percentage = 0.50
 		}
 	}
-	infantry_power = -0.15
-	cavalry_power = -0.15
-	land_morale = -0.25
+	infantry_power = -0.10
+	cavalry_power = -0.10
+	land_morale = -0.15
 	discipline = -0.1
 	stability_cost_modifier = 0.5
 	global_unrest = 10
