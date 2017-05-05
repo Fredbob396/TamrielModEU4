@@ -481,7 +481,7 @@ ahkhai_area = {
 }
 #Torval
 torval_area = {
-	3641 3640 3639 3638 3643 3642 3644
+	3641 3640 3639 3638 3643 3642 
 }
 #Xaspor
 upper_xylo_area = {
@@ -529,5 +529,5 @@ seaplace_area = {
 }
 #Hemthor
 lower_xylo_area = {
-	3559 3560 3561 3562 3563
+	3559 3560 3561 3562 3563 3644
 }

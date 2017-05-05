@@ -146,9 +146,9 @@ elsweyr_theocracy = {
 	has_devotion = yes
 	rulers_can_be_generals = no
 	
-	min_autonomy = 50
+	min_autonomy = 65
 	max_states = 8
-	land_forcelimit_modifier = -0.40
+  land_forcelimit_modifier = -0.50
 	
 	rank = {
 		3 = {

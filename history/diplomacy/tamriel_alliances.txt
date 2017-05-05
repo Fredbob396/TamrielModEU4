@@ -97,7 +97,6 @@ dependency = {
 }
 
 # Argonian Provinces (Tributaries Test)
-
 dependency = {
 	subject_type = "tributary_state"
 	first = XAR
@@ -286,7 +285,7 @@ dependency = {
 	subject_type = "tributary_state"
 	first = XAR
 	second = XUM
-	start_date = 1444.11.11
+  start_date = 1444.11.11
 	end_date = 1821.1.1
 }
 
@@ -302,6 +301,28 @@ dependency = {
 	subject_type = "tributary_state"
 	first = XAR
 	second = XKD
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+#Leyawiin/Bravil/Skingrad Triple Alliance
+alliance = {
+	first = Y08
+	second = Y07
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = Y08
+	second = Y03
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = Y07
+	second = Y03
 	start_date = 1444.11.11
 	end_date = 1821.1.1
 }
