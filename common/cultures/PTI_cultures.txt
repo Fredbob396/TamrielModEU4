@@ -128,12 +128,6 @@ akaviri = {
 greater_argonian = {
 	graphical_culture = westerngfx
 	
-	country = {
-		rule = {
-			attack_bonus_in_capital_terrain = yes
-		}
-	}
-
 	karanakh = {
 		primary = XKR
 		dynasty_names = { 
