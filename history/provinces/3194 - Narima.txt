@@ -9,8 +9,8 @@ hre = no
 base_tax = 5
 base_production = 6
 manpower = 4
-owner = XKR
-controller = XKR
-add_core = XKR
+owner = XAR
+controller = XAR
+add_core = XKR add_core = XAR
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE

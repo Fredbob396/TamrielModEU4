@@ -2,13 +2,13 @@
 
 culture = dagoni
 religion = hist
-capital = "Onyxe"
+capital = "S'urkan"
 trade_goods = alchemical_goods
 citysize = 15650
 hre = no
-base_tax = 1
-base_production = 2
-manpower = 1
+base_tax = 2
+base_production = 3
+manpower = 2
 owner = XSE
 controller = XSE
 add_core = XSE

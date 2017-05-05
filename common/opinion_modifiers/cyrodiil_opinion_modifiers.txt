@@ -1,0 +1,12 @@
+cyrodiil_count_emperor = {
+	opinion = 75
+}
+cyrodiil_count_count = {
+	opinion = 50
+}
+cyrodiil_warlord_other_opinion = {
+	opinion = -200
+}
+elsweyr_cyrodiil_friendship = {
+	opinion = 50
+}

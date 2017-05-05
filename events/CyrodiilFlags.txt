@@ -51,6 +51,7 @@ country_event = {
 		owns_core_province = 3529
 		NOT = { has_country_flag = ruby_throne }
 		NOT = { has_country_flag = cityisle_prewar }
+		is_at_war = no
 	}
 	option = {
 		name = "cyrodiil_flag.EVTOPTA3"

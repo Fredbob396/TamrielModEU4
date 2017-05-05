@@ -6,5 +6,5 @@ cb_warlord_expansion = {
 		government = cyrodilic_warlord
 		is_neighbor_of = FROM
 	}
-	war_goal = annex_country
+	war_goal = superiority_cyrodilic_unification
 }

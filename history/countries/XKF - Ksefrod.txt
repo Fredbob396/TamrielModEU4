@@ -1,0 +1,7 @@
+government = republican_dictatorship
+technology_group = tamrielic
+religion = hist
+mercantilism = 0.2
+primary_culture = dagoni
+capital = 3712	# Ksefrod
+
