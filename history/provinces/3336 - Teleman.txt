@@ -1,5 +1,5 @@
 culture = dagoni
-religion = nine_divines
+religion = hist
 
 owner = Y50
 controller = Y50
