@@ -22,7 +22,7 @@ vassal = {
 	end_date = 1821.1.1
 }
 
-#Borderwatch and Water's Edge as vassals of Leyawiin
+#Borderwatch, Water's Edge, and Blankenmarch as vassals of Leyawiin
 vassal = {
 	first = Y08
 	second = Y20
@@ -33,6 +33,13 @@ vassal = {
 vassal = {
 	first = Y08
 	second = Y21
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = Y08
+	second = Y59
 	start_date = 1444.11.11
 	end_date = 1821.1.1
 }
@@ -85,6 +92,215 @@ dependency = {
 	subject_type = "tributary_state"
 	first = XRD
 	second = YUR
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+# Argonian Provinces (Tributaries Test)
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XAN
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XAT
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XHJ
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XJA
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XKM
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XKR
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XLI
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XRK
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XSE
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XAG
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XCR
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XKF
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XKL
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XKT
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XNG
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XNL
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XON
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XPA
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XRV
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XSR
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XSP
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XTN
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XTH
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XUM
+  start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XHL
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
+	second = XKD
 	start_date = 1444.11.11
 	end_date = 1821.1.1
 }

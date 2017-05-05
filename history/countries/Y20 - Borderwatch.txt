@@ -4,4 +4,4 @@ technology_group = tamrielic
 religion = daedra_worship
 mercantilism = 0.2
 primary_culture = nibenean
-capital = 3348
+capital = 3715

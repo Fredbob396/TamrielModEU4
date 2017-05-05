@@ -2,13 +2,13 @@
 
 culture = dagoni
 religion = hist
-capital = "Fort Bulwark"
+capital = "Onyxe"
 trade_goods = copper
 citysize = 15650
 hre = no
-base_tax = 3
-base_production = 2
-manpower = 2
+base_tax = 2
+base_production = 1
+manpower = 1
 owner = XSE
 controller = XSE
 add_core = XSE

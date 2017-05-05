@@ -1,0 +1,13 @@
+culture = dagoni
+religion = nine_divines
+
+owner = Y50
+controller = Y50
+add_core = Y50
+hre = no
+base_tax = 1
+base_production = 1
+manpower = 2
+is_city = yes
+trade_goods = copper
+discovered_by = tamrielic discovered_by = XTE

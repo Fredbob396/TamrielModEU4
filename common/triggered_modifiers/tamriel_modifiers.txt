@@ -5,7 +5,7 @@ the_mandate_of_the_moons = {
 	trigger = {
 		stability = 0
 		devotion = 60
-		religious_unity = 0.80
+    religious_unity = 0.80
 		NOT = { war_exhaustion = 10 }
 		NOT = { overextension_percentage = 0.50 }
 	}

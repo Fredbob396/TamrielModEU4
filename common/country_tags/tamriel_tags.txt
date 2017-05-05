@@ -47,6 +47,7 @@ XSE = "countries/Seydahnil.txt"
 #Argonian Empire - South (Daimyo-Style Vassals of Argonia) (New Warlord States)
 XAG = "countries/Agaceph.txt"
 XCR = "countries/Corimont.txt"
+XKF = "countries/Ksefrod.txt"
 XKL = "countries/Kulan.txt"
 XKT = "countries/Ku T'gasi.txt"
 XNG = "countries/Naga Cradle.txt"
@@ -160,6 +161,7 @@ Y21 = "countries/Watersedge.txt"
 Y22 = "countries/Sutch.txt"
 Y23 = "countries/Weatherleah.txt"
 Y56 = "countries/Weye.txt"
+Y59 = "countries/Blankenmarch.txt"
 
 #Cyrodiil Warlords
 Y24 = "countries/Vlastarus.txt"
