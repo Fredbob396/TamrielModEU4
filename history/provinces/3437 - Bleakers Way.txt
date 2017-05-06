@@ -1,4 +1,4 @@
-culture = nibenean
+culture = c_nordic
 religion = nine_divines
 
 owner = Y13

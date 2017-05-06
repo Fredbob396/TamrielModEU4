@@ -1,12 +1,12 @@
-culture = nibenean
+culture = nibenese
 religion = nine_divines
 owner = Y08
 controller = Y08
 add_core = Y08
 hre = no
 base_tax = 5
-base_production = 4
-manpower = 3
+base_production = 5
+manpower = 4
 is_city = yes
 fort_15th = yes
 trade_goods = alchemical_goods

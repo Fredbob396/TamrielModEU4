@@ -1,4 +1,4 @@
-culture = colovian
+culture = west_wealder
 religion = nine_divines
 
 owner = Y03
@@ -7,7 +7,7 @@ add_core = Y03
 hre = no
 base_tax = 8
 base_production = 8
-manpower = 8
+manpower = 6
 is_city = yes
 fort_15th = yes
 trade_goods = wine

@@ -1,4 +1,4 @@
-culture = colovian
+culture = gold_coaster
 religion = daedra_worship
 
 owner = Y22

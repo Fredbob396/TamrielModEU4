@@ -452,8 +452,11 @@ country_decisions = {
 		major = yes
 		potential = {
 			OR = {
-				primary_culture = imperial
-				primary_culture = colovian
+				primary_culture = c_heartlander
+				primary_culture = c_nordic
+				primary_culture = c_highlander
+				primary_culture = west_wealder
+				primary_culture = gold_coaster
 			}
 			NOT = {
 				OR = {
@@ -538,8 +541,12 @@ country_decisions = {
 		major = yes
 		potential = {
 			OR = {
-				primary_culture = imperial
-				primary_culture = nibenean
+				primary_culture = c_heartlander
+				primary_culture = c_nordic
+				primary_culture = nibenese
+				primary_culture = nibenay_basiner
+				primary_culture = valusian
+				
 			}
 			NOT = {
 				OR = {
@@ -555,14 +562,12 @@ country_decisions = {
 				AND = {
 					total_development = 300
 					OR = {
-						owns_core_province = 3436
 						owns_core_province = 3429
 						owns_core_province = 3518
 						owns_core_province = 3345
 					}
 				}
 				AND = {
-					owns_core_province = 3436
 					owns_core_province = 3429
 					owns_core_province = 3518
 					owns_core_province = 3345

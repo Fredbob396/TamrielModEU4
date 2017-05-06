@@ -3,11 +3,27 @@ the_mandate_of_the_moons = {
 		government = elsweyr_theocracy
 	}
 	trigger = {
-		stability = 0
-		devotion = 60
-    religious_unity = 0.80
-		NOT = { war_exhaustion = 10 }
-		NOT = { overextension_percentage = 0.50 }
+		OR = {
+			AND = {
+				has_dlc = "Common Sense"
+				OR = {
+					stability = 0
+					devotion = 60
+					religious_unity = 0.80
+					NOT = { war_exhaustion = 10 }
+					NOT = { overextension_percentage = 0.50 }
+				}
+			}
+			AND = {
+				NOT = { has_dlc = "Common Sense" }
+				OR = {
+					stability = 0
+					religious_unity = 0.80
+					NOT = { war_exhaustion = 10 }
+					NOT = { overextension_percentage = 0.50 }
+				}
+			}
+		}
 	}
 	stability_cost_modifier = 1.0
 }
@@ -18,11 +34,25 @@ the_mandate_of_the_moons_lost = {
 	}
 	trigger = {
 		OR = {
-			NOT = { stability = 0 }
-			NOT = { devotion = 60 }
-			NOT = { religious_unity = 0.80 }
-			war_exhaustion = 10
-			overextension_percentage = 0.50
+			AND = {
+				has_dlc = "Common Sense"
+				OR = {
+					NOT = { stability = 0 }
+					NOT = { devotion = 60 }
+					NOT = { religious_unity = 0.80 }
+					war_exhaustion = 10
+					overextension_percentage = 0.50
+				}
+			}
+			AND = {
+				NOT = { has_dlc = "Common Sense" }
+				OR = {
+					NOT = { stability = 0 }
+					NOT = { religious_unity = 0.80 }
+					war_exhaustion = 10
+					overextension_percentage = 0.50
+				}
+			}
 		}
 	}
 	infantry_power = -0.10

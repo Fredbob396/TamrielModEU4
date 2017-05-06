@@ -1,4 +1,4 @@
-culture = colovian
+culture = gold_coaster
 religion = nine_divines
 
 owner = Y53

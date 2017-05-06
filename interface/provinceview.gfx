@@ -727,6 +727,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/colony_terrain_marsh.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_province_view_terrain_arctic"
+		texturefile = "gfx/interface/colony_terrain_arctic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_province_view_terrain_ashlands"
+		texturefile = "gfx/interface/colony_terrain_ashlands.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_province_view_terrain_sadrith"
+		texturefile = "gfx/interface/colony_terrain_sadrith.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_province_view_terrain_swampy_jungle"
+		texturefile = "gfx/interface/colony_terrain_swampy_jungle.dds"
+	}
+	
 	########################################
 	
 	spriteType = {

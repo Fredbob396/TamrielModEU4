@@ -22,24 +22,41 @@ vassal = {
 	end_date = 1821.1.1
 }
 
-#Borderwatch, Water's Edge, and Blankenmarch as vassals of Leyawiin
-vassal = {
+#Borderwatch as a march of Leyawiin
+march = {
 	first = Y08
 	second = Y20
 	start_date = 1444.11.11
 	end_date = 1821.1.1
 }
 
-vassal = {
+#Leyawiin/Bravil/Skingrad Triple Alliance
+alliance = {
 	first = Y08
-	second = Y21
+	second = Y07
 	start_date = 1444.11.11
 	end_date = 1821.1.1
 }
 
-vassal = {
+alliance = {
 	first = Y08
-	second = Y59
+	second = Y03
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = Y07
+	second = Y03
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+#Elsweyr-Leyawiin Tributary
+dependency = {
+	subject_type = "tributary_state"
+	first = XEL
+	second = Y08
 	start_date = 1444.11.11
 	end_date = 1821.1.1
 }
@@ -54,6 +71,14 @@ alliance = {
 alliance = {
 	first = XAK
 	second = XKD
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+#Temple-Redoran
+alliance = {
+	first = XRD
+	second = XNT
 	start_date = 1444.11.11
 	end_date = 1821.1.1
 }
@@ -301,28 +326,6 @@ dependency = {
 	subject_type = "tributary_state"
 	first = XAR
 	second = XKD
-	start_date = 1444.11.11
-	end_date = 1821.1.1
-}
-
-#Leyawiin/Bravil/Skingrad Triple Alliance
-alliance = {
-	first = Y08
-	second = Y07
-	start_date = 1444.11.11
-	end_date = 1821.1.1
-}
-
-alliance = {
-	first = Y08
-	second = Y03
-	start_date = 1444.11.11
-	end_date = 1821.1.1
-}
-
-alliance = {
-	first = Y07
-	second = Y03
 	start_date = 1444.11.11
 	end_date = 1821.1.1
 }

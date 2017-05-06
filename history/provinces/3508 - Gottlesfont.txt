@@ -1,4 +1,4 @@
-culture = colovian
+culture = c_highlander
 religion = nine_divines
 
 owner = Y12
@@ -6,7 +6,7 @@ controller = Y12
 add_core = Y12
 hre = no
 base_tax = 4
-base_production = 4
+base_production = 3
 manpower = 2
 is_city = yes
 trade_goods = cloth

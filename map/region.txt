@@ -234,6 +234,7 @@ n_nibenay_region = {
 
 s_nibenay_region = {
 	areas = {
+		atatar_area
 		borderwatch_area
 		topal_bay_area
 		blackwood_area

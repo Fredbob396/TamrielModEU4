@@ -1,4 +1,4 @@
-culture = nibenean
+culture = valusian
 religion = daedra_worship
 
 owner = Y17

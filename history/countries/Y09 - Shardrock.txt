@@ -3,5 +3,5 @@ government_rank = 1
 technology_group = tamrielic
 religion = nine_divines
 mercantilism = 0.2
-primary_culture = colovian
+primary_culture = west_wealder
 capital = 3473

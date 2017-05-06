@@ -18,13 +18,6 @@ dunmeri = {
 		}
 	}
 
-	velothi = {
-		primary = XRD
-		dynasty_names = { 
-			Venim Ramoran Sarethi Llethri Arobar Morvayn Mano Mandas Indarys Dralor
-		}
-	}
-
 	indoril = {
 		primary = XNT
 		dynasty_names = { 
@@ -35,6 +28,38 @@ dunmeri = {
 		primary = XBM
 		dynasty_names = { 
 			Dral Drenim Hleran Avel Vedas Seleth Omavel Uvirith Telvanni Tenvanni Telvayn Demnevanni Dralas Maryon Odrethi
+		}
+	}
+	ashlander_dunmeri = {
+		dynasty_names = {
+			Vabdas Almu Man-llu Mantiti Yahaz Ababael Zainsubani Zama-Rasour, Abalkala Abelmawia Addarari Addaribantes Addinibi Addunipu Adidshina Adur-Dan Ahalkalun Ahanidiran Akin
+	 		Anurnudai Ashalkimallit Ashananapal Ashapaladdon Asharapli Ashar-Dad Ashar-Don Asharnalit Ashibael Ashi-Iddan Ashirbibi Ashishpalirdan Ashumallit Ashummi-Ammus Ashunbabi
+	 		Ashun-Idantus Ashurnasaddas Ashushshirari Assalatammis Assannabalit Assantinalit Assaplit Assarbeberib Assardarainat Assardidairan Assarnibani Assarnuridan Assarrapanat Assarrimisun
+	 		Assattadaishah Assebiriddan Assemmus Asserbassalit Asserrumusa Assillariran Assinabi Assintashiran Assirnarari Assonirishpal Assudiraplit Assudnilamat Assullinbanud Assumanallit
+	 		Assunbahanammu Assunudadnud Assurnarairan Assurnipilu Assurnumanit Assurnumausur Assutladainab Assutlanipal Atinsabia Bael Benamamat Chodala Darirnaddunumm Dinadad
+	 		Dudnebisun Dun-Ahhe Dunsamsi Elarrapal Enturnabaelul Eraishah Eramarellaku Erarbadon Erushara Esatliballit Esurarnat Esurnadarpal Giladren Gilu Hainnabibi Hainterari Hairshashishi
+	 		Hairshumusa Hansar Ilabael Ilath-Pal Ilurnubishpal Kaushad Kaushmamanu Kaushminipu Kil Kummimmidan Kuntarnammu Kutebani Lalansour Lasamsi Laserbillahemmi Maesa Maessabibi
+	 		Maliiran Malman-Ammu Mannanalit Mantashpi Massitisun Matluberib Mibishanit Mirathrernenum Mirpal Mirshamammu Muddumummu Nerendus Niladon Odimabesser Odin-Ahhe Odirnapal
+	 		Pansamsi Pudashara Puntumisun Radansour Ranarbatus Rapli Saddarnuran Saharnatturapli Saladnius Salkatanat Salvu Samma Sammalamus Samsi Sanammasour Santumatus Sehabani
+	 		Selitbael Selkin-Adda Senatbael Serdimapal Serimilk Sershurrapal Shalarnetus Shamirbasour Shand Shashipal Shashmassamsi Shilansour Shimmabadas Shin-Ilu Shinirbael Shishara
+	 		Siddurnanit Sobbinisun Sobdishapal Sonnerralit Subaddamael Tansumiran Tibashipal Timmiriran Timsar-Dadisun Ududnabia Ulannanit Ularshanentus Ulirbabi Urshan-Adairan Urshummarnamus
+	 		Urshumusa Varnan-Adda Yansurnummu Yanumibaal Yasalmibaal Yassabisun Yentimilal Yessur-Disadon Zabamat Zabynatus Zainab Zaintashara Zansatanit Zeba-Adad Zelma-Alit Zenammu
+		}
+		male_names = {
+			Mausur Ainab Ababael Maeonius Manat Missun Mubdan Odairan Zallit Abassel Abibaal Abishpulu Adairan Adaishah Addammus Addarnat Adibael Ahasour Ahaz Ainab
+	 		Ainat Anasour Anit Asha-Ammu Ashibaal Ashu-Ahhe Ashuma-Nud Ashur-Dan Assaba-Bentus Assallit Assamanut Assamma-Idan Assantus Assatlit Assemmus Assurdan
+	 		Balur Beden Conoon Dakin Dralas Dun-Ilu Dunsalipal Dutadalk Elibael Emul-Ran Erur-Dan Esar-Don Esib-Nummu Hainab Hairan Han-Ammu Hannat Hassour Hemus Hentus
+	 		Hibaddar Hinammu Hirarend Ibarnadad Ibasour Ilasour Kanat Kanit Kanud Kashtes Kaushad Kausi Kind Kitbael Kummi-Namus Kund Lassour Mabarrabael Maesat Mal
+	 		Malay Mansilamat Massarapal Massour Mibdinahaz Minassour Minisun Minnibi Musan Mut Nind Ninimilk Ninirrasour Nirait Nund Odaishah Ohibaal Patababi Patus Pilun
+	 		Punibi Ranabi Sakin Sakulerib Sal Salattanat Salay Salmat Salmus Sannit Sargon Seldus Selk Selkirnemus Shabinbael Shanat Shanit Shannat Shanud Shargon Shilipuran
+	 		Shimsun Shin Shipal Shirerib Shullay Subenend Sul-Matuul Talkin Teshmus Tibdan Tinti Tis Truan Tubilalk Tussurradad Ulabael Ulath-Pal Yahaz Yakin Yakum Yan Yanit
+	 		Yantus Yapal Yassour Yeherradad Yen Yenammu Zabamund Zabarbael Zainat Zairan Zalabelk Zalit Zallay Zanat Zanmulk Zebba Zebdusipal Zelaku Zelay Zenabi Zennammu
+		}
+		female_names = {
+			Mamaea Manirai Manu Nummu Zebba Shara Addut-Lamanu Adusamsi Ahanabi Ansu Antu Ashamanu Asharapli Ashumanu Assamanu Assi Assimusa Assirari Assumanu Benudni Berapli Dissu
+	 		Elitlaya Elumabi Hainab Hairan Hanarai Hannabi Hansi Hinummu Ibanammu Kammu Kausha Kummu Kurapli Kushishi Lanabi Maela Maeli Mamusa Manabi Man-Ilu Mi-Ilu Midnabi Milynea Mimanu
+	 		Minabibi Missamsi Munbebi Musa Nammu Nibani Nirai Peakstar Pilu Raishi Rasamsi Rawia Sakiran Samsi Santinti Seba Sen Senipu Shali Shallath-Piremus Shinammu Shishi Shulki Shullay
+	 		Sinnammu Sonummu Tashpi Tissamsi Tunipy Tussi Ulibabi Ulisamsi Urshamusa Vabbar Yan-Ahhe Yanabani Yanibi Yenabi Zaba Zabi Zanummu Zennammu Zula
 		}
 	}
 }
@@ -58,55 +83,14 @@ mestizo_dunmeri = {
 			Venim Ramoran Sarethi Llethri Arobar Morvayn Mano Mandas Indarys Dralor
 		}
 	}
+	velothi = {
+		primary = XRD
+		dynasty_names = { 
+			Venim Ramoran Sarethi Llethri Arobar Morvayn Mano Mandas Indarys Dralor
+		}
+	}
 }
 
-ashlander_dunmeri = {
-	graphical_culture = westerngfx
-	
-	urshilaku = {
-		primary = YUR
-	}
-	ahemmusa = {
-		primary = YAE
-	}
-	zainab = {
-		primary = YZN
-	}
-	erabenimsun = {
-		primary = YER
-	}
-	
-	dynasty_names = {
-	Vabdas Almu Man-llu Mantiti Yahaz Ababael Zainsubani Zama-Rasour, Abalkala Abelmawia Addarari Addaribantes Addinibi Addunipu Adidshina Adur-Dan Ahalkalun Ahanidiran Akin
-	 Anurnudai Ashalkimallit Ashananapal Ashapaladdon Asharapli Ashar-Dad Ashar-Don Asharnalit Ashibael Ashi-Iddan Ashirbibi Ashishpalirdan Ashumallit Ashummi-Ammus Ashunbabi
-	 Ashun-Idantus Ashurnasaddas Ashushshirari Assalatammis Assannabalit Assantinalit Assaplit Assarbeberib Assardarainat Assardidairan Assarnibani Assarnuridan Assarrapanat Assarrimisun
-	 Assattadaishah Assebiriddan Assemmus Asserbassalit Asserrumusa Assillariran Assinabi Assintashiran Assirnarari Assonirishpal Assudiraplit Assudnilamat Assullinbanud Assumanallit
-	 Assunbahanammu Assunudadnud Assurnarairan Assurnipilu Assurnumanit Assurnumausur Assutladainab Assutlanipal Atinsabia Bael Benamamat Chodala Darirnaddunumm Dinadad
-	 Dudnebisun Dun-Ahhe Dunsamsi Elarrapal Enturnabaelul Eraishah Eramarellaku Erarbadon Erushara Esatliballit Esurarnat Esurnadarpal Giladren Gilu Hainnabibi Hainterari Hairshashishi
-	 Hairshumusa Hansar Ilabael Ilath-Pal Ilurnubishpal Kaushad Kaushmamanu Kaushminipu Kil Kummimmidan Kuntarnammu Kutebani Lalansour Lasamsi Laserbillahemmi Maesa Maessabibi
-	 Maliiran Malman-Ammu Mannanalit Mantashpi Massitisun Matluberib Mibishanit Mirathrernenum Mirpal Mirshamammu Muddumummu Nerendus Niladon Odimabesser Odin-Ahhe Odirnapal
-	 Pansamsi Pudashara Puntumisun Radansour Ranarbatus Rapli Saddarnuran Saharnatturapli Saladnius Salkatanat Salvu Samma Sammalamus Samsi Sanammasour Santumatus Sehabani
-	 Selitbael Selkin-Adda Senatbael Serdimapal Serimilk Sershurrapal Shalarnetus Shamirbasour Shand Shashipal Shashmassamsi Shilansour Shimmabadas Shin-Ilu Shinirbael Shishara
-	 Siddurnanit Sobbinisun Sobdishapal Sonnerralit Subaddamael Tansumiran Tibashipal Timmiriran Timsar-Dadisun Ududnabia Ulannanit Ularshanentus Ulirbabi Urshan-Adairan Urshummarnamus
-	 Urshumusa Varnan-Adda Yansurnummu Yanumibaal Yasalmibaal Yassabisun Yentimilal Yessur-Disadon Zabamat Zabynatus Zainab Zaintashara Zansatanit Zeba-Adad Zelma-Alit Zenammu
-	}
-	male_names = {
-	Mausur Ainab Ababael Maeonius Manat Missun Mubdan Odairan Zallit Abassel Abibaal Abishpulu Adairan Adaishah Addammus Addarnat Adibael Ahasour Ahaz Ainab
-	 Ainat Anasour Anit Asha-Ammu Ashibaal Ashu-Ahhe Ashuma-Nud Ashur-Dan Assaba-Bentus Assallit Assamanut Assamma-Idan Assantus Assatlit Assemmus Assurdan
-	 Balur Beden Conoon Dakin Dralas Dun-Ilu Dunsalipal Dutadalk Elibael Emul-Ran Erur-Dan Esar-Don Esib-Nummu Hainab Hairan Han-Ammu Hannat Hassour Hemus Hentus
-	 Hibaddar Hinammu Hirarend Ibarnadad Ibasour Ilasour Kanat Kanit Kanud Kashtes Kaushad Kausi Kind Kitbael Kummi-Namus Kund Lassour Mabarrabael Maesat Mal
-	 Malay Mansilamat Massarapal Massour Mibdinahaz Minassour Minisun Minnibi Musan Mut Nind Ninimilk Ninirrasour Nirait Nund Odaishah Ohibaal Patababi Patus Pilun
-	 Punibi Ranabi Sakin Sakulerib Sal Salattanat Salay Salmat Salmus Sannit Sargon Seldus Selk Selkirnemus Shabinbael Shanat Shanit Shannat Shanud Shargon Shilipuran
-	 Shimsun Shin Shipal Shirerib Shullay Subenend Sul-Matuul Talkin Teshmus Tibdan Tinti Tis Truan Tubilalk Tussurradad Ulabael Ulath-Pal Yahaz Yakin Yakum Yan Yanit
-	 Yantus Yapal Yassour Yeherradad Yen Yenammu Zabamund Zabarbael Zainat Zairan Zalabelk Zalit Zallay Zanat Zanmulk Zebba Zebdusipal Zelaku Zelay Zenabi Zennammu
-	}
-	female_names = {
-	Mamaea Manirai Manu Nummu Zebba Shara Addut-Lamanu Adusamsi Ahanabi Ansu Antu Ashamanu Asharapli Ashumanu Assamanu Assi Assimusa Assirari Assumanu Benudni Berapli Dissu
-	 Elitlaya Elumabi Hainab Hairan Hanarai Hannabi Hansi Hinummu Ibanammu Kammu Kausha Kummu Kurapli Kushishi Lanabi Maela Maeli Mamusa Manabi Man-Ilu Mi-Ilu Midnabi Milynea Mimanu
-	 Minabibi Missamsi Munbebi Musa Nammu Nibani Nirai Peakstar Pilu Raishi Rasamsi Rawia Sakiran Samsi Santinti Seba Sen Senipu Shali Shallath-Piremus Shinammu Shishi Shulki Shullay
-	 Sinnammu Sonummu Tashpi Tissamsi Tunipy Tussi Ulibabi Ulisamsi Urshamusa Vabbar Yan-Ahhe Yanabani Yanibi Yenabi Zaba Zabi Zanummu Zennammu Zula
-	}
-}
 
 akaviri = { 
 	graphical_culture = westerngfx
@@ -249,86 +233,62 @@ orcish_g = {
 
 cyrodillic = {
 	graphical_culture = westerngfx
-	nibenean = {
-			male_names = {
-				Adamus Adrian Alban Aloys Amantius Andreas Antus Arcturus Arentus Ashtus Audens Belisarius Bendu Berich Betto Bremman Brielus Brotch Bruccius
-				Carius Carmalo Carodus Cartrus Casta Cicero Claudius Collatinus Contumeliorus Corvus Cosmus Marius Regulus Cyronin Danus Decentius Denel
-				Denyiir Dion Eduard Uriel Titus Tiber Fadus Fortus Fagus Fralav Galtus Garrus Gelius Gemellus Gerich Rielus Civello Glenroy Helvius Helvo Hieronymus
-				Humilis Ilav Ilend Imus Iniel Inius Irlav Itius Jak Januarius Janus Jaras Jesan Jirolin Jiv Kantav Kastav Kurdan Langley Laythe Kaslowyn Lerexus Ley
-				Lovidicus Lucien Lurio Luther Malintius Marinus Maro Mattius Melus Menien Mercator Natch Nermus Nigidius Draninus Ontus Ormellius Otius Pelagius
-				Pelinal Olvus Pennus Pinarus Plautis Primo Ancus Rallus Raminus Reman Rimalus Ris Roliand Rufrius Savlian John Sergius Servatius Severius Amiel
-				Berich Caius Gregory Roderic Stantus Sulinus Surius Tahm Tertius Tertullian Toutius Trenus Tyrellius Valandrus Valus Vandorallen Vantus Velan Velus
-				Velwyn Viator Viranus Vlanarus Vlanhonder Vlarimil Vontan Vontus Zedrick Cassius Martin Piner Steffan
-			}
-			female_names = {
-				Alessia Ariela Arnora Astia Astinia Augusta Aviera Avita Britta Bronsila Caelia Camilla Cargas Carmana Casta Caula Arriana Millona Narina Dumania
-				Dynari erina Etira Faustina Gruiand Herminia Ida Isa Ita Janonia Jantus Jastia Javolia Jena Julitta Lenka Lucina Rosentia Marana Mariana Marlena
-				Martina Naspia Perennia Pista Praxedes Buntara Rena Renee Restita Romana Rona Rosentia Rusia Schlera Selena Selene Sibylla Silana Simplicia
-				Tertia Viera Vilena Vinicia Aia Ysabel
-			}
-			dynasty_names = { 
-				Phillida Decanius Corinis Bincal Allectus Gregori Draconis Flonius Odiil Falvius Chenius Avidius Arius Olo Inian Plotius Senyan Gawey Calus Longus
-				Patneim Runellius Truiand Oholin Gavinius Flavus Verus Arcadia Vedius Florius Umbranox Caro Terentius Sintav Artellian Opsius Mede Hodge Calidius
-				Previa Darelliun Terentius Axius Senarel Rielus Civello Cecia Atius Lex Nonius Dralgoner Vonius Sintav Colus Jarol Hayn Silver Aurunceia Hassildor
-				Invel Rilian Sextius Doran Hiriel Cheynoslin Kvinchal Wavrick Kaslowyn Callidus Marillin Lovidicus Lachance Maenius Broad Ancrus Catiotus Rufus
-				Motrus Retilius Goneld Hosidus Pinder Vanin Goldwine Loran Whitestrake Olvus Mallius Inventius Rusonius Antonius Ancus Polus Broder Bruiant
-				Fralmoton Manus Vinicius Matius Hoff Turrianus Quintilius Atius Varrid Vassinus Afranius Blackwell Favonius Duronius Logellus Abor Trebatius
-				Orelius Andus Mosidius Benirus Accius Donton Kvinchal Moslin Orius Sintav Idolus Green
-		}
+		male_names = {
+		Adamus Adrian Alban Aloys Amantius Andreas Antus Arcturus Arentus Ashtus Audens Belisarius Bendu Berich Betto Bremman Brielus Brotch Bruccius
+		Carius Carmalo Carodus Cartrus Casta Cicero Claudius Collatinus Contumeliorus Corvus Cosmus Marius Regulus Cyronin Danus Decentius Denel
+		Denyiir Dion Eduard Uriel Titus Tiber Fadus Fortus Fagus Fralav Galtus Garrus Gelius Gemellus Gerich Rielus Civello Glenroy Helvius Helvo Hieronymus
+		Humilis Ilav Ilend Imus Iniel Inius Irlav Itius Jak Januarius Janus Jaras Jesan Jirolin Jiv Kantav Kastav Kurdan Langley Laythe Kaslowyn Lerexus Ley
+		Lovidicus Lucien Lurio Luther Malintius Marinus Maro Mattius Melus Menien Mercator Natch Nermus Nigidius Draninus Ontus Ormellius Otius Pelagius
+		Pelinal Olvus Pennus Pinarus Plautis Primo Ancus Rallus Raminus Reman Rimalus Ris Roliand Rufrius Savlian John Sergius Servatius Severius Amiel
+		Berich Caius Gregory Roderic Stantus Sulinus Surius Tahm Tertius Tertullian Toutius Trenus Tyrellius Valandrus Valus Vandorallen Vantus Velan Velus
+		Velwyn Viator Viranus Vlanarus Vlanhonder Vlarimil Vontan Vontus Zedrick Cassius Martin Piner Steffan
 	}
-	colovian = {
-			male_names = {
-				Adamus Adrian Alban Aloys Amantius Andreas Antus Arcturus Arentus Ashtus Audens Belisarius Bendu Berich Betto Bremman Brielus Brotch Bruccius
-				Carius Carmalo Carodus Cartrus Casta Cicero Claudius Collatinus Contumeliorus Corvus Cosmus Marius Regulus Cyronin Danus Decentius Denel
-				Denyiir Dion Eduard Uriel Titus Tiber Fadus Fortus Fagus Fralav Galtus Garrus Gelius Gemellus Gerich Rielus Civello Glenroy Helvius Helvo Hieronymus
-				Humilis Ilav Ilend Imus Iniel Inius Irlav Itius Jak Januarius Janus Jaras Jesan Jirolin Jiv Kantav Kastav Kurdan Langley Laythe Kaslowyn Lerexus Ley
-				Lovidicus Lucien Lurio Luther Malintius Marinus Maro Mattius Melus Menien Mercator Natch Nermus Nigidius Draninus Ontus Ormellius Otius Pelagius
-				Pelinal Olvus Pennus Pinarus Plautis Primo Ancus Rallus Raminus Reman Rimalus Ris Roliand Rufrius Savlian John Sergius Servatius Severius Amiel
-				Berich Caius Gregory Roderic Stantus Sulinus Surius Tahm Tertius Tertullian Toutius Trenus Tyrellius Valandrus Valus Vandorallen Vantus Velan Velus
-				Velwyn Viator Viranus Vlanarus Vlanhonder Vlarimil Vontan Vontus Zedrick Cassius Martin Piner Steffan
-			}
-			female_names = {
-				Alessia Ariela Arnora Astia Astinia Augusta Aviera Avita Britta Bronsila Caelia Camilla Cargas Carmana Casta Caula Arriana Millona Narina Dumania
-				Dynari erina Etira Faustina Gruiand Herminia Ida Isa Ita Janonia Jantus Jastia Javolia Jena Julitta Lenka Lucina Rosentia Marana Mariana Marlena
-				Martina Naspia Perennia Pista Praxedes Buntara Rena Renee Restita Romana Rona Rosentia Rusia Schlera Selena Selene Sibylla Silana Simplicia
-				Tertia Viera Vilena Vinicia Aia Ysabel
-			}
-			dynasty_names = { 
-				Phillida Decanius Corinis Bincal Allectus Gregori Draconis Flonius Odiil Falvius Chenius Avidius Arius Olo Inian Plotius Senyan Gawey Calus Longus
-				Patneim Runellius Truiand Oholin Gavinius Flavus Verus Arcadia Vedius Florius Umbranox Caro Terentius Sintav Artellian Opsius Mede Hodge Calidius
-				Previa Darelliun Terentius Axius Senarel Rielus Civello Cecia Atius Lex Nonius Dralgoner Vonius Sintav Colus Jarol Hayn Silver Aurunceia Hassildor
-				Invel Rilian Sextius Doran Hiriel Cheynoslin Kvinchal Wavrick Kaslowyn Callidus Marillin Lovidicus Lachance Maenius Broad Ancrus Catiotus Rufus
-				Motrus Retilius Goneld Hosidus Pinder Vanin Goldwine Loran Whitestrake Olvus Mallius Inventius Rusonius Antonius Ancus Polus Broder Bruiant
-				Fralmoton Manus Vinicius Matius Hoff Turrianus Quintilius Atius Varrid Vassinus Afranius Blackwell Favonius Duronius Logellus Abor Trebatius
-				Orelius Andus Mosidius Benirus Accius Donton Kvinchal Moslin Orius Sintav Idolus Green
-		}
+	female_names = {
+		Alessia Ariela Arnora Astia Astinia Augusta Aviera Avita Britta Bronsila Caelia Camilla Cargas Carmana Casta Caula Arriana Millona Narina Dumania
+		Dynari erina Etira Faustina Gruiand Herminia Ida Isa Ita Janonia Jantus Jastia Javolia Jena Julitta Lenka Lucina Rosentia Marana Mariana Marlena
+		Martina Naspia Perennia Pista Praxedes Buntara Rena Renee Restita Romana Rona Rosentia Rusia Schlera Selena Selene Sibylla Silana Simplicia
+		Tertia Viera Vilena Vinicia Aia Ysabel
 	}
-		imperial = {
-			male_names = {
-				Adamus Adrian Alban Aloys Amantius Andreas Antus Arcturus Arentus Ashtus Audens Belisarius Bendu Berich Betto Bremman Brielus Brotch Bruccius
-				Carius Carmalo Carodus Cartrus Casta Cicero Claudius Collatinus Contumeliorus Corvus Cosmus Marius Regulus Cyronin Danus Decentius Denel
-				Denyiir Dion Eduard Uriel Titus Tiber Fadus Fortus Fagus Fralav Galtus Garrus Gelius Gemellus Gerich Rielus Civello Glenroy Helvius Helvo Hieronymus
-				Humilis Ilav Ilend Imus Iniel Inius Irlav Itius Jak Januarius Janus Jaras Jesan Jirolin Jiv Kantav Kastav Kurdan Langley Laythe Kaslowyn Lerexus Ley
-				Lovidicus Lucien Lurio Luther Malintius Marinus Maro Mattius Melus Menien Mercator Natch Nermus Nigidius Draninus Ontus Ormellius Otius Pelagius
-				Pelinal Olvus Pennus Pinarus Plautis Primo Ancus Rallus Raminus Reman Rimalus Ris Roliand Rufrius Savlian John Sergius Servatius Severius Amiel
-				Berich Caius Gregory Roderic Stantus Sulinus Surius Tahm Tertius Tertullian Toutius Trenus Tyrellius Valandrus Valus Vandorallen Vantus Velan Velus
-				Velwyn Viator Viranus Vlanarus Vlanhonder Vlarimil Vontan Vontus Zedrick Cassius Martin Piner Steffan
-			}
-			female_names = {
-				Alessia Ariela Arnora Astia Astinia Augusta Aviera Avita Britta Bronsila Caelia Camilla Cargas Carmana Casta Caula Arriana Millona Narina Dumania
-				Dynari erina Etira Faustina Gruiand Herminia Ida Isa Ita Janonia Jantus Jastia Javolia Jena Julitta Lenka Lucina Rosentia Marana Mariana Marlena
-				Martina Naspia Perennia Pista Praxedes Buntara Rena Renee Restita Romana Rona Rosentia Rusia Schlera Selena Selene Sibylla Silana Simplicia
-				Tertia Viera Vilena Vinicia Aia Ysabel
-			}
-			dynasty_names = { 
-				Phillida Decanius Corinis Bincal Allectus Gregori Draconis Flonius Odiil Falvius Chenius Avidius Arius Olo Inian Plotius Senyan Gawey Calus Longus
-				Patneim Runellius Truiand Oholin Gavinius Flavus Verus Arcadia Vedius Florius Umbranox Caro Terentius Sintav Artellian Opsius Mede Hodge Calidius
-				Previa Darelliun Terentius Axius Senarel Rielus Civello Cecia Atius Lex Nonius Dralgoner Vonius Sintav Colus Jarol Hayn Silver Aurunceia Hassildor
-				Invel Rilian Sextius Doran Hiriel Cheynoslin Kvinchal Wavrick Kaslowyn Callidus Marillin Lovidicus Lachance Maenius Broad Ancrus Catiotus Rufus
-				Motrus Retilius Goneld Hosidus Pinder Vanin Goldwine Loran Whitestrake Olvus Mallius Inventius Rusonius Antonius Ancus Polus Broder Bruiant
-				Fralmoton Manus Vinicius Matius Hoff Turrianus Quintilius Atius Varrid Vassinus Afranius Blackwell Favonius Duronius Logellus Abor Trebatius
-				Orelius Andus Mosidius Benirus Accius Donton Kvinchal Moslin Orius Sintav Idolus Green
-		}
+	dynasty_names = { 
+		Phillida Decanius Corinis Bincal Allectus Gregori Draconis Flonius Odiil Falvius Chenius Avidius Arius Olo Inian Plotius Senyan Gawey Calus Longus
+		Patneim Runellius Truiand Oholin Gavinius Flavus Verus Arcadia Vedius Florius Umbranox Caro Terentius Sintav Artellian Opsius Mede Hodge Calidius
+		Previa Darelliun Terentius Axius Senarel Rielus Civello Cecia Atius Lex Nonius Dralgoner Vonius Sintav Colus Jarol Hayn Silver Aurunceia Hassildor
+		Invel Rilian Sextius Doran Hiriel Cheynoslin Kvinchal Wavrick Kaslowyn Callidus Marillin Lovidicus Lachance Maenius Broad Ancrus Catiotus Rufus
+		Motrus Retilius Goneld Hosidus Pinder Vanin Goldwine Loran Whitestrake Olvus Mallius Inventius Rusonius Antonius Ancus Polus Broder Bruiant
+		Fralmoton Manus Vinicius Matius Hoff Turrianus Quintilius Atius Varrid Vassinus Afranius Blackwell Favonius Duronius Logellus Abor Trebatius
+		Orelius Andus Mosidius Benirus Accius Donton Kvinchal Moslin Orius Sintav Idolus Green
+	}
+	gold_coaster = {
+		#Anvil
+		primary = Y02 
+	}
+	west_wealder = {
+		#Skingrad
+		primary = Y03
+	}
+	c_highlander = {
+		#Chorrol
+		primary = Y04
+	}
+	c_heartlander = {
+		#City Isle
+		primary = Y01
+	}
+	c_nordic = {
+		#Bruma
+		primary = Y05
+	}
+	valusian = {
+		#Cheydinhal
+		primary = Y06
+	}
+	nibenese = {
+		#Leyawiin
+		primary = Y08
+	}
+	nibenay_basiner = {
+		#Bravil?
+		primary = Y07
 	}
 }
 

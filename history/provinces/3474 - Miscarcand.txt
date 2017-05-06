@@ -1,4 +1,4 @@
-culture = colovian
+culture = west_wealder
 religion = daedra_worship
 
 owner = Y53

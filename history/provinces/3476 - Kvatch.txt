@@ -1,13 +1,13 @@
-culture = colovian
+culture = west_wealder
 religion = nine_divines
 
 owner = Y53
 controller = Y53
 add_core = Y53
 hre = no
-base_tax = 7
-base_production = 7
-manpower = 6
+base_tax = 5
+base_production = 4
+manpower = 3
 is_city = yes
 fort_15th = yes
 trade_goods = silk

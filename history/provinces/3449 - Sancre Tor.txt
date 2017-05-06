@@ -1,4 +1,4 @@
-culture = colovian
+culture = c_nordic
 religion = daedra_worship
 
 owner = Y38

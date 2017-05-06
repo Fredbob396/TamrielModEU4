@@ -1,4 +1,4 @@
-culture = nibenean
+culture = nibenay_basiner
 religion = nine_divines
 
 owner = Y42

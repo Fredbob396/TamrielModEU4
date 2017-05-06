@@ -1,4 +1,4 @@
-culture = colovian
+culture = c_highlander
 religion = daedra_worship
 
 owner = Y23

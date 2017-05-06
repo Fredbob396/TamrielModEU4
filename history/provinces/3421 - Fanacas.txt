@@ -1,4 +1,4 @@
-culture = nibenean
+culture = valusian
 religion = nine_divines
 
 owner = Y49
@@ -9,5 +9,5 @@ base_tax = 2
 base_production = 1
 manpower = 2
 is_city = yes
-trade_goods = gold
+trade_goods = grain
 discovered_by = tamrielic discovered_by = XTE

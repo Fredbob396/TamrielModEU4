@@ -1,7 +1,7 @@
 government = cyrodilic_city
 government_rank = 1
 technology_group = tamrielic
-religion = daedra_worship
+religion = nine_divines
 mercantilism = 0.2
-primary_culture = nibenean
+primary_culture = nibenese
 capital = 3715

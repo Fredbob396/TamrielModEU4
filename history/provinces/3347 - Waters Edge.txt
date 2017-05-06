@@ -1,4 +1,4 @@
-culture = nibenean
+culture = nibenese
 religion = nine_divines
 
 owner = Y21

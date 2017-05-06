@@ -1,13 +1,13 @@
-culture = colovian
+culture = c_highlander
 religion = nine_divines
 
 owner = Y04
 controller = Y04
 add_core = Y04
 hre = no
-base_tax = 5
-base_production = 4
-manpower = 5
+base_tax = 4
+base_production = 3
+manpower = 4
 is_city = yes
 trade_goods = iron
 discovered_by = tamrielic discovered_by = XTE
