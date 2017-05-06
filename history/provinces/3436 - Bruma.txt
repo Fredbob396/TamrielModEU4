@@ -1,12 +1,12 @@
-culture = nibenean
+culture = c_nordic
 religion = nine_divines
 
 owner = Y05
 controller = Y05
 add_core = Y05
 hre = no
-base_tax = 8
-base_production = 8
+base_tax = 6
+base_production = 6
 manpower = 5
 is_city = yes
 fort_15th = yes

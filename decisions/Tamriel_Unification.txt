@@ -28,11 +28,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			exists = Y55
-			OR = {
-				primary_culture = colovian
-				primary_culture = nibenean
-				primary_culture = heartlander
-			}
+			culture_group = cyrodillic
 			NOT = { government = cyrodilic_warlord }
 			NOT = {
 				OR = {
@@ -44,13 +40,9 @@ country_decisions = {
 		}
 		
 		allow = {
-		NOT = { is_at_war = yes }
-		is_free_or_tributary_trigger = yes
-			OR = {
-				primary_culture = colovian
-				primary_culture = nibenean
-				primary_culture = heartlander
-			}
+			NOT = { is_at_war = yes }
+			is_free_or_tributary_trigger = yes
+			culture_group = cyrodillic
 			NOT = { government = cyrodilic_warlord }
 			NOT = {
 				OR = {

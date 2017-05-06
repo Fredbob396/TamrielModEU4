@@ -1,4 +1,4 @@
-culture = colovian
+culture = west_wealder
 religion = nine_divines
 
 owner = Y53

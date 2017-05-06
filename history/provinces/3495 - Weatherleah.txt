@@ -1,4 +1,4 @@
-culture = colovian
+culture = c_highlander
 religion = nine_divines
 
 owner = Y23

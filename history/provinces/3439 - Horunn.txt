@@ -1,4 +1,4 @@
-culture = nibenean
+culture = c_nordic
 religion = daedra_worship
 
 owner = Y06

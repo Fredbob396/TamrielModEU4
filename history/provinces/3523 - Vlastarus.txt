@@ -1,11 +1,11 @@
-culture = colovian
+culture = west_wealder
 religion = nine_divines
 
 owner = Y24
 controller = Y24
 add_core = Y24
 hre = no
-base_tax = 5
+base_tax = 4
 base_production = 3
 manpower = 2
 is_city = yes

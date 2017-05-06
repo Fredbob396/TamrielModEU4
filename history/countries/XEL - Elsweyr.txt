@@ -12,6 +12,11 @@ add_accepted_culture = rimmeni
 add_accepted_culture = corinthian
 add_accepted_culture = alabasterian
 
+historical_friend = Y08
+historical_friend = Y07
+historical_friend = Y03
+historical_friend = Y36
+
 capital = 3641	# Torval
 
 1444.1.1 = {
@@ -25,5 +30,5 @@ capital = 3641	# Torval
 	clear_scripted_personalities = yes
 	add_ruler_personality = righteous_personality
 	add_ruler_personality = calm_personality
-  add_ruler_personality = just_personality
+	add_ruler_personality = just_personality
 }

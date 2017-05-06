@@ -3,5 +3,5 @@ government_rank = 1
 technology_group = tamrielic
 religion = nine_divines
 mercantilism = 0.2
-primary_culture = imperial
+primary_culture = c_heartlander
 capital = 3515

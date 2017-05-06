@@ -1,4 +1,4 @@
-culture = imperial
+culture = c_heartlander
 religion = nine_divines
 
 owner = Y39
