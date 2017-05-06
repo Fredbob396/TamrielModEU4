@@ -1,4 +1,4 @@
-government = argonian_shogunate
+government = republican_dictatorship
 technology_group = tamrielic
 religion = hist
 mercantilism = 0.2

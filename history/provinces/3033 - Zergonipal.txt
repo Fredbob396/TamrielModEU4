@@ -1,6 +1,6 @@
 #Region - Vvardenfell
 
-culture = ahemmusa
+culture = ashlander_dunmeri
 religion = new_temple
 capital = "Zergonipal"
 trade_goods = alchemical_goods

@@ -1,6 +1,6 @@
 #Region - Vvardenfell
 
-culture = zainab
+culture = ashlander_dunmeri
 religion = new_temple
 capital = "Indoranyon"
 trade_goods = alchemical_goods

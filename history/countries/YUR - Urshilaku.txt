@@ -2,5 +2,5 @@ government = tribal_democracy
 technology_group = tamrielic
 religion = new_temple
 mercantilism = 0.2
-primary_culture = urshilaku
+primary_culture = ashlander_dunmeri
 capital = 3030 # Urshilaku

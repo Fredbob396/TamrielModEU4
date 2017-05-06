@@ -1,8 +1,8 @@
 #Region - Vvardenfell
 
-culture = erabenimsun
+culture = ashlander_dunmeri
 religion = new_temple
-capital = "Mzanchend"
+capital = "Tel Uvirith"
 trade_goods = dwemer_parts
 citysize = 15650
 hre = no

@@ -11,6 +11,6 @@ base_production = 2
 manpower = 3
 owner = XNT
 controller = XNT
-add_core = XNT add_core = XTE
+add_core = XNT
 fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

@@ -1,6 +1,6 @@
 #Region - Vvardenfell
 
-culture = erabenimsun
+culture = ashlander_dunmeri
 religion = new_temple
 capital = "Erabenimsun"
 trade_goods = dwemer_parts
