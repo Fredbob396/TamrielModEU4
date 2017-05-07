@@ -1,0 +1,37 @@
+country_decisions = {
+	rebuild_tear = {
+		major = yes
+		potential = {
+			is_year = 1544
+			NOT = { has_global_flag = rebuilt_tear }
+			OR = {
+				culture_group = dunmeri
+				culture_group = mestizo_dunmeri
+			}
+			OR = {
+				kanadesit_area = {
+					owned_by = ROOT
+				}
+				jer_ahkrin_area = {
+					owned_by = ROOT
+				}
+			}
+			3134 = {
+				is_empty = yes
+			}
+		}
+		allow = {
+			is_at_war = no
+			adm_power = 100
+			OR = {
+				owns = 3132
+				owns = 3133
+				owns = 3130
+			}
+		}
+		effect = {
+			set_global_flag = rebuilt_tear
+			country_event = { id = tear_restoration.1 }
+		}
+	}
+}

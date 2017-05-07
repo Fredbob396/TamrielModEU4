@@ -2,9 +2,8 @@
 
 culture = falyani
 religion = hist
-capital = "Half a hut left standing in the ruins of Tear"
+capital = "Tear"
 trade_goods = unknown
-citysize = 15650
 hre = no
 base_tax = 0
 base_production = 0
