@@ -1,8 +1,8 @@
-# Indoril
+# House Indoril
 
 graphical_culture = westerngfx
 
-color = { 22  131  21 }
+color = { 45  45  165 }
 
 historical_idea_groups = {
 	quality_ideas

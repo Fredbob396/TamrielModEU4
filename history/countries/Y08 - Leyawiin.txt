@@ -5,3 +5,5 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = nibenese
 capital = 3345
+
+historical_friend = XEL
