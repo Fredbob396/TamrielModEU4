@@ -452,7 +452,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			OR = {
-				primary_culture = c_heartlander
 				primary_culture = c_nordic
 				primary_culture = c_highlander
 				primary_culture = west_wealder
@@ -462,6 +461,7 @@ country_decisions = {
 				OR = {
 					tag = Y57
 					tag = Y55
+					tag = Y58
 				}
 			}
 		}
@@ -541,7 +541,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			OR = {
-				primary_culture = c_heartlander
 				primary_culture = c_nordic
 				primary_culture = nibenese
 				primary_culture = nibenay_basiner
@@ -552,6 +551,7 @@ country_decisions = {
 				OR = {
 					tag = Y58
 					tag = Y55
+					tag = Y57
 				}
 			}
 		}
