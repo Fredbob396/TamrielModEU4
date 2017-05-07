@@ -229,6 +229,28 @@ dres_house = {
 	}
 }
 
+indoril_house = {
+
+	rank = {
+		1 = GREAT_HOUSE
+		2 = GREAT_HOUSE
+		3 = GREAT_HOUSE
+	}
+	ruler_male = {
+		1 = GRAND_ASCENDANT
+		2 = GRAND_ASCENDANT
+		3 = GRAND_ASCENDANT
+	}
+	ruler_female = {
+		1 = GRAND_ASCENDANT
+		2 = GRAND_ASCENDANT
+		3 = GRAND_ASCENDANT
+	}
+	trigger = {
+		tag = XIN
+	}
+}
+
 temple_theocracy = {
 
 	rank = {

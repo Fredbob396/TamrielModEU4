@@ -1041,30 +1041,25 @@ country_decisions = {
 		}
 	}
 	
-	#Cannot be formed through high development or by Dres
+	#Cannot be formed through high development
 	form_indoril = {
 		major = yes
 		potential = {
-			primary_culture = indoril
-			NOT = { exists = XID }
-			NOT = { tag = XDR }
+			tag = XNT
+			NOT = {
+				exists = XID
+			}
 		}
 		
 		allow = {
 			is_subject = no
 			is_at_war = no
 			AND = {
-				owns_core_province = 3099
-				owns_core_province = 3658
-				owns_core_province = 3116
-				owns_core_province = 3655
-				owns_core_province = 3117
-				owns_core_province = 3113
-				owns_core_province = 3148
-				owns_core_province = 3109
-				owns_core_province = 3103
-				owns_core_province = 3101
-				owns_core_province = 3106
+				owns_core_province = 3116 #Almalexia
+				owns_core_province = 3099 #Necrom
+				owns_core_province = 3655 #Othrensis
+				owns_core_province = 3118 #Aruma
+				owns_core_province = 3106 #Darnim
 			}
 		}
 		
@@ -1077,8 +1072,6 @@ country_decisions = {
 			}
 			change_government = dunmer_great_house
 			add_prestige = 50
-			add_legitimacy = 75
-			set_capital = 3116
 			change_tag = XID
 		}
 	}

@@ -3,4 +3,4 @@ technology_group = tamrielic
 religion = new_temple
 mercantilism = 0.2
 primary_culture = indoril
-capital = 3116	# Almalexia
+capital = 3099	# Necrom

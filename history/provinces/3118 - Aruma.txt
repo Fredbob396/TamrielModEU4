@@ -1,7 +1,7 @@
 #Region - Kanadesit, Almalexia, Lan Orethan and East Thirr
 
 culture = indoril
-religion = new_temple
+religion = hist
 capital = "Nir Almak"
 trade_goods = grain
 citysize = 15650
