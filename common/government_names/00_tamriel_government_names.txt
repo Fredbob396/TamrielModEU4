@@ -247,7 +247,7 @@ indoril_house = {
 		3 = GRAND_ASCENDANT
 	}
 	trigger = {
-		tag = XIN
+		tag = XID
 	}
 }
 
