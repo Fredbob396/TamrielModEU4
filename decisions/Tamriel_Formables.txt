@@ -452,7 +452,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			OR = {
-				primary_culture = c_heartlander
 				primary_culture = c_nordic
 				primary_culture = c_highlander
 				primary_culture = west_wealder
@@ -462,6 +461,7 @@ country_decisions = {
 				OR = {
 					tag = Y57
 					tag = Y55
+					tag = Y58
 				}
 			}
 		}
@@ -541,7 +541,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			OR = {
-				primary_culture = c_heartlander
 				primary_culture = c_nordic
 				primary_culture = nibenese
 				primary_culture = nibenay_basiner
@@ -552,6 +551,7 @@ country_decisions = {
 				OR = {
 					tag = Y58
 					tag = Y55
+					tag = Y57
 				}
 			}
 		}
@@ -1038,6 +1038,42 @@ country_decisions = {
 			add_prestige = 50
 			add_legitimacy = 75
 			change_tag = XEL
+		}
+	}
+	
+	#Not development based
+	form_indoril = {
+	major = yes
+		potential = {
+			tag = XNT
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3116 #Almalexia
+			owns_core_province = 3099 #Necrom
+			owns_core_province = 3655 #Othrensis
+			owns_core_province = 3118 #Aruma
+			owns_core_province = 3106 #Darnim
+			
+			NOT = { exists = XIN } #Indoril
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			indoril_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XIN
+			}
+			add_prestige = 50
+			change_tag = XIN
+			change_government = dunmer_great_house
 		}
 	}
 }

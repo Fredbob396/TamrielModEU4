@@ -4,6 +4,7 @@ XHL = "countries/Uvonaak-Hlaalu.txt"
 XRD = "countries/Redoran.txt"
 XSD = "countries/Sadras.txt"
 XTE = "countries/Telvanni.txt"
+XIN = "countries/Indoril.txt"
 
 #Dunmer Temple (Ex-Indoril)
 XNT = "countries/Dunmer Temple.txt"

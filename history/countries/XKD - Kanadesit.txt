@@ -1,8 +1,8 @@
 government = republican_dictatorship
 technology_group = tamrielic
-religion = new_temple
+religion = hist
 mercantilism = 0.2
-primary_culture = indoril
+primary_culture = falyani
 capital = 3118	# Aruma
 
 
