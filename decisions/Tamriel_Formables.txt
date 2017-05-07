@@ -1040,4 +1040,46 @@ country_decisions = {
 			change_tag = XEL
 		}
 	}
+	
+	#Cannot be formed through high development or by Dres
+	form_indoril = {
+		major = yes
+		potential = {
+			primary_culture = indoril
+			NOT = { exists = XID }
+			NOT = { tag = XDR }
+		}
+		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			AND = {
+				owns_core_province = 3099
+				owns_core_province = 3658
+				owns_core_province = 3116
+				owns_core_province = 3655
+				owns_core_province = 3117
+				owns_core_province = 3113
+				owns_core_province = 3148
+				owns_core_province = 3109
+				owns_core_province = 3103
+				owns_core_province = 3101
+				owns_core_province = 3106
+			}
+		}
+		
+		effect = {
+			indoril_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XID
+			}
+			change_government = dunmer_great_house
+			add_prestige = 50
+			add_legitimacy = 75
+			set_capital = 3116
+			change_tag = XID
+		}
+	}
 }

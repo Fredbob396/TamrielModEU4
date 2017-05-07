@@ -42,3 +42,7 @@
  join_the_empire_title: "Join the Empire"
  join_the_empire_desc: "The Empire of Cyrodiil has been reborn. Shall we join their legions?"
  acceptance_conditions_unification: "Countries with relations of +100 or more will join! Empire ranked countries will NOT join! Daedra Worshiping countries will NOT join if we are Nine Divines worshiping and vice versa!"
+ restore_almalexia_title: "Rebuild Almalexia"
+ restore_almalexia_desc: "Restore Almalexia to it's former glory!"
+ form_indoril_title: "Form House Indoril"
+ form_indoril_desc: "Restore House Indoril"

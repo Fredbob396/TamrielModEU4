@@ -1,0 +1,24 @@
+country_decisions = {
+	restore_almalexia = {
+		major = yes
+		potential = {
+			is_year = 1496
+			NOT = { has_global_flag = rebuilt_almalexia }
+			OR = {
+				culture_group = dunmeri
+				culture_group = mestizo_dunmeri
+			}
+		}
+		allow = {
+			is_at_war = no
+			adm_power = 200
+			owns = 3116
+			owns = 3655
+			owns = 3117
+		}
+		effect = {
+			set_global_flag = rebuilt_almalexia
+			country_event = { id = almalexia_restoration.1 }
+		}
+	}
+}
