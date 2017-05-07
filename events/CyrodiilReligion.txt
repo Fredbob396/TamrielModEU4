@@ -1,3 +1,5 @@
+namespace = cyrodiil_religion_daedra_spread
+
 # People turn to Daedra Worship
 province_event = {
 	id = cyrodiil_religion_daedra_spread

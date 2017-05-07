@@ -1,6 +1,7 @@
 the_mandate_of_the_moons = {
 	potential = {
 		government = elsweyr_theocracy
+		NOT = { has_country_flag = void_nights_flag }
 	}
 	trigger = {
 		OR = {
@@ -12,6 +13,7 @@ the_mandate_of_the_moons = {
 					religious_unity = 0.80
 					NOT = { war_exhaustion = 10 }
 					NOT = { overextension_percentage = 0.50 }
+					NOT = { has_country_flag = void_nights_flag }
 				}
 			}
 			AND = {
@@ -21,11 +23,13 @@ the_mandate_of_the_moons = {
 					religious_unity = 0.80
 					NOT = { war_exhaustion = 10 }
 					NOT = { overextension_percentage = 0.50 }
+					NOT = { has_country_flag = void_nights_flag }
 				}
 			}
 		}
 	}
-	stability_cost_modifier = 1.0
+	prestige = 1
+	stability_cost_modifier = 0.25
 }
 
 the_mandate_of_the_moons_lost = {
@@ -42,6 +46,7 @@ the_mandate_of_the_moons_lost = {
 					NOT = { religious_unity = 0.80 }
 					war_exhaustion = 10
 					overextension_percentage = 0.50
+					has_country_flag = void_nights_flag
 				}
 			}
 			AND = {
@@ -51,6 +56,7 @@ the_mandate_of_the_moons_lost = {
 					NOT = { religious_unity = 0.80 }
 					war_exhaustion = 10
 					overextension_percentage = 0.50
+					has_country_flag = void_nights_flag
 				}
 			}
 		}
@@ -59,8 +65,38 @@ the_mandate_of_the_moons_lost = {
 	cavalry_power = -0.10
 	land_morale = -0.15
 	discipline = -0.1
-	stability_cost_modifier = 0.5
+	stability_cost_modifier = 0.25
 	global_unrest = 10
 	prestige = -1
 	legitimacy = -1
+}
+
+void_nights_modifier = {
+	potential = {
+		NOT = {
+			OR = {
+				tag = XEL
+				culture_group = nequinali
+				culture_group = paalatiini
+			}
+		}
+	}
+	trigger = {
+		has_country_flag = void_nights_flag
+	}
+	global_unrest = 1
+}
+
+void_nights_severe_modifier = {
+	potential = {
+		NOT = { tag = XEL }
+		OR = {
+			culture_group = nequinali
+			culture_group = paalatiini
+		}
+	}
+	trigger = {
+		has_country_flag = void_nights_flag
+	}
+	global_unrest = 3
 }

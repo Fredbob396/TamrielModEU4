@@ -1,3 +1,5 @@
+namespace = cyrodiil_reunify
+
 #Gives every County the cyrodilic_count flag for use in events
 country_event = {
 	id = cyrodiil_flag.1

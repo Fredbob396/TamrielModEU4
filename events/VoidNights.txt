@@ -1,0 +1,42 @@
+namespace = voidnights
+
+#The Moons Disappear
+country_event = {
+	id = voidnights.1
+	title = "voidnights.EVTNAME1"
+	desc = "voidnights.EVTDESC1"
+	picture = COMET_SIGHTED_eventPicture
+	hidden = no
+	
+	trigger = {
+		is_year = 1532
+		NOT = { is_year = 1534 }
+		NOT = { has_country_flag = void_nights_flag }
+	}
+	
+	option = {
+		name = "voidnights.EVTOPTA1"
+		add_stability = -1
+		set_country_flag = void_nights_flag
+	}
+}
+
+#The Moons Reappear
+country_event = {
+	id = voidnights.2
+	title = "voidnights.EVTNAME2"
+	desc = "voidnights.EVTDESC2"
+	picture = COMET_SIGHTED_eventPicture
+	hidden = no
+	
+	trigger = {
+		is_year = 1534
+		has_country_flag = void_nights_flag
+	}
+	
+	option = {
+		name = "voidnights.EVTOPTA2"
+		add_stability = 1
+		clr_country_flag = void_nights_flag
+	}
+}

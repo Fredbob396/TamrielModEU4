@@ -1,3 +1,5 @@
+namespace = cyrodiil_flag
+
 #Makes every County like the owner of the Ruby Throne
 country_event = {
 	id = cyrodiil_flag.5

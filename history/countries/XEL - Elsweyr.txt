@@ -16,6 +16,7 @@ historical_friend = Y08
 historical_friend = Y07
 historical_friend = Y03
 historical_friend = Y36
+historical_friend = T55
 
 capital = 3641	# Torval
 

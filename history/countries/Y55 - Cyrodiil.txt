@@ -5,3 +5,5 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = c_heartlander
 capital = 3529
+
+historical_friend = XEL
