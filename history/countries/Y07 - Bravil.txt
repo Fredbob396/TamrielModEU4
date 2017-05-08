@@ -7,3 +7,14 @@ primary_culture = nibenese
 capital = 3518
 
 historical_friend = XEL
+
+1444.1.1 = {
+	monarch = {
+		name = "Regulus"
+		dynasty = "Terentius"
+		birth_date = 1414.1.1
+		adm = 1
+		dip = 0
+		mil = 2
+	}
+}

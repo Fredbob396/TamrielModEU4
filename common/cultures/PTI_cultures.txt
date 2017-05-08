@@ -341,7 +341,7 @@ nequinali = {
 	}	
 	
 	rimmeni = {
-		primary = XRM
+		primary = YVG
 		dynasty_names = { 
 			Kolthis Ahan Baramanni Hamnuvanni Raikar Tavakmnin Saoni Kioni Mahbus Zabiri Zakar Kihir Baraspoor Khastae Jarabi Tavakstae Solvandi Raivandi
 		}

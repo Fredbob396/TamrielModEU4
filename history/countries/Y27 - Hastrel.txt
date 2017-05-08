@@ -5,3 +5,14 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = c_highlander
 capital = 3479
+
+1444.1.1 = {
+	monarch = {
+		name = "Titus"
+		dynasty = "Mede"
+		birth_date = 1411.1.1
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}

@@ -7,3 +7,14 @@ primary_culture = nibenese
 capital = 3345
 
 historical_friend = XEL
+
+1444.1.1 = {
+	monarch = {
+		name = "Marius"
+		dynasty = "Caro"
+		birth_date = 1410.1.1
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}

@@ -7,3 +7,14 @@ primary_culture = west_wealder
 capital = 3527
 
 historical_friend = XEL
+
+1444.1.1 = {
+	monarch = {
+		name = "Janus"
+		dynasty = "Hassildor"
+		birth_date = 1403.1.1
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}

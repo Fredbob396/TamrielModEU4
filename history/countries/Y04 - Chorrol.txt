@@ -5,3 +5,15 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = c_highlander
 capital = 3456
+
+1444.1.1 = {
+	monarch = {
+		name = "Arriana"
+		dynasty = "Valga"
+		female = yes
+		birth_date = 1406.1.1
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}

@@ -5,3 +5,15 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = c_nordic
 capital = 3436
+
+1444.1.1 = {
+	monarch = {
+		name = "Narina"
+		dynasty = "Carvain"
+		female = yes
+		birth_date = 1411.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
