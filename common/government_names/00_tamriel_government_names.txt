@@ -45,28 +45,31 @@ cyrodilic_city = {
 cyrodilic_count = {
 
 	rank = {
+		1 = COUNTY_KINGDOM
 		2 = COUNTY_KINGDOM
 		3 = COUNTY_EMPIRE
 	}
 	ruler_male = {
+		1 = COUNT_NORMAL
 		2 = COUNT_NORMAL
-		3= COUNT_GRAND
+		3 = COUNT_GRAND
 	}
 	ruler_female = {
+		1 = COUNTESS_NORMAL
 		2 = COUNTESS_NORMAL
-		3= COUNTESS_GRAND
+		3 = COUNTESS_GRAND
 	}
 	trigger = {
 		government = monarchy
 		OR = {
-			tag = T02
-			tag = T03
-			tag = T04
-			tag = T05
-			tag = T06
-			tag = T07
-			tag = T08
-			tag = T53
+			tag = Y02
+			tag = Y03
+			tag = Y04
+			tag = Y05
+			tag = Y06
+			tag = Y07
+			tag = Y08
+			tag = Y53
 		}
 	}
 }

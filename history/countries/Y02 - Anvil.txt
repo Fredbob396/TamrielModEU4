@@ -5,3 +5,15 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = gold_coaster
 capital = 3491
+
+1444.1.1 = {
+	monarch = {
+		name = "Millona"
+		dynasty = "Umbranox"
+		female = yes
+		birth_date = 1407.1.1
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}

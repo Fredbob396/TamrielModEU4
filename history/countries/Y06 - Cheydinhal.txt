@@ -5,3 +5,14 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = valusian
 capital = 3429
+
+1444.1.1 = {
+	monarch = {
+		name = "Andel"
+		dynasty = "Indarys"
+		birth_date = 1413.1.1
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+}
