@@ -4,3 +4,14 @@ religion = new_temple
 mercantilism = 0.2
 primary_culture = ashlander_dunmeri
 capital = 3030 # Urshilaku
+
+1444.1.1 = {
+	monarch = {
+		name = "Sul"
+		dynasty = "Matuul"
+		birth_date = 1405.1.1
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}

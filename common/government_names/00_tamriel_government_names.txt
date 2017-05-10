@@ -296,3 +296,26 @@ ashlander_tribes = {
 		primary_culture = ashlander_dunmeri
 	}
 }
+
+sap_speaker_default = {
+
+	rank = {
+		1 = ARGONIAN_TRIBAL_PROVINCE
+		2 = ARGONIAN_TRIBAL_PROVINCE
+		3 = ARGONIAN_TRIBAL_PROVINCE
+	}
+	ruler_male = {
+		1 = SAP_SPEAKER
+		2 = HIGH_SAP_SPEAKER
+		3 = LORD_SAP_SPEAKER
+	}
+	ruler_female = {
+		1 = SAP_SPEAKER
+		2 = HIGH_SAP_SPEAKER
+		3 = LORD_SAP_SPEAKER
+	}
+	trigger = {
+		culture_group = greater_argonian
+		NOT = { tag = XAR }
+	}
+}

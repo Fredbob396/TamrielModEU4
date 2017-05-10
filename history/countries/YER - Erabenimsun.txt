@@ -4,3 +4,14 @@ religion = new_temple
 mercantilism = 0.2
 primary_culture = ashlander_dunmeri
 capital = 3041 # Uvirith's Grave (Erabenimsun)
+
+1444.1.1 = {
+	monarch = {
+		name = "Han"
+		dynasty = "Ammu"
+		birth_date = 1416.1.1
+		adm = 2
+		dip = 4
+		mil = 1
+	}
+}

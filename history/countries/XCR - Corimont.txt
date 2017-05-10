@@ -1,7 +1,18 @@
-government = republican_dictatorship
+government = tribal_democracy
 technology_group = tamrielic
 religion = hist
 mercantilism = 0.2
 primary_culture = arnesian
 capital = 3172	# Alten
 
+1444.1.1 = {
+	monarch = {
+		name = "Hae Na"
+		dynasty = "Ginse"
+		birth_date = 1408.1.1
+		female = yes
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}

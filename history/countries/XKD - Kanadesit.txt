@@ -8,8 +8,8 @@ capital = 3118	# Aruma
 
 1401.1.1 = {
 	monarch = {
-		name = "Andel"
-		dynasty = "Beran"
+		name = "Xu An Dal"
+		dynasty = "Lotash"
 		birth_date = 1401.1.1
 		adm = 3
 		dip = 4

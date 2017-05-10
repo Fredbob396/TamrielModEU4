@@ -4,3 +4,15 @@ religion = new_temple
 mercantilism = 0.2
 primary_culture = ashlander_dunmeri
 capital = 3034 # Ahemmusa
+
+1444.1.1 = {
+	monarch = {
+		name = "Sinnammu"
+		dynasty = "Mirpal"
+		female = yes
+		birth_date = 1395.1.1
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}

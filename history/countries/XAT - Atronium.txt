@@ -5,3 +5,14 @@ mercantilism = 0.2
 primary_culture = archein
 capital = 3211	# Archein
 
+1444.1.1 = {
+	monarch = {
+		name = "An-Ta"
+		dynasty = "Xinaki"
+		female = yes
+		birth_date = 1411.1.1
+		adm = 3
+		dip = 1
+		mil = 4
+	}
+}

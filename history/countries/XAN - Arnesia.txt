@@ -1,7 +1,16 @@
-government = republican_dictatorship
+government = tribal_democracy
 technology_group = tamrielic
 religion = hist
 mercantilism = 0.2
 primary_culture = arnesian
 capital = 3184	# North Thorn
 
+1444.1.1 = {
+	monarch = {
+		name = "Amusei"
+		birth_date = 1417.1.1
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+}
