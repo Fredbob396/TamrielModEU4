@@ -293,6 +293,14 @@ dependency = {
 dependency = {
 	subject_type = "tributary_state"
 	first = XAR
+	second = XTH
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = XAR
 	second = XTN
 	start_date = 1444.11.11
 	end_date = 1821.1.1
@@ -301,7 +309,7 @@ dependency = {
 dependency = {
 	subject_type = "tributary_state"
 	first = XAR
-	second = XTH
+	second = XTP
 	start_date = 1444.11.11
 	end_date = 1821.1.1
 }

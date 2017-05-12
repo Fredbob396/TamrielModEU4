@@ -300,6 +300,37 @@ ashlander_tribes = {
 sap_speaker_default = {
 
 	rank = {
+		1 = ARGONIAN_REFORMED_PROVINCE
+		2 = ARGONIAN_REFORMED_PROVINCE
+		3 = ARGONIAN_REFORMED_PROVINCE
+	}
+	ruler_male = {
+		1 = SAP_SPEAKER
+		2 = HIGH_SAP_SPEAKER
+		3 = LORD_SAP_SPEAKER
+	}
+	ruler_female = {
+		1 = SAP_SPEAKER
+		2 = HIGH_SAP_SPEAKER
+		3 = LORD_SAP_SPEAKER
+	}
+	trigger = {
+		culture_group = greater_argonian
+		NOT = { tag = XAR }
+		NOT = { 
+			OR = {
+				government = tribal_despotism
+				government = tribal_kingdom
+				government = tribal_federation
+				government = tribal_democracy
+				}
+		}
+	}
+}
+
+sap_speaker_tribal = {
+
+	rank = {
 		1 = ARGONIAN_TRIBAL_PROVINCE
 		2 = ARGONIAN_TRIBAL_PROVINCE
 		3 = ARGONIAN_TRIBAL_PROVINCE
@@ -317,5 +348,11 @@ sap_speaker_default = {
 	trigger = {
 		culture_group = greater_argonian
 		NOT = { tag = XAR }
+		OR = {
+			government = tribal_despotism
+			government = tribal_kingdom
+			government = tribal_federation
+			government = tribal_democracy
+		}
 	}
 }

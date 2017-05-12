@@ -67,11 +67,15 @@ almalexia_area = {
 }
 
 kanadesit_area = {
-    3108 3118 3128 3132
+    3108 3118 3128 3132 3718
 }
 
 east_thirr_area = {
-    3113 3121 3148 3654
+    3113 3121 3654
+}
+
+east_andaram_area = {
+	3119 3148 3716 3717
 }
 
 jer_ahkrin_area = {
@@ -83,7 +87,7 @@ uvonaak_area = {
 }
 
 kalen_area = {
-    3119 3161 3162
+    3161 3162 3719
 }
 
 kragenmoor_area = {

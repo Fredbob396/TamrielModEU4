@@ -68,6 +68,7 @@ indoril_region = {
 		daimon_coast_area
 		almalexia_area
 		east_thirr_area
+		east_andaram_area
 	}
 }
 
