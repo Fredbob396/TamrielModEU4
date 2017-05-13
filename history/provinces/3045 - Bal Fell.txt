@@ -2,13 +2,13 @@
 
 culture = indoril
 religion = new_temple
-capital = "Bal Fell"
+capital = "Molag Mar"
 trade_goods = fish
 citysize = 15650
 hre = no
-base_tax = 1
-base_production = 1
-manpower = 1
+base_tax = 2
+base_production = 2
+manpower = 2
 owner = XNT
 controller = XNT
 add_core = XNT

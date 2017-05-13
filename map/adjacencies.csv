@@ -9,7 +9,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3288;3287;sea;3548;-1;-1;-1;-1;Morthal-Folgunthur
 3289;3287;sea;3548;-1;-1;-1;-1;Ustengrav-Folgunthur
 3290;3287;sea;3548;-1;-1;-1;-1;Haafingar-Folgunthur
-3149;3151;sea;3357;-1;-1;-1;-1;Togoh-Latrys
+3149;3151;sea;3358;-1;-1;-1;-1;Togoh-Latrys
+3664;3151;sea;3357;-1;-1;-1;-1;Rhun Huk-Latrys
 3068;3069;sea;3373;-1;-1;-1;-1;Telvannis-Gah Sadrith
 3502;3461;sea;3532;-1;-1;-1;-1;Weye-West City Isle
 3345;3334;sea;1739;-1;-1;-1;-1;West Leyawiin-East-Leyawiin
@@ -19,5 +20,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3030;3031;sea;3366;-1;-1;-1;-1;Redaynia-Valenvaryon
 3027;3031;sea;3366;-1;-1;-1;-1;Redaynia-Far Sheogorad
 3028;3034;sea;3366;-1;-1;-1;-1;Ald Daedroth-Ahemmusa
+3045;3042;sea;3362;-1;-1;-1;-1;Bal Fell-Azura
 
 -1;-1;;-1;-1;-1;-1;-1;-1;

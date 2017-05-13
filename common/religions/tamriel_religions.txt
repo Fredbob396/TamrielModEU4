@@ -3,11 +3,11 @@ daedric = {
 		color = { 0.6 0 0.2 }
 		icon = 19
 		country = {
-			mil_tech_cost_modifier = -0.05
-			land_morale = 0.05
+			global_heretic_missionary_strength = 0.015
+			tolerance_heretic = 2
 		}
 		province = {
-			local_missionary_strength = -0.02
+			local_missionary_strength = -0.01
 		}
 
 		heretic = { AZURAN }
