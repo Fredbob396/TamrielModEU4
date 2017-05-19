@@ -1,7 +1,17 @@
-government = republican_dictatorship
+government = tribal_democracy
 technology_group = tamrielic
 religion = hist
 mercantilism = 0.2
 primary_culture = agaceph
 capital = 3225	# Okeen-Re
 
+1444.1.1 = {
+	monarch = {
+		name = "Asheeus"
+		dynasty = "Madesu"
+		birth_date = 1413.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}

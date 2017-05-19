@@ -1,7 +1,17 @@
-government = republican_dictatorship
+government = tribal_democracy
 technology_group = tamrielic
 religion = hist
 mercantilism = 0.2
 primary_culture = kamanese
 capital = 3179	# Kamanai
 
+1444.1.1 = {
+	monarch = {
+		name = "Kar-Ja"
+		dynasty = "Ix"
+		birth_date = 1415.1.1
+		adm = 1
+		dip = 3
+		mil = 4
+	}
+}

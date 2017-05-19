@@ -1,6 +1,17 @@
-government = republican_dictatorship
+government = tribal_democracy
 technology_group = tamrielic
 religion = hist
 mercantilism = 0.2
 primary_culture = archein
 capital = 3189	# Thormir
+
+1444.1.1 = {
+	monarch = {
+		name = "Hixulvutar"
+		dynasty = "Nukorash"
+		birth_date = 1414.1.1
+		adm = 1
+		dip = 3
+		mil = 3
+	}
+}

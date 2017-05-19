@@ -1,6 +1,19 @@
-government = republican_dictatorship
+government = tribal_democracy
 technology_group = tamrielic
 religion = hist
 mercantilism = 0.2
 primary_culture = arkethnian
 capital = 3220	# Saranyth
+
+1444.1.1 = {
+	monarch = {
+		name = "Kiber-Ra"
+		dynasty = "Na Sakho"
+		female = yes
+		birth_date = 1408.1.1
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+

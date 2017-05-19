@@ -1,7 +1,17 @@
-government = republican_dictatorship
+government = tribal_democracy
 technology_group = tamrielic
 religion = hist
 mercantilism = 0.2
 primary_culture = kamanese
 capital = 3175	# Naga Cradle
 
+1444.1.1 = {
+	monarch = {
+		name = "Xtuche"
+		dynasty = "Tzuriu"
+		birth_date = 1404.1.1
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}

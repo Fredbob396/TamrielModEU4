@@ -1,7 +1,17 @@
-government = republican_dictatorship
+government = tribal_democracy
 technology_group = tamrielic
 religion = hist
 mercantilism = 0.2
 primary_culture = arkethnian
 capital = 3236	# Onkobra
 
+1444.1.1 = {
+	monarch = {
+		name = "Duj-Ka"
+		dynasty = "Xtun"
+		birth_date = 1411.1.1
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

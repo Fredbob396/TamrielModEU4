@@ -1,7 +1,17 @@
-government = republican_dictatorship
+government = tribal_democracy
 technology_group = tamrielic
 religion = hist
 mercantilism = 0.2
 primary_culture = arkethnian
 capital = 3232	# Soulrest
 
+1444.1.1 = {
+	monarch = {
+		name = "Taqa"
+		dynasty = "Sanxhanur"
+		birth_date = 1406.1.1
+		adm = 4
+		dip = 5
+		mil = 1
+	}
+}

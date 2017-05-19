@@ -1,7 +1,18 @@
-government = republican_dictatorship
+government = tribal_democracy
 technology_group = tamrielic
 religion = hist
 mercantilism = 0.2
 primary_culture = kamanese
 capital = 3176	# Tenmar Wall
 
+1444.1.1 = {
+	monarch = {
+		name = "Paaj-In"
+		dynasty = "Tenmaxu"
+		female = yes
+		birth_date = 1407.1.1
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}

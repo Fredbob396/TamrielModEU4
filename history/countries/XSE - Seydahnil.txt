@@ -5,3 +5,14 @@ mercantilism = 0.2
 primary_culture = arkethnian
 capital = 3238	# Gideon
 
+1444.1.1 = {
+	monarch = {
+		name = "Fhene-Ka"
+		dynasty = "D'Kertaxa"
+		female = yes
+		birth_date = 1409.1.1
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
