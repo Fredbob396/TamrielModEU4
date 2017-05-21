@@ -5,3 +5,14 @@ religion = daedra_worship
 mercantilism = 0.2
 primary_culture = gold_coaster
 capital = 3482
+
+1444.1.1 = {
+	monarch = {
+		name = "Crassius"
+		dynasty = "Clanler"
+		birth_date = 1420.1.1
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+}

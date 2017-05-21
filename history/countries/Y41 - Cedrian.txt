@@ -5,3 +5,14 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = valusian
 capital = 3413
+
+1444.1.1 = {
+	monarch = {
+		name = "Ildogesto"
+		dynasty = "Celataniu"
+		birth_date = 1420.1.1
+		adm = 5
+		dip = 2
+		mil = 4
+	}
+}

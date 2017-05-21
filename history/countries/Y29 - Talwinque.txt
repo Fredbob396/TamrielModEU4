@@ -5,3 +5,14 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = c_highlander
 capital = 3471
+
+1444.1.1 = {
+	monarch = {
+		name = "Viatri"
+		dynasty = "Colollius"
+		birth_date = 1420.1.1
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}

@@ -5,3 +5,14 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = west_wealder
 capital = 3509
+
+1444.1.1 = {
+	monarch = {
+		name = "Auguri"
+		dynasty = "Essagan"
+		birth_date = 1420.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

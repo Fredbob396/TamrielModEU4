@@ -5,3 +5,13 @@ religion = hist
 mercantilism = 0.2
 primary_culture = dagoni
 capital = 3243
+
+1444.1.1 = {
+	monarch = {
+		name = "Oleemeet"
+		birth_date = 1420.1.1
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}

@@ -5,3 +5,15 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = west_wealder
 capital = 3521
+
+1444.1.1 = {
+	monarch = {
+		name = "Mariette"
+		dynasty = "Rielle"
+		birth_date = 1420.1.1
+		adm = 3
+		dip = 2
+		mil = 3
+		female = yes
+	}
+}

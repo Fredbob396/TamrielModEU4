@@ -5,3 +5,14 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = nibenese
 capital = 3337
+
+1444.1.1 = {
+	monarch = {
+		name = "Ilnori"
+		dynasty = "Flavonius"
+		birth_date = 1420.1.1
+		adm = 3
+		dip = 1
+		mil = 4
+	}
+}

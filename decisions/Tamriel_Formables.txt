@@ -447,7 +447,7 @@ country_decisions = {
 		}
 	}
 
-	#300 Development
+	#400 Development
 	form_colovia = {
 		major = yes
 		potential = {
@@ -470,7 +470,7 @@ country_decisions = {
 			is_at_war = no
 			OR = {
 				AND = {
-					total_development = 300
+					total_development = 400
 					OR = {
 						owns_core_province = 3491
 						owns_core_province = 3527
@@ -536,7 +536,7 @@ country_decisions = {
 		}
 	}
 	
-	#300 Development
+	#400 Development
 	form_nibenay = {
 		major = yes
 		potential = {
@@ -560,7 +560,7 @@ country_decisions = {
 			is_at_war = no
 			OR = {
 				AND = {
-					total_development = 300
+					total_development = 400
 					OR = {
 						owns_core_province = 3429
 						owns_core_province = 3518
@@ -617,7 +617,7 @@ country_decisions = {
 		}
 	}
 	
-	#400 Development
+	#550 Development
 	form_argonia = {
 		major = yes
 		potential = {
@@ -630,7 +630,7 @@ country_decisions = {
 			NOT = { tag = XAR }
 			OR = {
 				AND = {
-					total_development = 400
+					total_development = 550
 					OR = {
 						owns_core_province = 3184
 						owns_core_province = 3179
@@ -720,7 +720,7 @@ country_decisions = {
 		}
 	}
 	
-	#450 Development
+	#575 Development
 	form_skyrim = {
 	major = yes
 		potential = {
@@ -736,7 +736,7 @@ country_decisions = {
 			NOT = { tag = XRS }
 			OR = {
 				AND = {
-					total_development = 450
+					total_development = 575
 					OR = {
 						owns_core_province = 3249
 						owns_core_province = 3324
@@ -830,7 +830,7 @@ country_decisions = {
 		}
 	}
 	
-	#300 Development?
+	#350 Development?
 	form_anequina = {
 	major = yes
 		potential = {
@@ -847,7 +847,7 @@ country_decisions = {
 			NOT = { tag = XEL } #Elsweyr
 			OR = {
 				AND = {
-					total_development = 300
+					total_development = 350
 					OR = {
 						owns_core_province = 3568 #Dune
 						owns_core_province = 3577 #Riverhold
@@ -885,7 +885,7 @@ country_decisions = {
 		}
 	}
 	
-	#300 Development?
+	#350 Development?
 	form_pellitine = {
 	major = yes
 		potential = {
@@ -902,7 +902,7 @@ country_decisions = {
 			NOT = { tag = XEL } #Elsweyr
 			OR = {
 				AND = {
-					total_development = 300
+					total_development = 350
 					OR = {
 						owns_core_province = 3616 #Senchal
 						owns_core_province = 3641 #Torval
@@ -937,7 +937,7 @@ country_decisions = {
 		}
 	}
 	
-	#600 Development?
+	#650 Development?
 	form_elsweyr = {
 	major = yes
 		potential = {
@@ -953,7 +953,7 @@ country_decisions = {
 			NOT = { tag = XEL } #Elsweyr
 			OR = {
 				AND = {
-					total_development = 600
+					total_development = 650
 					OR = {
 						owns_core_province = 3616 #Senchal
 						owns_core_province = 3641 #Torval

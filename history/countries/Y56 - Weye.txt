@@ -5,3 +5,12 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = c_heartlander
 capital = 3502
+
+1444.1.1 = {
+	monarch = {
+		name = "Nerussa"
+		adm = 5
+		dip = 5
+		mil = 2
+	}
+}

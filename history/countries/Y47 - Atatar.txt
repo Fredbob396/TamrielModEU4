@@ -5,3 +5,14 @@ religion = daedra_worship
 mercantilism = 0.2
 primary_culture = dagoni
 capital = 3339
+
+1444.1.1 = {
+	monarch = {
+		name = "Azani"
+		dynasty = "Blackheart"
+		birth_date = 1420.1.1
+		adm = 3
+		dip = 1
+		mil = 6
+	}
+}

@@ -5,3 +5,12 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = c_heartlander
 capital = 3445
+
+1444.1.1 = {
+	monarch = {
+		name = "Diram Serethi"
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}

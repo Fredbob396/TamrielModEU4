@@ -5,3 +5,14 @@ religion = daedra_worship
 mercantilism = 0.2
 primary_culture = valusian
 capital = 3415
+
+1444.1.1 = {
+	monarch = {
+		name = "Calvario"
+		dynasty = "Talani"
+		birth_date = 1420.1.1
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}

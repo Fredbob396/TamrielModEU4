@@ -5,3 +5,12 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = nibenese
 capital = 3715
+
+1444.1.1 = {
+	monarch = {
+		name = "Ri'Bassa"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}

@@ -5,3 +5,14 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = gold_coaster
 capital = 3485
+
+1444.1.1 = {
+	monarch = {
+		name = "Braynas"
+		dynasty = "Drad"
+		birth_date = 1420.1.1
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

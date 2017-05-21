@@ -5,3 +5,12 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = c_highlander
 capital = 3495
+
+1444.1.1 = {
+	monarch = {
+		name = "Guilbert Jemane"
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
