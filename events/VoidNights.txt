@@ -40,3 +40,173 @@ country_event = {
 		clr_country_flag = void_nights_flag
 	}
 }
+
+#Thalmor Coup
+country_event = {
+	id = voidnights.3
+	title = "voidnights.EVTNAME3"
+	desc = "voidnights.EVTDESC3"
+	picture = COUNTRY_COLLAPSE_eventPicture
+	hidden = no
+	
+	trigger = {
+		tag = XEL
+		is_year = 1549
+		NOT = { has_country_flag = had_thalmor_coup }
+	}
+	
+	option = {
+		name = "voidnights.EVTOPTA3"
+		ai_chance = { factor = 50 }
+		set_country_flag = had_thalmor_coup
+		kill_ruler = yes
+		country_event = { id = voidnights.4 }
+	}
+	
+	option = {
+		name = "voidnights.EVTOPTB3"
+		ai_chance = { factor = 50 }
+		set_country_flag = had_thalmor_coup
+		kill_ruler = yes
+		add_stability = -1
+		
+		#Torval
+		3641 = {
+			spawn_rebels = {
+				type = thalmor_coup
+				size = 3
+			}
+		}
+		
+		#Alabaster
+		3602 = {
+			spawn_rebels = {
+				type = thalmor_coup
+				size = 2
+			}
+		}
+		
+		#Senchal
+		3616 = {
+			spawn_rebels = {
+				type = thalmor_coup
+				size = 2
+			}
+		}
+		
+		#Corinthe
+		3608 = {
+			spawn_rebels = {
+				type = thalmor_coup
+				size = 1
+			}
+		}
+		
+		#Xaspor
+		3650 = {
+			spawn_rebels = {
+				type = thalmor_coup
+				size = 1
+			}
+		}
+		
+		#Quinrawl
+		3617 = {
+			spawn_rebels = {
+				type = thalmor_coup
+				size = 1
+			}
+		}
+		
+		#Duncori
+		3606 = {
+			spawn_rebels = {
+				type = thalmor_coup
+				size = 1
+			}
+		}
+		
+		#Ahkhai
+		3646 = {
+			spawn_rebels = {
+				type = thalmor_coup
+				size = 1
+			}
+		}
+	}
+}
+
+#Elsweyr Split
+country_event = {
+	id = voidnights.4
+	title = "voidnights.EVTNAME4"
+	desc = "voidnights.EVTDESC4"
+	picture = COUNTRY_COLLAPSE_eventPicture
+	hidden = no
+	is_triggered_only = yes
+
+	option = {
+		name = "voidnights.EVTOPTA4"
+		#Anequina to Anequina
+		every_owned_province = {
+			limit = {
+				region = anequina_region
+			}
+			cede_province = YAQ
+			add_core = YAQ
+		}
+		
+		#Pellitine to Pellitine
+		every_owned_province = {
+			limit = {
+				region = pellitine_region
+			}
+			cede_province = YPT
+			add_core = YPT
+		}
+		
+		#Western Cyrodiil to Anequina
+		every_owned_province = {
+			limit = {
+				OR = {
+					region = s_nibenay_region
+					region = n_nibenay_region
+					region = heartlands_region
+				}
+			}
+			cede_province = YPT
+			add_core = YPT
+		}
+		
+		#East Cyrodiil to Pellitine
+		every_owned_province = {
+			limit = {
+				OR = {
+					region = colovian_heartlands_region
+					region = colovian_highlands_region
+				}
+			}
+			cede_province = YAQ
+			add_core = YAQ
+		}
+		
+		#Everything else to Pellitine
+		every_owned_province = {
+			limit = {
+				NOT = {
+					OR = {
+						region = anequina_region
+						region = pellitine_region
+						region = s_nibenay_region
+						region = n_nibenay_region
+						region = heartlands_region
+						region = colovian_heartlands_region
+						region = colovian_highlands_region
+					}
+				}
+			}
+			cede_province = YPT
+			add_core = YPT
+		}
+	}
+}
