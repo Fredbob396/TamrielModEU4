@@ -5,3 +5,14 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = nibenay_basiner
 capital = 3400
+
+1444.1.1 = {
+	monarch = {
+		name = "Calvario"
+		dynasty = "Hateria"
+		birth_date = 1420.1.1
+		adm = 1
+		dip = 1
+		mil = 6
+	}
+}

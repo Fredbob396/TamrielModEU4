@@ -5,3 +5,14 @@ religion = nine_divines
 mercantilism = 0.2
 primary_culture = c_heartlander
 capital = 3515
+
+1444.1.1 = {
+	monarch = {
+		name = "Falcoa"
+		dynasty = "Liore"
+		birth_date = 1420.1.1
+		adm = 5
+		dip = 1
+		mil = 1
+	}
+}

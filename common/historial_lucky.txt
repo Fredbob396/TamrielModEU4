@@ -5,11 +5,6 @@ XRD = {
 	always = yes
 }
 
-#Dres
-XDR = {
-	always = yes
-}
-
 #Atronium
 XAT = {
 	NOT = { 
@@ -43,6 +38,7 @@ XEM = {
 	}
 }
 
+#Skyrim
 XSM = {
 	always = yes
 }
@@ -70,5 +66,10 @@ Y03 = {
 
 #Cyrodiil
 Y55 = {
+	always = yes
+}
+
+#Hastrel (Titus Mede)
+Y27 = {
 	always = yes
 }
