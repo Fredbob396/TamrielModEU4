@@ -1,6 +1,6 @@
 #Region - Nezuad, Alt Orethan and Sacred Lands
 
-culture = indoril
+culture = boethian
 religion = new_temple
 capital = "Verulas"
 trade_goods = kwama

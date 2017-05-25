@@ -12,5 +12,4 @@ manpower = 4
 owner = XFK
 controller = XFK
 add_core = XFK
-fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

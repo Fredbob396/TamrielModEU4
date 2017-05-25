@@ -1,0 +1,797 @@
+usurp_falkreath = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			capital_scope = { area = north_falkreath_area }
+			capital_scope = { area = south_falkreath_area }
+			capital_scope = { area = sungard_area }
+		}
+		is_free_or_tributary_trigger = yes
+		culture_group = nordic_g
+		NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		tag = XFK
+	}
+	chance = {
+		factor = 5000
+	}
+	immediate = {
+		north_falkreath_area = {
+			add_claim = ROOT
+		}
+		south_falkreath_area = {
+			add_claim = ROOT
+		}
+		sungard_area = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		north_falkreath_area  = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+		south_falkreath_area = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+		sungard_area = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "military_victory"
+			duration = 3650
+		}
+	}
+}
+
+usurp_reach = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			capital_scope = { area = markarth_area }
+			capital_scope = { area = karthwasten_area }
+		}
+		is_free_or_tributary_trigger = yes
+		culture_group = nordic_g
+		NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		tag = XRE
+	}
+	chance = {
+		factor = 5000
+	}
+	immediate = {
+		markarth_area = {
+			add_claim = ROOT
+		}
+		karthwasten_area = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		markarth_area  = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+		karthwasten_area = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "military_victory"
+			duration = 3650
+		}
+	}
+}
+
+usurp_haafingar = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			capital_scope = { area = east_haafingar_area }
+			capital_scope = { area = mid_haafingar_area }
+			capital_scope = { area = west_haafingar_area }
+		}
+		is_free_or_tributary_trigger = yes
+		culture_group = nordic_g
+		NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		tag = XHF
+	}
+	chance = {
+		factor = 5000
+	}
+	immediate = {
+		east_haafingar_area = {
+			add_claim = ROOT
+		}
+		mid_haafingar_area = {
+			add_claim = ROOT
+		}
+		west_haafingar_area = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		east_haafingar_area  = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+		mid_haafingar_area = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+		west_haafingar_area = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "military_victory"
+			duration = 3650
+		}
+	}
+}
+
+usurp_hjaalmarch = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			capital_scope = { area = hjaalmarch_area }
+			capital_scope = { area = outer_hjaalmarch_area }
+		}
+		is_free_or_tributary_trigger = yes
+		culture_group = nordic_g
+		NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		tag = XHM
+	}
+	chance = {
+		factor = 5000
+	}
+	immediate = {
+		hjaalmarch_area = {
+			add_claim = ROOT
+		}
+		outer_hjaalmarch_area = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		hjaalmarch_area  = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+		outer_hjaalmarch_area = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "military_victory"
+			duration = 3650
+		}
+	}
+}
+
+usurp_pale = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			capital_scope = { area = north_pale_area }
+			capital_scope = { area = yorgrim_area }
+		}
+		is_free_or_tributary_trigger = yes
+		culture_group = nordic_g
+		NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		tag = XPL
+	}
+	chance = {
+		factor = 5000
+	}
+	immediate = {
+		north_pale_area = {
+			add_claim = ROOT
+		}
+		yorgrim_area = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		north_pale_area  = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+		yorgrim_area = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "military_victory"
+			duration = 3650
+		}
+	}
+}
+
+usurp_winterhold = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			capital_scope = { area = winterhold_area }
+		}
+		is_free_or_tributary_trigger = yes
+		culture_group = nordic_g
+		NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		tag = XWH
+	}
+	chance = {
+		factor = 5000
+	}
+	immediate = {
+		winterhold_area = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		winterhold_area  = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "military_victory"
+			duration = 3650
+		}
+	}
+}
+
+usurp_eastmarch = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			capital_scope = { area = eastmarch_river_area }
+			capital_scope = { area = eastmarch_volcanic_area }
+		}
+		is_free_or_tributary_trigger = yes
+		culture_group = nordic_g
+		NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		tag = XEM
+	}
+	chance = {
+		factor = 5000
+	}
+	immediate = {
+		eastmarch_river_area = {
+			add_claim = ROOT
+		}
+		eastmarch_volcanic_area = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		eastmarch_river_area  = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+		eastmarch_volcanic_area = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "military_victory"
+			duration = 3650
+		}
+	}
+}
+
+usurp_rift = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			capital_scope = { area = north_rift_area }
+			capital_scope = { area = south_rift_area }
+			capital_scope = { area = skyrim_jeralls_area }
+			capital_scope = { area = geirland_area }
+		}
+		is_free_or_tributary_trigger = yes
+		culture_group = nordic_g
+		NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		tag = XRI
+	}
+	chance = {
+		factor = 5000
+	}
+	immediate = {
+		north_rift_area = {
+			add_claim = ROOT
+		}
+		south_rift_area = {
+			add_claim = ROOT
+		}
+		skyrim_jeralls_area = {
+			add_claim = ROOT
+		}
+		geirland_area = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		north_rift_area  = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+		south_rift_area = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+		skyrim_jeralls_area = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+		geirland_area = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "military_victory"
+			duration = 3650
+		}
+	}
+}
+
+usurp_whiterun = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			capital_scope = { area = whiterun_area }
+			capital_scope = { area = whiterun_town_area }
+			capital_scope = { area = rorikstead_area }
+		}
+		is_free_or_tributary_trigger = yes
+		culture_group = nordic_g
+		NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		tag = XWR
+	}
+	chance = {
+		factor = 5000
+	}
+	immediate = {
+		whiterun_area = {
+			add_claim = ROOT
+		}
+		whiterun_town_area = {
+			add_claim = ROOT
+		}
+		rorikstead_area = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		whiterun_area = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+		whiterun_town_area = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+		rorikstead_area = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "military_victory"
+			duration = 3650
+		}
+	}
+}
+
+#reunite_whiterun = {
+#	
+#	type = country
+#
+#	category = MIL
+#	ai_mission = yes
+#	
+#	allow = {
+#		normal_or_historical_nations = yes
+#		tag = XWR
+#		is_free_or_tributary_trigger = yes
+#		whiterun_area = {
+#			NOT = { owned_by = ROOT }
+#		}
+#		whiterun_town_area = {
+#			NOT = { owned_by = ROOT }
+#		}
+#		rorikstead_area = {
+#			NOT = { owned_by = ROOT }
+#		}
+#	}
+#	abort = {
+#		is_subject_other_than_tributary_trigger = yes
+#	}
+#	success = {
+#		whiterun_area = {
+#			type = all
+#			owned_by = ROOT
+#		}
+#		whiterun_town_area = {
+#			type = all
+#			owned_by = ROOT
+#		}
+#		rorikstead_area = {
+#			type = all
+#			owned_by = ROOT
+#		}
+#	}
+#	chance = {
+#		factor = 5000
+#	}
+#	effect = {
+#		add_country_modifier = {
+#			name = "military_victory"
+#			duration = 3650
+#		}
+#	}
+#}

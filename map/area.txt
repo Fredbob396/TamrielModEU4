@@ -275,15 +275,15 @@ north_rift_area = {
 }
 
 south_rift_area = {
-    3262 3263 3264 3265 3266
+    3262 3263 3264 3265
 }
 
 geirland_area = {
-    3254 3267 3270 3271 3676
+    3267 3270 3271 3676
 }
 
 eastmarch_volcanic_area = {
-    3250 3251 3253 3257 3258
+    3251 3253 3254 3257 3258
 }
 
 eastmarch_river_area = {
@@ -291,47 +291,55 @@ eastmarch_river_area = {
 }
 
 yorgrim_area = {
-    3282 3283 3284 3312
+    3282 3283 3312
 }
 
 winterhold_area = {
-    3275 3276 3277 3278
+    3275 3276 3277 3278 3279 3284
 }
 
 north_pale_area = {
-    3279 3280 3281
+    3280 3281 3308 3310
 }
 
 skyborn_area = {
-    3304 3307 3308 3310
+    
 }
 
 whiterun_area = {
-    3311 3313 3314 3677 3678
+    3313 3314 3677 3678
+}
+
+whiterun_town_area = {
+	3309 3311 3316
 }
 
 skyrim_jeralls_area = {
-    3268 3269 3319 3320
+    3266 3268 3269
 }
 
 north_falkreath_area = {
-    3316 3317 3321
+    3319 3320 3321 3323
 }
 
 south_falkreath_area = {
-    3322 3323 3324 3325
+    3322 3324 3325
 }
 
 sungard_area = { 
-    3318 3326 3327
+    3317 3318 3326 3327
 }
 
 rorikstead_area = {
-    3305 3306 3309
+    3305 3306 3307
 }
 
 hjaalmarch_area = {
-    3287 3288 3289 3301 3302 3303
+    3287 3288 3289
+}
+
+outer_hjaalmarch_area = {
+    3301 3302 3303 3304
 }
 
 east_haafingar_area = {
@@ -339,15 +347,15 @@ east_haafingar_area = {
 }
 
 mid_haafingar_area = {
-    3291 3293 3298 3299
+    3291 3293 3299
 }
 
 west_haafingar_area = {
-    3295 3296 3297
+    3296 3297 3298
 }
 
 markarth_area = {
-    3329 3332 3333
+    3295 3329 3332 3333
 }
 
 karthwasten_area = {

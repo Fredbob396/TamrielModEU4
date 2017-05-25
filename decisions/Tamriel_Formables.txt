@@ -479,11 +479,29 @@ country_decisions = {
 					government_rank = 1
 				}
 				set_government_rank = 2
-			}		
+			}
 			add_prestige = 25
 			add_legitimacy = 50
 			change_tag = XHF
 			set_capital = 3290
+			east_haafingar_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XHF
+			}
+			mid_haafingar_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XHF
+			}
+			west_haafingar_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XHF
+			}
 		}
 	}
 	
@@ -524,6 +542,18 @@ country_decisions = {
 			add_legitimacy = 50
 			change_tag = XRE
 			set_capital = 3333
+			markarth_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XRE
+			}
+			karthwasten_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XRE
+			}
 		}
 	}
 	
@@ -564,6 +594,18 @@ country_decisions = {
 			add_legitimacy = 50
 			change_tag = XHM
 			set_capital = 3288
+			hjaalmarch_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XHM
+			}
+			outer_hjaalmarch_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XHM
+			}
 		}
 	}
 	
@@ -590,7 +632,7 @@ country_decisions = {
 			is_subject = no
 			is_at_war = no
 			owns_core_province = 3324
-			owns_core_province = 3327
+			owns_core_province = 3320
 			NOT = { exists = XFK }
 		}		
 		effect = {
@@ -604,6 +646,24 @@ country_decisions = {
 			add_legitimacy = 50
 			change_tag = XFK
 			set_capital = 3324
+			north_falkreath_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XFK
+			}
+			south_falkreath_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XFK
+			}
+			sungard_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XFK
+			}
 		}
 	}
 	
@@ -644,6 +704,30 @@ country_decisions = {
 			add_legitimacy = 50
 			change_tag = XRI
 			set_capital = 3261
+			north_rift_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XRI
+			}
+			south_rift_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XRI
+			}
+			skyrim_jeralls_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XRI
+			}
+			geirland_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XRI
+			}
 		}
 	}
 	
@@ -684,6 +768,18 @@ country_decisions = {
 			add_legitimacy = 50
 			change_tag = XEM
 			set_capital = 3249
+			eastmarch_river_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XEM
+			}
+			eastmarch_volcanic_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XEM
+			}
 		}
 	}
 	
@@ -723,6 +819,12 @@ country_decisions = {
 			add_legitimacy = 50
 			change_tag = XWH
 			set_capital = 3277
+			winterhold_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XWH
+			}
 		}
 	}
 	
@@ -762,6 +864,18 @@ country_decisions = {
 			add_legitimacy = 50
 			change_tag = XPL
 			set_capital = 3280
+			north_pale_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XPL
+			}
+			yorgrim_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XPL
+			}
 		}
 	}
 	
@@ -802,6 +916,24 @@ country_decisions = {
 			add_legitimacy = 50
 			change_tag = XWR
 			set_capital = 3311
+			whiterun_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XWR
+			}
+			whiterun_town_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XWR
+			}
+			rorikstead_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XWR
+			}
 		}
 	}
 

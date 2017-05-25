@@ -12,5 +12,4 @@ manpower = 4
 owner = XPL
 controller = XPL
 add_core = XPL
-fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE
