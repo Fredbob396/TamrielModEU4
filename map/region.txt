@@ -167,6 +167,7 @@ south_skyrim_region = {
 		north_falkreath_area
 		south_falkreath_area
 		sungard_area
+		whiterun_town_area
 		skyrim_jeralls_area
 		north_rift_area
 		south_rift_area
@@ -178,6 +179,7 @@ haafinheim_region = {
 	areas = {
 		rorikstead_area
 		hjaalmarch_area
+		outer_hjaalmarch_area
 		skyborn_area
 		east_haafingar_area
 		mid_haafingar_area

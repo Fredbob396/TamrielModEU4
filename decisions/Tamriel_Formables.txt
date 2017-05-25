@@ -446,6 +446,496 @@ country_decisions = {
 			set_capital = 3476
 		}
 	}
+	
+	form_haafingar = {
+		major = yes	
+		potential = {
+			NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+			primary_culture = haafingar
+		}		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3290
+			owns_core_province = 3299
+			NOT = { exists = XHF }
+		}		
+		effect = {
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}
+			add_prestige = 25
+			add_legitimacy = 50
+			change_tag = XHF
+			set_capital = 3290
+			east_haafingar_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XHF
+			}
+			mid_haafingar_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XHF
+			}
+			west_haafingar_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XHF
+			}
+		}
+	}
+	
+	form_reach = {
+		major = yes	
+		potential = {
+			NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+			primary_culture = haafingar
+		}		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3333
+			owns_core_province = 3327
+			NOT = { exists = XRE }
+		}		
+		effect = {
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}		
+			add_prestige = 25
+			add_legitimacy = 50
+			change_tag = XRE
+			set_capital = 3333
+			markarth_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XRE
+			}
+			karthwasten_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XRE
+			}
+		}
+	}
+	
+	form_hjaalmarch = {
+		major = yes	
+		potential = {
+			NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+			primary_culture = haafingar
+		}		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3288
+			owns_core_province = 3301
+			NOT = { exists = XHM }
+		}		
+		effect = {
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}		
+			add_prestige = 25
+			add_legitimacy = 50
+			change_tag = XHM
+			set_capital = 3288
+			hjaalmarch_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XHM
+			}
+			outer_hjaalmarch_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XHM
+			}
+		}
+	}
+	
+	form_falkreath = {
+		major = yes	
+		potential = {
+			NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+			primary_culture = south_nordic
+		}		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3324
+			owns_core_province = 3320
+			NOT = { exists = XFK }
+		}		
+		effect = {
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}		
+			add_prestige = 25
+			add_legitimacy = 50
+			change_tag = XFK
+			set_capital = 3324
+			north_falkreath_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XFK
+			}
+			south_falkreath_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XFK
+			}
+			sungard_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XFK
+			}
+		}
+	}
+	
+	form_rift = {
+		major = yes	
+		potential = {
+			NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+			primary_culture = south_nordic
+		}		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3261
+			owns_core_province = 3260
+			NOT = { exists = XRI }
+		}		
+		effect = {
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}		
+			add_prestige = 25
+			add_legitimacy = 50
+			change_tag = XRI
+			set_capital = 3261
+			north_rift_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XRI
+			}
+			south_rift_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XRI
+			}
+			skyrim_jeralls_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XRI
+			}
+			geirland_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XRI
+			}
+		}
+	}
+	
+	form_eastmarch = {
+		major = yes	
+		potential = {
+			NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+			primary_culture = old_nordic
+		}		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3249
+			owns_core_province = 3255
+			NOT = { exists = XEM }
+		}		
+		effect = {
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}		
+			add_prestige = 25
+			add_legitimacy = 50
+			change_tag = XEM
+			set_capital = 3249
+			eastmarch_river_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XEM
+			}
+			eastmarch_volcanic_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XEM
+			}
+		}
+	}
+	
+	form_winterhold = {
+		major = yes	
+		potential = {
+			NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+			primary_culture = old_nordic
+		}		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3277
+			NOT = { exists = XWH }
+		}		
+		effect = {
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}		
+			add_prestige = 25
+			add_legitimacy = 50
+			change_tag = XWH
+			set_capital = 3277
+			winterhold_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XWH
+			}
+		}
+	}
+	
+	form_pale = {
+		major = yes	
+		potential = {
+			NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+			primary_culture = old_nordic
+		}		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3280
+			NOT = { exists = XPL }
+		}		
+		effect = {
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}		
+			add_prestige = 25
+			add_legitimacy = 50
+			change_tag = XPL
+			set_capital = 3280
+			north_pale_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XPL
+			}
+			yorgrim_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XPL
+			}
+		}
+	}
+	
+	form_whiterun = {
+		major = yes	
+		potential = {
+			NOT = {
+				OR = {
+					tag = XSM
+					tag = XEM
+					tag = XFK
+					tag = XHF
+					tag = XHM
+					tag = XPL
+					tag = XRE
+					tag = XRI
+					tag = XWH
+					tag = XWR
+				}
+			}
+			primary_culture = middle_nordic
+		}		
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 3311
+			owns_core_province = 3309
+			NOT = { exists = XWR }
+		}		
+		effect = {
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}		
+			add_prestige = 25
+			add_legitimacy = 50
+			change_tag = XWR
+			set_capital = 3311
+			whiterun_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XWR
+			}
+			whiterun_town_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XWR
+			}
+			rorikstead_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = XWR
+			}
+		}
+	}
 
 	#400 Development
 	form_colovia = {

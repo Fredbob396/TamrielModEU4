@@ -12,5 +12,4 @@ manpower = 4
 owner = XIV
 controller = XIV
 add_core = XIV
-fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

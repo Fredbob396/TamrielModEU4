@@ -18,9 +18,11 @@ country_event = {
 		
 		#Nuhyas Point
 		3134 = {
-			change_province_name = "Tear"
+			change_province_name = "Tyr"
 			
-			add_base_tax = 1
+			add_base_tax = 3
+			add_base_production = 3
+			add_base_manpower = 3
 			
 			cede_province = ROOT
 			change_culture = ROOT

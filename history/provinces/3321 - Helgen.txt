@@ -12,5 +12,4 @@ manpower = 4
 owner = XHG
 controller = XHG
 add_core = XHG
-fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE
