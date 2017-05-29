@@ -12,5 +12,6 @@ manpower = 2
 owner = XMZ
 controller = XMZ
 add_core = XMZ
+add_permanent_claim = XPL
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE

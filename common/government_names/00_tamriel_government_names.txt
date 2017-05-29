@@ -117,7 +117,7 @@ nordic_hold = {
 			tag = XRE
 			tag = XHF
 			tag = XFK
-			tag = XHJ
+			tag = XHM
 			}
 	}
 }

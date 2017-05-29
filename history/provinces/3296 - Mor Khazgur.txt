@@ -12,5 +12,6 @@ manpower = 3
 owner = XMK
 controller = XMK
 add_core = XMK
+add_permanent_claim = XHF
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE

@@ -12,5 +12,6 @@ manpower = 3
 owner = XDB
 controller = XDB
 add_core = XDB
+add_permanent_claim = XHF
 fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

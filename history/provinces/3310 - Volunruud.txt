@@ -12,5 +12,6 @@ manpower = 2
 owner = XMO
 controller = XMO
 add_core = XMO
+add_permanent_claim = XPL
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE

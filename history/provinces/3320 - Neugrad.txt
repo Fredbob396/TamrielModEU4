@@ -12,5 +12,6 @@ manpower = 2
 owner = XHG
 controller = XHG
 add_core = XHG
+add_permanent_claim = XFK
 fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

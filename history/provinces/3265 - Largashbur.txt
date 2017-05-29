@@ -12,5 +12,6 @@ manpower = 3
 owner = XLG
 controller = XLG
 add_core = XLG
+add_permanent_claim = XRI
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE

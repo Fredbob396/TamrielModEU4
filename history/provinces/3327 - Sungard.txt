@@ -12,5 +12,6 @@ manpower = 3
 owner = XFK
 controller = XFK
 add_core = XFK
+add_permanent_claim = XRE
 fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

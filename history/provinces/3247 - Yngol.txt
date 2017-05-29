@@ -12,5 +12,6 @@ manpower = 2
 owner = XNZ
 controller = XNZ
 add_core = XNZ
+add_permanent_claim = XEM
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE
