@@ -80,6 +80,7 @@ south_morrowind_region = {
 		uvonaak_area
 		kragenmoor_area
 		shargon_othreleth_area
+		shipal_area
 	}
 }
 
@@ -126,27 +127,35 @@ kynokhia_region = {
 
 karanakh_region = {
 	areas = {
-		kamanai_area
-		ok_nanha_area
-		argon_border_area
 		clawreach_area
 		karanake_area
+		doraku_area
 		north_hjalokh_area
 		lake_hjalokh_area
 		sikiha_area
-		argonian_wastelands_area
+	}
+}
+
+kamanese_region = {
+	areas = {
+		kamanai_area
+		ok_nanha_area
+		naga_cradle_area
+		argon_border_area
+		west_kamanai_area
+		arnesia_area
 	}
 }
 
 atron_region = {
 	areas = {
-		arnesia_area
 		north_atronium_area
 		north_cimuthrai_area
 		xi_helai_area
 		klamabe_area
 		engan_area
 		firewalk_area
+		great_nieleon_area
 	}
 }
 

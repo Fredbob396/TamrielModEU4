@@ -12,6 +12,7 @@ argonia_superregion = {
 	kynokhia_region
 	karanakh_region
 	atron_region
+	kamanese_region
 }
 
 skyrim_superregion = {

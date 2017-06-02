@@ -12,5 +12,5 @@ manpower = 4
 owner = XAR
 controller = XAR
 add_core = XKR add_core = XAR
-fort1 = yes
+fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

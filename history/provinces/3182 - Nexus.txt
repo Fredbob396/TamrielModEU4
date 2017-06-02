@@ -1,6 +1,6 @@
 #Region - Clawreach, Inner Murkwood and Central Argonia
 
-culture = karanakh
+culture = kamanese
 religion = hist
 capital = "K'omatur"
 trade_goods = potions
@@ -11,7 +11,7 @@ base_production = 3
 manpower = 3
 owner = XAR
 controller = XAR
-add_core = XCW add_core = XAR
+add_core = XAR
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE
 
