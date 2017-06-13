@@ -118,7 +118,10 @@ country_event = {
 		name = "cyrodiil_flag.EVTOPTA10"
 		every_country = {
 			limit = {
-				culture_group = cyrodillic
+				OR = {
+					culture_group = cyrodillic
+					culture_group = colovian
+				}
 				NOT { government = cyrodilic_warlord }
 				NOT = {
 					has_opinion_modifier = {
@@ -216,7 +219,10 @@ country_event = {
 		name = "cyrodiil_flag.EVTOPTA18"
 		every_country = {
 			limit = {
-				culture_group = cyrodillic
+				OR = {
+					culture_group = cyrodillic
+					culture_group = colovian
+				}
 				NOT = {
 					has_opinion_modifier = {
 						who = ROOT

@@ -8,6 +8,7 @@ argonian_ideas = {
     }
     trigger = {
         culture_group = greater_argonian
+		NOT = { primary_culture = dagoni }
     }
     free = yes
     argonian_idea_1 = {

@@ -12,7 +12,5 @@ manpower = 3
 owner = XAR
 controller = XAR
 add_core = XAR
-fort1 = yes
+fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE
-
-1440.1.1 = { fort_15th = yes }

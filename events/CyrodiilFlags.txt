@@ -51,7 +51,10 @@ country_event = {
 
 	trigger = {
 		owns_core_province = 3529
-		culture_group = cyrodillic
+		OR = {
+			culture_group = cyrodillic
+			culture_group = colovian
+		}
 		NOT = { has_country_flag = ruby_throne }
 		NOT = { has_country_flag = cityisle_prewar }
 		is_at_war = no
@@ -81,6 +84,13 @@ country_event = {
 		}
 		every_country = {
 			limit { culture_group = cyrodillic }
+			remove_opinion = {
+				who = ROOT
+				modifier = cyrodiil_warlord_other_opinion
+			}
+		}
+		every_country = {
+			limit { culture_group = colovian }
 			remove_opinion = {
 				who = ROOT
 				modifier = cyrodiil_warlord_other_opinion
