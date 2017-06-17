@@ -12,4 +12,5 @@ manpower = 5
 owner = XRR
 controller = XRR
 add_core = XRR
+add_permanent_claim = XWR
 discovered_by = tamrielic discovered_by = XTE

@@ -10,7 +10,10 @@ country_decisions = {
 					tag = Y55
 				}
 			}
-			culture_group = cyrodillic
+			OR = {
+				culture_group = cyrodillic
+				culture_group = colovian
+			}
 			anvil_area = {
 				owned_by = ROOT
 			}
@@ -34,6 +37,13 @@ country_decisions = {
 				}
 				every_country = {
 					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				every_country = {
+					limit { culture_group = colovian }
 					remove_opinion = {
 						who = ROOT
 						modifier = cyrodiil_warlord_other_opinion
@@ -66,7 +76,10 @@ country_decisions = {
 					tag = Y55
 				}
 			}
-			culture_group = cyrodillic
+			OR = {
+				culture_group = cyrodillic
+				culture_group = colovian
+			}
 			skingrad_area = {
 				owned_by = ROOT
 			}
@@ -90,6 +103,13 @@ country_decisions = {
 				}
 				every_country = {
 					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				every_country = {
+					limit { culture_group = colovian }
 					remove_opinion = {
 						who = ROOT
 						modifier = cyrodiil_warlord_other_opinion
@@ -122,7 +142,10 @@ country_decisions = {
 					tag = Y55
 				}
 			}
-			culture_group = cyrodillic
+			OR = {
+				culture_group = cyrodillic
+				culture_group = colovian
+			}
 			chorrol_area = {
 				owned_by = ROOT
 			}
@@ -146,6 +169,13 @@ country_decisions = {
 				}
 				every_country = {
 					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				every_country = {
+					limit { culture_group = colovian }
 					remove_opinion = {
 						who = ROOT
 						modifier = cyrodiil_warlord_other_opinion
@@ -178,7 +208,10 @@ country_decisions = {
 					tag = Y55
 				}
 			}
-			culture_group = cyrodillic
+			OR = {
+				culture_group = cyrodillic
+				culture_group = colovian
+			}
 			e_jeralls_area = {
 				owned_by = ROOT
 			}
@@ -202,6 +235,13 @@ country_decisions = {
 				}
 				every_country = {
 					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				every_country = {
+					limit { culture_group = colovian }
 					remove_opinion = {
 						who = ROOT
 						modifier = cyrodiil_warlord_other_opinion
@@ -234,7 +274,10 @@ country_decisions = {
 					tag = Y55
 				}
 			}
-			culture_group = cyrodillic
+			OR = {
+				culture_group = cyrodillic
+				culture_group = colovian
+			}
 			cheydinhal_area = {
 				owned_by = ROOT
 			}
@@ -258,6 +301,13 @@ country_decisions = {
 				}
 				every_country = {
 					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				every_country = {
+					limit { culture_group = colovian }
 					remove_opinion = {
 						who = ROOT
 						modifier = cyrodiil_warlord_other_opinion
@@ -290,7 +340,10 @@ country_decisions = {
 					tag = Y55
 				}
 			}
-			culture_group = cyrodillic
+			OR = {
+				culture_group = cyrodillic
+				culture_group = colovian
+			}
 			w_niben_area = {
 				owned_by = ROOT
 			}
@@ -314,6 +367,13 @@ country_decisions = {
 				}
 				every_country = {
 					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				every_country = {
+					limit { culture_group = colovian }
 					remove_opinion = {
 						who = ROOT
 						modifier = cyrodiil_warlord_other_opinion
@@ -346,7 +406,10 @@ country_decisions = {
 					tag = Y55
 				}
 			}
-			culture_group = cyrodillic
+			OR = {
+				culture_group = cyrodillic
+				culture_group = colovian
+			}
 			topal_bay_area = {
 				owned_by = ROOT
 			}
@@ -370,6 +433,13 @@ country_decisions = {
 				}
 				every_country = {
 					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				every_country = {
+					limit { culture_group = colovian }
 					remove_opinion = {
 						who = ROOT
 						modifier = cyrodiil_warlord_other_opinion
@@ -402,7 +472,10 @@ country_decisions = {
 					tag = Y55
 				}
 			}
-			culture_group = cyrodillic
+			OR = {
+				culture_group = cyrodillic
+				culture_group = colovian
+			}
 			kvatch_area = {
 				owned_by = ROOT
 			}
@@ -426,6 +499,13 @@ country_decisions = {
 				}
 				every_country = {
 					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				every_country = {
+					limit { culture_group = colovian }
 					remove_opinion = {
 						who = ROOT
 						modifier = cyrodiil_warlord_other_opinion
@@ -995,6 +1075,13 @@ country_decisions = {
 						modifier = cyrodiil_warlord_other_opinion
 					}
 				}
+				every_country = {
+					limit { culture_group = colovian }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
 				change_government = despotic_monarchy
 			}
 			if = {
@@ -1078,6 +1165,13 @@ country_decisions = {
 				}
 				every_country = {
 					limit { culture_group = cyrodillic }
+					remove_opinion = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+				every_country = {
+					limit { culture_group = colovian }
 					remove_opinion = {
 						who = ROOT
 						modifier = cyrodiil_warlord_other_opinion

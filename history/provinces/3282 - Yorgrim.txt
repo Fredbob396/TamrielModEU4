@@ -12,5 +12,6 @@ manpower = 3
 owner = XAF
 controller = XAF
 add_core = XAF
+add_permanent_claim = XPL
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE

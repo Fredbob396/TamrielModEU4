@@ -12,5 +12,6 @@ manpower = 3
 owner = XFS
 controller = XFS
 add_core = XFS
+add_permanent_claim = XRE
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE

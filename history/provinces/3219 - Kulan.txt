@@ -2,7 +2,7 @@
 
 culture = agaceph
 religion = hist
-capital = "Kulan"
+capital = "Jakulan"
 trade_goods = hunted_goods
 citysize = 15650
 hre = no

@@ -1,0 +1,16 @@
+#Region - Kamanai, Shadowfen and Northwestern Argonia
+
+culture = kamanese
+religion = hist
+capital = "Murkwater"
+trade_goods = fish
+citysize = 15650
+hre = no
+base_tax = 2
+base_production = 3
+manpower = 2
+owner = XAR
+controller = XAR
+add_core = XAR
+fort1 = yes
+discovered_by = tamrielic discovered_by = XTE

@@ -3,4 +3,5 @@ technology_group = tamrielic
 religion = hist
 mercantilism = 0.2
 primary_culture = karanakh
+add_accepted_culture = kamanese
 capital = 3176	# Helstrom

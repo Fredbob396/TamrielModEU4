@@ -2,7 +2,7 @@
 
 culture = kamanese
 religion = hist
-capital = "Tenmar"
+capital = "Ten-Maur-Wolk"
 trade_goods = hunted_goods
 citysize = 15650
 hre = no

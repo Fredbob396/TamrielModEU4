@@ -12,5 +12,6 @@ manpower = 2
 owner = XSS
 controller = XSS
 add_core = XSS
+add_permanent_claim = XRI
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE

@@ -83,7 +83,11 @@ jer_ahkrin_area = {
 }
 
 uvonaak_area = {
-    3163 3164 3165 3675
+    3163 3165 3675
+}
+
+shipal_area = {
+	3164 3731 3732
 }
 
 kalen_area = {
@@ -203,15 +207,23 @@ axadnia_area = {
 }
 
 kulania_area = {
-    3219 3221 3222
+    3219 3221 3222 3738
 }
 
 kamanai_area = {
-    3177 3179 3180 3672 3711
+    3177 3178 3179 3729
+}
+
+west_kamanai_area = {
+	3180 3672 3711 3734
 }
 
 ok_nanha_area = {
-    3175 3176 3178 3182
+    3176 3182 3730 3733
+}
+
+naga_cradle_area = {
+    3175 3727 3728
 }
 
 argon_border_area = { 
@@ -223,7 +235,11 @@ clawreach_area = {
 }
 
 karanake_area = {
-    3194 3195 3196 3197 3198
+    3194 3195 3196 3736 3737
+}
+
+doraku_area = {
+	3197 3198 3735
 }
 
 north_hjalokh_area = {
@@ -247,7 +263,11 @@ north_atronium_area = {
 }
 
 north_cimuthrai_area = {
-    3200 3202 3193 3669 3708 3710
+    3200 3202 3708
+}
+
+great_nieleon_area = {
+	3193 3669 3710
 }
 
 xi_helai_area = {

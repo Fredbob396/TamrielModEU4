@@ -2,7 +2,7 @@
 
 culture = kamanese
 religion = hist
-capital = "Pholmolo"
+capital = "Loriasel"
 trade_goods = hunted_goods
 citysize = 15650
 hre = no

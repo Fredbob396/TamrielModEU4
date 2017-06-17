@@ -12,5 +12,6 @@ manpower = 2
 owner = XIV
 controller = XIV
 add_core = XIV
+add_permanent_claim = XRI
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE

@@ -2,8 +2,8 @@
 
 culture = kamanese
 religion = hist
-capital = "K'tsruma"
-trade_goods = iron
+capital = "Pholmolo"
+trade_goods = hunted_goods
 citysize = 15650
 hre = no
 base_tax = 1

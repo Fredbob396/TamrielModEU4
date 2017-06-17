@@ -2,15 +2,15 @@
 
 culture = kamanese
 religion = hist
-capital = "Anazukh"
-trade_goods = alchemical_goods
+capital = "Gandranen"
+trade_goods = iron
 citysize = 15650
 hre = no
 base_tax = 3
 base_production = 2
 manpower = 2
-owner = XKM
-controller = XKM
-add_core = XKM
+owner = XAR
+controller = XAR
+add_core = XAR
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE

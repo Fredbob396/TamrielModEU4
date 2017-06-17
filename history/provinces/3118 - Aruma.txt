@@ -1,6 +1,6 @@
 #Region - Kanadesit, Almalexia, Lan Orethan and East Thirr
 
-culture = indoril
+culture = falyani
 religion = hist
 capital = "Nir Almak"
 trade_goods = grain

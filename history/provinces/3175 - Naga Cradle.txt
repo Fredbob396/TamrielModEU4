@@ -7,10 +7,9 @@ trade_goods = hunted_goods
 citysize = 15650
 hre = no
 base_tax = 2
-base_production = 1
-manpower = 1
+base_production = 2
+manpower = 2
 owner = XNG
 controller = XNG
 add_core = XNG
-fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE
