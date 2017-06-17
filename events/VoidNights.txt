@@ -52,13 +52,13 @@ country_event = {
 	trigger = {
 		tag = XEL
 		is_year = 1549
-		NOT = { has_country_flag = had_thalmor_coup }
+		NOT = { has_global_flag = had_thalmor_coup }
 	}
 	
 	option = {
 		name = "voidnights.EVTOPTA3"
 		ai_chance = { factor = 50 }
-		set_country_flag = had_thalmor_coup
+		set_global_flag = had_thalmor_coup
 		kill_ruler = yes
 		country_event = { id = voidnights.4 }
 	}
@@ -66,7 +66,7 @@ country_event = {
 	option = {
 		name = "voidnights.EVTOPTB3"
 		ai_chance = { factor = 50 }
-		set_country_flag = had_thalmor_coup
+		set_global_flag = had_thalmor_coup
 		kill_ruler = yes
 		add_stability = -1
 		

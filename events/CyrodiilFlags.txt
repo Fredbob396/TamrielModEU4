@@ -57,6 +57,8 @@ country_event = {
 		}
 		NOT = { has_country_flag = ruby_throne }
 		NOT = { has_country_flag = cityisle_prewar }
+		NOT = { exists = Y55 }
+		NOT = { has_global_flag = cyrodiil_unified }
 		is_at_war = no
 	}
 	option = {

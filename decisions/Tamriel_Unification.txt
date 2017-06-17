@@ -13,6 +13,7 @@ country_decisions = {
 			change_tag = Y55
 			change_government = cyrodilic_empire
 			set_government_rank = 3
+			set_global_flag = cyrodiil_unified
 			
 			every_province = {
 				limit = {
@@ -29,9 +30,15 @@ country_decisions = {
 		potential = {
 			exists = Y55
 			OR = {
-					culture_group = cyrodillic
-					culture_group = colovian
+			  culture_group = cyrodillic
+			  culture_group = colovian
+			}
+			NOT = {
+				had_global_flag = {
+					flag = cyrodiil_unified
+					days = 3650
 				}
+			}
 			NOT = { government = cyrodilic_warlord }
 			NOT = {
 				OR = {
