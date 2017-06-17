@@ -477,12 +477,14 @@ tributary_state = {
 			government = cyrodilic_empire
 			government = celestial_empire
 			government = elsweyr_theocracy
-			government = dunmer_great_house
 			government_rank = 3
 			tag = XAR
 			is_nomad = yes
 			religion_group = eastern
 		}
+	}
+	can_be_established = {
+		primary_culture = ashlander_dunmeri
 	}
 	
 	# Graphics:
