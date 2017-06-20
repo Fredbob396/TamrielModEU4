@@ -2,7 +2,7 @@
 
 culture = falyani
 religion = hist
-capital = "Khaminar"
+capital = "Yengrith"
 trade_goods = grain
 citysize = 15650
 hre = no
@@ -12,5 +12,6 @@ manpower = 2
 owner = XJA
 controller = XJA
 add_core = XJA
+add_permanent_claim = XDR
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE

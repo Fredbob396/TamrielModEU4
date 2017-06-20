@@ -3,6 +3,8 @@ technology_group = tamrielic
 religion = new_temple
 mercantilism = 0.2
 primary_culture = indoril
+historical_rival = XJA
+historical_rival = XKD
 capital = 3113	# (Old) Ebonheart
 
 

@@ -1,8 +1,9 @@
-government = tribal_democracy
+government = republican_dictatorship
 technology_group = tamrielic
 religion = hist
 mercantilism = 0.2
 primary_culture = falyani
+historical_rival = XDR
 capital = 3129	# Ahkrin
 
 1444.1.1 = {

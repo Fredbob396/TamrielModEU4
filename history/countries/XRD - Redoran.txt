@@ -3,6 +3,7 @@ technology_group = tamrielic
 religion = new_temple
 mercantilism = 0.2
 primary_culture = velothi
+historical_rival = XHL
 capital = 3157	# Baan Malur
 
 

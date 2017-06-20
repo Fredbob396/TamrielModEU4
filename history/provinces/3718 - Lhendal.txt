@@ -12,5 +12,6 @@ manpower = 2
 owner = XKD
 controller = XKD
 add_core = XKD
+add_permanent_claim = XDR
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE

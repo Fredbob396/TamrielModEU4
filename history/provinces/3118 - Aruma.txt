@@ -12,4 +12,5 @@ manpower = 3
 owner = XKD
 controller = XKD
 add_core = XKD
+add_permanent_claim = XDR
 discovered_by = tamrielic discovered_by = XTE

@@ -75,6 +75,14 @@ alliance = {
 	end_date = 1821.1.1
 }
 
+#Argonian settler states
+alliance = {
+	first = XJA
+	second = XKD
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
 #Temple-Redoran
 alliance = {
 	first = XRD
