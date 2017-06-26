@@ -57,7 +57,7 @@ country_event = {
 	
 	option = {
 		name = "voidnights.EVTOPTA3"
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 95 }
 		set_global_flag = had_thalmor_coup
 		kill_ruler = yes
 		country_event = { id = voidnights.4 }

@@ -474,10 +474,8 @@ tributary_state = {
 			is_subject_of_type = tributary_state
 		}
 		OR = {
-			government = cyrodilic_empire
 			government = celestial_empire
 			government = elsweyr_theocracy
-			government_rank = 3
 			tag = XAR
 			is_nomad = yes
 			religion_group = eastern
