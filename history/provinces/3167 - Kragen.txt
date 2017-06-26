@@ -12,5 +12,6 @@ manpower = 5
 owner = XSD
 controller = XSD
 add_core = XSD
+add_permanent_claim = XHL
 fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE

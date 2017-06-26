@@ -12,5 +12,6 @@ manpower = 3
 owner = XSD
 controller = XSD
 add_core = XSD
+add_core = XHL
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE

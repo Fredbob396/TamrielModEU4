@@ -3,6 +3,7 @@ technology_group = tamrielic
 religion = new_temple
 mercantilism = 0.2
 primary_culture = hlaalu
+historical_rival = XRD
 capital = 3163	# Uvonaak
 
 

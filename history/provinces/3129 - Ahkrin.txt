@@ -12,5 +12,6 @@ manpower = 4
 owner = XJA
 controller = XJA
 add_core = XJA
+add_permanent_claim = XDR
 fort_15th = yes
 discovered_by = tamrielic discovered_by = XTE
