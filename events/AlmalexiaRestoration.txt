@@ -2,15 +2,15 @@ namespace = almalexia_restoration
 
 country_event = {
 	id = almalexia_restoration.1
-	title = "almalexia_restoration.EVTNAME1"
-	desc = "almalexia_restoration.EVTDESC1"
+	title = "almalexia_restoration.1.t"
+	desc = "almalexia_restoration.1.d"
 	picture = CITY_DEVELOPMENT_eventPicture
 	hidden = no
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "almalexia_restoration.EVTOPTA1"
+		name = "almalexia_restoration.1.a"
 		ROOT = {
 			add_prestige = 25
 			add_adm_power = -200

@@ -1,0 +1,355 @@
+namespace = cyrodiil
+
+# Cyrodiil County Flag
+country_event = {
+	id = cyrodiil.1
+	title = "cyrodiil.1.t"
+	desc = "cyrodiil.1.d"
+	picture = COURT_eventPicture
+	hidden = no
+
+	trigger = {
+		OR = {
+			tag = Y02
+			tag = Y03
+			tag = Y04
+			tag = Y05
+			tag = Y06
+			tag = Y07
+			tag = Y08
+			tag = Y53
+		}
+		NOT = { has_country_flag = cyrodilic_count }
+	}
+
+	option = {
+		name = "cyrodiil.1.a"
+		set_country_flag = cyrodilic_count
+	}
+}
+
+# City Isle Flag
+country_event = {
+	id = cyrodiil.2
+	title = "cyrodiil.2.t"
+	desc = "cyrodiil.2.d"
+	picture = COURT_eventPicture
+	hidden = no
+
+	trigger = {
+		tag = Y01
+		NOT = { has_country_flag = cityisle_prewar}
+		NOT = { has_country_flag = cityisle_postwar}
+	}
+
+	option = {
+		name = "cyrodiil.2.a"
+		set_country_flag = cityisle_prewar
+	}
+}
+
+# Remove City Isle Flag
+country_event = {
+	id = cyrodiil.3
+	title = "cyrodiil.3.t"
+	desc = "cyrodiil.3.d"
+	picture = COURT_eventPicture
+	hidden = no
+
+	trigger = {
+		has_country_flag = cityisle_prewar
+		NOT = { has_country_flag = cityisle_postwar }
+		is_at_war = no
+	}
+
+	option = {
+		name = "cyrodiil.3.a"
+		clr_country_flag = cityisle_prewar
+		set_country_flag = cityisle_postwar
+	}
+}
+
+# City Isle Conquest
+province_event = {
+	id = cyrodiil.4
+	title = "cyrodiil.4.t"
+	desc = "cyrodiil.4.d"
+	picture = COURT_eventPicture
+	hidden = no
+
+	trigger = {
+		province_id = 3529
+		owned_by = Y01
+		NOT = { controlled_by = owner }
+		NOT = { controlled_by = REB }
+		has_siege = no
+	}
+
+	option = {
+		name = "cyrodiil.4.a"
+		controller = {
+			inherit = Y01
+			every_province = {
+				limit = {
+					is_core = Y01
+				}
+				remove_core = Y01
+			}
+		}
+	}
+}
+
+# Gaining The Ruby Throne
+country_event = {
+	id = cyrodiil.5
+	title = "cyrodiil.5.t"
+	desc = "cyrodiil.5.d"
+	picture = COURT_eventPicture
+	hidden = no
+
+	trigger = {
+		owns_core_province = 3529
+		OR = {
+			culture_group = cyrodillic
+			culture_group = colovian
+		}
+		NOT = { exists = Y55 }
+		NOT = { has_country_flag = ruby_throne }
+		NOT = { has_country_flag = cityisle_prewar }
+		NOT = { has_global_flag = cyrodiil_unified }
+		is_at_war = no
+	}
+	
+	option = {
+		name = "cyrodiil.5.a"
+		set_capital = 3529
+		
+		set_country_flag = ruby_throne
+		if = {
+			limit = {
+				government_rank = 1
+			}
+			set_government_rank = 2
+		}
+		every_country = {
+			limit = {
+				OR = {
+					culture_group = cyrodillic
+					culture_group = colovian
+				}
+			}
+			remove_opinion = {
+				who = ROOT
+				modifier = cyrodiil_warlord_other_opinion
+			}
+			clr_country_flag = emperor_county_relations
+		}
+	}
+}
+
+# Losing The Ruby Throne
+country_event = {
+	id = cyrodiil.6
+	title = "cyrodiil.6.t"
+	desc = "cyrodiil.6.d"
+	picture = COURT_eventPicture
+	hidden = no
+
+	trigger = {
+		has_country_flag = ruby_throne
+		NOT = {
+			owns_core_province = 3529
+		}
+	}
+	
+	option = {
+		name = "cyrodiil.6.a"
+		clr_country_flag = ruby_throne
+		clr_country_flag = cyrodiil_count_opinion
+		clr_country_flag = cyrodiil_warlord_emperor_opinion
+		
+		every_province= {
+			limit = {
+				superregion = cyrodiil_superregion
+			}
+			remove_claim = ROOT
+		}
+		
+		every_country = {
+			limit = { has_country_flag = cyrodilic_count }
+			remove_opinion = {
+				who = FROM
+				modifier = cyrodiil_count_emperor
+			}
+		}
+		
+		every_country = {
+			limit = {
+				government = cyrodilic_warlord
+				NOT = {
+					has_country_flag = ruby_throne
+				}
+			}
+			remove_opinion = {
+				who = FROM
+				modifier = cyrodiil_warlord_other_opinion
+			}
+		}
+	}
+}
+
+# Emperor Establishes Legitimacy
+country_event = {
+	id = cyrodiil.7
+	title = "cyrodiil.7.t"
+	desc = "cyrodiil.7.d"
+	picture = COURT_eventPicture
+	hidden = yes
+
+	trigger = {
+		# TODO: Year Counter w/tooltip
+		has_country_flag = ruby_throne
+		legitimacy = 70
+		num_of_cities = 25
+		NOT = { has_country_flag = cyrodiil_legitimacy_established }
+		NOT = { is_at_war = yes }
+		NOT = { is_subject = yes }
+	}
+	
+	option = {
+		name = "cyrodiil.7.a"
+		set_country_flag = cyrodiil_legitimacy_established
+	}
+}
+
+## Counties/Towns Join Empire
+#country_event = {
+#	id = cyrodiil.8
+#	title = "cyrodiil.8.t"
+#	desc = "cyrodiil.8.d"
+#	picture = COURT_eventPicture
+#	hidden = yes
+#
+#	# TODO
+#}
+
+## Former Tamriel Provinces Join Empire
+#country_event = {
+#	id = cyrodiil.9
+#	title = "cyrodiil.9.t"
+#	desc = "cyrodiil.9.d"
+#	picture = COURT_eventPicture
+#	hidden = yes
+#
+#	# TODO
+#}
+
+# Emperor-County Relations
+country_event = {
+	id = cyrodiil.10
+	title = "cyrodiil.10.t"
+	desc = "cyrodiil.10.d"
+	picture = COURT_eventPicture
+	hidden = no
+
+	trigger = {
+		has_country_flag = cyrodilic_count
+		NOT = { has_country_flag = emperor_county_relations }
+		any_country = {
+			has_country_flag = ruby_throne
+		}
+	}
+
+	option = {
+		name = "cyrodiil.10.a"
+		every_country = {
+			limit = {
+				has_country_flag = ruby_throne
+			}
+			
+			ROOT = {
+				set_country_flag = emperor_county_relations
+			}
+			
+			# Makes sending country like the emperor
+			reverse_add_opinion = {
+				who = ROOT
+				modifier = cyrodiil_count_emperor
+			}
+		}
+	}
+}
+
+# County-County Relations
+country_event = {
+	id = cyrodiil.11
+	title = "cyrodiil.11.t"
+	desc = "cyrodiil.11.d"
+	picture = COURT_eventPicture
+	hidden = no
+
+	trigger = {
+		has_country_flag = cyrodilic_count
+		any_country = {
+			has_country_flag = cyrodilic_count
+			NOT = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = cyrodiil_count_count
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "cyrodiil.11.a"
+		every_country = {
+			limit = {
+				has_country_flag = cyrodilic_count
+				NOT = {
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = cyrodiil_count_count
+					}
+				}
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = cyrodiil_count_count
+			}
+		}
+	}
+}
+
+## Warlord Relations Penalty
+#country_event = {
+#	id = cyrodiil.12
+#	title = "cyrodiil.12.t"
+#	desc = "cyrodiil.12.d"
+#	picture = COURT_eventPicture
+#	hidden = yes
+#
+#	# TODO
+#}
+#
+## Emperor-Warlord Relations
+#country_event = {
+#	id = cyrodiil.13
+#	title = "cyrodiil.13.t"
+#	desc = "cyrodiil.13.d"
+#	picture = COURT_eventPicture
+#	hidden = yes
+#
+#	# TODO
+#}
+#
+## Elsweyr-Cyrodiil Relations
+#country_event = {
+#	id = cyrodiil.14
+#	title = "cyrodiil.14.t"
+#	desc = "cyrodiil.14.d"
+#	picture = COURT_eventPicture
+#	hidden = yes
+#
+#	# TODO
+#}

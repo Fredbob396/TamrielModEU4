@@ -1,5 +1,3 @@
-namespace = cyrodiil_flag
-
 #Makes every County like the owner of the Ruby Throne
 country_event = {
 	id = cyrodiil_flag.5
@@ -9,7 +7,8 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		has_country_flag = ruby_throne
+		has_country_flag = ruby_throne 
+		NOT = { has_country_flag = cyrodiil_count_opinion }
 	}
 	option = {
 		name = "cyrodiil_flag.EVTOPTA5"
@@ -27,20 +26,13 @@ country_event = {
 	option = {
 		name = "cyrodiil_flag.EVTOPTA6"
 		every_country = {
-			limit = {
-				has_country_flag = cyrodilic_count
-				NOT = {
-					has_opinion_modifier = {
-						who = ROOT
-						modifier = cyrodiil_count_emperor
-					}
-				}
-			}
+			limit { has_country_flag = cyrodilic_count }
 			add_opinion = {
 				who = ROOT
 				modifier = cyrodiil_count_emperor
-			}
+				}
 		}
+		set_country_flag = cyrodiil_count_opinion
 	}
 }
 
@@ -54,6 +46,7 @@ country_event = {
 
 	trigger = {
 		has_country_flag = cyrodilic_count
+		NOT = { has_country_flag = cyrodiil_count2count_opinion }
 	}
 	option = {
 		name = "cyrodiil_flag.EVTOPTA7"
@@ -71,20 +64,13 @@ country_event = {
 	option = {
 		name = "cyrodiil_flag.EVTOPTA8"
 		every_country = {
-			limit = {
-				has_country_flag = cyrodilic_count
-				NOT = {
-					has_opinion_modifier = {
-						who = ROOT
-						modifier = cyrodiil_count_count
-					}
-				}
-			}
+			limit { has_country_flag = cyrodilic_count }
 			add_opinion = {
 				who = ROOT
 				modifier = cyrodiil_count_count
-			}
+				}
 		}
+		set_country_flag = cyrodiil_count2count_opinion
 	}
 }
 
@@ -98,14 +84,14 @@ country_event = {
 
 	trigger = {
 		government = cyrodilic_warlord
-		NOT = { owns_core_province = 3529 }
+		NOT = { has_country_flag = cyrodiil_warlord_opinion }
+		NOT = { has_country_flag = ruby_throne }
 	}
 	option = {
 		name = "cyrodiil_flag.EVTOPTA9"
-		ROOT = { country_event = { id = cyrodiil_flag.10 } }
+		FROM = { country_event = { id = cyrodiil_flag.10 } }
 	}
 }
-
 country_event = {
 	id = cyrodiil_flag.10
 	title = "cyrodiil_flag.EVTNAME10"
@@ -118,23 +104,15 @@ country_event = {
 		name = "cyrodiil_flag.EVTOPTA10"
 		every_country = {
 			limit = {
-				OR = {
-					culture_group = cyrodillic
-					culture_group = colovian
-				}
+				culture_group = cyrodillic
 				NOT { government = cyrodilic_warlord }
-				NOT = {
-					has_opinion_modifier = {
-						who = ROOT
-						modifier = cyrodiil_warlord_other_opinion
-					}
-				}
 			}
 			add_opinion = {
-				who = ROOT 
+				who = ROOT
 				modifier = cyrodiil_warlord_other_opinion
 			}
 		}
+		set_country_flag = cyrodiil_warlord_opinion
 	}
 }
 
@@ -148,6 +126,7 @@ country_event = {
 
 	trigger = {
 		government = cyrodilic_warlord
+		NOT = { has_country_flag = cyrodiil_warlord_emperor_opinion }
 		NOT = { has_country_flag = ruby_throne }
 		any_country = {
 			has_country_flag = ruby_throne
@@ -173,68 +152,12 @@ country_event = {
 		every_country = {
 			limit = {
 				has_country_flag = ruby_throne
-				NOT = {
-					has_opinion_modifier = {
-						who = ROOT
-						modifier = cyrodiil_warlord_other_opinion
-					}
-				}
 			}
 			add_opinion = {
 				who = ROOT
 				modifier = cyrodiil_warlord_other_opinion
 			}
 		}
-	}
-}
-
-#Mutual Friendliness Between Elsweyr and the people of Cyrodiil
-country_event = {
-	id = cyrodiil_flag.17
-	title = "cyrodiil_flag.EVTNAME17"
-	desc = "cyrodiil_flag.EVTDESC17"
-	picture = COURT_eventPicture
-	hidden = yes
-
-	trigger = {
-		tag = XEL
-		NOT = { tag = Y01 }
-		NOT = { has_country_flag = elsweyr_opinion_set }
-	}
-	option = {
-		name = "cyrodiil_flag.EVTOPTA17"
-		FROM = { country_event = { id = cyrodiil_flag.18 } }
-	}
-}
-
-country_event = {
-	id = cyrodiil_flag.18
-	title = "cyrodiil_flag.EVTNAME18"
-	desc = "cyrodiil_flag.EVTDESC18"
-	picture = COURT_eventPicture
-	hidden = yes
-	is_triggered_only = yes
-		
-	option = {
-		name = "cyrodiil_flag.EVTOPTA18"
-		every_country = {
-			limit = {
-				OR = {
-					culture_group = cyrodillic
-					culture_group = colovian
-				}
-				NOT = {
-					has_opinion_modifier = {
-						who = ROOT
-						modifier = elsweyr_cyrodiil_friendship
-					}
-				}
-			}
-			add_opinion = {
-				who = ROOT
-				modifier = elsweyr_cyrodiil_friendship
-			}
-		}
-		set_country_flag = elsweyr_opinion_set
+		set_country_flag = cyrodiil_warlord_emperor_opinion
 	}
 }

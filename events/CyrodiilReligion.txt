@@ -3,8 +3,8 @@ namespace = cyrodiil_religion_daedra_spread
 # People turn to Daedra Worship
 province_event = {
 	id = cyrodiil_religion_daedra_spread
-	title = "cyrodiil_religion.EVTNAME1"
-	desc = "cyrodiil_religion.EVTDESC1"
+	title = "cyrodiil_religion.1.t"
+	desc = "cyrodiil_religion.1.d"
 	picture = REFORM_eventPicture
 
 	trigger = {
@@ -59,7 +59,7 @@ province_event = {
 	is_mtth_scaled_to_size = 1
 
 	option = {
-		name = "cyrodiil_religion.EVTOPTA"
+		name = "cyrodiil_religion.1.a"
 		change_religion = daedra_worship
 	}
 }

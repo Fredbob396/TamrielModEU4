@@ -3,8 +3,8 @@ namespace = voidnights
 #The Moons Disappear
 country_event = {
 	id = voidnights.1
-	title = "voidnights.EVTNAME1"
-	desc = "voidnights.EVTDESC1"
+	title = "voidnights.1.t"
+	desc = "voidnights.1.d"
 	picture = COMET_SIGHTED_eventPicture
 	hidden = no
 	
@@ -15,7 +15,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "voidnights.EVTOPTA1"
+		name = "voidnights.1.a"
 		add_stability = -1
 		set_country_flag = void_nights_flag
 	}
@@ -24,8 +24,8 @@ country_event = {
 #The Moons Reappear
 country_event = {
 	id = voidnights.2
-	title = "voidnights.EVTNAME2"
-	desc = "voidnights.EVTDESC2"
+	title = "voidnights.2.t"
+	desc = "voidnights.2.d"
 	picture = COMET_SIGHTED_eventPicture
 	hidden = no
 	
@@ -35,7 +35,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "voidnights.EVTOPTA2"
+		name = "voidnights.2.a"
 		add_stability = 1
 		clr_country_flag = void_nights_flag
 	}
@@ -44,8 +44,8 @@ country_event = {
 #Thalmor Coup
 country_event = {
 	id = voidnights.3
-	title = "voidnights.EVTNAME3"
-	desc = "voidnights.EVTDESC3"
+	title = "voidnights.3.t"
+	desc = "voidnights.3.d"
 	picture = COUNTRY_COLLAPSE_eventPicture
 	hidden = no
 	
@@ -56,7 +56,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "voidnights.EVTOPTA3"
+		name = "voidnights.3.a"
 		ai_chance = { factor = 95 }
 		set_global_flag = had_thalmor_coup
 		kill_ruler = yes
@@ -64,7 +64,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "voidnights.EVTOPTB3"
+		name = "voidnights.3.b"
 		ai_chance = { factor = 50 }
 		set_global_flag = had_thalmor_coup
 		kill_ruler = yes
@@ -139,14 +139,14 @@ country_event = {
 #Elsweyr Split
 country_event = {
 	id = voidnights.4
-	title = "voidnights.EVTNAME4"
-	desc = "voidnights.EVTDESC4"
+	title = "voidnights.4.t"
+	desc = "voidnights.4.d"
 	picture = COUNTRY_COLLAPSE_eventPicture
 	hidden = no
 	is_triggered_only = yes
 
 	option = {
-		name = "voidnights.EVTOPTA4"
+		name = "voidnights.4.a"
 		#Anequina to Anequina
 		every_owned_province = {
 			limit = {

@@ -2,15 +2,15 @@ namespace = tear_restoration
 
 country_event = {
 	id = tear_restoration.1
-	title = "tear_restoration.EVTNAME1"
-	desc = "tear_restoration.EVTDESC1"
+	title = "tear_restoration.1.t"
+	desc = "tear_restoration.1.d"
 	picture = CITY_DEVELOPMENT_eventPicture
 	hidden = no
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "tear_restoration.EVTOPTA1"
+		name = "tear_restoration.1.a"
 		ROOT = {
 			add_prestige = 10
 			add_adm_power = -100
@@ -23,6 +23,7 @@ country_event = {
 			add_base_tax = 3
 			add_base_production = 3
 			add_base_manpower = 3
+			change_trade_goods = slaves
 			
 			cede_province = ROOT
 			change_culture = ROOT
