@@ -6,7 +6,7 @@ country_event = {
 	title = "cyrodiil.1.t"
 	desc = "cyrodiil.1.d"
 	picture = COURT_eventPicture
-	hidden = no
+	hidden = yes
 
 	trigger = {
 		OR = {
@@ -34,7 +34,7 @@ country_event = {
 	title = "cyrodiil.2.t"
 	desc = "cyrodiil.2.d"
 	picture = COURT_eventPicture
-	hidden = no
+	hidden = yes
 
 	trigger = {
 		tag = Y01
@@ -54,7 +54,7 @@ country_event = {
 	title = "cyrodiil.3.t"
 	desc = "cyrodiil.3.d"
 	picture = COURT_eventPicture
-	hidden = no
+	hidden = yes
 
 	trigger = {
 		has_country_flag = cityisle_prewar
@@ -141,6 +141,10 @@ country_event = {
 			remove_opinion = {
 				who = ROOT
 				modifier = cyrodiil_warlord_other_opinion
+			}
+			remove_opinion = {
+				who = ROOT
+				modifier = cyrodiil_count_count
 			}
 			clr_country_flag = emperor_county_relations
 		}
@@ -250,7 +254,7 @@ country_event = {
 	title = "cyrodiil.10.t"
 	desc = "cyrodiil.10.d"
 	picture = COURT_eventPicture
-	hidden = no
+	hidden = yes
 
 	trigger = {
 		has_country_flag = cyrodilic_count
@@ -286,10 +290,11 @@ country_event = {
 	title = "cyrodiil.11.t"
 	desc = "cyrodiil.11.d"
 	picture = COURT_eventPicture
-	hidden = no
+	hidden = yes
 
 	trigger = {
 		has_country_flag = cyrodilic_count
+		NOT = { has_country_flag = ruby_throne }
 		any_country = {
 			has_country_flag = cyrodilic_count
 			NOT = {
@@ -306,6 +311,7 @@ country_event = {
 		every_country = {
 			limit = {
 				has_country_flag = cyrodilic_count
+				NOT = { has_country_flag = ruby_throne }
 				NOT = {
 					has_opinion_modifier = {
 						who = ROOT
@@ -321,28 +327,98 @@ country_event = {
 	}
 }
 
-## Warlord Relations Penalty
-#country_event = {
-#	id = cyrodiil.12
-#	title = "cyrodiil.12.t"
-#	desc = "cyrodiil.12.d"
-#	picture = COURT_eventPicture
-#	hidden = yes
-#
-#	# TODO
-#}
-#
-## Emperor-Warlord Relations
-#country_event = {
-#	id = cyrodiil.13
-#	title = "cyrodiil.13.t"
-#	desc = "cyrodiil.13.d"
-#	picture = COURT_eventPicture
-#	hidden = yes
-#
-#	# TODO
-#}
-#
+# Warlord Relations Penalty
+country_event = {
+	id = cyrodiil.12
+	title = "cyrodiil.12.t"
+	desc = "cyrodiil.12.d"
+	picture = COURT_eventPicture
+	hidden = yes
+
+	trigger = {
+		government = cyrodilic_warlord
+		NOT = { owns_core_province = 3529 } # Imperial City
+		any_country = {
+			OR = {
+				culture_group = cyrodillic
+				culture_group = colovian
+			}
+			NOT = { government = cyrodilic_warlord }
+			NOT = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = cyrodiil_warlord_other_opinion
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "cyrodiil.12.a"
+		every_country = {
+			limit = {
+				OR = {
+					culture_group = cyrodillic
+					culture_group = colovian
+				}
+				NOT = { government = cyrodilic_warlord }
+				NOT = {
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+			}
+			add_opinion = {
+				who = ROOT 
+				modifier = cyrodiil_warlord_other_opinion
+			}
+		}
+	}
+}
+
+# Emperor-Warlord Relations
+country_event = {
+	id = cyrodiil.13
+	title = "cyrodiil.13.t"
+	desc = "cyrodiil.13.d"
+	picture = COURT_eventPicture
+	hidden = yes
+
+	trigger = {
+		government = cyrodilic_warlord
+		NOT = { has_country_flag = ruby_throne }
+		any_country = {
+			has_country_flag = ruby_throne
+			NOT = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = cyrodiil_warlord_other_opinion
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "cyrodiil.13.a"
+		every_country = {
+			limit = {
+				has_country_flag = ruby_throne
+				NOT = {
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = cyrodiil_warlord_other_opinion
+					}
+				}
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = cyrodiil_warlord_other_opinion
+			}
+		}
+	}
+}
+
 ## Elsweyr-Cyrodiil Relations
 #country_event = {
 #	id = cyrodiil.14
@@ -352,4 +428,5 @@ country_event = {
 #	hidden = yes
 #
 #	# TODO
+#	# Might not bother with this one
 #}
