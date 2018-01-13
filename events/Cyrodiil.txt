@@ -70,6 +70,7 @@ country_event = {
 }
 
 # City Isle Conquest
+# TODO: Take war flags into account
 province_event = {
 	id = cyrodiil.4
 	title = "cyrodiil.4.t"
@@ -82,6 +83,10 @@ province_event = {
 		owned_by = Y01
 		NOT = { controlled_by = owner }
 		NOT = { controlled_by = REB }
+		Y01 = {
+			has_country_flag = cityisle_prewar
+			NOT = { has_country_flag = cityisle_postwar }
+		}
 		has_siege = no
 	}
 
@@ -116,7 +121,7 @@ country_event = {
 		NOT = { exists = Y55 }
 		NOT = { has_country_flag = ruby_throne }
 		NOT = { has_country_flag = cityisle_prewar }
-		NOT = { has_global_flag = cyrodiil_unified }
+		NOT = { has_global_flag = stormcrown_interregnum_ended }
 		is_at_war = no
 	}
 	
@@ -148,6 +153,13 @@ country_event = {
 			}
 			clr_country_flag = emperor_county_relations
 		}
+		
+		every_province = {
+			limit = {
+				region = heartlands_region
+			}
+			add_permanent_claim = ROOT
+		}
 	}
 }
 
@@ -161,6 +173,7 @@ country_event = {
 
 	trigger = {
 		has_country_flag = ruby_throne
+		NOT = { has_global_flag = stormcrown_interregnum_ended }
 		NOT = {
 			owns_core_province = 3529
 		}
@@ -202,51 +215,243 @@ country_event = {
 	}
 }
 
-# Emperor Establishes Legitimacy
+# End of the Stormcrown Interregnum
 country_event = {
 	id = cyrodiil.7
 	title = "cyrodiil.7.t"
 	desc = "cyrodiil.7.d"
 	picture = COURT_eventPicture
-	hidden = yes
+	is_triggered_only = yes
+	hidden = no
 
-	trigger = {
-		# TODO: Year Counter w/tooltip
-		has_country_flag = ruby_throne
-		legitimacy = 70
-		num_of_cities = 25
-		NOT = { has_country_flag = cyrodiil_legitimacy_established }
-		NOT = { is_at_war = yes }
-		NOT = { is_subject = yes }
-	}
-	
 	option = {
 		name = "cyrodiil.7.a"
-		set_country_flag = cyrodiil_legitimacy_established
+		set_global_flag = stormcrown_interregnum_ended
 	}
 }
 
-## Counties/Towns Join Empire
-#country_event = {
-#	id = cyrodiil.8
-#	title = "cyrodiil.8.t"
-#	desc = "cyrodiil.8.d"
-#	picture = COURT_eventPicture
-#	hidden = yes
-#
-#	# TODO
-#}
+# Counties/Towns Join Empire
+country_event = {
+	id = cyrodiil.8
+	title = "cyrodiil.8.t"
+	desc = "cyrodiil.8.d"
+	picture = COURT_eventPicture
+	is_triggered_only = yes
+	hidden = no
 
-## Former Tamriel Provinces Join Empire
-#country_event = {
-#	id = cyrodiil.9
-#	title = "cyrodiil.9.t"
-#	desc = "cyrodiil.9.d"
-#	picture = COURT_eventPicture
-#	hidden = yes
-#
-#	# TODO
-#}
+	# Join The Empire directly
+	option = {
+		name = "cyrodiil.8.a"
+		Y55 = {
+			inherit = ROOT
+		}
+
+		ai_chance = {
+			factor = 1
+			
+			# Alliance
+			modifier = {
+				factor = 10
+				alliance_with = Y55
+			}
+			
+			# Very high opinion
+			modifier = {
+				factor = 10
+				has_opinion= {
+					who = Y55
+					value = 175
+				}
+			}
+			
+			# Low Development
+			modifier = {
+				factor = 10
+				NOT = { total_development = 25 }
+			}
+			
+			# Inferior Army
+			modifier = {
+				factor = 10
+				NOT = { land_forcelimit = Y55 }
+			}
+		}
+	}
+	
+	# Join The Empire as an Imperial State
+	option = {
+		name = "cyrodiil.8.b"
+		Y55 = {
+			create_subject = {
+				subject_type = tamrielic_core_provincial_state
+				subject = ROOT
+			}
+		}
+		
+		ai_chance = {
+			factor = 1
+			
+			# Alliance
+			modifier = {
+				factor = 10
+				alliance_with = Y55
+			}
+			
+			# Very high opinion
+			modifier = {
+				factor = 10
+				has_opinion= {
+					who = Y55
+					value = 175
+				}
+			}
+			
+			# County
+			modifier = {
+				factor = 15
+				has_country_flag = cyrodilic_count
+				NOT = { is_rival = Y55 }
+			}
+			
+			# Have Different Religions
+			modifier = {
+				factor = 10
+				NOT = { has_matching_religion = Y55 }
+			}
+		}
+	}
+	
+	# Refuse to join The Empire
+	option = {
+		name = "cyrodiil.8.c"
+		Y55 = {
+			# TODO: Add Core Province CB
+		}
+		ai_chance = {
+			factor = 1
+			
+			# Negative Relations
+			modifier = {
+				factor = 10
+				NOT = {
+					has_opinion = {
+						who = Y55
+						value = 0
+					}
+				}
+			}
+			
+			# Rivalry
+			modifier = {
+				factor = 10
+				is_rival = Y55
+			}
+			
+			# Empire Rank
+			modifier = {
+				factor = 10
+				government_rank = 3
+			}
+			
+			# Have Different Religions
+			modifier = {
+				factor = 10
+				NOT = { has_matching_religion = Y55 }
+			}
+		}
+	}
+}
+
+# Former Tamriel Provinces Join Empire
+country_event = {
+	id = cyrodiil.9
+	title = "cyrodiil.9.t"
+	desc = "cyrodiil.9.d"
+	picture = COURT_eventPicture
+	is_triggered_only = yes
+	hidden = no
+
+	# Join The Empire as an Imperial State
+	option = {
+		name = "cyrodiil.9.a"
+		Y55 = {
+			create_subject = {
+				subject_type = tamrielic_provincial_state
+				subject = ROOT
+			}
+		}
+		ai_chance = {
+			factor = 1
+			
+			# Alliance
+			modifier = {
+				factor = 10
+				alliance_with = Y55
+			}
+			
+			# Low Development
+			modifier = {
+				factor = 10
+				NOT = { total_development = 25 }
+			}
+			
+			# Not terrible opinion
+			modifier = {
+				factor = 10
+				has_opinion= {
+					who = Y55
+					value = -35
+				}
+			}
+			
+			# Inferior Army
+			modifier = {
+				factor = 10
+				NOT = { land_forcelimit = Y55 }
+			}
+			
+			# Same Religion
+			modifier = {
+				factor = 10
+				has_matching_religion = Y55
+			}
+		}
+	}
+	
+	# Refuse to join The Empire
+	option = {
+		name = "cyrodiil.9.b"
+		Y55 = {
+			# TODO: Add Core Province CB
+		}
+		ai_chance = {
+			factor = 1
+			
+			# Terrible relations
+			modifier = {
+				factor = 10
+				NOT = {
+					has_opinion = {
+						who = Y55
+						value = -90
+					}
+				}
+			}
+			
+			# Rivalry
+			modifier = {
+				factor = 10
+				is_rival = Y55
+			}
+			
+			# Empire Rank
+			modifier = {
+				factor = 10
+				government_rank = 3
+			}
+		}
+	}
+}
 
 # Emperor-County Relations
 country_event = {

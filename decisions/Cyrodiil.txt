@@ -1,0 +1,113 @@
+country_decisions = {
+	form_cyrodiil = {
+		major = yes
+		potential = {
+			has_country_flag = ruby_throne
+			has_global_flag = stormcrown_interregnum_ended
+			NOT = { tag = Y55 }
+		}
+		allow = {
+			has_global_flag = stormcrown_interregnum_ended
+			NOT = { tag = Y55 }
+			is_at_war = no
+		}
+		effect = {
+			change_tag = Y55
+			change_government = cyrodilic_empire
+			set_government_rank = 3
+			
+			every_province = {
+				limit = {
+					superregion = cyrodiil_superregion
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Y55
+			}
+		}
+	}
+	
+	# Cyrodilic Counties/Towns
+	invite_core_provinces = {
+		major = yes
+		potential = {
+			tag = Y55
+			NOT = { has_global_flag = sent_cyrodiil_invitation }
+		}
+		allow = {
+			tag = Y55
+			NOT = { has_global_flag = sent_cyrodiil_invitation }
+			is_at_war = no
+		}
+		
+		effect = {
+			every_country = {
+				limit = {
+					is_subject = no
+					OR = {
+						culture_group = cyrodillic
+						culture_group = colovian
+					}
+					NOT = { government = cyrodilic_warlord }
+					NOT = { has_country_flag = ruby_throne }
+				}
+				country_event = { id = cyrodiil.8 }
+			}
+			set_global_flag = sent_cyrodiil_invitation
+		}
+	}
+	
+	# Morrowind, Skyrim, High Rock, Hammerfell
+	invite_other_provinces = {
+		major = yes
+		potential = {
+			tag = Y55
+			NOT = { has_global_flag = sent_provincial_invitation }
+			
+			# Delay province invitation by a month-
+			had_global_flag = {
+				flag = sent_cyrodiil_invitation
+				days = 30
+			}
+		}
+		allow = {
+			tag = Y55
+			NOT = { has_global_flag = sent_provincial_invitation }
+			is_at_war = no
+		}
+		
+		effect = {
+			every_country = {
+				limit = {
+					is_subject = no
+					OR = {
+						culture_group = dunmeri
+						culture_group = mestizo_dunmeri
+						culture_group = nordic_g
+					}
+				}
+				country_event = { id = cyrodiil.9 }
+			}
+			set_global_flag = sent_provincial_invitation
+		}
+	}
+	
+	tamriel_end_interregnum = {
+		major = yes
+		potential = {
+			has_country_flag = ruby_throne
+			NOT = { has_global_flag = stormcrown_interregnum_ended }
+		}
+		
+		allow = {
+			legitimacy = 70
+			num_of_cities = 25
+			NOT = { has_global_flag = stormcrown_interregnum_ended }
+			NOT = { is_at_war = yes }
+			NOT = { is_subject = yes }
+		}
+		
+		effect = {
+			country_event = { id = cyrodiil.7 }
+		}
+	}
+}

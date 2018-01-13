@@ -285,3 +285,7 @@
  dunmer_great_house_desc: "One of the Great Houses of Morrowind. Officially part of a united Morrowind, but independent in reality. Exact governing practices vary from House to House."
  tinker_state_desc: "The result of a visionary seeking to recreate a Dwemer-style state rebelling against the local Jarl during the Stormcrown Interregnum."
  elsweyr_theocracy_desc: "A unique Khajiti form of theocracy, ruled by a Mane, a form of Khajiit that can only be born when Masser is eclipsed by Secunda."
+ tamrielic_provincial_state_title: "Imperial State"
+ tamrielic_provincial_state_title_plural: "Imperial States"
+ tamrielic_core_provincial_state_title: "Core Imperial State"
+ tamrielic_core_provincial_state_title_plural: "Core Imperial States"

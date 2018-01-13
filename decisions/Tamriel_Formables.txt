@@ -1,8 +1,10 @@
+# TODO: With new Tamriel system in place, "is_subject" checks will need to be removed
 country_decisions = {
 	form_anvil = {
 		major = yes	
 		potential = {
 			NOT = { has_country_flag = cyrodilic_count }
+			NOT = { has_country_flag = ruby_throne }
 			NOT = {
 				OR = {
 					tag = Y57
@@ -69,6 +71,7 @@ country_decisions = {
 		major = yes	
 		potential = {
 			NOT = { has_country_flag = cyrodilic_count }
+			NOT = { has_country_flag = ruby_throne }
 			NOT = {
 				OR = {
 					tag = Y57
@@ -135,6 +138,7 @@ country_decisions = {
 		major = yes	
 		potential = {
 			NOT = { has_country_flag = cyrodilic_count }
+			NOT = { has_country_flag = ruby_throne }
 			NOT = {
 				OR = {
 					tag = Y57
@@ -201,6 +205,7 @@ country_decisions = {
 		major = yes	
 		potential = {
 			NOT = { has_country_flag = cyrodilic_count }
+			NOT = { has_country_flag = ruby_throne }
 			NOT = {
 				OR = {
 					tag = Y57
@@ -267,6 +272,7 @@ country_decisions = {
 		major = yes	
 		potential = {
 			NOT = { has_country_flag = cyrodilic_count }
+			NOT = { has_country_flag = ruby_throne }
 			NOT = {
 				OR = {
 					tag = Y57
@@ -333,6 +339,7 @@ country_decisions = {
 		major = yes	
 		potential = {
 			NOT = { has_country_flag = cyrodilic_count }
+			NOT = { has_country_flag = ruby_throne }
 			NOT = {
 				OR = {
 					tag = Y57
@@ -399,6 +406,7 @@ country_decisions = {
 		major = yes	
 		potential = {
 			NOT = { has_country_flag = cyrodilic_count }
+			NOT = { has_country_flag = ruby_throne }
 			NOT = {
 				OR = {
 					tag = Y57
@@ -465,6 +473,7 @@ country_decisions = {
 		major = yes	
 		potential = {
 			NOT = { has_country_flag = cyrodilic_count }
+			NOT = { has_country_flag = ruby_throne }
 			NOT = {
 				OR = {
 					tag = Y57
@@ -1021,6 +1030,7 @@ country_decisions = {
 	form_colovia = {
 		major = yes
 		potential = {
+			NOT = { has_country_flag = ruby_throne }
 			OR = {
 				primary_culture = c_nordic
 				primary_culture = c_highlander
@@ -1117,6 +1127,7 @@ country_decisions = {
 	form_nibenay = {
 		major = yes
 		potential = {
+			NOT = { has_country_flag = ruby_throne }
 			OR = {
 				primary_culture = c_nordic
 				primary_culture = nibenese
