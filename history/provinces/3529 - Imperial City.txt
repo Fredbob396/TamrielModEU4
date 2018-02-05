@@ -12,3 +12,8 @@ is_city = yes
 fort_15th = yes
 trade_goods = gold
 discovered_by = tamrielic discovered_by = XTE
+
+add_province_modifier = {
+	name = stormcrown_chaos
+	duration = -1
+}

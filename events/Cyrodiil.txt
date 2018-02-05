@@ -136,6 +136,14 @@ country_event = {
 			}
 			set_government_rank = 2
 		}
+		
+		if = {
+			limit = {
+				government = cyrodilic_warlord
+			}
+			change_government = despotic_monarchy
+		}
+		
 		every_country = {
 			limit = {
 				OR = {
@@ -227,6 +235,9 @@ country_event = {
 	option = {
 		name = "cyrodiil.7.a"
 		set_global_flag = stormcrown_interregnum_ended
+		3529 = {
+			remove_province_modifier = stormcrown_chaos
+		}
 	}
 }
 

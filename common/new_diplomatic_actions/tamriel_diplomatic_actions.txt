@@ -1,0 +1,69 @@
+demand_imperial_state = {
+	category = influence
+	
+	alert_index = 40
+	alert_tooltip = demand_imperial_state
+	
+	require_acceptance = yes
+	
+	is_visible = {
+		always = no # REMOVE TO ENABLE
+		has_global_flag = sent_provincial_invitation
+		tag = Y55
+		is_subject = no
+		FROM = {
+			is_subject = no
+		}
+	}
+	
+	is_allowed = {
+		is_subject = no
+	}
+	
+	on_accept = {
+		add_trust = {
+			who = FROM
+			value = 25
+			mutual = yes
+		}
+		create_subject = {
+			subject_type = tamrielic_provincial_state
+			subject = FROM
+		}
+	}
+	
+	on_decline = {
+		# TODO: Refusal relations hit
+		add_casus_belli = {
+			target = FROM
+			type = cb_annex # TODO: Proper CB
+			duration = 365
+		}
+	}
+	
+	# TODO
+	ai_acceptance = {
+		add_entry = {
+			name = TRUST
+			limit = {
+				religion = nine_divines
+			}
+			# TODO: Finish
+			export_to_variable = {
+				variable_name = ai_value
+				value = land_forcelimit
+			}
+		}
+		# Smaller military
+		# Good relations
+		# Lower development
+		# Something about being threatened by neighbors?
+	}
+	
+	# TODO
+	ai_will_do = {
+		# Bigger military
+		# Good relations
+		# Higher development
+	}
+}

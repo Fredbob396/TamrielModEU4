@@ -1,0 +1,289 @@
+namespace = cyrodiil_warlords
+
+# NOTE: "winwars" command cannot be used to test these because
+# all it does is give you 100% warscore. It does NOT give the
+# other war participant negative warscore!
+
+# TODO: Debug event to instantly occupy enemy?
+# TODO: Determine whether or not to base it on ROOT warscore instead
+# TODO: Force war against emperor? (Must be bordering emperor by sea zone?)
+# TODO: Forced AI wars
+
+# Warlord v. Warlord
+country_event = {
+	id = cyrodiil_warlords.1
+	title = "cyrodiil_warlords.1.t"
+	desc = "cyrodiil_warlords.1.d"
+	picture = COURT_eventPicture
+	hidden = no
+	
+	trigger = {
+		NOT = { has_global_flag = stormcrown_interregnum_ended }
+		is_in_war = { attacker_leader = ROOT }
+		government = cyrodilic_warlord
+		any_country = {
+			government = cyrodilic_warlord
+			is_in_war = {
+				attacker_leader = ROOT
+			}
+			#war_with = ROOT
+			NOT = {
+				war_score_against = {
+					who = ROOT
+					value = -35
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "cyrodiil_warlords.1.a"
+		every_country = {
+			limit = {
+				government = cyrodilic_warlord
+				is_in_war = {
+					attacker_leader = ROOT
+				}
+				#war_with = ROOT
+				NOT = {
+					war_score_against = {
+						who = ROOT
+						value = -35
+					}
+				}
+			}
+			every_owned_province = {
+				cede_province = ROOT
+				add_core = ROOT
+			}
+			
+			#ROOT = {
+			#	inherit = PREV
+			#}
+		}
+	}
+}
+
+# Warlord v. County
+country_event = {
+	id = cyrodiil_warlords.2
+	title = "cyrodiil_warlords.2.t"
+	desc = "cyrodiil_warlords.2.d"
+	picture = COURT_eventPicture
+	hidden = no
+	
+	trigger = {
+		NOT = { has_global_flag = stormcrown_interregnum_ended }
+		is_in_war = { attacker_leader = ROOT }
+		government = cyrodilic_warlord
+		any_country = {
+			has_country_flag = cyrodilic_count
+			is_in_war = {
+				attacker_leader = ROOT
+			}
+			#war_with = ROOT
+			NOT = {
+				war_score_against = {
+					who = ROOT
+					value = -75
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "cyrodiil_warlords.2.a"
+		every_country = {
+			limit = {
+				has_country_flag = cyrodilic_count
+				is_in_war = {
+					attacker_leader = ROOT
+				}
+				#war_with = ROOT
+				NOT = {
+					war_score_against = {
+						who = ROOT
+						value = -75
+					}
+				}
+			}
+			every_owned_province = {
+				cede_province = ROOT
+				add_core = ROOT
+			}
+			
+			#ROOT = {
+			#	inherit = PREV
+			#}
+		}
+	}
+}
+
+# Warlord v. other Cyrodilic
+country_event = {
+	id = cyrodiil_warlords.3
+	title = "cyrodiil_warlords.3.t"
+	desc = "cyrodiil_warlords.3.d"
+	picture = COURT_eventPicture
+	hidden = no
+	
+	trigger = {
+		NOT = { has_global_flag = stormcrown_interregnum_ended }
+		is_in_war = { attacker_leader = ROOT }
+		government = cyrodilic_warlord
+		any_country = {
+			NOT = { has_country_flag = cyrodilic_count }
+			NOT = { government = cyrodilic_warlord }
+			NOT = { tag = Y55 }
+			OR = {
+				culture_group = cyrodillic
+				culture_group = colovian
+			}
+			is_in_war = {
+				attacker_leader = ROOT
+			}
+			#war_with = ROOT
+			NOT = {
+				war_score_against = {
+					who = ROOT
+					value = -50
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "cyrodiil_warlords.3.a"
+		every_country = {
+			limit = {
+				NOT = { has_country_flag = cyrodilic_count }
+				NOT = { government = cyrodilic_warlord }
+				OR = {
+					culture_group = cyrodillic
+					culture_group = colovian
+				}
+				is_in_war = {
+					attacker_leader = ROOT
+				}
+				#war_with = ROOT
+				NOT = {
+					war_score_against = {
+						who = ROOT
+						value = -50
+					}
+				}
+			}
+			every_owned_province = {
+				cede_province = ROOT
+				add_core = ROOT
+			}
+			
+			#ROOT = {
+			#	inherit = PREV
+			#}
+		}
+	}
+}
+
+# Artificial Warlord Agression
+country_event = {
+	id = cyrodiil_warlords.4
+	title = "cyrodiil_warlords.4.t"
+	desc = "cyrodiil_warlords.4.d"
+	picture = COURT_eventPicture
+	hidden = no
+	
+	trigger = {
+		is_at_war = no
+		government = cyrodilic_warlord
+		
+		any_neighbor_country = {
+			is_vassal = no
+			NOT = { war_with = ROOT }
+			NOT = { alliance_with = ROOT }
+			NOT = { has_truce = ROOT }
+			OR = {
+				culture_group = cyrodillic
+				culture_group = colovian
+				government = cyrodilic_warlord
+			}
+			OR = {
+				# Losing a war
+				AND = {
+					is_at_war = yes
+					NOT = { war_score = -25 }
+				}
+				
+				# Smaller Army and no alliances
+				AND = {
+					NOT = { army_size = ROOT }
+					num_of_allies = 0
+				}
+				
+				# Is the emperor and is at war
+				AND = {
+					is_at_war = yes
+					has_country_flag = ruby_throne
+				}
+				
+				# Capital controlled by rebels and smaller army
+				AND = {
+					NOT = { army_size = ROOT }
+					capital_scope = {
+						controlled_by = REB
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "cyrodiil_warlords.4.a"
+		every_neighbor_country = {
+			limit = {
+				is_vassal = no
+				NOT = { war_with = ROOT }
+				NOT = { alliance_with = ROOT }
+				NOT = { has_truce = ROOT }
+				OR = {
+					culture_group = cyrodillic
+					culture_group = colovian
+					government = cyrodilic_warlord
+				}
+				OR = {
+					# Losing a war
+					AND = {
+						is_at_war = yes
+						NOT = { war_score = -25 }
+					}
+					
+					# Smaller Army and no alliances
+					AND = {
+						NOT = { army_size = ROOT }
+						num_of_allies = 0
+					}
+					
+					# Is the emperor and is at war
+					AND = {
+						is_at_war = yes
+						has_country_flag = ruby_throne
+					}
+					
+					# Capital controlled by rebels and smaller army
+					AND = {
+						NOT = { army_size = ROOT }
+						capital_scope = {
+							controlled_by = REB
+						}
+					}
+				}
+			}
+			ROOT = {
+				declare_war_with_cb = {
+					who = PREV
+					casus_belli = cb_warlord_expansion
+				}
+			}
+		}
+	}
+}

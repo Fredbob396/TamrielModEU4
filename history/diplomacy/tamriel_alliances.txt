@@ -31,26 +31,26 @@ march = {
 }
 
 #Leyawiin/Bravil/Skingrad Triple Alliance
-alliance = {
-	first = Y08
-	second = Y07
-	start_date = 1444.11.11
-	end_date = 1821.1.1
-}
-
-alliance = {
-	first = Y08
-	second = Y03
-	start_date = 1444.11.11
-	end_date = 1821.1.1
-}
-
-alliance = {
-	first = Y07
-	second = Y03
-	start_date = 1444.11.11
-	end_date = 1821.1.1
-}
+#alliance = {
+#	first = Y08
+#	second = Y07
+#	start_date = 1444.11.11
+#	end_date = 1821.1.1
+#}
+#
+#alliance = {
+#	first = Y08
+#	second = Y03
+#	start_date = 1444.11.11
+#	end_date = 1821.1.1
+#}
+#
+#alliance = {
+#	first = Y07
+#	second = Y03
+#	start_date = 1444.11.11
+#	end_date = 1821.1.1
+#}
 
 #Elsweyr-Leyawiin Tributary
 dependency = {

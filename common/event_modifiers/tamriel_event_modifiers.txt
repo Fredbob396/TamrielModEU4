@@ -8,3 +8,11 @@ argonian_new_ruler_bugfix = {
 daedric_shrine = {
 	local_missionary_strength = -1
 }
+stormcrown_chaos = {
+	local_manpower_modifier = -0.75
+	local_sailors_modifier = -0.75
+	local_tax_modifier = -0.75
+	local_production_efficiency = -0.75
+	local_development_cost = 0.75
+	province_trade_power_modifier = -0.25
+}

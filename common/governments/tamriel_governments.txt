@@ -90,23 +90,16 @@ cyrodilic_warlord = {
 	valid_for_new_country = no
 	allow_convert = no
 	
-		rank = {
-		1 = {
-			global_manpower_modifier = 0.15
-			land_forcelimit_modifier = 0.15
-			loot_amount = 0.50
-		}
+	rank = {
 		2 = {
-			global_manpower_modifier = 0.25
-			land_forcelimit_modifier = 0.25
-			loot_amount = 0.50
-		}
-		3 = {
 			global_manpower_modifier = 0.35
-			land_forcelimit_modifier = 0.35
+			land_forcelimit_modifier = 0.5
+			mercenary_cost = -0.50
+			siege_ability = 0.25
 			loot_amount = 0.50
 		}
 	}
+	fixed_rank = 2
 }
 
 cyrodilic_city = {

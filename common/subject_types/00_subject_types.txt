@@ -619,8 +619,8 @@ tamrielic_provincial_state = {
 	}
 	can_ally = {
 		same_overlord = all							# All Tamriel States
-		# independent_nations = yes					# Leads to bizarre betrayals, disabled
-		# other_overlord = all						# Leads to bizarre betrayals, disabled
+		independent_nations = yes					# Leads to bizarre betrayals, might disable
+		other_overlord = all						# Leads to bizarre betrayals, might disable
 	}
 	can_marry = {
 		independent_nations = yes					# Non-Tamriel States
