@@ -163,6 +163,9 @@ Y22 = "countries/Sutch.txt"
 Y23 = "countries/Weatherleah.txt"
 Y56 = "countries/Weye.txt"
 Y59 = "countries/Blankenmarch.txt"
+Y60 = "countries/HarmsFolly.txt"
+Y61 = "countries/Westwatch.txt"
+Y63 = "countries/Applewatch.txt"
 
 #Cyrodiil Warlords
 Y24 = "countries/Vlastarus.txt"
@@ -195,6 +198,8 @@ Y50 = "countries/Teleman.txt"
 Y51 = "countries/Redman.txt"
 Y52 = "countries/Blueblood.txt"
 Y54 = "countries/Welke.txt"
+Y62 = "countries/Ninendava.txt"
+Y64 = "countries/Grief.txt"
 
 #Cyrodiil Unions
 Y55 = "countries/Cyrodiil.txt"

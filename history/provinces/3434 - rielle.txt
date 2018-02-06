@@ -1,9 +1,9 @@
 culture = c_nordic
 religion = nine_divines
 
-owner = Y05
-controller = Y05
-add_core = Y05
+owner = Y63
+controller = Y63
+add_core = Y63
 hre = no
 base_tax = 1
 base_production = 1

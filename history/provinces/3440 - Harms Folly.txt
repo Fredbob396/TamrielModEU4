@@ -1,9 +1,9 @@
 culture = valusian
 religion = nine_divines
 
-owner = Y06
-controller = Y06
-add_core = Y06
+owner = Y60
+controller = Y60
+add_core = Y60
 hre = no
 base_tax = 4
 base_production = 3

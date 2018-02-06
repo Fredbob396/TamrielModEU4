@@ -19,6 +19,12 @@ country_decisions = {
 			anvil_area = {
 				owned_by = ROOT
 			}
+			NOT = {
+				AND = {
+					government = cyrodilic_warlord
+					NOT = { has_global_flag = stormcrown_interregnum_ended }
+				}
+			}
 		}		
 		allow = {
 			is_subject = no
@@ -85,6 +91,12 @@ country_decisions = {
 			}
 			skingrad_area = {
 				owned_by = ROOT
+			}
+			NOT = {
+				AND = {
+					government = cyrodilic_warlord
+					NOT = { has_global_flag = stormcrown_interregnum_ended }
+				}
 			}
 		}		
 		allow = {
@@ -153,6 +165,12 @@ country_decisions = {
 			chorrol_area = {
 				owned_by = ROOT
 			}
+			NOT = {
+				AND = {
+					government = cyrodilic_warlord
+					NOT = { has_global_flag = stormcrown_interregnum_ended }
+				}
+			}
 		}		
 		allow = {
 			is_subject = no
@@ -219,6 +237,12 @@ country_decisions = {
 			}
 			e_jeralls_area = {
 				owned_by = ROOT
+			}
+			NOT = {
+				AND = {
+					government = cyrodilic_warlord
+					NOT = { has_global_flag = stormcrown_interregnum_ended }
+				}
 			}
 		}		
 		allow = {
@@ -287,6 +311,12 @@ country_decisions = {
 			cheydinhal_area = {
 				owned_by = ROOT
 			}
+			NOT = {
+				AND = {
+					government = cyrodilic_warlord
+					NOT = { has_global_flag = stormcrown_interregnum_ended }
+				}
+			}
 		}		
 		allow = {
 			is_subject = no
@@ -353,6 +383,12 @@ country_decisions = {
 			}
 			w_niben_area = {
 				owned_by = ROOT
+			}
+			NOT = {
+				AND = {
+					government = cyrodilic_warlord
+					NOT = { has_global_flag = stormcrown_interregnum_ended }
+				}
 			}
 		}		
 		allow = {
@@ -421,6 +457,12 @@ country_decisions = {
 			topal_bay_area = {
 				owned_by = ROOT
 			}
+			NOT = {
+				AND = {
+					government = cyrodilic_warlord
+					NOT = { has_global_flag = stormcrown_interregnum_ended }
+				}
+			}
 		}		
 		allow = {
 			is_subject = no
@@ -487,6 +529,12 @@ country_decisions = {
 			}
 			kvatch_area = {
 				owned_by = ROOT
+			}
+			NOT = {
+				AND = {
+					government = cyrodilic_warlord
+					NOT = { has_global_flag = stormcrown_interregnum_ended }
+				}
 			}
 		}		
 		allow = {

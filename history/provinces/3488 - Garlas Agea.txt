@@ -1,9 +1,9 @@
 culture = gold_coaster
 religion = nine_divines
 
-owner = Y02
-controller = Y02
-add_core = Y02
+owner = Y26
+controller = Y26
+add_core = Y26
 hre = no
 base_tax = 1
 base_production = 1

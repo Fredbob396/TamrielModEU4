@@ -1,9 +1,9 @@
-culture = c_nordic
+culture = valusian
 religion = daedra_worship
 
-owner = Y06
-controller = Y06
-add_core = Y06
+owner = Y19
+controller = Y19
+add_core = Y19
 hre = no
 base_tax = 1
 base_production = 1

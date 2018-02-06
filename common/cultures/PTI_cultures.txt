@@ -267,10 +267,6 @@ cyrodillic = {
 		#City Isle
 		primary = Y01
 	}
-	c_nordic = {
-		#Bruma
-		primary = Y05
-	}
 	valusian = {
 		#Cheydinhal
 		primary = Y06
@@ -314,7 +310,7 @@ colovian = {
 	}
 	gold_coaster = {
 		#Anvil
-		primary = Y02 
+		primary = Y02
 	}
 	west_wealder = {
 		#Skingrad
@@ -323,6 +319,10 @@ colovian = {
 	c_highlander = {
 		#Chorrol
 		primary = Y04
+	}
+	c_nordic = {
+		#Bruma
+		primary = Y05
 	}
 }
 

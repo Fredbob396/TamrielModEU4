@@ -10,7 +10,7 @@ base_production = 10
 manpower = 12
 is_city = yes
 fort_15th = yes
-trade_goods = gold
+trade_goods = silk
 discovered_by = tamrielic discovered_by = XTE
 
 add_province_modifier = {

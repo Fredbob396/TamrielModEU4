@@ -1,9 +1,9 @@
 culture = west_wealder
 religion = nine_divines
 
-owner = Y03
-controller = Y03
-add_core = Y03
+owner = Y61
+controller = Y61
+add_core = Y61
 hre = no
 base_tax = 1
 base_production = 1

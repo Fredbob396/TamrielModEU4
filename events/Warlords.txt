@@ -23,10 +23,7 @@ country_event = {
 		government = cyrodilic_warlord
 		any_country = {
 			government = cyrodilic_warlord
-			is_in_war = {
-				attacker_leader = ROOT
-			}
-			#war_with = ROOT
+			defensive_war_with = ROOT
 			NOT = {
 				war_score_against = {
 					who = ROOT
@@ -41,10 +38,7 @@ country_event = {
 		every_country = {
 			limit = {
 				government = cyrodilic_warlord
-				is_in_war = {
-					attacker_leader = ROOT
-				}
-				#war_with = ROOT
+				defensive_war_with = ROOT
 				NOT = {
 					war_score_against = {
 						who = ROOT
@@ -56,10 +50,6 @@ country_event = {
 				cede_province = ROOT
 				add_core = ROOT
 			}
-			
-			#ROOT = {
-			#	inherit = PREV
-			#}
 		}
 	}
 }
@@ -78,10 +68,7 @@ country_event = {
 		government = cyrodilic_warlord
 		any_country = {
 			has_country_flag = cyrodilic_count
-			is_in_war = {
-				attacker_leader = ROOT
-			}
-			#war_with = ROOT
+			defensive_war_with = ROOT
 			NOT = {
 				war_score_against = {
 					who = ROOT
@@ -96,10 +83,7 @@ country_event = {
 		every_country = {
 			limit = {
 				has_country_flag = cyrodilic_count
-				is_in_war = {
-					attacker_leader = ROOT
-				}
-				#war_with = ROOT
+				defensive_war_with = ROOT
 				NOT = {
 					war_score_against = {
 						who = ROOT
@@ -111,10 +95,6 @@ country_event = {
 				cede_province = ROOT
 				add_core = ROOT
 			}
-			
-			#ROOT = {
-			#	inherit = PREV
-			#}
 		}
 	}
 }
@@ -139,10 +119,7 @@ country_event = {
 				culture_group = cyrodillic
 				culture_group = colovian
 			}
-			is_in_war = {
-				attacker_leader = ROOT
-			}
-			#war_with = ROOT
+			defensive_war_with = ROOT
 			NOT = {
 				war_score_against = {
 					who = ROOT
@@ -162,10 +139,7 @@ country_event = {
 					culture_group = cyrodillic
 					culture_group = colovian
 				}
-				is_in_war = {
-					attacker_leader = ROOT
-				}
-				#war_with = ROOT
+				defensive_war_with = ROOT
 				NOT = {
 					war_score_against = {
 						who = ROOT
@@ -177,10 +151,6 @@ country_event = {
 				cede_province = ROOT
 				add_core = ROOT
 			}
-			
-			#ROOT = {
-			#	inherit = PREV
-			#}
 		}
 	}
 }
@@ -196,6 +166,7 @@ country_event = {
 	trigger = {
 		is_at_war = no
 		government = cyrodilic_warlord
+		num_of_rebel_armies = 0
 		
 		any_neighbor_country = {
 			is_vassal = no
@@ -205,33 +176,28 @@ country_event = {
 			OR = {
 				culture_group = cyrodillic
 				culture_group = colovian
-				government = cyrodilic_warlord
+				AND = {
+					culture = dagoni
+					government = cyrodilic_warlord
+				}
 			}
 			OR = {
-				# Losing a war
-				AND = {
-					is_at_war = yes
-					NOT = { war_score = -25 }
-				}
-				
-				# Smaller Army and no alliances
+				# Small and vunlerable
 				AND = {
 					NOT = { army_size = ROOT }
 					num_of_allies = 0
 				}
 				
-				# Is the emperor and is at war
+				# Potentially larger and vulnerable
 				AND = {
 					is_at_war = yes
-					has_country_flag = ruby_throne
+					NOT = { war_score = -15 }
+					num_of_allies = 0
 				}
 				
-				# Capital controlled by rebels and smaller army
+				# KILL THE EMPEROR!
 				AND = {
-					NOT = { army_size = ROOT }
-					capital_scope = {
-						controlled_by = REB
-					}
+					has_country_flag = ruby_throne
 				}
 			}
 		}
@@ -239,7 +205,7 @@ country_event = {
 	
 	option = {
 		name = "cyrodiil_warlords.4.a"
-		every_neighbor_country = {
+		random_neighbor_country = {
 			limit = {
 				is_vassal = no
 				NOT = { war_with = ROOT }
@@ -248,33 +214,28 @@ country_event = {
 				OR = {
 					culture_group = cyrodillic
 					culture_group = colovian
-					government = cyrodilic_warlord
+					AND = {
+						culture = dagoni
+						government = cyrodilic_warlord
+					}
 				}
 				OR = {
-					# Losing a war
-					AND = {
-						is_at_war = yes
-						NOT = { war_score = -25 }
-					}
-					
-					# Smaller Army and no alliances
+					# Small and vunlerable
 					AND = {
 						NOT = { army_size = ROOT }
 						num_of_allies = 0
 					}
 					
-					# Is the emperor and is at war
+					# Potentially larger and vulnerable
 					AND = {
 						is_at_war = yes
-						has_country_flag = ruby_throne
+						NOT = { war_score = -15 }
+						num_of_allies = 0
 					}
 					
-					# Capital controlled by rebels and smaller army
+					# KILL THE EMPEROR!
 					AND = {
-						NOT = { army_size = ROOT }
-						capital_scope = {
-							controlled_by = REB
-						}
+						has_country_flag = ruby_throne
 					}
 				}
 			}

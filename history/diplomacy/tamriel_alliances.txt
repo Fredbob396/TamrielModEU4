@@ -30,27 +30,13 @@ march = {
 	end_date = 1821.1.1
 }
 
-#Leyawiin/Bravil/Skingrad Triple Alliance
-#alliance = {
-#	first = Y08
-#	second = Y07
-#	start_date = 1444.11.11
-#	end_date = 1821.1.1
-#}
-#
-#alliance = {
-#	first = Y08
-#	second = Y03
-#	start_date = 1444.11.11
-#	end_date = 1821.1.1
-#}
-#
-#alliance = {
-#	first = Y07
-#	second = Y03
-#	start_date = 1444.11.11
-#	end_date = 1821.1.1
-#}
+#Westwatch as a vassal of Skingrad
+march = {
+	first = Y03
+	second = Y61
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
 
 #Elsweyr-Leyawiin Tributary
 dependency = {

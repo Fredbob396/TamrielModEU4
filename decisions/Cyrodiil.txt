@@ -100,7 +100,7 @@ country_decisions = {
 		
 		allow = {
 			legitimacy = 70
-			num_of_cities = 35
+			num_of_cities = 25
 			NOT = { has_global_flag = stormcrown_interregnum_ended }
 			NOT = { is_at_war = yes }
 			NOT = { is_subject = yes }
