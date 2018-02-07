@@ -51,6 +51,8 @@ country_event = {
 				add_core = ROOT
 			}
 		}
+		add_manpower = 7.5
+		add_treasury = 75
 	}
 }
 
@@ -96,6 +98,8 @@ country_event = {
 				add_core = ROOT
 			}
 		}
+		add_manpower = 10
+		add_treasury = 150
 	}
 }
 
@@ -152,6 +156,8 @@ country_event = {
 				add_core = ROOT
 			}
 		}
+		add_manpower = 5
+		add_treasury = 50
 	}
 }
 
@@ -167,7 +173,10 @@ country_event = {
 		is_at_war = no
 		government = cyrodilic_warlord
 		num_of_rebel_armies = 0
-		
+		army_size_percentage = 0.9
+		every_owned_province = {
+			is_core = ROOT
+		}
 		any_neighbor_country = {
 			is_vassal = no
 			NOT = { war_with = ROOT }
